@@ -3,7 +3,7 @@ id: 9e40a003-0e64-4205-ab23-7b39c52788e7
 title: "Bakgrunn og begrunnelse"
 linkTitle: "Bakgrunn"
 weight: 5
-lastmod: 2026-10-10T23:23:06+02:00
+lastmod: 2026-10-11T00:43:18+02:00
 last_editor: Erik Hagen
 
 ---
