@@ -3,7 +3,7 @@ id: 7c264c4f-711d-400b-a2df-30ad7e6745c9
 title: "Task management"
 linkTitle: "Task management"
 weight: 10
-lastmod: 2026-10-10T22:27:29+02:00
+lastmod: 2026-10-10T23:04:32+02:00
 last_editor: Erik Hagen
 
 ---
