@@ -1,4 +1,5 @@
 ---
+id: bb682277-9c1d-46fb-8611-aae1f1f8fced
 title: "Repoer og prosjektbrett"
 linkTitle: "Oppsett"
 weight: 20
