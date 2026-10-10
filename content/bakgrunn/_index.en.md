@@ -20,11 +20,13 @@ The project has three kinds of tasks:
 - **Cross-cutting tasks** – shared terminology, overall architecture, methodology, preparations for workshops and clarifications that affect everyone
 - **The core team's internal allocation** – who in the core team does what, and by when
 
-## Why GitHub
+## Why GitHub for task management
 
 The content of docs.samt-bu.no already lives in GitHub. When tasks are in the same repository as the content they concern, a task can link directly to the change that resolves it, and vice versa.
 
 GitHub requires no new software or licences. Participants already have accounts, and everything is open to everyone in the organisation.
+
+> **Note:** The way of working is not tied to GitHub. The same can be done in other git-based solutions such as GitLab, Forgejo or Codeberg, several of which can be self-hosted. GitHub has been chosen for now because the project's content and partners are already there. GitHub is not open source, so the choice is debatable from a digital sovereignty perspective. The rationale and trade-offs are described under [Platform choice: GitHub vs. GitLab](/prosjektleveranser/loesninger/cms-loesninger/samt-bu-docs/teknisk-dokumentasjon/github-struktur/#plattformvalg-github-vs-gitlab) (in Norwegian). The alternatives are also discussed under [Co-creation → Task management](/en/utkast/temaer/samskaping/oppgavestyring/).
 
 ## How it was, and how it became
 

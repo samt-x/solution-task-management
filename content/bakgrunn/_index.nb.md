@@ -20,11 +20,13 @@ Prosjektet har tre typer oppgaver:
 - **Tverrgående oppgaver** – felles begrepsapparat, overordnet arkitektur, metodikk, forberedelser til samlinger og avklaringer som gjelder alle
 - **Kjerneteamets interne fordeling** – hvem i kjerneteamet gjør hva, og til når
 
-## Hvorfor GitHub
+## Hvorfor GitHub for oppgavestyring
 
 Innholdet på docs.samt-bu.no ligger allerede i GitHub. Når oppgavene ligger i samme repo som innholdet de gjelder, kan en oppgave lenke direkte til endringen som løser den, og omvendt.
 
 GitHub krever ingen ny programvare eller nye lisenser. Deltakerne har allerede kontoer, og alt er åpent for alle i organisasjonen.
+
+> **Merk:** Arbeidsformen er ikke knyttet til GitHub. Det samme kan gjøres i andre git-baserte løsninger, som GitLab, Forgejo eller Codeberg, og flere av dem kan driftes i egen regi. GitHub er valgt foreløpig, fordi prosjektets innhold og samarbeidspartnere allerede er der. GitHub er ikke åpen kildekode, og valget er derfor diskutabelt av hensyn til digital suverenitet. Begrunnelsen og avveiningene er beskrevet under [Plattformvalg: GitHub vs. GitLab](/prosjektleveranser/loesninger/cms-loesninger/samt-bu-docs/teknisk-dokumentasjon/github-struktur/#plattformvalg-github-vs-gitlab). Alternativene er også omtalt under [Samskaping → Oppgavestyring](/utkast/temaer/samskaping/oppgavestyring/).
 
 ## Slik var det, og slik ble det
 
