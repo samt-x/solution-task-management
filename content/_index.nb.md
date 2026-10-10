@@ -21,6 +21,6 @@ Løsningen er satt sammen av følgende deler:
 
 Hovedprinsippet er **ett repo til ett prosjektbrett**: hver pilot har sitt eget repo med både innhold og oppgaver, og sitt eget brett. Felles oppgaver og generisk arkitektur har egne repoer.
 
-Status: løsningen er i bruk. Oppsettet ble lagt om høsten 2026, se [Bakgrunn](bakgrunn/). Konvensjonene er gjeldende praksis, med to åpne spørsmål til arkitekturgruppa.
+Status: løsningen er i bruk. Oppsettet ble lagt om høsten 2026, se [Bakgrunn](bakgrunn/). Konvensjonene er gjeldende praksis, med ett åpent spørsmål til arkitekturgruppa.
 
 Se underkapitlene for veiledning, oppsett og konvensjoner.

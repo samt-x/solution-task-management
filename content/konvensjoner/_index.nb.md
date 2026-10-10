@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-**Gjeldende praksis fra oktober 2026, med mulighet til å justere.** Konvensjonene bygger på praksisen i solution-samt-bu-docs, som har fungert godt. To spørsmål står åpne for arkitekturgruppa, se nederst på siden.
+**Gjeldende praksis fra oktober 2026, med mulighet til å justere.** Konvensjonene bygger på praksisen i solution-samt-bu-docs, som har fungert godt. Ett spørsmål står åpent for arkitekturgruppa, se nederst på siden.
 
 ## Én oppgave, ett sted
 
@@ -57,9 +57,6 @@ Endringer i repoer, brett, merkelapper og rutiner får en chore-oppgave som besk
 
 ## Åpne spørsmål
 
-To ting avgjøres ikke av praksisen alene. Begge er lagt fram for arkitekturgruppa:
+Ett spørsmål avgjøres ikke av praksisen alene, og er lagt fram for arkitekturgruppa: [Hvem følger med på oppgaver som krysser arkitektur og piloter?](https://github.com/SAMT-X/solution-task-management/issues/1) Svar kan gis i saken, i Teams eller på arkitekturmøtet.
 
-- [Hvem følger med på oppgaver som krysser arkitektur og piloter?](https://github.com/SAMT-X/solution-task-management/issues/1)
-- [Har dere innvendinger mot bruken av Responsible og Assignees i Project 5?](https://github.com/SAMT-X/solution-task-management/issues/2)
-
-Svar kan gis i saken, i Teams eller på arkitekturmøtet.
+Felt, statusflyt og visninger på brettene er en første betaversjon, og videreutvikles i [en egen sak](https://github.com/SAMT-X/solution-task-management/issues/4).

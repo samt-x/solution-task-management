@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-**Current practice from October 2026, open to adjustment.** The conventions build on the practice in solution-samt-bu-docs, which has worked well. Two questions remain open for the architecture group, see the bottom of the page.
+**Current practice from October 2026, open to adjustment.** The conventions build on the practice in solution-samt-bu-docs, which has worked well. One question remains open for the architecture group, see the bottom of the page.
 
 ## One task, one place
 
@@ -57,9 +57,6 @@ Changes to repositories, boards, labels and routines get a chore task describing
 
 ## Open questions
 
-Two things are not settled by the practice alone. Both have been put to the architecture group:
+One question is not settled by the practice alone, and has been put to the architecture group: [Who keeps track of tasks that cross architecture and pilots?](https://github.com/SAMT-X/solution-task-management/issues/1) Answers can be given in the issue, in Teams or at the architecture meeting.
 
-- [Who keeps track of tasks that cross architecture and pilots?](https://github.com/SAMT-X/solution-task-management/issues/1)
-- [Any objections to how Responsible and Assignees are used in Project 5?](https://github.com/SAMT-X/solution-task-management/issues/2)
-
-Answers can be given in the issue, in Teams or at the architecture meeting.
+Fields, status flow and views on the boards are a first beta version, and are being developed further in [a separate issue](https://github.com/SAMT-X/solution-task-management/issues/4).
