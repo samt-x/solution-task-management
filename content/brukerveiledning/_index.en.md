@@ -3,6 +3,8 @@ id: 072203ad-55a2-401b-8cb6-c6aee71f598d
 title: "User guide"
 linkTitle: "User guide"
 weight: 10
+lastmod: 2026-10-10T22:27:29+02:00
+last_editor: Erik Hagen
 
 ---
 
