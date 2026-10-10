@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-**Proposal, not adopted.** The conventions on this page are under discussion. They build on the practice in solution-samt-bu-docs, which has worked well. The discussion takes place in two issues in solution-task-management: «Avtale for felles oppgaver arkitektur/piloter» (agreement on shared tasks between architecture and pilots) and «Issue-konvensjon for arkitekturrepoet» (issue convention for the architecture repository).
+**Current practice from October 2026, open to adjustment.** The conventions build on the practice in solution-samt-bu-docs, which has worked well. Two questions remain open for the architecture group, see the bottom of the page.
 
 ## One task, one place
 
@@ -57,7 +57,9 @@ Changes to repositories, boards, labels and routines get a chore task describing
 
 ## Open questions
 
-- Is the distinction between generic and pilot-specific clear enough, or are examples needed?
-- Who keeps track of tasks that cross areas?
-- Are the labels above sufficient, or is something like deliverable needed for final deliverables?
-- Should the convention apply to all repositories, or only to working repositories such as samt-bu-architecture?
+Two things are not settled by the practice alone. Both have been put to the architecture group:
+
+- [Who keeps track of tasks that cross architecture and pilots?](https://github.com/SAMT-X/solution-task-management/issues/1)
+- [Any objections to how Responsible and Assignees are used in Project 5?](https://github.com/SAMT-X/solution-task-management/issues/2)
+
+Answers can be given in the issue, in Teams or at the architecture meeting.

@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-**Forslag, ikke vedtatt.** Konvensjonene på denne siden er til diskusjon. De bygger på praksisen i solution-samt-bu-docs, som har fungert godt. Diskusjonen foregår i to issues i solution-task-management: «Avtale for felles oppgaver arkitektur/piloter» og «Issue-konvensjon for arkitekturrepoet».
+**Gjeldende praksis fra oktober 2026, med mulighet til å justere.** Konvensjonene bygger på praksisen i solution-samt-bu-docs, som har fungert godt. To spørsmål står åpne for arkitekturgruppa, se nederst på siden.
 
 ## Én oppgave, ett sted
 
@@ -57,7 +57,9 @@ Endringer i repoer, brett, merkelapper og rutiner får en chore-oppgave som besk
 
 ## Åpne spørsmål
 
-- Er skillet mellom generisk og pilotspesifikt tydelig nok, eller trengs eksempler?
-- Hvem følger med på oppgaver som krysser områder?
-- Holder merkelappene over, eller trengs for eksempel deliverable for sluttleveranser?
-- Skal konvensjonen gjelde alle repoer, eller bare arbeidsrepoer som samt-bu-architecture?
+To ting avgjøres ikke av praksisen alene. Begge er lagt fram for arkitekturgruppa:
+
+- [Hvem følger med på oppgaver som krysser arkitektur og piloter?](https://github.com/SAMT-X/solution-task-management/issues/1)
+- [Har dere innvendinger mot bruken av Responsible og Assignees i Project 5?](https://github.com/SAMT-X/solution-task-management/issues/2)
+
+Svar kan gis i saken, i Teams eller på arkitekturmøtet.

@@ -21,6 +21,6 @@ The solution consists of the following parts:
 
 The main principle is **one repository per project board**: each pilot has its own repository holding both content and tasks, and its own board. Shared tasks and generic architecture have their own repositories.
 
-Status: the solution is in use. The setup was reorganised in autumn 2026, see [Background](bakgrunn/). The conventions are proposals and have not yet been adopted.
+Status: the solution is in use. The setup was reorganised in autumn 2026, see [Background](bakgrunn/). The conventions are current practice, with two open questions for the architecture group.
 
 See the subsections for guidance, setup and conventions.
