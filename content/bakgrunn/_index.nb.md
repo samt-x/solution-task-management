@@ -26,7 +26,7 @@ Innholdet på docs.samt-bu.no ligger allerede i GitHub. Når oppgavene ligger i 
 
 GitHub krever ingen ny programvare eller nye lisenser. Deltakerne har allerede kontoer, og alt er åpent for alle i organisasjonen.
 
-> **Merk:** Arbeidsformen er ikke knyttet til GitHub. Det samme kan gjøres i andre git-baserte løsninger, som GitLab, Forgejo eller Codeberg, og flere av dem kan driftes i egen regi. GitHub er valgt foreløpig, fordi prosjektets innhold og samarbeidspartnere allerede er der. GitHub er ikke åpen kildekode, og valget er derfor diskutabelt av hensyn til digital suverenitet. Begrunnelsen og avveiningene er beskrevet under [Plattformvalg: GitHub](/prosjektleveranser/loesninger/plattformvalg/). Alternativene er også omtalt under [Samskaping → Oppgavestyring](/utkast/temaer/samskaping/oppgavestyring/).
+> **Merk:** Arbeidsformen er ikke knyttet til GitHub. Det samme kan gjøres i andre git-baserte løsninger, som GitLab, Forgejo eller Codeberg, og flere av dem kan driftes i egen regi. GitHub er valgt foreløpig, fordi prosjektets innhold og samarbeidspartnere allerede er der. GitHub er ikke åpen kildekode, og valget er derfor diskutabelt av hensyn til digital suverenitet. Begrunnelsen og avveiningene er beskrevet under [Plattformvalg: GitHub](/prosjektleveranser/loesninger/samhandlingsplattform/plattformvalg/). Alternativene er også omtalt under [Samskaping → Oppgavestyring](/utkast/temaer/samskaping/oppgavestyring/).
 
 ## Slik var det, og slik ble det
 

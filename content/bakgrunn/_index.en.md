@@ -26,7 +26,7 @@ The content of docs.samt-bu.no already lives in GitHub. When tasks are in the sa
 
 GitHub requires no new software or licences. Participants already have accounts, and everything is open to everyone in the organisation.
 
-> **Note:** The way of working is not tied to GitHub. The same can be done in other git-based solutions such as GitLab, Forgejo or Codeberg, several of which can be self-hosted. GitHub has been chosen for now because the project's content and partners are already there. GitHub is not open source, so the choice is debatable from a digital sovereignty perspective. The rationale and trade-offs are described under [Platform choice: GitHub](/en/prosjektleveranser/loesninger/plattformvalg/). The alternatives are also discussed under [Co-creation → Task management](/en/utkast/temaer/samskaping/oppgavestyring/).
+> **Note:** The way of working is not tied to GitHub. The same can be done in other git-based solutions such as GitLab, Forgejo or Codeberg, several of which can be self-hosted. GitHub has been chosen for now because the project's content and partners are already there. GitHub is not open source, so the choice is debatable from a digital sovereignty perspective. The rationale and trade-offs are described under [Platform choice: GitHub](/en/prosjektleveranser/loesninger/samhandlingsplattform/plattformvalg/). The alternatives are also discussed under [Co-creation → Task management](/en/utkast/temaer/samskaping/oppgavestyring/).
 
 ## How it was, and how it became
 

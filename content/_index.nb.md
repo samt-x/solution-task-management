@@ -2,7 +2,7 @@
 id: 7c264c4f-711d-400b-a2df-30ad7e6745c9
 title: "Oppgavestyring"
 linkTitle: "Oppgavestyring"
-weight: 10
+weight: 20
 lastmod: 2026-10-10T23:11:08+02:00
 last_editor: Erik Hagen
 
