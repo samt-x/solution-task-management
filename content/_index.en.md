@@ -1,0 +1,23 @@
+---
+title: "Task management"
+linkTitle: "Task management"
+weight: 10
+
+---
+
+This section documents how SAMT-BU manages tasks in GitHub: where tasks live, how they are organised, and which rules we follow. It is aimed at everyone who creates, follows up or administers tasks in the project – pilot participants, the architecture group and the core team.
+
+The solution consists of the following parts:
+
+| Part | Role |
+|------|------|
+| **GitHub Issues** | Each task is an issue in the repository where the responsibility lies |
+| **GitHub Projects** | One project board per pilot or work area, with status, owner and deadlines |
+| **Teams in the GitHub organisation** | Give participants access to the right repositories and boards |
+| **Conventions** | Shared rules for labelling, describing and closing tasks |
+
+The main principle is **one repository per project board**: each pilot has its own repository holding both content and tasks, and its own board. Shared tasks and generic architecture have their own repositories.
+
+Status: the solution is in use. The setup was reorganised in autumn 2026, see [Background](bakgrunn/). The conventions are proposals and have not yet been adopted.
+
+See the subsections for guidance, setup and conventions.
