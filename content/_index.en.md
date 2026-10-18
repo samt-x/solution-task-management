@@ -19,6 +19,14 @@ The solution consists of the following parts:
 | **Teams in the GitHub organisation** | Give participants access to the right repositories and boards |
 | **Conventions** | Shared rules for labelling, describing and closing tasks |
 
+A **project board** is a project in GitHub (GitHub Projects): a collection of tasks with shared fields, such as status, owner and deadline. The same board can be shown in several ways, and each view has its own tab on the board:
+
+- **Kanban board** (in GitHub: Board): one column per step in the workflow, for example New, In progress and Done. Each task is a card that moves from left to right as the work progresses. The columns can also be based on another field, for example owner or priority.
+- **Table**: one row per task, with the fields as columns. Useful for sorting and filtering.
+- **Timeline** (Roadmap): the tasks placed along a time axis by date.
+
+Moving a card to another column changes the field the columns are based on, usually status. The change shows in all views, because it is the same task.
+
 The main principle is **one repository per project board**: each pilot has its own repository holding both content and tasks, and its own board. Shared tasks and generic architecture have their own repositories.
 
 Status: the solution is in use. The setup was reorganised in autumn 2026, see [Background](bakgrunn/). The conventions are current practice, with one open question for the architecture group.
