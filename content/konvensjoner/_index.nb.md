@@ -40,9 +40,37 @@ Hver oppgave har én typemerkelapp. future og blocked kommer i tillegg ved behov
 
 For beslutninger i tillegg: **Alternativer** og **Anbefaling**. Selve beslutningen skrives i sluttkommentaren og føres i beslutningsloggen på docs.samt-bu.no.
 
+## Status og felt på brettene
+
+Alle brett bygger på én av to maler, Enkel eller Standard. Navnene i GitHub er på engelsk, slik at brettene fungerer for alle lesere. Tabellen forklarer dem.
+
+| Status | Betydning | Enkel | Standard | Felles nivå |
+|---|---|---|---|---|
+| To do | Bestemt, men ikke startet | ✓ | ✓ | Ikke startet |
+| Ready | Avklart og klar til å starte, neste i køen | | ✓ | Ikke startet |
+| In progress | Under arbeid | ✓ | ✓ | Pågår |
+| In review | Ute til gjennomgang eller kommentarer | | ✓ | Pågår |
+| Done | Ferdig, oppgaven er lukket | ✓ | ✓ | Ferdig |
+
+**Felles nivå** brukes når status rapporteres på tvers av brett. Et brett kan legge til egne steg, for eksempel Proposed (foreslått, ikke behandlet) foran To do, så lenge det er bestemt hvilket felles nivå steget hører til.
+
+**Ready** trengs når flere velger oppgaver fra en felles kø. Er det ikke slik, holder Enkel.
+
+| Felt | Innhold | |
+|---|---|---|
+| Responsible | Den som eier oppgaven. GitHub-brukernavn, ellers fullt navn. Aldri e-post, for brettene er offentlige. | Bør fylles ut |
+| Priority | High, Medium eller Low | Frivillig |
+| Effort | Small (under ett dagsverk), Medium (1–5 dagsverk) eller Large (over 5 dagsverk, vurder å dele opp oppgaven) | Frivillig |
+| Estimate (person-days) | Anslag i dagsverk. Summeres automatisk i grupperte visninger, for eksempel per ansvarlig. | Frivillig |
+| Start date og Due date | Gjeldende plan. Endres når planen endres. | Frivillig |
+
+**Faktiske datoer** registrerer GitHub selv: når oppgaven ble opprettet, når den ble flyttet til In progress, og når den ble lukket. Det forutsetter to vaner: flytt kortet til In progress når du begynner, og lukk oppgaven når den er ferdig.
+
+**Blokkert er ikke et steg.** Oppgaven beholder statusen sin og får merkelappen blocked. Skriv i en kommentar hva den venter på, og fjern merkelappen når hindringen er borte. Merkelappen finnes i alle repoene, så blokkerte oppgaver kan søkes fram på tvers.
+
 ## Ansvar
 
-- **Responsible** (på brett som har feltet): én person som eier oppgaven
+- **Responsible**: én person som eier oppgaven, angitt med GitHub-brukernavn, ellers fullt navn
 - **Assignees**: alle som jobber med oppgaven, både den ansvarlige og bidragsyterne. Da får de varsler ved endringer, og oppgaven vises under «Assigned to me». Eierskapet står i Responsible, ikke i Assignees.
 
 ## Spor for administrative endringer
@@ -59,4 +87,4 @@ Endringer i repoer, brett, merkelapper og rutiner får en chore-oppgave som besk
 
 Ett spørsmål avgjøres ikke av praksisen alene, og er lagt fram for arkitekturgruppa: [Hvem følger med på oppgaver som krysser arkitektur og piloter?](https://github.com/SAMT-X/solution-task-management/issues/1) Svar kan gis i saken, i Teams eller på arkitekturmøtet.
 
-Felt, statusflyt og visninger på brettene er en første betaversjon, og videreutvikles i [en egen sak](https://github.com/SAMT-X/solution-task-management/issues/4).
+Malene ble innført i oktober 2026, se [Oppsett](../oppsett/). Brettene som fantes fra før, legges over på malene i [M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6).

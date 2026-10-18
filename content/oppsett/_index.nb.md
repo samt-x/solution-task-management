@@ -28,7 +28,7 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 
 **Merk:** Project 3 hører til Pilot 4, og Project 4 til Pilot 3. Numrene ble tildelt i den rekkefølgen brettene ble opprettet, og kan ikke endres.
 
-Project 7 er en mal for nye brett og er ikke i bruk.
+Project 7 og Project 11 er maler for nye brett, se under.
 
 Pilotrepoene inneholder også pilotens sider på docs.samt-bu.no. Oppgavene og innholdet ligger dermed i samme repo.
 
@@ -40,19 +40,23 @@ Alle brett heter «SAMT-BU» etterfulgt av arbeidsområdet, for eksempel «SAMT-
 
 Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues i det tilknyttede repoet legges på brettet. Når et issue lukkes, settes statusen til ferdig.
 
-## Felt
+## Maler for nye brett
 
-Pilotbrettene bruker GitHubs standardstatus: Todo, In Progress og Done.
+| Mal | Brett | Statuser |
+|---|---|---|
+| Enkel | Project 11 «[TEMPLATE] Simple board» | To do, In progress, Done |
+| Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done |
 
-Project 5 (arkitektur) har en mer detaljert statusflyt og egne felt:
+Begge malene har feltene Responsible, Priority, Effort, Estimate (person-days), Start date og Due date, og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
 
-| Felt | Innhold |
-|---|---|
-| Status | Proposed → Backlog → Ready → In progress → In review → Done |
-| Responsible | Én person som eier oppgaven |
-| Contributors | Andre som bidrar |
-| Priority | High, Medium eller Low |
-| Due date | Frist |
+Slik lages et nytt brett:
+
+1. Velg New project i organisasjonen og velg en av malene.
+2. Gi brettet navn etter mønsteret under.
+3. Koble brettet til repoet, og sett regelen for automatisk innlegging (se Automatikk).
+4. Legg inn personene som valg i feltet Responsible.
+
+Brettene som fantes før malene, har fortsatt ulike statuser og felt. De legges over på malene i [M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6).
 
 ## Tilgang
 
