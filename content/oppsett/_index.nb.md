@@ -12,19 +12,19 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 
 ## Ett repo til ett brett
 
-| Arbeidsområde | Repo | Prosjektbrett |
-|---|---|---|
-| Pilot 1 – Overgang ungdomsskole–videregående | samt-bu-pilot-1 | Project 1 |
-| Pilot 2 – Valg av utdanningsløp | samt-bu-pilot-2 | Project 2 |
-| Pilot 3 – Flytting av barn og unge i skoleåret | samt-bu-pilot-3 | **Project 4** |
-| Pilot 4 – Vitnemål | samt-bu-pilot-4 | **Project 3** |
-| Pilot 5 – Id-er i utdanning | samt-bu-pilot-5 | Project 9 |
-| Pilot 6 – Foreldres tilgang til data | samt-bu-pilot-6 | Project 10 |
-| Rammeverk og generisk arkitektur | samt-bu-architecture | Project 5 |
-| Informasjonsmodeller | information-models | Project 6 |
-| Felles oppgaver på tvers av pilotene | samt-bu-common-tasks | – |
-| Nettstedet docs.samt-bu.no | solution-samt-bu-docs | – |
-| Oppgavestyring | solution-task-management | – |
+| Arbeidsområde | Repo | Prosjektbrett | Mal |
+|---|---|---|---|
+| Pilot 1 – Overgang ungdomsskole–videregående | samt-bu-pilot-1 | Project 1 | Standard |
+| Pilot 2 – Valg av utdanningsløp | samt-bu-pilot-2 | Project 2 | Standard |
+| Pilot 3 – Flytting av barn og unge i skoleåret | samt-bu-pilot-3 | **Project 4** | Enkel |
+| Pilot 4 – Vitnemål | samt-bu-pilot-4 | **Project 3** | Standard |
+| Pilot 5 – Id-er i utdanning | samt-bu-pilot-5 | Project 9 | Standard |
+| Pilot 6 – Foreldres tilgang til data | samt-bu-pilot-6 | Project 10 | Standard |
+| Rammeverk og generisk arkitektur | samt-bu-architecture | Project 5 | Standard + Proposed |
+| Informasjonsmodeller | information-models | Project 6 | Standard |
+| Felles oppgaver på tvers av pilotene | samt-bu-common-tasks | – | – |
+| Nettstedet docs.samt-bu.no | solution-samt-bu-docs | – | – |
+| Oppgavestyring | solution-task-management | – | – |
 
 **Merk:** Project 3 hører til Pilot 4, og Project 4 til Pilot 3. Numrene ble tildelt i den rekkefølgen brettene ble opprettet, og kan ikke endres.
 
@@ -43,9 +43,9 @@ Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues
 ## Maler for nye brett
 
 | Mal | Brett | Statuser |
-|---|---|---|
-| Enkel | Project 11 «[TEMPLATE] Simple board» | To do, In progress, Done |
-| Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done |
+|---|---|---|---|
+| Enkel | Project 11 «[TEMPLATE] Simple board» | To do, In progress, Done | Standard |
+| Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done | Standard |
 
 Begge malene har feltene Responsible, Priority, Effort, Estimate (person-days), Start date og Due date, og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
 
@@ -56,7 +56,7 @@ Slik lages et nytt brett:
 3. Koble brettet til repoet, og sett regelen for automatisk innlegging (se Automatikk).
 4. Legg inn personene som valg i feltet Responsible.
 
-Brettene som fantes før malene, har fortsatt ulike statuser og felt. De legges over på malene i [M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6).
+Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6)). Statusene fikk nye navn, og ingen oppgaver mistet statusen sin. Project 5 har i tillegg steget Proposed, feltet Contributors og visningene All tasks og Closed tasks.
 
 ## Tilgang
 

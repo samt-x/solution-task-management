@@ -87,4 +87,4 @@ Changes to repositories, boards, labels and routines get a chore task describing
 
 One question is not settled by the practice alone, and has been put to the architecture group: [Who keeps track of tasks that cross architecture and pilots?](https://github.com/SAMT-X/solution-task-management/issues/1) Answers can be given in the issue, in Teams or at the architecture meeting.
 
-The templates were introduced in October 2026, see [Setup](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/oppsett/). The boards that existed before are moved over to the templates in [M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6).
+The templates were introduced in October 2026, see [Setup](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/oppsett/). The boards that existed before were moved over to the templates in [M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6).

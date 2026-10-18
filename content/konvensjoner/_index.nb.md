@@ -87,4 +87,4 @@ Endringer i repoer, brett, merkelapper og rutiner får en chore-oppgave som besk
 
 Ett spørsmål avgjøres ikke av praksisen alene, og er lagt fram for arkitekturgruppa: [Hvem følger med på oppgaver som krysser arkitektur og piloter?](https://github.com/SAMT-X/solution-task-management/issues/1) Svar kan gis i saken, i Teams eller på arkitekturmøtet.
 
-Malene ble innført i oktober 2026, se [Oppsett](../oppsett/). Brettene som fantes fra før, legges over på malene i [M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6).
+Malene ble innført i oktober 2026, se [Oppsett](../oppsett/). Brettene som fantes fra før, ble lagt over på malene i [M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6).

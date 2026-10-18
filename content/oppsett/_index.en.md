@@ -12,19 +12,19 @@ This page describes how task management is set up in the GitHub organisation sam
 
 ## One repository per board
 
-| Work area | Repository | Project board |
-|---|---|---|
-| Pilot 1 – Seamless transition between lower and upper secondary school | samt-bu-pilot-1 | Project 1 |
-| Pilot 2 – Choice of educational pathway | samt-bu-pilot-2 | Project 2 |
-| Pilot 3 – Moving between municipalities | samt-bu-pilot-3 | **Project 4** |
-| Pilot 4 – Diplomas | samt-bu-pilot-4 | **Project 3** |
-| Pilot 5 – Identifiers in education | samt-bu-pilot-5 | Project 9 |
-| Pilot 6 – Parents' access to data | samt-bu-pilot-6 | Project 10 |
-| Framework and generic architecture | samt-bu-architecture | Project 5 |
-| Information models | information-models | Project 6 |
-| Shared tasks across pilots | samt-bu-common-tasks | – |
-| The website docs.samt-bu.no | solution-samt-bu-docs | – |
-| Task management | solution-task-management | – |
+| Work area | Repository | Project board | Template |
+|---|---|---|---|
+| Pilot 1 – Seamless transition between lower and upper secondary school | samt-bu-pilot-1 | Project 1 | Standard |
+| Pilot 2 – Choice of educational pathway | samt-bu-pilot-2 | Project 2 | Standard |
+| Pilot 3 – Moving between municipalities | samt-bu-pilot-3 | **Project 4** | Simple |
+| Pilot 4 – Diplomas | samt-bu-pilot-4 | **Project 3** | Standard |
+| Pilot 5 – Identifiers in education | samt-bu-pilot-5 | Project 9 | Standard |
+| Pilot 6 – Parents' access to data | samt-bu-pilot-6 | Project 10 | Standard |
+| Framework and generic architecture | samt-bu-architecture | Project 5 | Standard + Proposed |
+| Information models | information-models | Project 6 | Standard |
+| Shared tasks across pilots | samt-bu-common-tasks | – | – |
+| The website docs.samt-bu.no | solution-samt-bu-docs | – | – |
+| Task management | solution-task-management | – | – |
 
 **Note:** Project 3 belongs to Pilot 4, and Project 4 to Pilot 3. The numbers were assigned in the order the boards were created, and cannot be changed.
 
@@ -43,9 +43,9 @@ Each board has an automatic rule (Auto-add): all open issues in the linked repos
 ## Templates for new boards
 
 | Template | Board | Statuses |
-|---|---|---|
-| Simple | Project 11 «[TEMPLATE] Simple board» | To do, In progress, Done |
-| Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done |
+|---|---|---|---|
+| Simple | Project 11 «[TEMPLATE] Simple board» | To do, In progress, Done | Standard |
+| Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done | Standard |
 
 Both templates have the fields Responsible, Priority, Effort, Estimate (person-days), Start date and Due date, and five views: Board (kanban by status), By responsible (kanban by responsible person), Open tasks, My tasks and Timeline. What the statuses and fields mean is described under [Conventions](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/konvensjoner/).
 
@@ -56,7 +56,7 @@ To create a new board:
 3. Link the board to the repository, and set the rule for automatic adding (see Automation).
 4. Add the people as options in the Responsible field.
 
-The boards that existed before the templates still have different statuses and fields. They are moved over to the templates in [M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6).
+The boards that existed before the templates were moved over to them in October 2026 ([M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6)). The statuses were renamed, and no task lost its status. Project 5 also has the step Proposed, the field Contributors and the views All tasks and Closed tasks.
 
 ## Access
 
