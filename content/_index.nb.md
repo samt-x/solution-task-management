@@ -23,6 +23,6 @@ Hovedprinsippet er **ett repo til ett prosjektbrett**: hver pilot har sitt eget 
 
 Status: løsningen er i bruk. Oppsettet ble lagt om høsten 2026, se [Bakgrunn](bakgrunn/). Konvensjonene er gjeldende praksis, med ett åpent spørsmål til arkitekturgruppa.
 
-**Dine oppgaver:** [Mine åpne oppgaver i samt-x](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20assignee%3A%40me%20org%3Asamt-x) viser alt som er tildelt deg, på tvers av alle repoer og brett. Se [Brukerveiledning](brukerveiledning/).
+**Dine oppgaver og brettene** finner du under [Styring → Oppgaver og oppfølging](https://docs.samt-bu.no/prosjektstyring/oppgaver-og-oppfolging/). Denne seksjonen beskriver løsningen bak.
 
 Se underkapitlene for veiledning, oppsett, konvensjoner og [veikart](veikart/).

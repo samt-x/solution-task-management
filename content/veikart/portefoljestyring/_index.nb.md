@@ -10,9 +10,11 @@ last_editor: Erik Hagen
 
 Porteføljestyring svarer på hva SAMT-BU holder på med, hvordan det går, og hva vi prioriterer. Det er noe annet enn å styre én løsning eller én pilot. Skillet er hentet fra rammeverkene SAFe og IT4IT, men vi låner bare det enkleste: et brett med faser, en hypotese per pilot og en kobling til målene.
 
-## Verktøy her, styring under Prosjektstyring
+## Verktøy her, styring under Styring
 
-Dette sporet gjelder **verktøyet**: hvordan porteføljebrettet, issue-typene og koblingene settes opp i GitHub. Selve **styringen**, med hva som er i porteføljen, hvem som eier hva og hvor ofte porteføljen gjennomgås, er en beslutning for prosjektledelsen og hører hjemme under Prosjektstyring.
+Dette sporet gjelder **verktøyet**: hvordan porteføljebrettet, issue-typene og koblingene settes opp i GitHub. Selve **styringen**, med hva som er i porteføljen, hvem som eier hva og hvor ofte porteføljen gjennomgås, er en beslutning for prosjektledelsen og hører hjemme under [Styring → Oppgaver og oppfølging](https://docs.samt-bu.no/prosjektstyring/oppgaver-og-oppfolging/).
+
+Porteføljen gjelder SAMT-BU. Får organisasjonen samt-x flere prosjekter, kan et nivå legges over, med SAMT-BU som ett kort.
 
 ## Trinn
 
