@@ -40,7 +40,13 @@ In the pilot repositories, samt-bu-architecture and information-models, the task
 
 The project boards are under **Projects** in the samt-x organisation, or via the link in the repository. On the board you can move the task between status columns, and set owner, priority and deadline where the board has such fields.
 
-Tasks assigned to you are also listed under **Assigned to me** in GitHub.
+### My tasks across all boards
+
+The search **[My open tasks in samt-x](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20assignee%3A%40me%20org%3Asamt-x)** lists all open tasks assigned to you, in every repository in the organisation. You must be signed in to GitHub. Consider bookmarking the link.
+
+- The search only lists tasks where you are an **Assignee**. That is why assigning tasks matters, see [Conventions](../konvensjoner/).
+- The architecture group's project board also has the view **[My tasks (this project)](https://github.com/orgs/samt-x/projects/5/views/7)**, which lists your tasks on that board, with the board's own fields.
+- **Assigned to me** in GitHub shows the same as the search, but also from other organisations you belong to.
 
 ## Closing a task
 

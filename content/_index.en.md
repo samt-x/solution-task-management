@@ -23,4 +23,6 @@ The main principle is **one repository per project board**: each pilot has its o
 
 Status: the solution is in use. The setup was reorganised in autumn 2026, see [Background](bakgrunn/). The conventions are current practice, with one open question for the architecture group.
 
-See the subsections for guidance, setup and conventions.
+**Your tasks:** [My open tasks in samt-x](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20assignee%3A%40me%20org%3Asamt-x) lists everything assigned to you, across all repositories and boards. See [User guide](brukerveiledning/).
+
+See the subsections for guidance, setup, conventions and the [roadmap](veikart/).

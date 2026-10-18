@@ -40,7 +40,13 @@ I pilotrepoene, samt-bu-architecture og information-models havner oppgaven autom
 
 Prosjektbrettene finnes under **Projects** i organisasjonen samt-x, eller via lenken i repoet. På brettet kan du flytte oppgaven mellom statuskolonnene, og sette ansvarlig, prioritet og frist der brettet har slike felt.
 
-Oppgaver som er tildelt deg, finner du også under **Assigned to me** i GitHub.
+### Mine oppgaver på tvers av alle brett
+
+Søket **[Mine åpne oppgaver i samt-x](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20assignee%3A%40me%20org%3Asamt-x)** viser alle åpne oppgaver som er tildelt deg, i alle repoene i organisasjonen. Du må være logget inn på GitHub. Legg gjerne lenken inn som bokmerke.
+
+- Søket viser bare oppgaver der du står som **Assignee**. Det er derfor viktig å tildele oppgaver, se [Konvensjoner](../konvensjoner/).
+- Prosjektbrettet for arkitekturgruppa har i tillegg visningen **[My tasks (this project)](https://github.com/orgs/samt-x/projects/5/views/7)**, som viser dine oppgaver på det brettet, med brettets egne felt.
+- **Assigned to me** i GitHub viser det samme som søket, men også fra andre organisasjoner du er med i.
 
 ## Lukke en oppgave
 
