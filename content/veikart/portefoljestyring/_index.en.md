@@ -1,4 +1,5 @@
 ---
+id: 7e869c1b-c4df-4b66-989b-a2856df6a04d
 title: "Portfolio management"
 linkTitle: "Portfolio management"
 weight: 30

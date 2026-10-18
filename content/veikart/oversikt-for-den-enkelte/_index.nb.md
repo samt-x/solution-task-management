@@ -1,4 +1,5 @@
 ---
+id: 335b71b5-7838-442a-8431-cb94815d9f8a
 title: "Oversikt for den enkelte"
 linkTitle: "Oversikt for den enkelte"
 weight: 20

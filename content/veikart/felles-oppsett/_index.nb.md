@@ -1,4 +1,5 @@
 ---
+id: e5ac13b4-873a-45e7-9405-f56a42e5731a
 title: "Felles oppsett for prosjektbrettene"
 linkTitle: "Felles oppsett"
 weight: 10
