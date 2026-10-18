@@ -3,7 +3,7 @@ id: 7e869c1b-c4df-4b66-989b-a2856df6a04d
 title: "Porteføljestyring"
 linkTitle: "Porteføljestyring"
 weight: 30
-lastmod: 2026-10-18T17:26:48+02:00
+lastmod: 2026-10-18T19:38:42+02:00
 last_editor: Erik Hagen
 
 ---
