@@ -3,6 +3,9 @@ id: 7e869c1b-c4df-4b66-989b-a2856df6a04d
 title: "Porteføljestyring"
 linkTitle: "Porteføljestyring"
 weight: 30
+lastmod: 2026-10-18T17:26:48+02:00
+last_editor: Erik Hagen
+
 ---
 
 Porteføljestyring svarer på hva SAMT-BU holder på med, hvordan det går, og hva vi prioriterer. Det er noe annet enn å styre én løsning eller én pilot. Skillet er hentet fra rammeverkene SAFe og IT4IT, men vi låner bare det enkleste: et brett med faser, en hypotese per pilot og en kobling til målene.

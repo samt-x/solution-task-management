@@ -3,6 +3,9 @@ id: e5ac13b4-873a-45e7-9405-f56a42e5731a
 title: "Felles oppsett for prosjektbrettene"
 linkTitle: "Felles oppsett"
 weight: 10
+lastmod: 2026-10-18T17:26:48+02:00
+last_editor: Erik Hagen
+
 ---
 
 Pilotene og delprosjektene har i dag ulike statuser, felt og visninger på brettene sine. Det gjør det vanskelig å se dem samlet. Målet er ikke at alle skal ha samme oppsett, men at oppsettene skal være **kompatible**.

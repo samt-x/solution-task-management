@@ -3,6 +3,9 @@ id: e5ac13b4-873a-45e7-9405-f56a42e5731a
 title: "Shared setup for the project boards"
 linkTitle: "Shared setup"
 weight: 10
+lastmod: 2026-10-18T17:26:48+02:00
+last_editor: Erik Hagen
+
 ---
 
 The pilots and sub-projects currently use different statuses, fields and views on their boards, which makes it hard to see them together. The goal is not for everyone to use the same setup, but for the setups to be **compatible**.

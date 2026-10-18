@@ -3,6 +3,9 @@ id: 7e869c1b-c4df-4b66-989b-a2856df6a04d
 title: "Portfolio management"
 linkTitle: "Portfolio management"
 weight: 30
+lastmod: 2026-10-18T17:26:48+02:00
+last_editor: Erik Hagen
+
 ---
 
 Portfolio management answers what SAMT-BU is working on, how it is going, and what we prioritise. That is different from managing a single solution or pilot. The distinction comes from the SAFe and IT4IT frameworks, but we borrow only the simplest parts: a board with phases, a hypothesis per pilot and a link to the goals.

@@ -3,6 +3,9 @@ id: 335b71b5-7838-442a-8431-cb94815d9f8a
 title: "Overview for the individual"
 linkTitle: "Overview for the individual"
 weight: 20
+lastmod: 2026-10-18T17:26:48+02:00
+last_editor: Erik Hagen
+
 ---
 
 Tasks live in many repositories and on many boards. This track gives each participant one overview of their own tasks, built up in steps from the simplest.

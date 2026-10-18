@@ -3,7 +3,7 @@ id: e544406f-6c3f-414b-8ae6-61d387d578aa
 title: "Roadmap"
 linkTitle: "Roadmap"
 weight: 50
-lastmod: 2026-10-10T22:27:29+02:00
+lastmod: 2026-10-18T17:26:48+02:00
 last_editor: Erik Hagen
 
 ---

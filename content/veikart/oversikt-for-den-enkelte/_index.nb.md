@@ -3,6 +3,9 @@ id: 335b71b5-7838-442a-8431-cb94815d9f8a
 title: "Oversikt for den enkelte"
 linkTitle: "Oversikt for den enkelte"
 weight: 20
+lastmod: 2026-10-18T17:26:48+02:00
+last_editor: Erik Hagen
+
 ---
 
 Oppgavene ligger i mange repoer og på mange brett. Dette sporet gir hver deltaker én oversikt over sine egne oppgaver, bygget ut i trinn fra det enkleste.
