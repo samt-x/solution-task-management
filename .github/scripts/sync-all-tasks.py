@@ -1,6 +1,7 @@
 """Synk til samlebrettet «SAMT-BU All tasks» (A2, solution-task-management#8).
 
 Kopierer alle issues i de offentlige samt-x-repoene til samlebrettet, i én retning.
+Porteføljerepoet (EXCLUDE) er ikke med, fordi kortene der ikke er oppgaver.
 Status oversettes til det felles nivået; Responsible, Priority og datoene kopieres
 fra prosjektbrettet issuet ligger på. Skriptet skriver aldri til prosjektbrettene.
 
@@ -12,6 +13,7 @@ import json, os, subprocess, sys, time, urllib.request
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ORG = 'samt-x'
 TARGET = 12                      # SAMT-BU All tasks
+EXCLUDE = {'samt-bu-portfolio'}   # porteføljekort, ikke oppgaver
 DRY = '--dry-run' in sys.argv
 SHARED = {'Proposed': 'Not started', 'Backlog': 'Not started', 'Todo': 'Not started', 'To do': 'Not started',
           'Ready': 'Not started', 'In progress': 'In progress', 'In Progress': 'In progress',
@@ -56,7 +58,7 @@ def pages(query, path, **v):
 # 1. Offentlige repoer med issues
 repos = [r for r in pages('''query($after:String){organization(login:"samt-x"){repositories(first:100,after:$after){
     pageInfo{hasNextPage endCursor} nodes{name isPrivate isArchived hasIssuesEnabled}}}}''', ['organization', 'repositories'])
-         if not r['isPrivate'] and not r['isArchived'] and r['hasIssuesEnabled']]
+         if not r['isPrivate'] and not r['isArchived'] and r['hasIssuesEnabled'] and r['name'] not in EXCLUDE]
 print(f'{len(repos)} offentlige repoer')
 
 # 2. Alle issues i dem
