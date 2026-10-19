@@ -36,6 +36,23 @@ Whatever cannot be done with scripts must be done in the browser.
 - **Automatic rules must be edited with Edit and saved with Save.** If Auto-add is saved without changing the filter, the default filter is stored, which also includes pull requests.
 - **The order of options in the programming interface** says nothing about the order of columns in the browser.
 
+## The aggregate board: app and key
+
+The workflow that fills the aggregate board (Project 12) signs in as the GitHub App **SAMT-BU Task sync**, not as a person. The app is owned by the organisation and installed on all repositories.
+
+| | |
+|---|---|
+| Permissions | Read issues and metadata. Read and write organisation projects. No access to code. |
+| Key | Private key as the repository secret `TASK_SYNC_PRIVATE_KEY` in solution-task-management. The App ID is in the variable `TASK_SYNC_APP_ID`. A copy of the key is kept in the project manager's Bitwarden. |
+| Token | Created anew on every run and valid for one hour. |
+| Runs | Only on schedule and manually, never from pull requests. Secrets are not passed to workflows from forks. |
+
+**Risk:** If the key leaks, it can be used to change or delete boards in the organisation, but not code or issues. The boards can be rebuilt from the issues, but statuses and fields may be lost. The likelihood is low, because the key only exists in the GitHub secret and in Bitwarden.
+
+**If a leak is suspected:** Go to the app's page under the organisation's Settings → Developer settings → GitHub Apps → SAMT-BU Task sync → Credentials → Key pairs. Create a new key, put it in the secret and in Bitwarden, and delete the old one.
+
+**The aggregate board must not have automatic rules.** Auto-close and other rules that write are switched off. Changes made by hand on the aggregate board are overwritten on the next run.
+
 ## Moving tasks between repositories
 
 When an issue is moved to another repository, it keeps its comments and history, and stays on the boards it was on. It gets a new number in the new repository. Old links are redirected.

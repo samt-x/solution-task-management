@@ -36,6 +36,23 @@ Det som ikke kan gjøres med skript, må gjøres i nettleseren.
 - **Automatiske regler må redigeres med Edit og lagres med Save.** Lagres Auto-add uten at filteret endres, lagres standardfilteret, som også tar med pull requests.
 - **Rekkefølgen på valg i programmeringsgrensesnittet** sier ingenting om rekkefølgen på kolonnene i nettleseren.
 
+## Samlebrettet: app og nøkkel
+
+Workflowen som fyller samlebrettet (Project 12), logger inn som GitHub-appen **SAMT-BU Task sync**, ikke som en person. Appen eies av organisasjonen og er installert på alle repoene.
+
+| | |
+|---|---|
+| Tilganger | Lese issues og metadata. Lese og skrive organisasjonsprosjekter. Ingen tilgang til kode. |
+| Nøkkel | Privat nøkkel som repo-secret `TASK_SYNC_PRIVATE_KEY` i solution-task-management. App ID står i variabelen `TASK_SYNC_APP_ID`. En kopi av nøkkelen ligger i Bitwarden hos prosjektlederen. |
+| Token | Lages på nytt ved hver kjøring og varer i én time. |
+| Kjøring | Bare etter tidsplan og manuelt, aldri fra pull requests. Secrets sendes ikke til workflows fra forks. |
+
+**Risiko:** Lekker nøkkelen, kan den brukes til å endre eller slette brett i organisasjonen, men ikke kode eller issues. Brettene kan bygges opp igjen fra issuene, men statuser og felt kan gå tapt. Sannsynligheten er lav, fordi nøkkelen bare finnes i GitHub-secreten og i Bitwarden.
+
+**Ved mistanke om lekkasje:** Gå til appens side under organisasjonens Settings → Developer settings → GitHub Apps → SAMT-BU Task sync → Credentials → Key pairs. Lag en ny nøkkel, legg den inn i secreten og i Bitwarden, og slett den gamle.
+
+**Samlebrettet skal ikke ha automatiske regler.** Auto-close og andre regler som skriver, er slått av. Endringer gjort for hånd på samlebrettet overskrives ved neste kjøring.
+
 ## Flytte oppgaver mellom repoer
 
 Når et issue flyttes til et annet repo, beholder det kommentarer og historikk, og blir stående på brettene det var på. Det får nytt nummer i det nye repoet. Gamle lenker sendes videre.

@@ -28,7 +28,7 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 
 **Merk:** Project 3 hører til Pilot 4, og Project 4 til Pilot 3. Numrene ble tildelt i den rekkefølgen brettene ble opprettet, og kan ikke endres.
 
-Project 7 og Project 11 er maler for nye brett, se under.
+Project 7 og Project 11 er maler for nye brett, se under. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU All tasks» er samlebrettet, se Samlebrettet under.
 
 Pilotrepoene inneholder også pilotens sider på docs.samt-bu.no. Oppgavene og innholdet ligger dermed i samme repo.
 
@@ -43,9 +43,9 @@ Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues
 ## Maler for nye brett
 
 | Mal | Brett | Statuser |
-|---|---|---|---|
-| Enkel | Project 11 «[TEMPLATE] Simple board» | To do, In progress, Done | Standard |
-| Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done | Standard |
+|---|---|---|
+| Enkel | Project 11 «[TEMPLATE] Simple board» | To do, In progress, Done |
+| Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done |
 
 Begge malene har feltene Responsible, Priority, Effort, Estimate (person-days), Start date og Due date, og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
 
@@ -57,6 +57,12 @@ Slik lages et nytt brett:
 4. Legg inn personene som valg i feltet Responsible.
 
 Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6)). Statusene fikk nye navn, og ingen oppgaver mistet statusen sin. Project 5 har i tillegg steget Proposed, feltet Contributors og visningene All tasks og Closed tasks.
+
+## Samlebrettet
+
+[Project 12 «SAMT-BU All tasks»](https://github.com/orgs/samt-x/projects/12) samler alle issues i de offentlige repoene. Private repoer er ikke med. Statusen oversettes til det felles nivået (se [Konvensjoner](../konvensjoner/)): Not started, In progress eller Done. Lukkede issues blir Done, og åpne issues uten brett blir Not started. Feltet Source status viser brettet og statusen oppgaven har der.
+
+Brettet fylles av workflowen [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) i repoet solution-task-management, hver time og ved manuell kjøring. Synkingen går bare én vei, og skriver aldri til prosjektbrettene. Alle automatiske regler på samlebrettet er slått av, og skal være det. Tilgangen er beskrevet under [Teknisk dokumentasjon](../teknisk-dokumentasjon/).
 
 ## Tilgang
 
