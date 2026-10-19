@@ -20,7 +20,7 @@ The portfolio covers SAMT-BU. If the samt-x organisation gets more projects, a l
 
 | Step | Content | Issue |
 |---|---|---|
-| [B1 Portfolio board](https://github.com/samt-x/solution-task-management/milestone/7) | One board with one card per pilot, product and work area, with fields such as owner, phase and health. | [solution-task-management#10](https://github.com/samt-x/solution-task-management/issues/10) |
+| [B1 Portfolio board](https://github.com/samt-x/solution-task-management/milestone/7) | One board with one card per pilot, product and work area, with fields such as owner, phase and health. **Done October 2026:** [SAMT-BU Portfolio](https://github.com/orgs/samt-x/projects/13). | [solution-task-management#10](https://github.com/samt-x/solution-task-management/issues/10) |
 | [B2 Links to tasks and goals](https://github.com/samt-x/solution-task-management/milestone/8) | The cards linked down to the tasks, so that progress rolls up, and up to the goals. | [solution-task-management#11](https://github.com/samt-x/solution-task-management/issues/11) |
 
 The phases on the portfolio board build on the shared status model in the track [Shared setup](../felles-oppsett/).

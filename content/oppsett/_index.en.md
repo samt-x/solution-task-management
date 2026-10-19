@@ -25,10 +25,11 @@ This page describes how task management is set up in the GitHub organisation sam
 | Shared tasks across pilots | samt-bu-common-tasks | – | – |
 | The website docs.samt-bu.no | solution-samt-bu-docs | – | – |
 | Task management | solution-task-management | – | – |
+| The portfolio (one card per work area) | samt-bu-portfolio | [Project 13](https://github.com/orgs/samt-x/projects/13) | Own setup |
 
 **Note:** Project 3 belongs to Pilot 4, and Project 4 to Pilot 3. The numbers were assigned in the order the boards were created, and cannot be changed.
 
-Project 7 and Project 11 are templates for new boards, see below. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU All tasks» is the aggregate board, see The aggregate board below.
+Project 7 and Project 11 are templates for new boards, see below. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU All tasks» is the aggregate board, see The aggregate board below. Project 13 is the portfolio board, with one card per pilot, product and work area. Its Status field is the phase.
 
 The pilot repositories also hold the pilot's pages on docs.samt-bu.no. Tasks and content are therefore in the same repository.
 

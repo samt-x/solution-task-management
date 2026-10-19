@@ -25,10 +25,11 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 | Felles oppgaver på tvers av pilotene | samt-bu-common-tasks | – | – |
 | Nettstedet docs.samt-bu.no | solution-samt-bu-docs | – | – |
 | Oppgavestyring | solution-task-management | – | – |
+| Porteføljen (ett kort per arbeidsområde) | samt-bu-portfolio | [Project 13](https://github.com/orgs/samt-x/projects/13) | Eget oppsett |
 
 **Merk:** Project 3 hører til Pilot 4, og Project 4 til Pilot 3. Numrene ble tildelt i den rekkefølgen brettene ble opprettet, og kan ikke endres.
 
-Project 7 og Project 11 er maler for nye brett, se under. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU All tasks» er samlebrettet, se Samlebrettet under.
+Project 7 og Project 11 er maler for nye brett, se under. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU All tasks» er samlebrettet, se Samlebrettet under. Project 13 er porteføljebrettet, med ett kort per pilot, produkt og arbeidsområde. Feltet Status er fasen der.
 
 Pilotrepoene inneholder også pilotens sider på docs.samt-bu.no. Oppgavene og innholdet ligger dermed i samme repo.
 
