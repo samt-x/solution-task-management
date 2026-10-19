@@ -26,13 +26,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Lag token fra appen
         id: app
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ vars.TASK_SYNC_APP_ID }}
+          client-id: Iv23li5HEtj5juPOKb0x   # SAMT-BU Task sync (ikke hemmelig)
           private-key: ${{ secrets.TASK_SYNC_PRIVATE_KEY }}
           owner: samt-x
 

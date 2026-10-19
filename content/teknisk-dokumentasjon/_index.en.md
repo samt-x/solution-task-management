@@ -43,7 +43,7 @@ The workflow that fills the aggregate board (Project 12) signs in as the GitHub 
 | | |
 |---|---|
 | Permissions | Read issues and metadata. Read and write organisation projects. No access to code. |
-| Key | Private key as the repository secret `TASK_SYNC_PRIVATE_KEY` in solution-task-management. The App ID is in the variable `TASK_SYNC_APP_ID`. A copy of the key is kept in the project manager's Bitwarden. |
+| Key | Private key as the repository secret `TASK_SYNC_PRIVATE_KEY` in solution-task-management. The app's Client ID is in the workflow. A copy of the key is kept in the project manager's Bitwarden. |
 | Token | Created anew on every run and valid for one hour. |
 | Runs | Only on schedule and manually, never from pull requests. Secrets are not passed to workflows from forks. |
 

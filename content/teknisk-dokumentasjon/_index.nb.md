@@ -43,7 +43,7 @@ Workflowen som fyller samlebrettet (Project 12), logger inn som GitHub-appen **S
 | | |
 |---|---|
 | Tilganger | Lese issues og metadata. Lese og skrive organisasjonsprosjekter. Ingen tilgang til kode. |
-| Nøkkel | Privat nøkkel som repo-secret `TASK_SYNC_PRIVATE_KEY` i solution-task-management. App ID står i variabelen `TASK_SYNC_APP_ID`. En kopi av nøkkelen ligger i Bitwarden hos prosjektlederen. |
+| Nøkkel | Privat nøkkel som repo-secret `TASK_SYNC_PRIVATE_KEY` i solution-task-management. Appens Client ID står i workflowen. En kopi av nøkkelen ligger i Bitwarden hos prosjektlederen. |
 | Token | Lages på nytt ved hver kjøring og varer i én time. |
 | Kjøring | Bare etter tidsplan og manuelt, aldri fra pull requests. Secrets sendes ikke til workflows fra forks. |
 
