@@ -1,0 +1,42 @@
+name: Sync All tasks
+
+# Fyller samlebrettet «SAMT-BU All tasks» (Project 12) fra alle offentlige repoer.
+# Kjører bare etter tidsplan og manuelt – aldri på pull requests, så secrets ikke
+# kan nås fra forks. Token lages per kjøring fra appen SAMT-BU Task sync.
+
+on:
+  schedule:
+    - cron: '17 * * * *'   # hver time
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Bare vis hva som ville blitt endret'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-all-tasks
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lag token fra appen
+        id: app
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ vars.TASK_SYNC_APP_ID }}
+          private-key: ${{ secrets.TASK_SYNC_PRIVATE_KEY }}
+          owner: samt-x
+
+      - name: Synk
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+        run: python3 .github/scripts/sync-all-tasks.py ${{ inputs.dry_run && '--dry-run' || '' }}
