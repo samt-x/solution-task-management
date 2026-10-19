@@ -3,7 +3,7 @@ id: 335b71b5-7838-442a-8431-cb94815d9f8a
 title: "Overview for the individual"
 linkTitle: "Overview for the individual"
 weight: 20
-lastmod: 2026-10-19T10:15:08+02:00
+lastmod: 2026-10-19T22:59:15+02:00
 last_editor: Erik Hagen
 
 ---
