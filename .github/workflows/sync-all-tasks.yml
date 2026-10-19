@@ -1,6 +1,6 @@
 name: Sync All tasks
 
-# Fyller samlebrettet «SAMT-BU All tasks» (Project 12) fra alle offentlige repoer.
+# Fyller samlebrettet «SAMT-BU Overview – All tasks» (Project 12) fra alle offentlige repoer.
 # Kjører bare etter tidsplan og manuelt – aldri på pull requests, så secrets ikke
 # kan nås fra forks. Token lages per kjøring fra appen SAMT-BU Task sync.
 

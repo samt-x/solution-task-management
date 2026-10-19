@@ -29,7 +29,7 @@ This page describes how task management is set up in the GitHub organisation sam
 
 **Note:** Project 3 belongs to Pilot 4, and Project 4 to Pilot 3. The numbers were assigned in the order the boards were created, and cannot be changed.
 
-Project 7 and Project 11 are templates for new boards, see below. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU All tasks» is the aggregate board, see The aggregate board below. Project 13 is the portfolio board, with one card per pilot, product and work area. Its Status field is the phase.
+Project 7 and Project 11 are templates for new boards, see below. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» is the aggregate board, see The aggregate board below. Project 13 is the portfolio board, with one card per pilot, product and work area. Its Status field is the phase.
 
 The pilot repositories also hold the pilot's pages on docs.samt-bu.no. Tasks and content are therefore in the same repository.
 
@@ -61,7 +61,7 @@ The boards that existed before the templates were moved over to them in October 
 
 ## The aggregate board
 
-[Project 12 «SAMT-BU All tasks»](https://github.com/orgs/samt-x/projects/12) collects all issues in the public repositories. Private repositories are not included. The status is translated to the shared level (see [Conventions](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/konvensjoner/)): Not started, In progress or Done. Closed issues become Done, and open issues without a board become Not started. The field Source status shows the board and the status the task has there.
+[Project 12 «SAMT-BU Overview – All tasks»](https://github.com/orgs/samt-x/projects/12) collects all issues in the public repositories. Private repositories are not included. The status is translated to the shared level (see [Conventions](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/konvensjoner/)): Not started, In progress or Done. Closed issues become Done, and open issues without a board become Not started. The field Source status shows the board and the status the task has there.
 
 The board is filled by the workflow [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) in the repository solution-task-management, every hour and when run manually. The sync goes one way only, and never writes to the project boards. All automatic rules on the aggregate board are switched off, and must stay that way. Access is described under [Technical documentation](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/teknisk-dokumentasjon/).
 

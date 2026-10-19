@@ -29,7 +29,7 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 
 **Merk:** Project 3 hører til Pilot 4, og Project 4 til Pilot 3. Numrene ble tildelt i den rekkefølgen brettene ble opprettet, og kan ikke endres.
 
-Project 7 og Project 11 er maler for nye brett, se under. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU All tasks» er samlebrettet, se Samlebrettet under. Project 13 er porteføljebrettet, med ett kort per pilot, produkt og arbeidsområde. Feltet Status er fasen der.
+Project 7 og Project 11 er maler for nye brett, se under. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» er samlebrettet, se Samlebrettet under. Project 13 er porteføljebrettet, med ett kort per pilot, produkt og arbeidsområde. Feltet Status er fasen der.
 
 Pilotrepoene inneholder også pilotens sider på docs.samt-bu.no. Oppgavene og innholdet ligger dermed i samme repo.
 
@@ -61,7 +61,7 @@ Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malen
 
 ## Samlebrettet
 
-[Project 12 «SAMT-BU All tasks»](https://github.com/orgs/samt-x/projects/12) samler alle issues i de offentlige repoene. Private repoer er ikke med. Statusen oversettes til det felles nivået (se [Konvensjoner](../konvensjoner/)): Not started, In progress eller Done. Lukkede issues blir Done, og åpne issues uten brett blir Not started. Feltet Source status viser brettet og statusen oppgaven har der.
+[Project 12 «SAMT-BU Overview – All tasks»](https://github.com/orgs/samt-x/projects/12) samler alle issues i de offentlige repoene. Private repoer er ikke med. Statusen oversettes til det felles nivået (se [Konvensjoner](../konvensjoner/)): Not started, In progress eller Done. Lukkede issues blir Done, og åpne issues uten brett blir Not started. Feltet Source status viser brettet og statusen oppgaven har der.
 
 Brettet fylles av workflowen [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) i repoet solution-task-management, hver time og ved manuell kjøring. Synkingen går bare én vei, og skriver aldri til prosjektbrettene. Alle automatiske regler på samlebrettet er slått av, og skal være det. Tilgangen er beskrevet under [Teknisk dokumentasjon](../teknisk-dokumentasjon/).
 

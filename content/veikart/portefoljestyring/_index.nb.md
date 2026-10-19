@@ -20,7 +20,7 @@ Porteføljen gjelder SAMT-BU. Får organisasjonen samt-x flere prosjekter, kan e
 
 | Trinn | Innhold | Issue |
 |---|---|---|
-| [B1 Porteføljebrett](https://github.com/samt-x/solution-task-management/milestone/7) | Ett brett med ett kort per pilot, produkt og arbeidsområde, med felt som eier, fase og helse. **Ferdig oktober 2026:** [SAMT-BU Portfolio](https://github.com/orgs/samt-x/projects/13). | [solution-task-management#10](https://github.com/samt-x/solution-task-management/issues/10) |
+| [B1 Porteføljebrett](https://github.com/samt-x/solution-task-management/milestone/7) | Ett brett med ett kort per pilot, produkt og arbeidsområde, med felt som eier, fase og helse. **Ferdig oktober 2026:** [SAMT-BU Overview – Portfolio](https://github.com/orgs/samt-x/projects/13). | [solution-task-management#10](https://github.com/samt-x/solution-task-management/issues/10) |
 | [B2 Kobling til oppgaver og mål](https://github.com/samt-x/solution-task-management/milestone/8) | Kortene koblet nedover til oppgavene, slik at framdriften rulles opp, og oppover til målene. | [solution-task-management#11](https://github.com/samt-x/solution-task-management/issues/11) |
 
 Fasene på porteføljebrettet bygger på den felles statusmodellen i sporet [Felles oppsett](../felles-oppsett/).
