@@ -12,7 +12,7 @@ The roadmap describes where task management is heading, in three tracks. Each tr
 
 | Track | Question it answers | Steps |
 |---|---|---|
-| [Shared setup for the project boards](felles-oppsett/) | How can the boards differ and still be reported together? | M1 Templates and shared status model · M2 Templates in use |
+| [Shared setup for the project boards](felles-oppsett/) | How can the boards differ and still be reported together? | M1 Templates and shared status model · M2 Templates in use · M3 Automatic creation of sub-projects |
 | [Overview for the individual](oversikt-for-den-enkelte/) | What is assigned to me, across all boards? | A1 Search and view · A2 Aggregate board · A3 Personal board · A4 Other git platforms |
 | [Portfolio management](portefoljestyring/) | What is SAMT-BU working on, and how is it going? | B1 Portfolio board · B2 Links to tasks and goals |
 

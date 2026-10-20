@@ -12,7 +12,7 @@ Veikartet beskriver hvor oppgavestyringen skal, i tre spor. Hvert spor har trinn
 
 | Spor | Spørsmål det svarer på | Trinn |
 |---|---|---|
-| [Felles oppsett for prosjektbrettene](felles-oppsett/) | Hvordan kan brettene være ulike og likevel rapporteres samlet? | M1 Maler og felles statusmodell · M2 Malene tatt i bruk |
+| [Felles oppsett for prosjektbrettene](felles-oppsett/) | Hvordan kan brettene være ulike og likevel rapporteres samlet? | M1 Maler og felles statusmodell · M2 Malene tatt i bruk · M3 Automatisk oppretting av delprosjekter |
 | [Oversikt for den enkelte](oversikt-for-den-enkelte/) | Hva ligger på meg, på tvers av alle brett? | A1 Søk og visning · A2 Samlebrett · A3 Personlig brett · A4 Andre git-plattformer |
 | [Porteføljestyring](portefoljestyring/) | Hva holder SAMT-BU på med, og hvordan går det? | B1 Porteføljebrett · B2 Kobling til oppgaver og mål |
 
