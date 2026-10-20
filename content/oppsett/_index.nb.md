@@ -29,7 +29,7 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 
 **Merk:** Project 3 hører til Pilot 4, og Project 4 til Pilot 3. Numrene ble tildelt i den rekkefølgen brettene ble opprettet, og kan ikke endres.
 
-Project 7 og Project 11 er maler for nye brett, se under. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» er samlebrettet, se Samlebrettet under. Project 13 er porteføljebrettet, med ett kort per pilot, produkt og arbeidsområde. Feltet Status er fasen der.
+Project 7 og Project 11 er maler for nye brett, se under. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» er samlebrettet, se Samlebrettet under. Project 13 er porteføljebrettet, med ett kort per pilot, produkt og arbeidsområde. Feltet Status er fasen der. Feltet Sub-issues progress viser framdriften i oppgavene som er koblet til kortet som sub-issues. Feltet Objective har foreløpig bare et testvalg, til målene er besluttet. Regelen «Auto-add sub-issues to project» er slått av, slik at oppgavene ikke havner på porteføljebrettet. Oversiktsbrettene heter «SAMT-BU Overview – …», slik at de skilles fra delprosjektene i listen over brett.
 
 Pilotrepoene inneholder også pilotens sider på docs.samt-bu.no. Oppgavene og innholdet ligger dermed i samme repo.
 
@@ -49,6 +49,8 @@ Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues
 | Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done |
 
 Begge malene har feltene Responsible, Priority, Effort, Estimate (person-days), Start date og Due date, og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
+
+Malene er synlige for alle medlemmer av organisasjonen, men ikke for andre. Medlemmene har lesetilgang (Base role Read). Det er nok til å lage brett fra malene, men ikke til å endre dem. Malene må ikke lukkes, for da forsvinner de fra New project.
 
 Slik lages et nytt brett:
 

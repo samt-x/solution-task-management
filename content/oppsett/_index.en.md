@@ -29,7 +29,7 @@ This page describes how task management is set up in the GitHub organisation sam
 
 **Note:** Project 3 belongs to Pilot 4, and Project 4 to Pilot 3. The numbers were assigned in the order the boards were created, and cannot be changed.
 
-Project 7 and Project 11 are templates for new boards, see below. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» is the aggregate board, see The aggregate board below. Project 13 is the portfolio board, with one card per pilot, product and work area. Its Status field is the phase.
+Project 7 and Project 11 are templates for new boards, see below. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» is the aggregate board, see The aggregate board below. Project 13 is the portfolio board, with one card per pilot, product and work area. Its Status field is the phase. The field Sub-issues progress shows the progress of the tasks linked to the card as sub-issues. The field Objective has only a test value for now, until the goals are decided. The rule «Auto-add sub-issues to project» is switched off, so that the tasks do not end up on the portfolio board. The overview boards are called «SAMT-BU Overview – …», so that they stand apart from the sub-projects in the list of boards.
 
 The pilot repositories also hold the pilot's pages on docs.samt-bu.no. Tasks and content are therefore in the same repository.
 
@@ -49,6 +49,8 @@ Each board has an automatic rule (Auto-add): all open issues in the linked repos
 | Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done |
 
 Both templates have the fields Responsible, Priority, Effort, Estimate (person-days), Start date and Due date, and five views: Board (kanban by status), By responsible (kanban by responsible person), Open tasks, My tasks and Timeline. What the statuses and fields mean is described under [Conventions](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/konvensjoner/).
+
+The templates are visible to all members of the organisation, but not to others. Members have read access (Base role Read). That is enough to create boards from the templates, but not to change them. The templates must not be closed, because they then disappear from New project.
 
 To create a new board:
 
