@@ -3,7 +3,7 @@ id: e5ac13b4-873a-45e7-9405-f56a42e5731a
 title: "Felles oppsett for prosjektbrettene"
 linkTitle: "Felles oppsett"
 weight: 10
-lastmod: 2026-10-20T22:41:12+02:00
+lastmod: 2026-10-23T00:32:23+02:00
 last_editor: Erik Hagen
 
 ---

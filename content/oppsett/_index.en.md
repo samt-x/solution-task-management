@@ -3,7 +3,7 @@ id: bb682277-9c1d-46fb-8611-aae1f1f8fced
 title: "Repositories and project boards"
 linkTitle: "Setup"
 weight: 20
-lastmod: 2026-10-20T22:52:51+02:00
+lastmod: 2026-10-23T00:32:23+02:00
 last_editor: Erik Hagen
 
 ---
