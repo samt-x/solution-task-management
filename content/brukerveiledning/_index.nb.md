@@ -58,7 +58,9 @@ Project 5 har feltet **Comment**, som viser siste status for hver oppgave. Slik 
 2. Finn linjen for oppgaven din. Kolonnen Responsible viser hvem som eier den.
 3. Dobbeltklikk på cellen i kolonnen Comment, skriv dato og status, for eksempel «23.10: Utkast sendt til Anders», og trykk Enter.
 
-Skriv over den gamle kommentaren. Feltet har bare én linje, og den forrige blir tatt vare på i [statushistorikken](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md), som oppdateres hver natt.
+Skriv over den gamle kommentaren. Feltet har bare én linje, og den forrige blir tatt vare på i [statushistorikken](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md), som oppdateres hver time.
+
+**Lese hele kommentaren:** Lange kommentarer blir kuttet i tabellen. Klikk på tittelen til oppgaven, så åpnes et panel til høyre med hele kommentaren og de andre feltene. Vil du se alle kommentarene samlet, bruk [statustabellen](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md), som også oppdateres hver time.
 
 ## Lukke en oppgave
 

@@ -56,7 +56,7 @@ Workflowen som fyller samlebrettet (Project 12), logger inn som GitHub-appen **S
 
 ## Øyeblikksbilde av status
 
-Workflowen [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) kjører skriptet .github/scripts/snapshot-status.py hver natt og ved manuell kjøring. Skriptet leser brettene i PROJECTS og skriver én Markdown-tabell per brett til status/. Workflowen committer bare når fila er endret, og meldingen har [skip ci], så docs ikke bygges på nytt. Fila har ingen tidsstempel; commit-datoen er tidspunktet.
+Workflowen [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) kjører skriptet .github/scripts/snapshot-status.py hver time og ved manuell kjøring. Skriptet leser brettene i PROJECTS og skriver én Markdown-tabell per brett til status/. Workflowen committer bare når fila er endret, og meldingen har [skip ci], så docs ikke bygges på nytt. Fila har ingen tidsstempel; commit-datoen er tidspunktet.
 
 Skriptet bruker samme app og nøkkel som samlebrettet, men bare til å lese brettene. Commiten gjøres med workflowens egen token (GITHUB_TOKEN), som bare gjelder dette repoet. Skriptet kan også kjøres lokalt med gh auth token.
 

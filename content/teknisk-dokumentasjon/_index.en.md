@@ -56,7 +56,7 @@ The workflow that fills the aggregate board (Project 12) signs in as the GitHub 
 
 ## Status snapshot
 
-The workflow [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) runs the script .github/scripts/snapshot-status.py every night and when run manually. The script reads the boards in PROJECTS and writes one Markdown table per board to status/. The workflow only commits when the file has changed, and the message has [skip ci], so docs is not rebuilt. The file has no timestamp; the commit date is the time.
+The workflow [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) runs the script .github/scripts/snapshot-status.py every hour and when run manually. The script reads the boards in PROJECTS and writes one Markdown table per board to status/. The workflow only commits when the file has changed, and the message has [skip ci], so docs is not rebuilt. The file has no timestamp; the commit date is the time.
 
 The script uses the same app and key as the aggregate board, but only to read the boards. The commit is made with the workflow's own token (GITHUB_TOKEN), which only applies to this repository. The script can also be run locally with gh auth token.
 

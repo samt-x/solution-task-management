@@ -58,7 +58,9 @@ Project 5 has the field **Comment**, which shows the latest status of each task.
 2. Find the row for your task. The Responsible column shows who owns it.
 3. Double-click the cell in the Comment column, write the date and status, for example «23.10: Draft sent to Anders», and press Enter.
 
-Overwrite the old comment. The field holds a single line, and the previous one is kept in the [status history](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md), which is updated every night.
+Overwrite the old comment. The field holds a single line, and the previous one is kept in the [status history](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md), which is updated every hour.
+
+**Reading the whole comment:** Long comments are cut off in the table. Click the title of the task to open a panel on the right with the whole comment and the other fields. To see all the comments together, use the [status table](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md), which is also updated every hour.
 
 ## Closing a task
 

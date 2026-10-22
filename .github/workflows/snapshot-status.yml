@@ -7,7 +7,7 @@ name: Snapshot status
 
 on:
   schedule:
-    - cron: '7 2 * * *'   # hver natt
+    - cron: '47 * * * *'   # hver time
   workflow_dispatch:
 
 permissions:

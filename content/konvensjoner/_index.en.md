@@ -65,7 +65,7 @@ Every board is based on one of two templates, Simple or Standard. The names in G
 | Start date and Due date | The current plan. Changed when the plan changes. | Optional |
 | Comment | The latest status comment, dated first, for example «23.10: Draft sent to Anders». Only the latest comment is kept in the field. Only on Project 5 for now. | Optional |
 
-**Comment has no history in GitHub.** When the field is overwritten, the previous comment is gone from the board. The status of Project 5 is therefore written to a file every night, and the [history of that file](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) shows earlier comments and statuses. See [Setup](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/oppsett/).
+**Comment has no history in GitHub.** When the field is overwritten, the previous comment is gone from the board. The status of Project 5 is therefore written to a file every hour, and the [history of that file](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) shows earlier comments and statuses. See [Setup](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/oppsett/).
 
 **Actual dates** are recorded by GitHub itself: when the task was created, when it was moved to In progress, and when it was closed. This relies on two habits: move the card to In progress when you start, and close the task when it is done.
 
