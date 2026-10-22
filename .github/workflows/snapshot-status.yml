@@ -1,0 +1,54 @@
+name: Snapshot status
+
+# Skriver statusen på prosjektbrettene til status/*.md og committer når noe er endret,
+# slik at git-historikken blir statushistorikken (solution-task-management#15).
+# Token for å lese brettene lages fra appen SAMT-BU Task sync; commit skjer med GITHUB_TOKEN.
+# [skip ci] i meldingen hindrer at commiten utløser bygg av docs.
+
+on:
+  schedule:
+    - cron: '7 2 * * *'   # hver natt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot-status
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Lag token fra appen
+        id: app
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: Iv23li5HEtj5juPOKb0x   # SAMT-BU Task sync (ikke hemmelig)
+          private-key: ${{ secrets.TASK_SYNC_PRIVATE_KEY }}
+          owner: samt-x
+
+      - name: Ta øyeblikksbilde
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+        run: python3 .github/scripts/snapshot-status.py
+
+      - name: Commit hvis endret
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add status/
+          if git diff --staged --quiet; then
+            echo "Ingen endringer i status"
+          else
+            git commit -m "Auto: øyeblikksbilde av status [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Push-forsøk $i feilet, prøver igjen..."
+              sleep 3
+            done
+          fi
