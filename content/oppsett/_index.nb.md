@@ -41,6 +41,8 @@ Alle brett heter «SAMT-BU» etterfulgt av arbeidsområdet, for eksempel «SAMT-
 
 Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues i det tilknyttede repoet legges på brettet. Når et issue lukkes, settes statusen til ferdig.
 
+**Statushistorikk:** Feltene på et brett har ingen historikk. Workflowen [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) skriver derfor statusen på Project 5 til fila [status/project-5.md](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md) i solution-task-management, hver natt og ved manuell kjøring. Fila får en ny commit bare når noe er endret, så [historikken til fila](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) viser hvordan status og kommentarer har endret seg fra dag til dag. Flere brett kan tas med senere ([M4 Comment-feltet i malene](https://github.com/samt-x/solution-task-management/issues/16)).
+
 ## Maler for nye brett
 
 | Mal | Brett | Statuser |
@@ -59,7 +61,7 @@ Slik lages et nytt brett:
 3. Koble brettet til repoet, og sett regelen for automatisk innlegging (se Automatikk).
 4. Legg inn personene som valg i feltet Responsible.
 
-Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6)). Statusene fikk nye navn, og ingen oppgaver mistet statusen sin. Project 5 har i tillegg steget Proposed, feltet Contributors og visningene All tasks og Closed tasks.
+Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6)). Statusene fikk nye navn, og ingen oppgaver mistet statusen sin. Project 5 har i tillegg steget Proposed, feltene Contributors og Comment og visningene All tasks og Closed tasks.
 
 ## Samlebrettet
 

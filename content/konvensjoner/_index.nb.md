@@ -63,6 +63,9 @@ Alle brett bygger på én av to maler, Enkel eller Standard. Navnene i GitHub er
 | Effort | Small (under ett dagsverk), Medium (1–5 dagsverk) eller Large (over 5 dagsverk, vurder å dele opp oppgaven) | Frivillig |
 | Estimate (person-days) | Anslag i dagsverk. Summeres automatisk i grupperte visninger, for eksempel per ansvarlig. | Frivillig |
 | Start date og Due date | Gjeldende plan. Endres når planen endres. | Frivillig |
+| Comment | Siste statuskommentar, med dato først, for eksempel «23.10: Utkast sendt til Anders». Bare siste kommentar står i feltet. Foreløpig bare på Project 5. | Frivillig |
+
+**Comment har ingen historikk i GitHub.** Skrives feltet over, er forrige kommentar borte fra brettet. Statusen på Project 5 skrives derfor hver natt til en fil, og [historikken til fila](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) viser tidligere kommentarer og statuser. Se [Oppsett](../oppsett/).
 
 **Faktiske datoer** registrerer GitHub selv: når oppgaven ble opprettet, når den ble flyttet til In progress, og når den ble lukket. Det forutsetter to vaner: flytt kortet til In progress når du begynner, og lukk oppgaven når den er ferdig.
 

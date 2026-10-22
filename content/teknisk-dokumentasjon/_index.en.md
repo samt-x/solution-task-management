@@ -26,6 +26,7 @@ GitHub Projects can be managed through GitHub's programming interface (GraphQL).
 **Cannot:**
 
 - Set grouping («Column by»), nor sorting
+- Decide the order of columns in a view. Visible fields can be chosen, but a new field always ends up on the right and must be dragged into place in the browser.
 - Change automatic rules (workflows). They can only be read, and the filter in a rule is invisible.
 
 Whatever cannot be done with scripts must be done in the browser.
@@ -52,6 +53,14 @@ The workflow that fills the aggregate board (Project 12) signs in as the GitHub 
 **If a leak is suspected:** Go to the app's page under the organisation's Settings → Developer settings → GitHub Apps → SAMT-BU Task sync → Credentials → Key pairs. Create a new key, put it in the secret and in Bitwarden, and delete the old one.
 
 **The aggregate board must not have automatic rules.** Auto-close and other rules that write are switched off. Changes made by hand on the aggregate board are overwritten on the next run.
+
+## Status snapshot
+
+The workflow [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) runs the script .github/scripts/snapshot-status.py every night and when run manually. The script reads the boards in PROJECTS and writes one Markdown table per board to status/. The workflow only commits when the file has changed, and the message has [skip ci], so docs is not rebuilt. The file has no timestamp; the commit date is the time.
+
+The script uses the same app and key as the aggregate board, but only to read the boards. The commit is made with the workflow's own token (GITHUB_TOKEN), which only applies to this repository. The script can also be run locally with gh auth token.
+
+Background: [solution-task-management#15](https://github.com/samt-x/solution-task-management/issues/15).
 
 ## Moving tasks between repositories
 

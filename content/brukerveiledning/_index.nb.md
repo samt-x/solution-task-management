@@ -50,6 +50,16 @@ Dette søket og flere andre, sammen med lenker til alle brettene, finner du saml
 - Prosjektbrettet for arkitekturgruppa har i tillegg visningen **[My tasks (this project)](https://github.com/orgs/samt-x/projects/5/views/7)**, som viser dine oppgaver på det brettet, med brettets egne felt.
 - **Assigned to me** i GitHub viser det samme som søket, men også fra andre organisasjoner du er med i.
 
+### Statuskommentar i arkitekturmøtet
+
+Project 5 har feltet **Comment**, som viser siste status for hver oppgave. Slik oppdaterer du det:
+
+1. Åpne visningen [All tasks](https://github.com/orgs/samt-x/projects/5/views/1). Hver linje er én oppgave.
+2. Finn linjen for oppgaven din. Kolonnen Responsible viser hvem som eier den.
+3. Dobbeltklikk på cellen i kolonnen Comment, skriv dato og status, for eksempel «23.10: Utkast sendt til Anders», og trykk Enter.
+
+Skriv over den gamle kommentaren. Feltet har bare én linje, og den forrige blir tatt vare på i [statushistorikken](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md), som oppdateres hver natt.
+
 ## Lukke en oppgave
 
 - Skriv alltid en **sluttkommentar** om resultatet, med lenke til siden, dokumentet eller endringen

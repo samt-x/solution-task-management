@@ -41,6 +41,8 @@ All boards are named «SAMT-BU» followed by the work area, for example «SAMT-B
 
 Each board has an automatic rule (Auto-add): all open issues in the linked repository are added to the board. When an issue is closed, its status is set to done.
 
+**Status history:** The fields on a board have no history. The workflow [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) therefore writes the status of Project 5 to the file [status/project-5.md](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md) in solution-task-management, every night and when run manually. The file only gets a new commit when something has changed, so the [history of the file](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) shows how statuses and comments have changed from day to day. More boards can be added later ([M4 Comment field in the templates](https://github.com/samt-x/solution-task-management/issues/16)).
+
 ## Templates for new boards
 
 | Template | Board | Statuses |
@@ -59,7 +61,7 @@ To create a new board:
 3. Link the board to the repository, and set the rule for automatic adding (see Automation).
 4. Add the people as options in the Responsible field.
 
-The boards that existed before the templates were moved over to them in October 2026 ([M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6)). The statuses were renamed, and no task lost its status. Project 5 also has the step Proposed, the field Contributors and the views All tasks and Closed tasks.
+The boards that existed before the templates were moved over to them in October 2026 ([M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6)). The statuses were renamed, and no task lost its status. Project 5 also has the step Proposed, the fields Contributors and Comment and the views All tasks and Closed tasks.
 
 ## The aggregate board
 

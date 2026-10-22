@@ -50,6 +50,16 @@ This search and several others, together with links to all the boards, are colle
 - The architecture group's project board also has the view **[My tasks (this project)](https://github.com/orgs/samt-x/projects/5/views/7)**, which lists your tasks on that board, with the board's own fields.
 - **Assigned to me** in GitHub shows the same as the search, but also from other organisations you belong to.
 
+### Status comment in the architecture meeting
+
+Project 5 has the field **Comment**, which shows the latest status of each task. To update it:
+
+1. Open the view [All tasks](https://github.com/orgs/samt-x/projects/5/views/1). Each row is one task.
+2. Find the row for your task. The Responsible column shows who owns it.
+3. Double-click the cell in the Comment column, write the date and status, for example «23.10: Draft sent to Anders», and press Enter.
+
+Overwrite the old comment. The field holds a single line, and the previous one is kept in the [status history](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md), which is updated every night.
+
 ## Closing a task
 
 - Always write a **closing comment** on the outcome, with a link to the page, document or change

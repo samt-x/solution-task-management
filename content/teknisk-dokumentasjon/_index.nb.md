@@ -26,6 +26,7 @@ GitHub Projects kan styres gjennom GitHubs programmeringsgrensesnitt (GraphQL). 
 **Kan ikke:**
 
 - Sette gruppering («Column by»), og heller ikke sortering
+- Bestemme rekkefølgen på kolonnene i en visning. Synlige felt kan velges, men et nytt felt havner alltid til høyre og må dras på plass i nettleseren.
 - Endre automatiske regler (workflows). De kan bare leses, og filteret i en regel er usynlig.
 
 Det som ikke kan gjøres med skript, må gjøres i nettleseren.
@@ -52,6 +53,14 @@ Workflowen som fyller samlebrettet (Project 12), logger inn som GitHub-appen **S
 **Ved mistanke om lekkasje:** Gå til appens side under organisasjonens Settings → Developer settings → GitHub Apps → SAMT-BU Task sync → Credentials → Key pairs. Lag en ny nøkkel, legg den inn i secreten og i Bitwarden, og slett den gamle.
 
 **Samlebrettet skal ikke ha automatiske regler.** Auto-close og andre regler som skriver, er slått av. Endringer gjort for hånd på samlebrettet overskrives ved neste kjøring.
+
+## Øyeblikksbilde av status
+
+Workflowen [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) kjører skriptet .github/scripts/snapshot-status.py hver natt og ved manuell kjøring. Skriptet leser brettene i PROJECTS og skriver én Markdown-tabell per brett til status/. Workflowen committer bare når fila er endret, og meldingen har [skip ci], så docs ikke bygges på nytt. Fila har ingen tidsstempel; commit-datoen er tidspunktet.
+
+Skriptet bruker samme app og nøkkel som samlebrettet, men bare til å lese brettene. Commiten gjøres med workflowens egen token (GITHUB_TOKEN), som bare gjelder dette repoet. Skriptet kan også kjøres lokalt med gh auth token.
+
+Bakgrunn: [solution-task-management#15](https://github.com/samt-x/solution-task-management/issues/15).
 
 ## Flytte oppgaver mellom repoer
 
