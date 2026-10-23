@@ -5,14 +5,17 @@
 | Oppgave | Status | Responsible | Due date | Comment |
 |---|---|---|---|---|
 | [samt-bu-architecture#33](https://github.com/samt-x/samt-bu-architecture/issues/33) Skills dataspace rulebook | Proposed |  |  |  |
+| [samt-bu-common-tasks#72](https://github.com/samt-x/samt-bu-common-tasks/issues/72) Data.Altinn.no som mulighet til å løse utvalgte case(r). (Arbeidsmøte) | Proposed |  |  |  |
+| [samt-bu-common-tasks#73](https://github.com/samt-x/samt-bu-common-tasks/issues/73) Oppfølging av Asker Kommune (Ragnar Husum) | Proposed |  |  |  |
+| [samt-bu-common-tasks#74](https://github.com/samt-x/samt-bu-common-tasks/issues/74) Sandkasse utforsking | Proposed |  |  |  |
 | [solution-task-management#1](https://github.com/samt-x/solution-task-management/issues/1) Spørsmål: hvem følger med på oppgaver som krysser arkitektur og piloter? | Proposed | erikhag1git |  |  |
 | [samt-bu-architecture#22](https://github.com/samt-x/samt-bu-architecture/issues/22) Case 11 | To do | ChristianeFrhlich |  | 09.10: ??? |
-| [samt-bu-architecture#16](https://github.com/samt-x/samt-bu-architecture/issues/16) Kjernemodell – mål og organisering | Ready | KjerstiSteien |  |  |
 | [samt-bu-architecture#21](https://github.com/samt-x/samt-bu-architecture/issues/21) Case 3 | Ready | CatHolt1 |  | 09.10: Utredning og forvaltningskompetanse. Ikke påbegynt, Cat løfter |
 | [samt-bu-architecture#25](https://github.com/samt-x/samt-bu-architecture/issues/25) Skjelett til målbilde | Ready | erikhag1git |  | 09.10: Inkl. forslag til definisjon |
 | [samt-bu-architecture#26](https://github.com/samt-x/samt-bu-architecture/issues/26) Kommunikasjon om arkitektur | Ready | hhimn | 2026-11-10 | 09.10: Fram til 10. nov. (IT-direktører i fylkeskommunene). Hva slags budskap trenger vi? |
 | [samt-bu-architecture#27](https://github.com/samt-x/samt-bu-architecture/issues/27) Spørsmål fra samlingen | Ready | erikhag1git |  | 09.10: Samle «spørsmålene» vi ville jobbe videre med |
 | [samt-bu-architecture#15](https://github.com/samt-x/samt-bu-architecture/issues/15) Utforsking av samtykke/fullmakt | In progress | CatHolt1 |  | 09.10: Så vidt startet |
+| [samt-bu-architecture#16](https://github.com/samt-x/samt-bu-architecture/issues/16) Kjernemodell – mål og organisering | In progress | KjerstiSteien |  |  |
 | [samt-bu-architecture#18](https://github.com/samt-x/samt-bu-architecture/issues/18) Sjekk mot relevante dataspaces | In progress | erikhag1git | 2026-10-31 | 09.10: I gang, Anders og Morten bidrar. Første versjon i løpet av oktober |
 | [samt-bu-architecture#19](https://github.com/samt-x/samt-bu-architecture/issues/19) Case 6 | In progress | erikhag1git |  | 09.10: Starter sammen med Anders |
 | [samt-bu-architecture#20](https://github.com/samt-x/samt-bu-architecture/issues/20) Case 2(1) | In progress | alstad |  | 09.10: I gang, fortsetter (i rulebook-kontekst). Kjernemodell? |
