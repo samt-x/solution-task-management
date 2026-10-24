@@ -5,6 +5,7 @@
 | Oppgave | Status | Responsible | Due date | Comment |
 |---|---|---|---|---|
 | [samt-bu-architecture#33](https://github.com/samt-x/samt-bu-architecture/issues/33) Skills dataspace rulebook | Proposed |  |  |  |
+| [samt-bu-architecture#34](https://github.com/samt-x/samt-bu-architecture/issues/34) Roller og tjenester for styring og administrasjon av et økosystem | Proposed |  |  |  |
 | [samt-bu-common-tasks#72](https://github.com/samt-x/samt-bu-common-tasks/issues/72) Data.Altinn.no som mulighet til å løse utvalgte case(r). (Arbeidsmøte) | Proposed |  |  |  |
 | [samt-bu-common-tasks#73](https://github.com/samt-x/samt-bu-common-tasks/issues/73) Oppfølging av Asker Kommune (Ragnar Husum) | Proposed |  |  |  |
 | [samt-bu-common-tasks#74](https://github.com/samt-x/samt-bu-common-tasks/issues/74) Sandkasse utforsking | Proposed |  |  |  |
