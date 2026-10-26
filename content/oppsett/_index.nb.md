@@ -52,6 +52,8 @@ Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues
 
 Begge malene har feltene Responsible, Priority, Effort, Estimate (person-days), Start date og Due date, og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
 
+**Issue types** er definert for hele organisasjonen (Settings → Planning → Issue types, krever eierrettighet): Task, Solution proposal, Question, Decision, Risk og Bug. Feltet Type er slått på i alle visningene i begge malene og i Project 5, unntatt Timeline. Brett som ble laget fra malene før oktober 2026, må få feltet slått på for hånd: View → Fields → Type → Save view, og bekreft i dialogen.
+
 Malene er synlige for alle medlemmer av organisasjonen, men ikke for andre. Medlemmene har lesetilgang (Base role Read). Det er nok til å lage brett fra malene, men ikke til å endre dem. Malene må ikke lukkes, for da forsvinner de fra New project.
 
 Slik lages et nytt brett:

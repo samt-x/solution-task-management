@@ -31,8 +31,9 @@ Er du i tvil, legg den der du tror den passer best. Oppgaver kan flyttes mellom 
 1. Gå til repoet, velg **Issues** og **New issue**
 2. Skriv en kort tittel som sier hva som skal gjøres
 3. Beskriv bakgrunnen, hva som skal gjøres, og når oppgaven er ferdig
-4. Tildel oppgaven til den eller de som skal jobbe med den (**Assignees**), hvis de har GitHub-bruker
-5. Lagre
+4. Velg **Type**: Task, Solution proposal, Question, Decision, Risk eller Bug. Se [Konvensjoner](../konvensjoner/) for hva de betyr.
+5. Tildel oppgaven til den eller de som skal jobbe med den (**Assignees**), hvis de har GitHub-bruker. **Unntak:** er saken et innspill som ennå ikke er behandlet, skal den ikke tildeles. Nevn heller med @-omtale hvem som bør se på den.
+6. Lagre
 
 I pilotrepoene, samt-bu-architecture og information-models havner oppgaven automatisk på repoets prosjektbrett. De øvrige repoene har ikke eget brett.
 
@@ -65,5 +66,5 @@ Skriv over den gamle kommentaren. Feltet har bare én linje, og den forrige blir
 ## Lukke en oppgave
 
 - Skriv alltid en **sluttkommentar** om resultatet, med lenke til siden, dokumentet eller endringen
-- Lukk som **completed** når oppgaven er gjort, og som **not planned** når den er droppet – og si hvorfor
+- Lukk som **completed** når oppgaven er gjort, som **not planned** når den er avvist, avbrutt eller kansellert, og som **duplicate** når den finnes fra før – og si hvorfor
 - Statusen på brettet settes til ferdig automatisk når oppgaven lukkes

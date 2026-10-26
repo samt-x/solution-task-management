@@ -18,18 +18,46 @@ last_editor: Erik Hagen
 
 Grunnen er at status og andre felt lagres per brett. Ligger samme oppgave på to brett, får den to statuser som fort blir ulike.
 
-## Type angis med merkelapp
+## Type og merkelapper
+
+**Typen sier hva saken er. Statusen sier hvor den er i løpet.** Hver sak har én type (issue type), og typene gjelder alle repoene i organisasjonen. Typen skal fortsatt være riktig når saken er ferdig. Derfor finnes det ingen type for «forslag» eller «innspill». At noe er foreslått og ikke behandlet, viser statusen Proposed.
+
+| Type | Brukes til |
+|---|---|
+| Task | Noe som skal gjøres – det meste, også oppfølging, utforsking og utredning |
+| Solution proposal | Et løsningsforslag som skal vurderes, som regel sammen med andre forslag i en større oppgave |
+| Question | Noe som trenger et svar |
+| Decision | Noe som krever en beslutning. Si hva og av hvem. |
+| Risk | En risiko eller bekymring som bør vurderes |
+| Bug | Noe som ikke virker som det skal, i plattformer og verktøy |
+
+Merkelapper kommer i tillegg til typen, og en sak kan ha flere:
 
 | Merkelapp | Brukes til |
 |---|---|
-| task | Arbeidsoppgave – det meste |
-| decision | Krever en beslutning |
-| problem | Noe er feil, uklart eller i konflikt |
+| blocked | Venter på noe utenfor saken |
 | chore | Styring og vedlikehold av repo, brett og rutiner |
 | future | Ikke nå, men kandidat senere |
-| blocked | Venter på noe utenfor oppgaven |
 
-Hver oppgave har én typemerkelapp. future og blocked kommer i tillegg ved behov.
+Merkelappene task, decision og question ble brukt som type før typene kom (oktober 2026), og er erstattet av typene. Merkelapper for tema er under arbeid i [solution-task-management#17](https://github.com/samt-x/solution-task-management/issues/17).
+
+## Innspill og løsningsforslag
+
+1. **Et innspill er en sak i Proposed**, av hvilken som helst type. Den som behandler innspillet, flytter det til To do, eller lukker det.
+2. **Ingen tildeling i Proposed.** Assignees settes først når saken er behandlet. Den som sender inn, kan foreslå hvem som bør se på saken med @-omtale i teksten, for eksempel «Forslag: @navn ser på dette». Da får de ett varsel og kan følge tråden, uten at saken havner i oppgavelistene deres som om de hadde sagt ja.
+3. **Løsningsforslag kobles til vurderingen.** Når et løsningsforslag tas inn i arbeidet med å vurdere løsninger, legges det inn som underoppgave (sub-issue) under den større oppgaven. Da ser man i begge retninger hvor forslaget hører hjemme, og den større oppgaven viser hvor mange forslag som er vurdert.
+
+## Lukking
+
+En sak kan lukkes fra hvilken som helst status, også rett fra Proposed. Velg alltid riktig grunn når du lukker, og skriv en kort kommentar om hvorfor.
+
+| Grunn i GitHub | Brukes når | Ikon |
+|---|---|---|
+| Completed | Saken er gjort. For et løsningsforslag: vurdert og tatt med videre. | Lilla hake |
+| Not planned | Saken er avvist, avbrutt eller kansellert. Kommentaren sier hvilket og hvorfor. | Grå sirkel med strek |
+| Duplicate | Saken finnes allerede. Lenk til den andre. | Grå |
+
+Alle lukkede saker havner i Done på brettet. Grunnen ser du på ikonet på kortet, og du kan søke på den med «reason:completed» eller «reason:"not planned"».
 
 ## Faste overskrifter i beskrivelsen
 
@@ -75,6 +103,7 @@ Alle brett bygger på én av to maler, Enkel eller Standard. Navnene i GitHub er
 
 - **Responsible**: én person som eier oppgaven, angitt med GitHub-brukernavn, ellers fullt navn
 - **Assignees**: alle som jobber med oppgaven, både den ansvarlige og bidragsyterne. Da får de varsler ved endringer, og oppgaven vises under «Assigned to me». Eierskapet står i Responsible, ikke i Assignees.
+- Saker i Proposed tildeles ikke, se [Innspill og løsningsforslag](#innspill-og-løsningsforslag).
 
 ## Spor for administrative endringer
 

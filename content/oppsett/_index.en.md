@@ -52,6 +52,8 @@ Each board has an automatic rule (Auto-add): all open issues in the linked repos
 
 Both templates have the fields Responsible, Priority, Effort, Estimate (person-days), Start date and Due date, and five views: Board (kanban by status), By responsible (kanban by responsible person), Open tasks, My tasks and Timeline. What the statuses and fields mean is described under [Conventions](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/konvensjoner/).
 
+**Issue types** are defined for the whole organisation (Settings → Planning → Issue types, requires owner rights): Task, Solution proposal, Question, Decision, Risk and Bug. The Type field is switched on in all views of both templates and in Project 5, except Timeline. Boards created from the templates before October 2026 must have the field switched on by hand: View → Fields → Type → Save view, and confirm in the dialog.
+
 The templates are visible to all members of the organisation, but not to others. Members have read access (Base role Read). That is enough to create boards from the templates, but not to change them. The templates must not be closed, because they then disappear from New project.
 
 To create a new board:

@@ -18,18 +18,46 @@ last_editor: Erik Hagen
 
 The reason is that status and other fields are stored per board. If the same task is on two boards, it gets two statuses that soon diverge.
 
-## Type is given by label
+## Type and labels
+
+**The type says what the issue is. The status says where it is in the flow.** Each issue has one type (issue type), and the types apply to all repositories in the organisation. The type should still be correct when the issue is done. That is why there is no type for «suggestion» or «input». That something is proposed and not yet considered is shown by the status Proposed.
+
+| Type | Used for |
+|---|---|
+| Task | Something to be done – most things, including follow-up, exploration and investigation |
+| Solution proposal | A proposed solution to be assessed, usually together with other proposals in a larger task |
+| Question | Something that needs an answer |
+| Decision | Something that requires a decision. Say what and by whom. |
+| Risk | A risk or concern that should be assessed |
+| Bug | Something that does not work as intended, in platforms and tools |
+
+Labels come in addition to the type, and an issue can have several:
 
 | Label | Used for |
 |---|---|
-| task | A work task – most things |
-| decision | Requires a decision |
-| problem | Something is wrong, unclear or in conflict |
+| blocked | Waiting for something outside the issue |
 | chore | Management and maintenance of repositories, boards and routines |
 | future | Not now, but a candidate later |
-| blocked | Waiting for something outside the task |
 
-Each task has one type label. future and blocked are added when needed.
+The labels task, decision and question were used as types before the types arrived (October 2026), and have been replaced by the types. Labels for topics are being worked on in [solution-task-management#17](https://github.com/samt-x/solution-task-management/issues/17).
+
+## Input and solution proposals
+
+1. **Input is an issue in Proposed**, of any type. Whoever handles the input moves it to To do, or closes it.
+2. **No assignment in Proposed.** Assignees are set only when the issue has been considered. The submitter can suggest who should look at it with an @-mention in the text, for example «Suggestion: @name looks at this». They then get one notification and can follow the thread, without the issue appearing in their task lists as if they had agreed to it.
+3. **Solution proposals are linked to the assessment.** When a solution proposal is taken into the work of assessing solutions, it is added as a sub-issue under the larger task. This shows in both directions where the proposal belongs, and the larger task shows how many proposals have been assessed.
+
+## Closing
+
+An issue can be closed from any status, also directly from Proposed. Always choose the right reason when closing, and write a short comment on why.
+
+| Reason in GitHub | Used when | Icon |
+|---|---|---|
+| Completed | The issue is done. For a solution proposal: assessed and taken forward. | Purple check mark |
+| Not planned | The issue is rejected, aborted or cancelled. The comment says which and why. | Grey circle with a slash |
+| Duplicate | The issue already exists. Link to the other one. | Grey |
+
+All closed issues end up in Done on the board. The reason is shown by the icon on the card, and you can search for it with «reason:completed» or «reason:"not planned"».
 
 ## Fixed headings in the description
 
@@ -75,6 +103,7 @@ Every board is based on one of two templates, Simple or Standard. The names in G
 
 - **Responsible**: one person who owns the task, given as GitHub username, otherwise full name
 - **Assignees**: everyone working on the task, both the owner and contributors. They then get notifications of changes, and the task appears under «Assigned to me». Ownership is in Responsible, not in Assignees.
+- Issues in Proposed are not assigned, see [Input and solution proposals](#input-and-solution-proposals).
 
 ## Trace for administrative changes
 

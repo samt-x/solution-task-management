@@ -31,8 +31,9 @@ If in doubt, put it where you think it fits best. Tasks can be moved between rep
 1. Go to the repository, choose **Issues** and **New issue**
 2. Write a short title saying what is to be done
 3. Describe the background, what is to be done, and when the task is finished
-4. Assign the task to whoever will work on it (**Assignees**), if they have a GitHub user
-5. Save
+4. Choose a **Type**: Task, Solution proposal, Question, Decision, Risk or Bug. See [Conventions](../konvensjoner/) for what they mean.
+5. Assign the task to whoever will work on it (**Assignees**), if they have a GitHub user. **Exception:** if the issue is input that has not yet been considered, do not assign it. Mention who should look at it with an @-mention instead.
+6. Save
 
 In the pilot repositories, samt-bu-architecture and information-models, the task is added automatically to the repository's project board. The other repositories have no board of their own.
 
@@ -65,5 +66,5 @@ Overwrite the old comment. The field holds a single line, and the previous one i
 ## Closing a task
 
 - Always write a **closing comment** on the outcome, with a link to the page, document or change
-- Close as **completed** when the task is done, and as **not planned** when it is dropped – and say why
+- Close as **completed** when the task is done, as **not planned** when it is rejected, aborted or cancelled, and as **duplicate** when it already exists – and say why
 - The status on the board is set to done automatically when the task is closed
