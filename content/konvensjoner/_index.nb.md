@@ -39,7 +39,7 @@ Merkelapper kommer i tillegg til typen, og en sak kan ha flere:
 | chore | Styring og vedlikehold av repo, brett og rutiner |
 | future | Ikke nå, men kandidat senere |
 
-Merkelappene task, decision og question ble brukt som type før typene kom (oktober 2026), og er erstattet av typene. Merkelapper for tema står på vent. I stedet kan en sak lenke til det den gjelder (en side, et case, et element i modellen) i feltet «Gjelder» i skjemaene, se [samt-bu-architecture#35](https://github.com/samt-x/samt-bu-architecture/issues/35).
+Merkelappene task, decision og question ble brukt som type før typene kom (oktober 2026). De er erstattet av typene og finnes ikke lenger. Merkelapper for tema står på vent. I stedet kan en sak lenke til det den gjelder (en side, et case, et element i modellen) i feltet «Gjelder» i skjemaene, se [samt-bu-architecture#35](https://github.com/samt-x/samt-bu-architecture/issues/35).
 
 ## Innspill og løsningsforslag
 

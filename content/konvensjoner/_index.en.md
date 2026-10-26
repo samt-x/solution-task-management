@@ -39,7 +39,7 @@ Labels come in addition to the type, and an issue can have several:
 | chore | Management and maintenance of repositories, boards and routines |
 | future | Not now, but a candidate later |
 
-The labels task, decision and question were used as types before the types arrived (October 2026), and have been replaced by the types. Labels for topics are on hold. Instead, an issue can link to what it concerns (a page, a case, an element in the model) in the field «Gjelder» in the forms, see [samt-bu-architecture#35](https://github.com/samt-x/samt-bu-architecture/issues/35).
+The labels task, decision and question were used as types before the types arrived (October 2026). They have been replaced by the types and no longer exist. Labels for topics are on hold. Instead, an issue can link to what it concerns (a page, a case, an element in the model) in the field «Gjelder» in the forms, see [samt-bu-architecture#35](https://github.com/samt-x/samt-bu-architecture/issues/35).
 
 ## Input and solution proposals
 
