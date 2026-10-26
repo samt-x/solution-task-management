@@ -29,7 +29,7 @@ The reason is that status and other fields are stored per board. If the same tas
 | Question | Something that needs an answer |
 | Decision | Something that requires a decision. Say what and by whom. |
 | Risk | A risk or concern that should be assessed |
-| Bug | Something that does not work as intended, in platforms and tools |
+| Problem | Something that is wrong now: a tool that does not work, an error in content or a model, reasoning that does not hold, a contradiction between sources, or something in the way we work. What may go wrong is a Risk. The type was called Bug until October 2026. |
 
 Labels come in addition to the type, and an issue can have several:
 

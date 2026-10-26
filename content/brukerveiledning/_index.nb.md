@@ -29,7 +29,7 @@ Er du i tvil, legg den der du tror den passer best. Oppgaver kan flyttes mellom 
 ## Opprette en oppgave
 
 1. Gå til repoet, velg **Issues** og **New issue**
-2. Velg skjemaet for typen saken har: Task, Solution proposal, Question, Decision, Risk eller Bug. Se [Konvensjoner](../konvensjoner/) for hva de betyr. Skjemaet setter typen for deg.
+2. Velg skjemaet for typen saken har: Task, Solution proposal, Question, Decision, Risk eller Problem. Se [Konvensjoner](../konvensjoner/) for hva de betyr. Skjemaet setter typen for deg. I Problem-skjemaet velger du også hva slags problem det er, eller foreslår et nytt valg.
 3. Skriv en kort tittel som sier hva saken gjelder, og fyll ut feltene. Bare de første feltene er påkrevd.
 4. I feltet **Gjelder** kan du lime inn en lenke til det saken handler om: en side på docs, et case, en annen oppgave eller et element i Archi-modellen.
 5. Tildel saken til den eller de som skal jobbe med den (**Assignees**), hvis de har GitHub-bruker. **Unntak:** er saken et innspill som ennå ikke er behandlet, skal den ikke tildeles. Skriv heller @brukernavn i feltet **Forslag til hvem som bør se på dette**. Da får de et varsel og kan følge saken.

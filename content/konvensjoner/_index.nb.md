@@ -29,7 +29,7 @@ Grunnen er at status og andre felt lagres per brett. Ligger samme oppgave på to
 | Question | Noe som trenger et svar |
 | Decision | Noe som krever en beslutning. Si hva og av hvem. |
 | Risk | En risiko eller bekymring som bør vurderes |
-| Bug | Noe som ikke virker som det skal, i plattformer og verktøy |
+| Problem | Noe som er galt nå: et verktøy som ikke virker, en feil i innhold eller en modell, et resonnement som ikke holder, en motsetning mellom kilder, eller noe i måten vi jobber på. Det som kan gå galt, er Risk. Typen het Bug til oktober 2026. |
 
 Merkelapper kommer i tillegg til typen, og en sak kan ha flere:
 
