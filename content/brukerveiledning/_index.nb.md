@@ -29,11 +29,13 @@ Er du i tvil, legg den der du tror den passer best. Oppgaver kan flyttes mellom 
 ## Opprette en oppgave
 
 1. Gå til repoet, velg **Issues** og **New issue**
-2. Skriv en kort tittel som sier hva som skal gjøres
-3. Beskriv bakgrunnen, hva som skal gjøres, og når oppgaven er ferdig
-4. Velg **Type**: Task, Solution proposal, Question, Decision, Risk eller Bug. Se [Konvensjoner](../konvensjoner/) for hva de betyr.
-5. Tildel oppgaven til den eller de som skal jobbe med den (**Assignees**), hvis de har GitHub-bruker. **Unntak:** er saken et innspill som ennå ikke er behandlet, skal den ikke tildeles. Nevn heller med @-omtale hvem som bør se på den.
-6. Lagre
+2. Velg skjemaet for typen saken har: Task, Solution proposal, Question, Decision, Risk eller Bug. Se [Konvensjoner](../konvensjoner/) for hva de betyr. Skjemaet setter typen for deg.
+3. Skriv en kort tittel som sier hva saken gjelder, og fyll ut feltene. Bare de første feltene er påkrevd.
+4. I feltet **Gjelder** kan du lime inn en lenke til det saken handler om: en side på docs, et case, en annen oppgave eller et element i Archi-modellen.
+5. Tildel saken til den eller de som skal jobbe med den (**Assignees**), hvis de har GitHub-bruker. **Unntak:** er saken et innspill som ennå ikke er behandlet, skal den ikke tildeles. Skriv heller @brukernavn i feltet **Forslag til hvem som bør se på dette**. Da får de et varsel og kan følge saken.
+6. Lagre med **Create**
+
+Skjemaene gjelder alle repoene i samt-x. Vil du skrive helt fritt, velg **Blank issue** nederst i lista, og velg typen selv i feltet **Type** til høyre.
 
 I pilotrepoene, samt-bu-architecture og information-models havner oppgaven automatisk på repoets prosjektbrett. De øvrige repoene har ikke eget brett.
 

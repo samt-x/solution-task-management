@@ -39,12 +39,12 @@ Merkelapper kommer i tillegg til typen, og en sak kan ha flere:
 | chore | Styring og vedlikehold av repo, brett og rutiner |
 | future | Ikke nå, men kandidat senere |
 
-Merkelappene task, decision og question ble brukt som type før typene kom (oktober 2026), og er erstattet av typene. Merkelapper for tema er under arbeid i [solution-task-management#17](https://github.com/samt-x/solution-task-management/issues/17).
+Merkelappene task, decision og question ble brukt som type før typene kom (oktober 2026), og er erstattet av typene. Merkelapper for tema står på vent. I stedet kan en sak lenke til det den gjelder (en side, et case, et element i modellen) i feltet «Gjelder» i skjemaene, se [samt-bu-architecture#35](https://github.com/samt-x/samt-bu-architecture/issues/35).
 
 ## Innspill og løsningsforslag
 
 1. **Et innspill er en sak i Proposed**, av hvilken som helst type. Den som behandler innspillet, flytter det til To do, eller lukker det.
-2. **Ingen tildeling i Proposed.** Assignees settes først når saken er behandlet. Den som sender inn, kan foreslå hvem som bør se på saken med @-omtale i teksten, for eksempel «Forslag: @navn ser på dette». Da får de ett varsel og kan følge tråden, uten at saken havner i oppgavelistene deres som om de hadde sagt ja.
+2. **Ingen tildeling i Proposed.** Assignees settes først når saken er behandlet. Den som sender inn, kan foreslå hvem som bør se på saken med @-omtale, i skjemaenes felt «Forslag til hvem som bør se på dette» eller i teksten, for eksempel «Forslag: @navn ser på dette». Da får de ett varsel og kan følge tråden, uten at saken havner i oppgavelistene deres som om de hadde sagt ja.
 3. **Løsningsforslag kobles til vurderingen.** Når et løsningsforslag tas inn i arbeidet med å vurdere løsninger, legges det inn som underoppgave (sub-issue) under den større oppgaven. Da ser man i begge retninger hvor forslaget hører hjemme, og den større oppgaven viser hvor mange forslag som er vurdert.
 
 ## Lukking

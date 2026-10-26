@@ -39,12 +39,12 @@ Labels come in addition to the type, and an issue can have several:
 | chore | Management and maintenance of repositories, boards and routines |
 | future | Not now, but a candidate later |
 
-The labels task, decision and question were used as types before the types arrived (October 2026), and have been replaced by the types. Labels for topics are being worked on in [solution-task-management#17](https://github.com/samt-x/solution-task-management/issues/17).
+The labels task, decision and question were used as types before the types arrived (October 2026), and have been replaced by the types. Labels for topics are on hold. Instead, an issue can link to what it concerns (a page, a case, an element in the model) in the field «Gjelder» in the forms, see [samt-bu-architecture#35](https://github.com/samt-x/samt-bu-architecture/issues/35).
 
 ## Input and solution proposals
 
 1. **Input is an issue in Proposed**, of any type. Whoever handles the input moves it to To do, or closes it.
-2. **No assignment in Proposed.** Assignees are set only when the issue has been considered. The submitter can suggest who should look at it with an @-mention in the text, for example «Suggestion: @name looks at this». They then get one notification and can follow the thread, without the issue appearing in their task lists as if they had agreed to it.
+2. **No assignment in Proposed.** Assignees are set only when the issue has been considered. The submitter can suggest who should look at it with an @-mention, in the forms' field «Forslag til hvem som bør se på dette» or in the text, for example «Suggestion: @name looks at this». They then get one notification and can follow the thread, without the issue appearing in their task lists as if they had agreed to it.
 3. **Solution proposals are linked to the assessment.** When a solution proposal is taken into the work of assessing solutions, it is added as a sub-issue under the larger task. This shows in both directions where the proposal belongs, and the larger task shows how many proposals have been assessed.
 
 ## Closing

@@ -54,6 +54,8 @@ Begge malene har feltene Responsible, Priority, Effort, Estimate (person-days), 
 
 **Issue types** er definert for hele organisasjonen (Settings → Planning → Issue types, krever eierrettighet): Task, Solution proposal, Question, Decision, Risk og Bug. Feltet Type er slått på i alle visningene i begge malene og i Project 5, unntatt Timeline. Brett som ble laget fra malene før oktober 2026, må få feltet slått på for hånd: View → Fields → Type → Save view, og bekreft i dialogen.
 
+**Issue-skjemaer** ligger i repoet [samt-x/.github](https://github.com/samt-x/.github), under `.github/ISSUE_TEMPLATE/`: ett skjema per type, med engelsk typenavn og norsk tekst. Hvert skjema setter typen med `type:`, og alle har feltene «Gjelder» og «Forslag til hvem som bør se på dette». Skjemaene gjelder alle repoer i organisasjonen som ikke har egne skjemaer. Et repo med egen `.github/ISSUE_TEMPLATE/` bruker bare sine egne, så legg ikke inn skjemaer i enkeltrepoer uten å kopiere de felles. Blank issue er fortsatt på (`config.yml`), og lista har en lenke til Konvensjoner. Skjemaene setter ikke brett (`projects:`). Et felles skjema kan ikke peke på riktig brett for hvert repo, og repoene som har brett, legger nye saker inn automatisk. Repoet må være offentlig for at skjemaene skal virke i de offentlige repoene. Lokalt er det klonet til `samt-x-dotgithub/` i workspace, fordi skriptene for alle repoene hopper over mapper som begynner med punktum.
+
 Malene er synlige for alle medlemmer av organisasjonen, men ikke for andre. Medlemmene har lesetilgang (Base role Read). Det er nok til å lage brett fra malene, men ikke til å endre dem. Malene må ikke lukkes, for da forsvinner de fra New project.
 
 Slik lages et nytt brett:
