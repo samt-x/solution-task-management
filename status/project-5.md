@@ -9,7 +9,6 @@
 | [samt-bu-common-tasks#72](https://github.com/samt-x/samt-bu-common-tasks/issues/72) Data.Altinn.no som mulighet til å løse utvalgte case(r). (Arbeidsmøte) | Proposed |  |  |  |
 | [samt-bu-common-tasks#73](https://github.com/samt-x/samt-bu-common-tasks/issues/73) Oppfølging av Asker Kommune (Ragnar Husum) | Proposed |  |  |  |
 | [samt-bu-common-tasks#74](https://github.com/samt-x/samt-bu-common-tasks/issues/74) Sandkasse utforsking | Proposed |  |  |  |
-| [solution-task-management#1](https://github.com/samt-x/solution-task-management/issues/1) Spørsmål: hvem følger med på oppgaver som krysser arkitektur og piloter? | Proposed | erikhag1git |  |  |
 | [samt-bu-architecture#22](https://github.com/samt-x/samt-bu-architecture/issues/22) Case 11 | To do | ChristianeFrhlich |  | 09.10: ??? |
 | [samt-bu-architecture#33](https://github.com/samt-x/samt-bu-architecture/issues/33) Skills dataspace rulebook | To do | erikhag1git |  |  |
 | [samt-bu-architecture#21](https://github.com/samt-x/samt-bu-architecture/issues/21) Case 3 | Ready | CatHolt1 |  | 09.10: Utredning og forvaltningskompetanse. Ikke påbegynt, Cat løfter |
@@ -27,4 +26,3 @@
 | [samt-bu-architecture#14](https://github.com/samt-x/samt-bu-architecture/issues/14) Arkitekturvurderingen – neste versjon | Done | Mette Kvarme |  | 09.10: Er gjort |
 | [samt-bu-architecture#24](https://github.com/samt-x/samt-bu-architecture/issues/24) Møteserie og standup | Done | CatHolt1 |  | 09.10: OK |
 | [samt-bu-architecture#31](https://github.com/samt-x/samt-bu-architecture/issues/31) Opprydding: fjerne første oppsett for arkitekturgruppa | Done | erikhag1git |  |  |
-| [solution-task-management#2](https://github.com/samt-x/solution-task-management/issues/2) Spørsmål: innvendinger mot bruken av Responsible og Assignees i Project 5? | Done | erikhag1git |  |  |
