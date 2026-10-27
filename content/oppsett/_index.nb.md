@@ -16,7 +16,7 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 |---|---|---|---|
 | Pilot 1 – Overgang ungdomsskole–videregående | samt-bu-pilot-1 | Project 1 | Standard |
 | Pilot 2 – Valg av utdanningsløp | samt-bu-pilot-2 | Project 2 | Standard |
-| Pilot 3 – Flytting av barn og unge i skoleåret | samt-bu-pilot-3 | **Project 4** | Enkel |
+| Pilot 3 – Flytting av barn og unge i skoleåret | samt-bu-pilot-3 | **Project 4** | Standard |
 | Pilot 4 – Vitnemål | samt-bu-pilot-4 | **Project 3** | Standard |
 | Pilot 5 – Id-er i utdanning | samt-bu-pilot-5 | Project 9 | Standard |
 | Pilot 6 – Foreldres tilgang til data | samt-bu-pilot-6 | Project 10 | Standard |

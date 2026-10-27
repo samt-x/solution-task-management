@@ -16,7 +16,7 @@ This page describes how task management is set up in the GitHub organisation sam
 |---|---|---|---|
 | Pilot 1 – Seamless transition between lower and upper secondary school | samt-bu-pilot-1 | Project 1 | Standard |
 | Pilot 2 – Choice of educational pathway | samt-bu-pilot-2 | Project 2 | Standard |
-| Pilot 3 – Moving between municipalities | samt-bu-pilot-3 | **Project 4** | Simple |
+| Pilot 3 – Moving between municipalities | samt-bu-pilot-3 | **Project 4** | Standard |
 | Pilot 4 – Diplomas | samt-bu-pilot-4 | **Project 3** | Standard |
 | Pilot 5 – Identifiers in education | samt-bu-pilot-5 | Project 9 | Standard |
 | Pilot 6 – Parents' access to data | samt-bu-pilot-6 | Project 10 | Standard |
