@@ -29,7 +29,7 @@ This page describes how task management is set up in the GitHub organisation sam
 
 **Note:** Project 3 belongs to Pilot 4, and Project 4 to Pilot 3. The numbers were assigned in the order the boards were created, and cannot be changed.
 
-Project 7 and Project 11 are templates for new boards, see below. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» is the aggregate board, see The aggregate board below. Project 13 is the portfolio board, with one card per pilot, product and work area. Its Status field is the phase. The field Sub-issues progress shows the progress of the tasks linked to the card as sub-issues. The field Objective has only a test value for now, until the goals are decided. The rule «Auto-add sub-issues to project» is switched off, so that the tasks do not end up on the portfolio board. The overview boards are called «SAMT-BU Overview – …», so that they stand apart from the sub-projects in the list of boards.
+Project 7 is the template for new boards, see below. Project 11 is a former template kept for reference. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» is the aggregate board, see The aggregate board below. Project 13 is the portfolio board, with one card per pilot, product and work area. Its Status field is the phase. The field Sub-issues progress shows the progress of the tasks linked to the card as sub-issues. The field Objective has only a test value for now, until the goals are decided. The rule «Auto-add sub-issues to project» is switched off, so that the tasks do not end up on the portfolio board. The overview boards are called «SAMT-BU Overview – …», so that they stand apart from the sub-projects in the list of boards.
 
 The pilot repositories also hold the pilot's pages on docs.samt-bu.no. Tasks and content are therefore in the same repository.
 
@@ -43,16 +43,17 @@ Each board has an automatic rule (Auto-add): all open issues in the linked repos
 
 **Status history:** The fields on a board have no history. The workflow [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) therefore writes the status of Project 5 to the file [status/project-5.md](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md) in solution-task-management, every hour and when run manually. The file only gets a new commit when something has changed, so the [history of the file](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) shows how statuses and comments have changed over time. More boards can be added later ([M4 Comment field in the templates](https://github.com/samt-x/solution-task-management/issues/16)).
 
-## Templates for new boards
+## The template for new boards
 
 | Template | Board | Statuses |
 |---|---|---|
-| Simple | Project 11 «[TEMPLATE] Simple board» | Proposed, To do, In progress, Done |
 | Standard | Project 7 «[TEMPLATE] Standard board» | Proposed, To do, Ready, In progress, In review, Done |
 
-Both templates have the fields Responsible, Priority, Effort, Estimate (person-days), Start date and Due date, and five views: Board (kanban by status), By responsible (kanban by responsible person), Open tasks, My tasks and Timeline. What the statuses and fields mean is described under [Conventions](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/konvensjoner/).
+The Simple template (Project 11) was retired in October 2026, and Pilot 3 (Project 4), the only board that used it, got the statuses Ready and In review without any task losing its status. Project 11 is now called «[REFERENCE] Simple board», is no longer marked as a template and therefore does not show in New project. It is kept to be able to test the shared level across boards with different steps ([solution-task-management#22](https://github.com/samt-x/solution-task-management/issues/22)).
 
-**Issue types** are defined for the whole organisation (Settings → Planning → Issue types, requires owner rights): Task, Solution proposal, Question, Decision, Risk and Problem (called Bug until October 2026, same id). The Type field is switched on in all views of both templates and in Project 5, except Timeline. Boards created from the templates before October 2026 must have the field switched on by hand: View → Fields → Type → Save view, and confirm in the dialog.
+The template has the fields Responsible, Priority, Effort, Estimate (person-days), Start date and Due date, and five views: Board (kanban by status), By responsible (kanban by responsible person), Open tasks, My tasks and Timeline. What the statuses and fields mean is described under [Conventions](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/konvensjoner/).
+
+**Issue types** are defined for the whole organisation (Settings → Planning → Issue types, requires owner rights): Task, Solution proposal, Question, Decision, Risk and Problem (called Bug until October 2026, same id). The Type field is switched on in all views of the template and in Project 5, except Timeline. Boards created from the templates before October 2026 must have the field switched on by hand: View → Fields → Type → Save view, and confirm in the dialog.
 
 **Issue forms** live in the repository [samt-x/.github](https://github.com/samt-x/.github), under `.github/ISSUE_TEMPLATE/`: one form per type, with the type name in English and the text in Norwegian. Each form sets the type with `type:`, and all have the fields «Gjelder» (concerns) and «Forslag til hvem som bør se på dette» (suggestion for who should look at this). The forms apply to every repository in the organisation that has no forms of its own. A repository with its own `.github/ISSUE_TEMPLATE/` uses only its own, so do not add forms to a single repository without copying the shared ones. Blank issue is still enabled (`config.yml`), and the list has a link to Conventions. The forms do not set a board (`projects:`). A shared form cannot point to the right board for each repository, and the repositories that have a board add new issues to it automatically. The repository must be public for the forms to work in the public repositories. Locally it is cloned to `samt-x-dotgithub/` in the workspace, because the scripts for all repositories skip folders starting with a dot.
 
@@ -60,12 +61,12 @@ The templates are visible to all members of the organisation, but not to others.
 
 To create a new board:
 
-1. Choose New project in the organisation and pick one of the templates.
+1. Choose New project in the organisation and pick the Standard template.
 2. Name the board following the pattern below.
 3. Link the board to the repository, and set the rule for automatic adding (see Automation).
 4. Add the people as options in the Responsible field.
 
-The boards that existed before the templates were moved over to them in October 2026 ([M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6)). The statuses were renamed, and no task lost its status. Project 5 also has the fields Contributors and Comment and the views All tasks and Closed tasks. The status Proposed first existed only on Project 5. It was added to both templates and to all boards on 27 October 2026, without any task losing its status ([solution-task-management#20](https://github.com/samt-x/solution-task-management/issues/20)).
+The boards that existed before the templates were moved over to them in October 2026 ([M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6)). The statuses were renamed, and no task lost its status. Project 5 also has the fields Contributors and Comment and the views All tasks and Closed tasks. The status Proposed first existed only on Project 5. It was added to the templates and to all boards on 27 October 2026, without any task losing its status ([solution-task-management#20](https://github.com/samt-x/solution-task-management/issues/20)).
 
 ## The aggregate board
 

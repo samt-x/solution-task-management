@@ -18,6 +18,8 @@ The pilots and sub-projects currently use different statuses, fields and views o
 
 The statuses of the templates and the shared level are set in step M1.
 
+**October 2026:** M1 produced two templates, but Simple was retired again because two templates drifted apart. New boards are made from Standard. The principle of compatible setups still stands, and Simple is kept to test it later ([solution-task-management#22](https://github.com/samt-x/solution-task-management/issues/22)).
+
 ## Steps
 
 | Step | Content | Issue |

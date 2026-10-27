@@ -29,7 +29,7 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 
 **Merk:** Project 3 hører til Pilot 4, og Project 4 til Pilot 3. Numrene ble tildelt i den rekkefølgen brettene ble opprettet, og kan ikke endres.
 
-Project 7 og Project 11 er maler for nye brett, se under. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» er samlebrettet, se Samlebrettet under. Project 13 er porteføljebrettet, med ett kort per pilot, produkt og arbeidsområde. Feltet Status er fasen der. Feltet Sub-issues progress viser framdriften i oppgavene som er koblet til kortet som sub-issues. Feltet Objective har foreløpig bare et testvalg, til målene er besluttet. Regelen «Auto-add sub-issues to project» er slått av, slik at oppgavene ikke havner på porteføljebrettet. Oversiktsbrettene heter «SAMT-BU Overview – …», slik at de skilles fra delprosjektene i listen over brett.
+Project 7 er malen for nye brett, se under. Project 11 er en tidligere mal som er tatt vare på som referanse. [Project 12](https://github.com/orgs/samt-x/projects/12) «SAMT-BU Overview – All tasks» er samlebrettet, se Samlebrettet under. Project 13 er porteføljebrettet, med ett kort per pilot, produkt og arbeidsområde. Feltet Status er fasen der. Feltet Sub-issues progress viser framdriften i oppgavene som er koblet til kortet som sub-issues. Feltet Objective har foreløpig bare et testvalg, til målene er besluttet. Regelen «Auto-add sub-issues to project» er slått av, slik at oppgavene ikke havner på porteføljebrettet. Oversiktsbrettene heter «SAMT-BU Overview – …», slik at de skilles fra delprosjektene i listen over brett.
 
 Pilotrepoene inneholder også pilotens sider på docs.samt-bu.no. Oppgavene og innholdet ligger dermed i samme repo.
 
@@ -43,16 +43,17 @@ Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues
 
 **Statushistorikk:** Feltene på et brett har ingen historikk. Workflowen [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) skriver derfor statusen på Project 5 til fila [status/project-5.md](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md) i solution-task-management, hver time og ved manuell kjøring. Fila får en ny commit bare når noe er endret, så [historikken til fila](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) viser hvordan status og kommentarer har endret seg over tid. Flere brett kan tas med senere ([M4 Comment-feltet i malene](https://github.com/samt-x/solution-task-management/issues/16)).
 
-## Maler for nye brett
+## Malen for nye brett
 
 | Mal | Brett | Statuser |
 |---|---|---|
-| Enkel | Project 11 «[TEMPLATE] Simple board» | Proposed, To do, In progress, Done |
 | Standard | Project 7 «[TEMPLATE] Standard board» | Proposed, To do, Ready, In progress, In review, Done |
 
-Begge malene har feltene Responsible, Priority, Effort, Estimate (person-days), Start date og Due date, og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
+Malen Enkel (Project 11) ble lagt bort i oktober 2026, og Pilot 3 (Project 4), det eneste brettet som brukte den, fikk statusene Ready og In review uten at noen oppgaver mistet statusen sin. Project 11 heter nå «[REFERENCE] Simple board», er ikke lenger merket som mal og vises derfor ikke i New project. Den er tatt vare på for å kunne teste felles nivå på tvers av brett med ulike steg ([solution-task-management#22](https://github.com/samt-x/solution-task-management/issues/22)).
 
-**Issue types** er definert for hele organisasjonen (Settings → Planning → Issue types, krever eierrettighet): Task, Solution proposal, Question, Decision, Risk og Problem (het Bug til oktober 2026, samme id). Feltet Type er slått på i alle visningene i begge malene og i Project 5, unntatt Timeline. Brett som ble laget fra malene før oktober 2026, må få feltet slått på for hånd: View → Fields → Type → Save view, og bekreft i dialogen.
+Malen har feltene Responsible, Priority, Effort, Estimate (person-days), Start date og Due date, og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
+
+**Issue types** er definert for hele organisasjonen (Settings → Planning → Issue types, krever eierrettighet): Task, Solution proposal, Question, Decision, Risk og Problem (het Bug til oktober 2026, samme id). Feltet Type er slått på i alle visningene i malen og i Project 5, unntatt Timeline. Brett som ble laget fra malene før oktober 2026, må få feltet slått på for hånd: View → Fields → Type → Save view, og bekreft i dialogen.
 
 **Issue-skjemaer** ligger i repoet [samt-x/.github](https://github.com/samt-x/.github), under `.github/ISSUE_TEMPLATE/`: ett skjema per type, med engelsk typenavn og norsk tekst. Hvert skjema setter typen med `type:`, og alle har feltene «Gjelder» og «Forslag til hvem som bør se på dette». Skjemaene gjelder alle repoer i organisasjonen som ikke har egne skjemaer. Et repo med egen `.github/ISSUE_TEMPLATE/` bruker bare sine egne, så legg ikke inn skjemaer i enkeltrepoer uten å kopiere de felles. Blank issue er fortsatt på (`config.yml`), og lista har en lenke til Konvensjoner. Skjemaene setter ikke brett (`projects:`). Et felles skjema kan ikke peke på riktig brett for hvert repo, og repoene som har brett, legger nye saker inn automatisk. Repoet må være offentlig for at skjemaene skal virke i de offentlige repoene. Lokalt er det klonet til `samt-x-dotgithub/` i workspace, fordi skriptene for alle repoene hopper over mapper som begynner med punktum.
 
@@ -60,12 +61,12 @@ Malene er synlige for alle medlemmer av organisasjonen, men ikke for andre. Medl
 
 Slik lages et nytt brett:
 
-1. Velg New project i organisasjonen og velg en av malene.
+1. Velg New project i organisasjonen og velg malen Standard.
 2. Gi brettet navn etter mønsteret under.
 3. Koble brettet til repoet, og sett regelen for automatisk innlegging (se Automatikk).
 4. Legg inn personene som valg i feltet Responsible.
 
-Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6)). Statusene fikk nye navn, og ingen oppgaver mistet statusen sin. Project 5 har i tillegg feltene Contributors og Comment og visningene All tasks og Closed tasks. Statusen Proposed fantes først bare på Project 5. Den ble lagt inn i begge malene og på alle brettene 27. oktober 2026, uten at noen oppgaver mistet statusen sin ([solution-task-management#20](https://github.com/samt-x/solution-task-management/issues/20)).
+Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6)). Statusene fikk nye navn, og ingen oppgaver mistet statusen sin. Project 5 har i tillegg feltene Contributors og Comment og visningene All tasks og Closed tasks. Statusen Proposed fantes først bare på Project 5. Den ble lagt inn i malene og på alle brettene 27. oktober 2026, uten at noen oppgaver mistet statusen sin ([solution-task-management#20](https://github.com/samt-x/solution-task-management/issues/20)).
 
 ## Samlebrettet
 

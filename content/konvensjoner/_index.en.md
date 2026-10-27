@@ -70,20 +70,22 @@ For decisions also: **Alternatives** and **Recommendation**. The decision itself
 
 ## Status and fields on the boards
 
-Every board is based on one of two templates, Simple or Standard. The names in GitHub are in English, so the boards work for all readers.
+Every board is based on the Standard template. The names in GitHub are in English, so the boards work for all readers.
 
-| Status | Meaning | Simple | Standard | Shared level |
-|---|---|---|---|---|
-| Proposed | Suggested, not yet considered. Input starts here, see [Input and solution proposals](#input-and-solution-proposals). | ✓ | ✓ | Not started |
-| To do | Agreed, but not started | ✓ | ✓ | Not started |
-| Ready | Clarified and ready to start, next in line | | ✓ | Not started |
-| In progress | Being worked on | ✓ | ✓ | In progress |
-| In review | Out for review or comments | | ✓ | In progress |
-| Done | Completed, the task is closed | ✓ | ✓ | Done |
+| Status | Meaning | Shared level |
+|---|---|---|
+| Proposed | Suggested, not yet considered. Input starts here, see [Input and solution proposals](#input-and-solution-proposals). | Not started |
+| To do | Agreed, but not started | Not started |
+| Ready | Clarified and ready to start, next in line | Not started |
+| In progress | Being worked on | In progress |
+| In review | Out for review or comments | In progress |
+| Done | Completed, the task is closed | Done |
 
-**The shared level** is used when status is reported across boards. A board may add its own steps, as long as it is decided which shared level the step belongs to. Proposed was such a step on Project 5 until October 2026. It is now part of both templates and on all boards.
+**The shared level** is used when status is reported across boards. A board may add its own steps, as long as it is decided which shared level the step belongs to. Proposed was such a step on Project 5 until October 2026. It is now part of the template and on all boards.
 
-**Ready** is needed when several people pick tasks from a shared queue. If that is not the case, Simple is enough.
+**Ready** is needed when several people pick tasks from a shared queue. A board that does not need the step leaves the column empty.
+
+**One template.** Until October 2026 there was also a Simple template, without Ready and In review. It was retired because two templates drifted apart. It is kept as Project 11 «[REFERENCE] Simple board», to be able to test that the shared level works across boards with different steps ([solution-task-management#22](https://github.com/samt-x/solution-task-management/issues/22)).
 
 | Field | Content | |
 |---|---|---|

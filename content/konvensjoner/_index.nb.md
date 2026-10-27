@@ -70,20 +70,22 @@ For beslutninger i tillegg: **Alternativer** og **Anbefaling**. Selve beslutning
 
 ## Status og felt på brettene
 
-Alle brett bygger på én av to maler, Enkel eller Standard. Navnene i GitHub er på engelsk, slik at brettene fungerer for alle lesere. Tabellen forklarer dem.
+Alle brett bygger på malen Standard. Navnene i GitHub er på engelsk, slik at brettene fungerer for alle lesere. Tabellen forklarer dem.
 
-| Status | Betydning | Enkel | Standard | Felles nivå |
-|---|---|---|---|---|
-| Proposed | Foreslått, ikke behandlet. Her starter innspill, se [Innspill og løsningsforslag](#innspill-og-løsningsforslag). | ✓ | ✓ | Ikke startet |
-| To do | Bestemt, men ikke startet | ✓ | ✓ | Ikke startet |
-| Ready | Avklart og klar til å starte, neste i køen | | ✓ | Ikke startet |
-| In progress | Under arbeid | ✓ | ✓ | Pågår |
-| In review | Ute til gjennomgang eller kommentarer | | ✓ | Pågår |
-| Done | Ferdig, oppgaven er lukket | ✓ | ✓ | Ferdig |
+| Status | Betydning | Felles nivå |
+|---|---|---|
+| Proposed | Foreslått, ikke behandlet. Her starter innspill, se [Innspill og løsningsforslag](#innspill-og-løsningsforslag). | Ikke startet |
+| To do | Bestemt, men ikke startet | Ikke startet |
+| Ready | Avklart og klar til å starte, neste i køen | Ikke startet |
+| In progress | Under arbeid | Pågår |
+| In review | Ute til gjennomgang eller kommentarer | Pågår |
+| Done | Ferdig, oppgaven er lukket | Ferdig |
 
-**Felles nivå** brukes når status rapporteres på tvers av brett. Et brett kan legge til egne steg, så lenge det er bestemt hvilket felles nivå steget hører til. Proposed var et slikt eget steg på Project 5 til oktober 2026. Nå er det med i begge malene og på alle brettene.
+**Felles nivå** brukes når status rapporteres på tvers av brett. Et brett kan legge til egne steg, så lenge det er bestemt hvilket felles nivå steget hører til. Proposed var et slikt eget steg på Project 5 til oktober 2026. Nå er det med i malen og på alle brettene.
 
-**Ready** trengs når flere velger oppgaver fra en felles kø. Er det ikke slik, holder Enkel.
+**Ready** trengs når flere velger oppgaver fra en felles kø. Et brett som ikke trenger steget, lar kolonnen stå tom.
+
+**Én mal.** Til oktober 2026 fantes også malen Enkel, uten Ready og In review. Den ble lagt bort fordi to maler gled fra hverandre. Den er tatt vare på som Project 11 «[REFERENCE] Simple board», for å kunne teste at felles nivå virker på tvers av brett med ulike steg ([solution-task-management#22](https://github.com/samt-x/solution-task-management/issues/22)).
 
 | Felt | Innhold | |
 |---|---|---|

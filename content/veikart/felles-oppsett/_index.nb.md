@@ -18,6 +18,8 @@ Pilotene og delprosjektene har i dag ulike statuser, felt og visninger på brett
 
 Hvilke statuser malene og det felles nivået får, fastsettes i trinn M1.
 
+**Oktober 2026:** M1 ga to maler, men Enkel ble lagt bort igjen fordi to maler gled fra hverandre. Nye brett lages fra Standard. Prinsippet om kompatible oppsett står ved lag, og Enkel er tatt vare på for å teste det senere ([solution-task-management#22](https://github.com/samt-x/solution-task-management/issues/22)).
+
 ## Trinn
 
 | Trinn | Innhold | Issue |
