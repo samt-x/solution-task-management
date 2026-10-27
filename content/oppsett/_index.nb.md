@@ -23,8 +23,8 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 | Rammeverk og generisk arkitektur | samt-bu-architecture | Project 5 | Standard + Proposed |
 | Informasjonsmodeller | information-models | Project 6 | Standard |
 | Felles oppgaver på tvers av pilotene | samt-bu-common-tasks | – | – |
-| Nettstedet docs.samt-bu.no | solution-samt-bu-docs | – | – |
-| Oppgavestyring | solution-task-management | – | – |
+| Nettstedet docs.samt-bu.no | solution-samt-bu-docs | [Project 17](https://github.com/orgs/samt-x/projects/17) | Standard |
+| Oppgavestyring | solution-task-management | [Project 18](https://github.com/orgs/samt-x/projects/18) | Standard |
 | Porteføljen (ett kort per arbeidsområde) | samt-bu-portfolio | [Project 13](https://github.com/orgs/samt-x/projects/13) | Eget oppsett |
 
 **Merk:** Project 3 hører til Pilot 4, og Project 4 til Pilot 3. Numrene ble tildelt i den rekkefølgen brettene ble opprettet, og kan ikke endres.

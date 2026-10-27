@@ -23,8 +23,8 @@ This page describes how task management is set up in the GitHub organisation sam
 | Framework and generic architecture | samt-bu-architecture | Project 5 | Standard + Proposed |
 | Information models | information-models | Project 6 | Standard |
 | Shared tasks across pilots | samt-bu-common-tasks | – | – |
-| The website docs.samt-bu.no | solution-samt-bu-docs | – | – |
-| Task management | solution-task-management | – | – |
+| The website docs.samt-bu.no | solution-samt-bu-docs | [Project 17](https://github.com/orgs/samt-x/projects/17) | Standard |
+| Task management | solution-task-management | [Project 18](https://github.com/orgs/samt-x/projects/18) | Standard |
 | The portfolio (one card per work area) | samt-bu-portfolio | [Project 13](https://github.com/orgs/samt-x/projects/13) | Own setup |
 
 **Note:** Project 3 belongs to Pilot 4, and Project 4 to Pilot 3. The numbers were assigned in the order the boards were created, and cannot be changed.
