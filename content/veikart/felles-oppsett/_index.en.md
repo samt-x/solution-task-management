@@ -3,7 +3,7 @@ id: e5ac13b4-873a-45e7-9405-f56a42e5731a
 title: "Shared setup for the project boards"
 linkTitle: "Shared setup"
 weight: 10
-lastmod: 2026-10-23T00:32:23+02:00
+lastmod: 2026-10-27T23:11:04+01:00
 last_editor: Erik Hagen
 
 ---
