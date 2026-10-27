@@ -3,7 +3,7 @@ id: bb682277-9c1d-46fb-8611-aae1f1f8fced
 title: "Repoer og prosjektbrett"
 linkTitle: "Oppsett"
 weight: 20
-lastmod: 2026-10-27T21:44:15+01:00
+lastmod: 2026-10-27T21:56:41+01:00
 last_editor: Erik Hagen
 
 ---
