@@ -39,7 +39,7 @@ All boards are named «SAMT-BU» followed by the work area, for example «SAMT-B
 
 ## Automation
 
-Each board has an automatic rule (Auto-add): all open issues in the linked repository are added to the board. When an issue is closed, its status is set to done.
+Each board has an automatic rule (Auto-add): all open issues in the linked repository are added to the board. When an issue is closed, its status is set to done. New cards get the status Proposed (the workflow «Item added to project»), so that new input lands there until it has been considered.
 
 **Status history:** The fields on a board have no history. The workflow [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) therefore writes the status of Project 5 to the file [status/project-5.md](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md) in solution-task-management, every hour and when run manually. The file only gets a new commit when something has changed, so the [history of the file](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) shows how statuses and comments have changed over time. More boards can be added later ([M4 Comment field in the templates](https://github.com/samt-x/solution-task-management/issues/16)).
 
