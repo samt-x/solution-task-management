@@ -74,13 +74,14 @@ Every board is based on one of two templates, Simple or Standard. The names in G
 
 | Status | Meaning | Simple | Standard | Shared level |
 |---|---|---|---|---|
+| Proposed | Suggested, not yet considered. Input starts here, see [Input and solution proposals](#input-and-solution-proposals). | ✓ | ✓ | Not started |
 | To do | Agreed, but not started | ✓ | ✓ | Not started |
 | Ready | Clarified and ready to start, next in line | | ✓ | Not started |
 | In progress | Being worked on | ✓ | ✓ | In progress |
 | In review | Out for review or comments | | ✓ | In progress |
 | Done | Completed, the task is closed | ✓ | ✓ | Done |
 
-**The shared level** is used when status is reported across boards. A board may add its own steps, for example Proposed (suggested, not yet considered) before To do, as long as it is decided which shared level the step belongs to.
+**The shared level** is used when status is reported across boards. A board may add its own steps, as long as it is decided which shared level the step belongs to. Proposed was such a step on Project 5 until October 2026. It is now part of both templates and on all boards.
 
 **Ready** is needed when several people pick tasks from a shared queue. If that is not the case, Simple is enough.
 

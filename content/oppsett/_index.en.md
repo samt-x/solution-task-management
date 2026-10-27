@@ -20,7 +20,7 @@ This page describes how task management is set up in the GitHub organisation sam
 | Pilot 4 – Diplomas | samt-bu-pilot-4 | **Project 3** | Standard |
 | Pilot 5 – Identifiers in education | samt-bu-pilot-5 | Project 9 | Standard |
 | Pilot 6 – Parents' access to data | samt-bu-pilot-6 | Project 10 | Standard |
-| Framework and generic architecture | samt-bu-architecture | Project 5 | Standard + Proposed |
+| Framework and generic architecture | samt-bu-architecture | Project 5 | Standard |
 | Information models | information-models | Project 6 | Standard |
 | Shared tasks across pilots | samt-bu-common-tasks | – | – |
 | The website docs.samt-bu.no | solution-samt-bu-docs | [Project 17](https://github.com/orgs/samt-x/projects/17) | Standard |
@@ -47,8 +47,8 @@ Each board has an automatic rule (Auto-add): all open issues in the linked repos
 
 | Template | Board | Statuses |
 |---|---|---|
-| Simple | Project 11 «[TEMPLATE] Simple board» | To do, In progress, Done |
-| Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done |
+| Simple | Project 11 «[TEMPLATE] Simple board» | Proposed, To do, In progress, Done |
+| Standard | Project 7 «[TEMPLATE] Standard board» | Proposed, To do, Ready, In progress, In review, Done |
 
 Both templates have the fields Responsible, Priority, Effort, Estimate (person-days), Start date and Due date, and five views: Board (kanban by status), By responsible (kanban by responsible person), Open tasks, My tasks and Timeline. What the statuses and fields mean is described under [Conventions](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/konvensjoner/).
 
@@ -65,7 +65,7 @@ To create a new board:
 3. Link the board to the repository, and set the rule for automatic adding (see Automation).
 4. Add the people as options in the Responsible field.
 
-The boards that existed before the templates were moved over to them in October 2026 ([M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6)). The statuses were renamed, and no task lost its status. Project 5 also has the step Proposed, the fields Contributors and Comment and the views All tasks and Closed tasks.
+The boards that existed before the templates were moved over to them in October 2026 ([M2 Templates in use](https://github.com/samt-x/solution-task-management/issues/6)). The statuses were renamed, and no task lost its status. Project 5 also has the fields Contributors and Comment and the views All tasks and Closed tasks. The status Proposed first existed only on Project 5. It was added to both templates and to all boards on 27 October 2026, without any task losing its status ([solution-task-management#20](https://github.com/samt-x/solution-task-management/issues/20)).
 
 ## The aggregate board
 

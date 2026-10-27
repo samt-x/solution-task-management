@@ -20,7 +20,7 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 | Pilot 4 – Vitnemål | samt-bu-pilot-4 | **Project 3** | Standard |
 | Pilot 5 – Id-er i utdanning | samt-bu-pilot-5 | Project 9 | Standard |
 | Pilot 6 – Foreldres tilgang til data | samt-bu-pilot-6 | Project 10 | Standard |
-| Rammeverk og generisk arkitektur | samt-bu-architecture | Project 5 | Standard + Proposed |
+| Rammeverk og generisk arkitektur | samt-bu-architecture | Project 5 | Standard |
 | Informasjonsmodeller | information-models | Project 6 | Standard |
 | Felles oppgaver på tvers av pilotene | samt-bu-common-tasks | – | – |
 | Nettstedet docs.samt-bu.no | solution-samt-bu-docs | [Project 17](https://github.com/orgs/samt-x/projects/17) | Standard |
@@ -47,8 +47,8 @@ Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues
 
 | Mal | Brett | Statuser |
 |---|---|---|
-| Enkel | Project 11 «[TEMPLATE] Simple board» | To do, In progress, Done |
-| Standard | Project 7 «[TEMPLATE] Standard board» | To do, Ready, In progress, In review, Done |
+| Enkel | Project 11 «[TEMPLATE] Simple board» | Proposed, To do, In progress, Done |
+| Standard | Project 7 «[TEMPLATE] Standard board» | Proposed, To do, Ready, In progress, In review, Done |
 
 Begge malene har feltene Responsible, Priority, Effort, Estimate (person-days), Start date og Due date, og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
 
@@ -65,7 +65,7 @@ Slik lages et nytt brett:
 3. Koble brettet til repoet, og sett regelen for automatisk innlegging (se Automatikk).
 4. Legg inn personene som valg i feltet Responsible.
 
-Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6)). Statusene fikk nye navn, og ingen oppgaver mistet statusen sin. Project 5 har i tillegg steget Proposed, feltene Contributors og Comment og visningene All tasks og Closed tasks.
+Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malene tatt i bruk](https://github.com/samt-x/solution-task-management/issues/6)). Statusene fikk nye navn, og ingen oppgaver mistet statusen sin. Project 5 har i tillegg feltene Contributors og Comment og visningene All tasks og Closed tasks. Statusen Proposed fantes først bare på Project 5. Den ble lagt inn i begge malene og på alle brettene 27. oktober 2026, uten at noen oppgaver mistet statusen sin ([solution-task-management#20](https://github.com/samt-x/solution-task-management/issues/20)).
 
 ## Samlebrettet
 
