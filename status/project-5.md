@@ -9,6 +9,8 @@
 | [samt-bu-common-tasks#72](https://github.com/samt-x/samt-bu-common-tasks/issues/72) Data.Altinn.no som mulighet til å løse utvalgte case(r). (Arbeidsmøte) | Proposed |  |  |  |
 | [samt-bu-common-tasks#73](https://github.com/samt-x/samt-bu-common-tasks/issues/73) Oppfølging av Asker Kommune (Ragnar Husum) | Proposed |  |  |  |
 | [samt-bu-common-tasks#74](https://github.com/samt-x/samt-bu-common-tasks/issues/74) Sandkasse utforsking | Proposed |  |  |  |
+| [samt-bu-common-tasks#75](https://github.com/samt-x/samt-bu-common-tasks/issues/75) En arkitekturreise? | Proposed |  |  |  |
+| [samt-bu-common-tasks#76](https://github.com/samt-x/samt-bu-common-tasks/issues/76) Historiefortelling om paradigmeskifte (kommunikajson) | Proposed |  |  |  |
 | [samt-bu-architecture#22](https://github.com/samt-x/samt-bu-architecture/issues/22) Case 11 | To do | ChristianeFrhlich |  | 09.10: ??? |
 | [samt-bu-architecture#33](https://github.com/samt-x/samt-bu-architecture/issues/33) Skills dataspace rulebook | To do | erikhag1git |  |  |
 | [samt-bu-architecture#21](https://github.com/samt-x/samt-bu-architecture/issues/21) Case 3 | Ready | CatHolt1 |  | 09.10: Utredning og forvaltningskompetanse. Ikke påbegynt, Cat løfter |
