@@ -20,6 +20,7 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 | Pilot 4 – Vitnemål | samt-bu-pilot-4 | **Project 3** | Standard |
 | Pilot 5 – Id-er i utdanning | samt-bu-pilot-5 | Project 9 | Standard |
 | Pilot 6 – Foreldres tilgang til data | samt-bu-pilot-6 | Project 10 | Standard |
+| Pilot 7 – Digital dialog mellom barnehage/skole og hjemmet | samt-bu-pilot-7 | Project 19 | Standard |
 | Rammeverk og generisk arkitektur | samt-bu-architecture | Project 5 | Standard |
 | Informasjonsmodeller | information-models | Project 6 | Standard |
 | Felles oppgaver på tvers av pilotene | samt-bu-common-tasks | – | – |

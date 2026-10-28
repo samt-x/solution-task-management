@@ -16,7 +16,7 @@ Create the task in the repository where the **responsibility** lies. Ask the que
 
 | Question | If yes, put the task in |
 |---|---|
-| Does it concern one specific pilot? | The pilot's repository, samt-bu-pilot-1 to samt-bu-pilot-6 |
+| Does it concern one specific pilot? | The pilot's repository, samt-bu-pilot-1 to samt-bu-pilot-7 |
 | Does it concern several pilots, or the pilots as a whole? | samt-bu-common-tasks |
 | Does it concern generic architecture or the final deliverable (the framework)? | samt-bu-architecture |
 | Does it concern the website docs.samt-bu.no itself (bugs, new features)? | solution-samt-bu-docs |

@@ -20,6 +20,7 @@ This page describes how task management is set up in the GitHub organisation sam
 | Pilot 4 – Diplomas | samt-bu-pilot-4 | **Project 3** | Standard |
 | Pilot 5 – Identifiers in education | samt-bu-pilot-5 | Project 9 | Standard |
 | Pilot 6 – Parents' access to data | samt-bu-pilot-6 | Project 10 | Standard |
+| Pilot 7 – Digital dialogue between kindergarten/school and home | samt-bu-pilot-7 | Project 19 | Standard |
 | Framework and generic architecture | samt-bu-architecture | Project 5 | Standard |
 | Information models | information-models | Project 6 | Standard |
 | Shared tasks across pilots | samt-bu-common-tasks | – | – |
