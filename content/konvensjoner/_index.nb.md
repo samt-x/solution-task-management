@@ -18,6 +18,23 @@ last_editor: Erik Hagen
 
 Grunnen er at status og andre felt lagres per brett. Ligger samme oppgave på to brett, får den to statuser som fort blir ulike.
 
+## Oppgaven på GitHub, innholdet på docs
+
+**Hver opplysning har én master.** Andre steder viser den eller lenker til den, men kopierer den aldri for hånd. Da er det aldri tvil om hvor en endring skal gjøres, og ingen kopi kan gli ut av synk.
+
+| Opplysning | Master | På docs |
+|---|---|---|
+| Status, ansvarlig, frist, type, framdrift | GitHub: oppgaven og feltene på brettet | Vises generert eller med lenke, aldri skrevet for hånd |
+| Selve oppgaven: hva, hvem, ferdig når | Teksten i oppgaven på GitHub | Kan vises, og etter hvert redigeres, men lagres alltid på GitHub |
+| Innhold: planer, beskrivelser, vurderinger, resultater, beslutningstekst | Docs, på norsk og engelsk | Er master. Oppgaven lenker hit i feltet «Gjelder». |
+
+1. **Oppgaven er kort:** hva som skal gjøres, hvem som gjør det og når det er ferdig.
+2. **Diskusjonen kan foregå i oppgaven,** men det som besluttes, flyttes til siden. Sluttkommentaren peker til siden.
+3. **Språk:** teksten i oppgaven skrives på ett språk, og den originalen er master. Den andre språkversjonen på docs blir maskinoversatt, merket «maskinoversatt» og aldri redigert for hånd. Feil rettes i originalen. Oversettelsen er planlagt ([solution-task-management#30](https://github.com/samt-x/solution-task-management/issues/30)). Til den er på plass, vises teksten på originalspråket.
+4. **En generert visning på docs** er et øyeblikksbilde fra siste bygg. Lenken til GitHub er det som gjelder.
+
+Se [solution-task-management#29](https://github.com/samt-x/solution-task-management/issues/29).
+
 ## Type og merkelapper
 
 **Typen sier hva saken er. Statusen sier hvor den er i løpet.** Hver sak har én type (issue type), og typene gjelder alle repoene i organisasjonen. Typen skal fortsatt være riktig når saken er ferdig. Derfor finnes det ingen type for «forslag» eller «innspill». At noe er foreslått og ikke behandlet, viser statusen Proposed.

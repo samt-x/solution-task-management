@@ -18,6 +18,23 @@ last_editor: Erik Hagen
 
 The reason is that status and other fields are stored per board. If the same task is on two boards, it gets two statuses that soon diverge.
 
+## The task on GitHub, the content on docs
+
+**Each piece of information has one master.** Other places show it or link to it, but never copy it by hand. There is then never any doubt about where a change should be made, and no copy can drift out of sync.
+
+| Information | Master | On docs |
+|---|---|---|
+| Status, responsible, deadline, type, progress | GitHub: the task and the fields on the board | Shown generated or as a link, never written by hand |
+| The task itself: what, who, done when | The text of the task on GitHub | Can be shown, and eventually edited, but is always saved on GitHub |
+| Content: plans, descriptions, assessments, results, decision text | Docs, in Norwegian and English | Is the master. The task links here in the field «Gjelder». |
+
+1. **The task is short:** what to do, who does it and when it is done.
+2. **Discussion may take place in the task,** but what is decided is moved to the page. The closing comment points to the page.
+3. **Language:** the text of the task is written in one language, and that original is the master. The other language version on docs will be machine translated, marked «machine translated» and never edited by hand. Errors are corrected in the original. The translation is planned ([solution-task-management#30](https://github.com/samt-x/solution-task-management/issues/30)). Until it is in place, the text is shown in the original language.
+4. **A generated view on docs** is a snapshot from the latest build. The link to GitHub is what counts.
+
+See [solution-task-management#29](https://github.com/samt-x/solution-task-management/issues/29).
+
 ## Type and labels
 
 **The type says what the issue is. The status says where it is in the flow.** Each issue has one type (issue type), and the types apply to all repositories in the organisation. The type should still be correct when the issue is done. That is why there is no type for «suggestion» or «input». That something is proposed and not yet considered is shown by the status Proposed.
