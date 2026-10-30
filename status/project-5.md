@@ -31,4 +31,5 @@
 | [samt-bu-architecture#23](https://github.com/samt-x/samt-bu-architecture/issues/23) GitHub Tasks for arkitektur | Done | erikhag1git |  | 09.10: På gang, straks klart |
 | [samt-bu-architecture#24](https://github.com/samt-x/samt-bu-architecture/issues/24) Møteserie og standup | Done | CatHolt1 |  | 09.10: OK |
 | [samt-bu-architecture#31](https://github.com/samt-x/samt-bu-architecture/issues/31) Opprydding: fjerne første oppsett for arkitekturgruppa | Done | erikhag1git |  |  |
+| [samt-bu-architecture#36](https://github.com/samt-x/samt-bu-architecture/issues/36) Write access for the architecture team on samt-bu-architecture | Done |  |  |  |
 | [samt-bu-common-tasks#77](https://github.com/samt-x/samt-bu-common-tasks/issues/77) testtask | Done |  |  |  |
