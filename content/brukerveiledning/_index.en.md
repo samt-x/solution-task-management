@@ -31,7 +31,7 @@ If in doubt, put it where you think it fits best. Tasks can be moved between rep
 1. Go to the repository, choose **Issues** and **New issue**
 2. Choose the form for the issue's type: Task, Solution proposal, Question, Decision, Risk or Problem. See [Conventions](../konvensjoner/) for what they mean. The form sets the type for you. In the Problem form you also choose what kind of problem it is, or suggest a new choice.
 3. Write a short title saying what the issue is about, and fill in the fields. Only the first fields are required. The forms are in Norwegian.
-4. In the field **Gjelder** (concerns) you can paste a link to what the issue is about: a page on docs, a case, another task or an element in the Archi model.
+4. In the field **Gjelder** (concerns) you can paste a link to what the issue is about: a page on docs, a case, another task or an element in the Archi model. Keep the issue itself short. Write plans, descriptions and results on the docs page, not in the issue (see [one master per piece of information](../konvensjoner/#the-task-on-github-the-content-on-docs)).
 5. Assign the issue to whoever will work on it (**Assignees**), if they have a GitHub user. **Exception:** if the issue is input that has not yet been considered, do not assign it. Write @username in the field **Forslag til hvem som bør se på dette** (suggestion for who should look at this) instead. They get a notification and can follow the issue.
 6. Save with **Create**
 
