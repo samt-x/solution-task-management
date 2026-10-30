@@ -129,6 +129,20 @@ Every board is based on the Standard template. The names in GitHub are in Englis
 
 Changes to repositories, boards, labels and routines get a chore task describing what, why and the outcome. It goes in the repository the change concerns. Deletion must always have such a trace before it is carried out.
 
+## Repository names and topics
+
+**Names.** Repositories for project-specific task management or clearly project-specific content get the project prefix, here `samt-bu-`. Other repositories are named after what they are, for example `solution-` for solutions. Existing names are changed only when they say something wrong, and then by agreement with those who use the repository.
+
+**Topics.** What a repository is, is shown with topics, which can be changed at any time. They appear on the repository's front page and can be searched across the organisation (e.g. `topic:pilot`). Topics are public for public repositories.
+
+| Dimension | Values | Meaning |
+|---|---|---|
+| Project | `project-samt-bu` | Used in or belongs to the project. A repository can have several. |
+| Lifetime | `scope-project`, `scope-shared` | Belongs to the project, or is meant to live on after it, in new teams and projects |
+| Type | `content`, `tasks`, `models`, `code`, `files`, `site`, `platform`, `solution`, `admin`, `pilot` | What the repository contains. Several can be combined. |
+
+A new repository gets topics when it is created. If `scope-*` is missing, the lifetime has not been settled yet. The distinction between project-specific and lasting is why architecture and semantics have content and tasks in separate repositories, while the pilots have both in one. See [solution-task-management#31](https://github.com/samt-x/solution-task-management/issues/31).
+
 ## Writing tips
 
 - When you write about a task without wanting to link to it, put the number in code format. Otherwise it becomes a link, and the mention appears in that task's timeline.

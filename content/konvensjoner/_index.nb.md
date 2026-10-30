@@ -129,6 +129,20 @@ Alle brett bygger på malen Standard. Navnene i GitHub er på engelsk, slik at b
 
 Endringer i repoer, brett, merkelapper og rutiner får en chore-oppgave som beskriver hva, hvorfor og resultatet. Den legges i repoet endringen gjelder. Sletting skal alltid ha et slikt spor før den gjøres.
 
+## Navn og topics på repoer
+
+**Navn.** Repoer for prosjektspesifikk oppgavestyring eller klart prosjektspesifikt innhold får prosjektprefikset, her `samt-bu-`. Andre repoer navngis etter hva de er, for eksempel `solution-` for løsninger. Eksisterende navn endres bare når de sier noe feil, og da etter avtale med dem som bruker repoet.
+
+**Topics.** Hva et repo er, vises med topics, som kan endres når som helst. De står på repoets forside og kan søkes fram i orgen (f.eks. `topic:pilot`). Topics er offentlige for offentlige repoer.
+
+| Dimensjon | Verdier | Betyr |
+|---|---|---|
+| Prosjekt | `project-samt-bu` | Brukes i eller tilhører prosjektet. Et repo kan ha flere. |
+| Levetid | `scope-project`, `scope-shared` | Tilhører prosjektet, eller er ment å leve videre etter det, i nye team og prosjekter |
+| Type | `content`, `tasks`, `models`, `code`, `files`, `site`, `platform`, `solution`, `admin`, `pilot` | Hva repoet inneholder. Flere kan stå sammen. |
+
+Et nytt repo får topics når det opprettes. Mangler `scope-*`, er levetiden ikke avklart ennå. Skillet mellom prosjektspesifikt og varig er grunnen til at arkitektur og semantikk har innhold og oppgaver i hvert sitt repo, mens pilotene har begge deler i ett. Se [solution-task-management#31](https://github.com/samt-x/solution-task-management/issues/31).
+
 ## Skrivetips
 
 - Når du skriver om en oppgave uten å ville lenke til den, sett nummeret i kodeformat. Ellers blir det en lenke, og omtalen havner i tidslinjen til den oppgaven.
