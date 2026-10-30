@@ -11,9 +11,11 @@
 | [samt-bu-common-tasks#74](https://github.com/samt-x/samt-bu-common-tasks/issues/74) Sandkasse utforsking | Proposed |  |  |  |
 | [samt-bu-common-tasks#75](https://github.com/samt-x/samt-bu-common-tasks/issues/75) En arkitekturreise? | Proposed |  |  |  |
 | [samt-bu-common-tasks#76](https://github.com/samt-x/samt-bu-common-tasks/issues/76) Historiefortelling om paradigmeskifte (kommunikajson) | Proposed |  |  |  |
+| [samt-bu-common-tasks#78](https://github.com/samt-x/samt-bu-common-tasks/issues/78) skrive | Proposed |  |  |  |
+| [samt-bu-architecture#21](https://github.com/samt-x/samt-bu-architecture/issues/21) Case 3 | To do | CatHolt1 |  | 09.10: Utredning og forvaltningskompetanse. Ikke påbegynt, Cat løfter |
 | [samt-bu-architecture#22](https://github.com/samt-x/samt-bu-architecture/issues/22) Case 11 | To do | ChristianeFrhlich |  | 09.10: ??? |
 | [samt-bu-architecture#33](https://github.com/samt-x/samt-bu-architecture/issues/33) Skills dataspace rulebook | To do | erikhag1git |  |  |
-| [samt-bu-architecture#21](https://github.com/samt-x/samt-bu-architecture/issues/21) Case 3 | Ready | CatHolt1 |  | 09.10: Utredning og forvaltningskompetanse. Ikke påbegynt, Cat løfter |
+| [samt-bu-common-tasks#77](https://github.com/samt-x/samt-bu-common-tasks/issues/77) testtask | To do |  |  |  |
 | [samt-bu-architecture#25](https://github.com/samt-x/samt-bu-architecture/issues/25) Skjelett til målbilde | Ready | erikhag1git |  | 09.10: Inkl. forslag til definisjon |
 | [samt-bu-architecture#26](https://github.com/samt-x/samt-bu-architecture/issues/26) Kommunikasjon om arkitektur | Ready | hhimn | 2026-11-10 | 09.10: Fram til 10. nov. (IT-direktører i fylkeskommunene). Hva slags budskap trenger vi? |
 | [samt-bu-architecture#27](https://github.com/samt-x/samt-bu-architecture/issues/27) Spørsmål fra samlingen | Ready | erikhag1git |  | 09.10: Samle «spørsmålene» vi ville jobbe videre med |
