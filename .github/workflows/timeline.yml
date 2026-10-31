@@ -1,0 +1,68 @@
+name: Timeline
+
+# Tegner tidslinjen med avhengigheter for prosjektbrettene til content/tidslinje/*.svg
+# og committer når en figur er endret (solution-task-management#32).
+# Token for å lese brettene lages fra appen SAMT-BU Task sync; commit skjer med GITHUB_TOKEN.
+# Commits fra github-actions[bot] utløser ikke trigger-docs-rebuild.yml, så denne
+# workflowen ber selv samt-bu-docs bygge på nytt når figurene er endret.
+
+on:
+  schedule:
+    - cron: '17 * * * *'   # hver time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: timeline
+  cancel-in-progress: false
+
+jobs:
+  timeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      TZ: Europe/Oslo   # dagens dato i figuren
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Lag token fra appen
+        id: app
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: Iv23li5HEtj5juPOKb0x   # SAMT-BU Task sync (ikke hemmelig)
+          private-key: ${{ secrets.TASK_SYNC_PRIVATE_KEY }}
+          owner: samt-x
+
+      - name: Tegn tidslinjene
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+        run: python3 .github/scripts/timeline.py
+
+      - name: Commit hvis endret
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/tidslinje/
+          if git diff --staged --quiet; then
+            echo "Ingen endringer i tidslinjene"
+          else
+            git commit -m "Auto: tidslinje oppdatert [skip ci]"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Push-forsøk $i feilet, prøver igjen..."
+              sleep 3
+            done
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Be samt-bu-docs bygge på nytt
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          curl --fail -X POST \
+            -H "Authorization: token ${{ secrets.DOCS_REBUILD_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/SAMT-X/samt-bu-docs/dispatches \
+            --data '{"event_type":"module-updated","client_payload":{"source":"solution-task-management","message":"Auto: tidslinje oppdatert"}}'
