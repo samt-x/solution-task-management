@@ -50,7 +50,7 @@
 <a href="https://github.com/samt-x/solution-task-management/issues/33" target="_blank"><title>solution-task-management#33 Test tidslinje A: Kartlegge behov
 Done (closed)
 2026-10-26 → 2026-10-30
-Blokkerer: solution-task-management#34, solution-task-management#35</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">Test tidslinje A: Kartlegge behov</tspan><tspan fill="#57606a" font-size="11"> #33</tspan></text></a>
+Blokkerer: solution-task-management#34, solution-task-management#35</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">Test tidslinje A: Kartlegge behov</tspan><tspan dx="5" fill="#57606a" font-size="11">#33</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/33" target="_blank"><title>solution-task-management#33 Test tidslinje A: Kartlegge behov
 Done (closed)
 2026-10-26 → 2026-10-30
@@ -59,7 +59,7 @@ Blokkerer: solution-task-management#34, solution-task-management#35</title><rect
 In progress
 2026-11-02 → 2026-11-06
 Blokkert av: solution-task-management#33
-Blokkerer: solution-task-management#36, solution-task-management#39</title><text x="14" y="101.0"><tspan fill="#0969da">Test tidslinje B: Skissere løsning</tspan><tspan fill="#57606a" font-size="11"> #34</tspan></text></a>
+Blokkerer: solution-task-management#36, solution-task-management#39</title><text x="14" y="101.0"><tspan fill="#0969da">Test tidslinje B: Skissere løsning</tspan><tspan dx="5" fill="#57606a" font-size="11">#34</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/34" target="_blank"><title>solution-task-management#34 Test tidslinje B: Skissere løsning
 In progress
 2026-11-02 → 2026-11-06
@@ -69,7 +69,7 @@ Blokkerer: solution-task-management#36, solution-task-management#39</title><rect
 In progress
 2026-11-02 → 2026-11-11
 Blokkert av: solution-task-management#33
-Blokkerer: solution-task-management#36</title><text x="14" y="127.0"><tspan fill="#0969da">Test tidslinje C: Avklare juridiske spørsmål</tspan><tspan fill="#57606a" font-size="11"> #35</tspan></text></a>
+Blokkerer: solution-task-management#36</title><text x="14" y="127.0"><tspan fill="#0969da">Test tidslinje C: Avklare juridiske spørsmål</tspan><tspan dx="5" fill="#57606a" font-size="11">#35</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/35" target="_blank"><title>solution-task-management#35 Test tidslinje C: Avklare juridiske spørsmål
 In progress
 2026-11-02 → 2026-11-11
@@ -79,7 +79,7 @@ Blokkerer: solution-task-management#36</title><rect x="536.7" y="116" width="176
 Ready
 2026-11-09 → 2026-11-20
 Blokkert av: solution-task-management#35, solution-task-management#34
-Blokkerer: solution-task-management#37</title><text x="14" y="153.0"><tspan fill="#0969da">⛔ Test tidslinje D: Bygge prototype</tspan><tspan fill="#57606a" font-size="11"> #36</tspan></text></a>
+Blokkerer: solution-task-management#37</title><text x="14" y="153.0"><tspan fill="#0969da">⛔ Test tidslinje D: Bygge prototype</tspan><tspan dx="5" fill="#57606a" font-size="11">#36</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/36" target="_blank"><title>solution-task-management#36 Test tidslinje D: Bygge prototype
 Ready
 2026-11-09 → 2026-11-20
@@ -88,7 +88,7 @@ Blokkerer: solution-task-management#37</title><rect x="660.5" y="142" width="212
 <a href="https://github.com/samt-x/solution-task-management/issues/39" target="_blank"><title>solution-task-management#39 Test tidslinje G: Dokumentere erfaringer
 To do
 2026-11-16 → …
-Blokkert av: solution-task-management#34</title><text x="14" y="179.0"><tspan fill="#0969da">⛔ Test tidslinje G: Dokumentere erfaringer</tspan><tspan fill="#57606a" font-size="11"> #39</tspan></text></a>
+Blokkert av: solution-task-management#34</title><text x="14" y="179.0"><tspan fill="#0969da">⛔ Test tidslinje G: Dokumentere erfaringer</tspan><tspan dx="5" fill="#57606a" font-size="11">#39</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/39" target="_blank"><title>solution-task-management#39 Test tidslinje G: Dokumentere erfaringer
 To do
 2026-11-16 → …
@@ -97,7 +97,7 @@ Blokkert av: solution-task-management#34</title><rect x="784.2" y="168" width="1
 To do
 2026-11-23 → 2026-11-27
 Blokkert av: solution-task-management#36
-Blokkerer: solution-task-management#38</title><text x="14" y="205.0"><tspan fill="#0969da">⛔ Test tidslinje E: Teste med brukere</tspan><tspan fill="#57606a" font-size="11"> #37</tspan></text></a>
+Blokkerer: solution-task-management#38</title><text x="14" y="205.0"><tspan fill="#0969da">⛔ Test tidslinje E: Teste med brukere</tspan><tspan dx="5" fill="#57606a" font-size="11">#37</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/37" target="_blank"><title>solution-task-management#37 Test tidslinje E: Teste med brukere
 To do
 2026-11-23 → 2026-11-27
@@ -106,7 +106,7 @@ Blokkerer: solution-task-management#38</title><rect x="907.9" y="194" width="88.
 <a href="https://github.com/samt-x/solution-task-management/issues/38" target="_blank"><title>solution-task-management#38 Test tidslinje F: Beslutte videreføring
 To do
 … → 2026-11-30
-Blokkert av: solution-task-management#37</title><text x="14" y="231.0"><tspan fill="#0969da">⛔ Test tidslinje F: Beslutte videreføring</tspan><tspan fill="#57606a" font-size="11"> #38</tspan></text></a>
+Blokkert av: solution-task-management#37</title><text x="14" y="231.0"><tspan fill="#0969da">⛔ Test tidslinje F: Beslutte videreføring</tspan><tspan dx="5" fill="#57606a" font-size="11">#38</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/38" target="_blank"><title>solution-task-management#38 Test tidslinje F: Beslutte videreføring
 To do
 … → 2026-11-30

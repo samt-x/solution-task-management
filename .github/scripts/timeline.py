@@ -202,7 +202,7 @@ def svg(number, title, url, tasks, lang, today):
         number = '#' + o['key'].split('#')[1]
         out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{tip}</title>'
                    f'<text x="{PAD}" y="{mid + 4:.1f}"><tspan fill="#0969da"{deco}>{esc(label)}</tspan>'
-                   f'<tspan fill="#57606a" font-size="11"> {number}</tspan></text></a>')
+                   f'<tspan dx="5" fill="#57606a" font-size="11">{number}</tspan></text></a>')   # dx: Hugos minify fjerner mellomrom først i tspan
 
         if s and d and d >= s:
             x1, x2 = x(s), x(d) + px
