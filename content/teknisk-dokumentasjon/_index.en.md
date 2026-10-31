@@ -64,7 +64,7 @@ Background: [solution-task-management#15](https://github.com/samt-x/solution-tas
 
 ## Timeline with dependencies
 
-The workflow [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) runs the script .github/scripts/timeline.py every hour and when run manually. The script reads the boards in PROJECTS (currently Project 5 and 18): status, Start date, Due date and the dependencies («Blocked by») of each issue. It draws one SVG per board and language to content/tidslinje/, shown on the page [Timeline](../tidslinje/).
+The workflow [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) runs the script .github/scripts/timeline.py every hour and when run manually. The script reads the boards in PROJECTS (currently Project 5 and 18): status, Start date, Due date and the dependencies («Blocked by») of each issue. It draws one SVG per board and language to content/tidslinje/, shown on the page [Timeline](../tidslinje/). The page embeds the charts directly with the theme's inline-svg shortcode, so links and tooltips work. A plain image would disable them. The ids in a chart include the board number, so several charts on one page do not collide.
 
 The chart includes today's date, so it changes at least once a day. The workflow only commits when a chart has changed. Commits by github-actions[bot] do not trigger Trigger rebuild, so the workflow itself asks samt-bu-docs to rebuild, using the organisation secret DOCS_REBUILD_TOKEN. Reading uses the same app as the aggregate board.
 

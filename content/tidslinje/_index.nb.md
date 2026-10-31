@@ -10,7 +10,7 @@ last_editor: Erik Hagen
 
 Timeline-visningen i GitHub Projects viser oppgavene langs en tidsakse, men tegner ikke hvilke oppgaver som venter på hverandre. Figurene på denne siden gjør det. De lages automatisk fra brettene hver time, og oppdateres på docs kort tid etter.
 
-Klikk på en figur for å åpne den i full størrelse. Der kan du klikke på titlene og stolpene for å gå til oppgaven, og holde musa over dem for å se status, datoer og avhengigheter.
+Klikk på en tittel eller en stolpe for å gå til oppgaven på GitHub. Hold musa over for å se status, datoer og avhengigheter. Er spalten smal, kan figuren rulles sidelengs.
 
 **Første versjon, til utprøving** ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
 
@@ -18,13 +18,13 @@ Klikk på en figur for å åpne den i full størrelse. Der kan du klikke på tit
 
 Sju testoppgaver i Task management (Project 18) viser hvordan figuren ser ut med avhengigheter. De er ikke ekte oppgaver.
 
-[![Tidslinje med avhengigheter for testoppgavene i Project 18](/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje/project-18-nb.svg)](/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje/project-18-nb.svg)
+{{< inline-svg "project-18-nb.svg" >}}
 
 ## SAMT-BU rammeverk og generisk arkitektur
 
 Project 5. Ingen oppgaver her har avhengigheter ennå, og bare oppgaver med datoer kommer med.
 
-[![Tidslinje med avhengigheter for Project 5](/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje/project-5-nb.svg)](/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje/project-5-nb.svg)
+{{< inline-svg "project-5-nb.svg" >}}
 
 ## Slik leser du figuren
 

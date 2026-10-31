@@ -10,7 +10,7 @@ last_editor: Erik Hagen
 
 The Timeline view in GitHub Projects shows tasks along a time axis, but does not draw which tasks wait for each other. The charts on this page do. They are generated automatically from the boards every hour, and updated on docs shortly after.
 
-Click a chart to open it in full size. There you can click titles and bars to go to the task, and hover over them to see status, dates and dependencies.
+Click a title or a bar to go to the task on GitHub. Hover to see status, dates and dependencies. If the column is narrow, the chart can be scrolled sideways.
 
 **First version, for trial** ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)). Task titles are in the language they were written in, usually Norwegian.
 
@@ -18,13 +18,13 @@ Click a chart to open it in full size. There you can click titles and bars to go
 
 Seven test tasks in Task management (Project 18) show what the chart looks like with dependencies. They are not real tasks.
 
-[![Timeline with dependencies for the test tasks in Project 18](/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje/project-18-en.svg)](/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje/project-18-en.svg)
+{{< inline-svg "project-18-en.svg" >}}
 
 ## SAMT-BU framework and generic architecture
 
 Project 5. No tasks here have dependencies yet, and only tasks with dates are included.
 
-[![Timeline with dependencies for Project 5](/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje/project-5-en.svg)](/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje/project-5-en.svg)
+{{< inline-svg "project-5-en.svg" >}}
 
 ## How to read the chart
 

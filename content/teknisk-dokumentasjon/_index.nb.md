@@ -64,7 +64,7 @@ Bakgrunn: [solution-task-management#15](https://github.com/samt-x/solution-task-
 
 ## Tidslinje med avhengigheter
 
-Workflowen [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) kjører skriptet .github/scripts/timeline.py hver time og ved manuell kjøring. Skriptet leser brettene i PROJECTS (nå Project 5 og 18): status, Start date, Due date og avhengighetene («Blocked by») på hvert issue. Det tegner én SVG per brett og språk til content/tidslinje/, som vises på siden [Tidslinje](../tidslinje/).
+Workflowen [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) kjører skriptet .github/scripts/timeline.py hver time og ved manuell kjøring. Skriptet leser brettene i PROJECTS (nå Project 5 og 18): status, Start date, Due date og avhengighetene («Blocked by») på hvert issue. Det tegner én SVG per brett og språk til content/tidslinje/, som vises på siden [Tidslinje](../tidslinje/). Siden limer figurene rett inn med shortcoden inline-svg i temaet, så lenker og verktøytips virker. Et vanlig bilde ville slått dem av. Id-ene i figuren har brettnummeret i seg, så flere figurer på samme side ikke kolliderer.
 
 Figuren har dagens dato, og endres derfor minst én gang i døgnet. Workflowen committer bare når en figur er endret. Commits fra github-actions[bot] utløser ikke Trigger rebuild, så workflowen ber selv samt-bu-docs bygge på nytt, med org-secreten DOCS_REBUILD_TOKEN. Lesingen bruker samme app som samlebrettet.
 

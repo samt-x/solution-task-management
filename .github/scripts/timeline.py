@@ -113,12 +113,14 @@ def short(s, n):
     return s if len(s) <= n else s[:n - 1].rstrip() + '…'
 
 
-def svg(title, url, tasks, lang, today):
+def svg(number, title, url, tasks, lang, today):
     t = TEXT[lang]
+    # Figuren limes rett inn i siden (shortcoden inline-svg), så id-er må være unike på tvers av figurene
+    ma, mr = f'tl{number}a', f'tl{number}r'
     months = t['months'].split()
     dated = [x for x in tasks if x['start'] or x['due']]
     undated = len(tasks) - len(dated)
-    LABEL_W, ROW_H, TOP, PAD = 400, 26, 58, 14
+    LABEL_W, ROW_H, TOP, PAD = 360, 26, 58, 14
     font = 'font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"'
 
     if not dated:
@@ -134,7 +136,7 @@ def svg(title, url, tasks, lang, today):
     first = min(dates) - datetime.timedelta(days=3)
     last = max(dates) + datetime.timedelta(days=4)
     days = (last - first).days + 1
-    px = max(6, min(26, 1100 / days))
+    px = max(5, min(22, 760 / days))   # figuren skal stort sett passe i innholdsspalten på docs
     chart_w = days * px
     W = int(LABEL_W + chart_w + PAD)
 
@@ -154,8 +156,8 @@ def svg(title, url, tasks, lang, today):
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" {font} font-size="12">',
            f'<!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->',
            '<defs>'
-           f'<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{ARROW}"/></marker>'
-           f'<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{LATE}"/></marker>'
+           f'<marker id="{ma}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{ARROW}"/></marker>'
+           f'<marker id="{mr}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{LATE}"/></marker>'
            '</defs>',
            f'<rect width="{W}" height="{H}" fill="#ffffff"/>']
 
@@ -195,7 +197,7 @@ def svg(title, url, tasks, lang, today):
         tip = esc('\n'.join(tip))
         # ⛔ bare når en åpen oppgave fortsatt blokkerer
         mark = '⛔ ' if not o['closed'] and any(not b.get('closed') for b in o['blocked_by']) else ''
-        label = short(f'{mark}{o["title"]}', 54)
+        label = short(f'{mark}{o["title"]}', 48)
         deco = ' text-decoration="line-through"' if o['closed'] else ''
         number = '#' + o['key'].split('#')[1]
         out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{tip}</title>'
@@ -227,7 +229,7 @@ def svg(title, url, tasks, lang, today):
             bx1, bx2, by, bstart, bend = span[b['key']]
             ox1, ox2, oy, ostart, oend = span[o['key']]
             late = bend >= ostart and not (o['closed'] and next(p for p in dated if p['key'] == b['key'])['closed'])
-            col, mk = (LATE, 'r') if late else (ARROW, 'a')
+            col, mk = (LATE, mr) if late else (ARROW, ma)
             if ox1 - bx2 >= 16:
                 path = f'M{bx2:.1f},{by:.1f}H{bx2 + 8:.1f}V{oy:.1f}H{ox1 - 1:.1f}'
             else:  # for lite plass: gå rundt, inn fra venstre
@@ -244,10 +246,10 @@ def svg(title, url, tasks, lang, today):
     # Tegnforklaring og kilde
     ly = legend_y
     lx = PAD
-    out.append(f'<path d="M{lx},{ly}H{lx + 28}" stroke="{ARROW}" stroke-width="1.5" marker-end="url(#a)"/>'
+    out.append(f'<path d="M{lx},{ly}H{lx + 28}" stroke="{ARROW}" stroke-width="1.5" marker-end="url(#{ma})"/>'
                f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(t["legend_arrow"])}</text>')
     lx += 170
-    out.append(f'<path d="M{lx},{ly}H{lx + 28}" stroke="{LATE}" stroke-width="1.5" marker-end="url(#r)"/>'
+    out.append(f'<path d="M{lx},{ly}H{lx + 28}" stroke="{LATE}" stroke-width="1.5" marker-end="url(#{mr})"/>'
                f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(t["legend_late"])}</text>')
     lx += 330
     out.append(f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="#afb8c1" fill-opacity="0.35" stroke="#afb8c1" stroke-dasharray="4 3"/>'
@@ -299,7 +301,7 @@ def main():
             path = f'{base}-{lang}.svg'
             if a.out:
                 path = os.path.join(os.path.abspath(a.out), os.path.basename(path))
-            write(path, svg(title, url, tasks, lang, today))
+            write(path, svg(number, title, url, tasks, lang, today))
 
 
 main()
