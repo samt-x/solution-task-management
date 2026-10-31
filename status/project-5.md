@@ -27,9 +27,9 @@
 | [samt-bu-common-tasks#80](https://github.com/samt-x/samt-bu-common-tasks/issues/80) Forberede eventuell demo for fredag 6.november. | In progress |  | 2026-11-06 |  |
 | [samt-bu-architecture#13](https://github.com/samt-x/samt-bu-architecture/issues/13) Rulebook mot Nasjonal arkitektur | Done | gnetrom |  | 09.10: Ferdig |
 | [samt-bu-architecture#14](https://github.com/samt-x/samt-bu-architecture/issues/14) Arkitekturvurderingen – neste versjon | Done | Mette Kvarme |  | 09.10: Er gjort |
-| [samt-bu-architecture#16](https://github.com/samt-x/samt-bu-architecture/issues/16) Kjernemodell – mål og organisering | Done | KjerstiSteien |  |  |
+| [samt-bu-architecture#16](https://github.com/samt-x/samt-bu-architecture/issues/16) Kjernemodell – mål og organisering | Done | KjerstiSteien | 2026-10-30 |  |
 | [samt-bu-architecture#23](https://github.com/samt-x/samt-bu-architecture/issues/23) GitHub Tasks for arkitektur | Done | erikhag1git |  | 09.10: På gang, straks klart |
 | [samt-bu-architecture#24](https://github.com/samt-x/samt-bu-architecture/issues/24) Møteserie og standup | Done | CatHolt1 |  | 09.10: OK |
 | [samt-bu-architecture#31](https://github.com/samt-x/samt-bu-architecture/issues/31) Opprydding: fjerne første oppsett for arkitekturgruppa | Done | erikhag1git |  |  |
 | [samt-bu-architecture#36](https://github.com/samt-x/samt-bu-architecture/issues/36) Write access for the architecture team on samt-bu-architecture | Done |  |  |  |
-| [samt-bu-common-tasks#77](https://github.com/samt-x/samt-bu-common-tasks/issues/77) testtask | Done |  |  |  |
+| [samt-bu-common-tasks#77](https://github.com/samt-x/samt-bu-common-tasks/issues/77) testtask | Done |  | 2026-10-31 |  |
