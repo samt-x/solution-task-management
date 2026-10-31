@@ -10,7 +10,9 @@ last_editor: Erik Hagen
 
 Timeline-visningen i GitHub Projects viser oppgavene langs en tidsakse, men tegner ikke hvilke oppgaver som venter på hverandre. Figurene på denne siden gjør det. De lages automatisk fra brettene hver time, og oppdateres på docs kort tid etter.
 
-Klikk på en tittel eller en stolpe for å gå til oppgaven på GitHub. Hold musa over for å se status, datoer og avhengigheter. Er spalten smal, kan figuren rulles sidelengs.
+Klikk på en tittel, en stolpe eller en pil for å se oppgaven i et vindu over figuren. Vinduet flyttes i tittellinjen og endres i størrelse fra hjørnet nede til høyre. Lenker til andre oppgaver inne i vinduet åpnes i det samme vinduet. Ctrl-klikk åpner oppgaven på GitHub i stedet. Hold musa over for å se status, datoer og avhengigheter. Er spalten smal, kan figuren rulles sidelengs.
+
+Vinduet henter oppgaven fra GitHub. Uten innlogging tillater GitHub omtrent 60 oppslag i timen. Er grensen nådd, vises en lenke til GitHub i stedet, og innlogging hever grensen.
 
 **Første versjon, til utprøving** ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
 
@@ -32,7 +34,7 @@ Project 5. Ingen oppgaver her har avhengigheter ennå, og bare oppgaver med dato
 - **Stiplet stolpe:** bare startdato. **Rute:** bare frist.
 - **Pil:** oppgaven pila peker på, venter på oppgaven pila kommer fra.
 - **Rød pil:** oppgaven det ventes på, slutter etter at den ventende skal starte. Planen henger ikke sammen.
-- **Hold musa over en pil:** hvorfor oppgaven venter, slakk eller overlapp i dager, og hvem som koblet oppgavene og når. Klikk på pila for å åpne oppgaven som venter.
+- **Hold musa over en pil:** hvorfor oppgaven venter, slakk eller overlapp i dager, og hvem som koblet oppgavene og når. Klikk på pila for å se avhengigheten og oppgaven som venter i vinduet.
 - **Ring på pila:** avhengigheten er beskrevet. Uten ring står det bare at den mangler beskrivelse.
 - **⚠ under figuren:** en oppgave beskriver en avhengighet som ikke er koblet i GitHub.
 - **⛔ foran tittelen:** oppgaven venter fortsatt på en åpen oppgave.

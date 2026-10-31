@@ -314,7 +314,8 @@ def svg(number, title, url, tasks, lang, today):
             tip.append(t['click'].format(o=ob))
             dot = (f'<circle cx="{bx2 + 8:.1f}" cy="{corner:.1f}" r="3.2" fill="#ffffff" stroke="{col}" stroke-width="1.5"/>'
                    if b.get('why') else '')
-            out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{esc(chr(10).join(tip))}</title>'
+            # class tl-dep: vinduet i shortcoden inline-svg viser verktøytipset over oppgaven som venter
+            out.append(f'<a class="tl-dep" href="{esc(o["url"])}" target="_blank"><title>{esc(chr(10).join(tip))}</title>'
                        f'<path d="{path}" fill="none" stroke="{col}" stroke-width="1.5" marker-end="url(#{mk})"/>{dot}'
                        f'<path d="{path}" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>')
 

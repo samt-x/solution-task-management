@@ -111,43 +111,43 @@ Blocked by: solution-task-management#37</title><text x="14" y="231.0"><tspan fil
 To do
 … → 2026-11-30
 Blocked by: solution-task-management#37</title><path d="M1040.5,219.0L1048.5,227.0L1040.5,235.0L1032.5,227.0z" fill="#54aeff"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/34" target="_blank"><title>solution-task-management#34 Test tidslinje B: Skissere løsning
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management/issues/34" target="_blank"><title>solution-task-management#34 Test tidslinje B: Skissere løsning
 waits for solution-task-management#33 Test tidslinje A: Kartlegge behov
 Why: behovene må være kartlagt før løsningen kan skisseres
 #33 is closed, so there is no longer anything to wait for.
 Linked Oct 31 by erikhag1git
 Click to open #34</title><path d="M501.4,71.0H509.4V97.0H535.7" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><circle cx="509.4" cy="97.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M501.4,71.0H509.4V97.0H535.7" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/35" target="_blank"><title>solution-task-management#35 Test tidslinje C: Avklare juridiske spørsmål
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management/issues/35" target="_blank"><title>solution-task-management#35 Test tidslinje C: Avklare juridiske spørsmål
 waits for solution-task-management#33 Test tidslinje A: Kartlegge behov
 Why: kartleggingen viser hvilke juridiske spørsmål som må avklares
 #33 is closed, so there is no longer anything to wait for.
 Linked Oct 31 by erikhag1git
 Click to open #35</title><path d="M501.4,71.0H509.4V123.0H535.7" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><circle cx="509.4" cy="123.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M501.4,71.0H509.4V123.0H535.7" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/36" target="_blank"><title>solution-task-management#36 Test tidslinje D: Bygge prototype
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management/issues/36" target="_blank"><title>solution-task-management#36 Test tidslinje D: Bygge prototype
 waits for solution-task-management#35 Test tidslinje C: Avklare juridiske spørsmål
 Why: prototypen kan ikke behandle personopplysninger før behandlingsgrunnlaget er avklart
 Overlap: 3 days (#35 ends Nov 11, #36 starts Nov 9)
 Linked Oct 31 by erikhag1git
 Click to open #36</title><path d="M713.5,123.0H721.5V136.0H650.5V149.0H659.5" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl18r)"/><circle cx="721.5" cy="136.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M713.5,123.0H721.5V136.0H650.5V149.0H659.5" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/36" target="_blank"><title>solution-task-management#36 Test tidslinje D: Bygge prototype
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management/issues/36" target="_blank"><title>solution-task-management#36 Test tidslinje D: Bygge prototype
 waits for solution-task-management#34 Test tidslinje B: Skissere løsning
 Why: prototypen bygger på løsningsskissen
 Slack: 2 days (#34 ends Nov 6, #36 starts Nov 9)
 Linked Oct 31 by erikhag1git
 Click to open #36</title><path d="M625.1,97.0H633.1V149.0H659.5" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><circle cx="633.1" cy="149.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M625.1,97.0H633.1V149.0H659.5" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/39" target="_blank"><title>solution-task-management#39 Test tidslinje G: Dokumentere erfaringer
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management/issues/39" target="_blank"><title>solution-task-management#39 Test tidslinje G: Dokumentere erfaringer
 waits for solution-task-management#34 Test tidslinje B: Skissere løsning
 Not described. Write a line under the heading Avhengigheter (Dependencies) in #39.
 Slack: 9 days (#34 ends Nov 6, #39 starts Nov 16)
 Linked Oct 31 by erikhag1git
 Click to open #39</title><path d="M625.1,97.0H633.1V175.0H783.2" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><path d="M625.1,97.0H633.1V175.0H783.2" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/37" target="_blank"><title>solution-task-management#37 Test tidslinje E: Teste med brukere
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management/issues/37" target="_blank"><title>solution-task-management#37 Test tidslinje E: Teste med brukere
 waits for solution-task-management#36 Test tidslinje D: Bygge prototype
 Why: brukertesten trenger en prototype som virker
 Slack: 2 days (#36 ends Nov 20, #37 starts Nov 23)
 Linked Oct 31 by erikhag1git
 Click to open #37</title><path d="M872.6,149.0H880.6V201.0H906.9" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><circle cx="880.6" cy="201.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M872.6,149.0H880.6V201.0H906.9" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/38" target="_blank"><title>solution-task-management#38 Test tidslinje F: Beslutte videreføring
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management/issues/38" target="_blank"><title>solution-task-management#38 Test tidslinje F: Beslutte videreføring
 waits for solution-task-management#37 Test tidslinje E: Teste med brukere
 Why: beslutningen bygger på resultatene fra brukertesten
 Slack: 2 days (#37 ends Nov 27, #38 starts Nov 30)

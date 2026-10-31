@@ -10,7 +10,9 @@ last_editor: Erik Hagen
 
 The Timeline view in GitHub Projects shows tasks along a time axis, but does not draw which tasks wait for each other. The charts on this page do. They are generated automatically from the boards every hour, and updated on docs shortly after.
 
-Click a title or a bar to go to the task on GitHub. Hover to see status, dates and dependencies. If the column is narrow, the chart can be scrolled sideways.
+Click a title, a bar or an arrow to see the task in a window on top of the chart. Move the window by its title bar and resize it from the bottom right corner. Links to other tasks inside the window open in the same window. Ctrl-click opens the task on GitHub instead. Hover to see status, dates and dependencies. If the column is narrow, the chart can be scrolled sideways.
+
+The window fetches the task from GitHub. Without logging in, GitHub allows about 60 lookups an hour. If the limit is reached, a link to GitHub is shown instead, and logging in raises the limit.
 
 **First version, for trial** ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)). Task titles are in the language they were written in, usually Norwegian.
 
@@ -32,7 +34,7 @@ Project 5. No tasks here have dependencies yet, and only tasks with dates are in
 - **Dashed bar:** start date only. **Diamond:** due date only.
 - **Arrow:** the task the arrow points to waits for the task the arrow comes from.
 - **Red arrow:** the task being waited for ends after the waiting task is due to start. The plan does not add up.
-- **Hover over an arrow:** why the task waits, slack or overlap in days, and who linked the tasks and when. Click the arrow to open the waiting task.
+- **Hover over an arrow:** why the task waits, slack or overlap in days, and who linked the tasks and when. Click the arrow to see the dependency and the waiting task in the window.
 - **Ring on the arrow:** the dependency is described. Without a ring, the tooltip only says that the description is missing.
 - **⚠ below the chart:** a task describes a dependency that is not linked in GitHub.
 - **⛔ before the title:** the task is still waiting for an open task.
