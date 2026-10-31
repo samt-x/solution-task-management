@@ -82,6 +82,7 @@ All closed issues end up in Done on the board. The reason is shown by the icon o
 - **What to do** – concretely
 - **Done when** – what must be in place
 - **Related** – links to other tasks, pages or documents (optional)
+- **Avhengigheter** (dependencies) – one line per task this one waits for, with why, e.g. «- #35: needs legal clarification of consent» (optional). The link itself is set with «Mark as blocked by» under Relationships; the text only describes it. The text is shown on the arrow in the [timeline](../tidslinje/), and a line without a link gives a warning there.
 
 For decisions also: **Alternatives** and **Recommendation**. The decision itself is written in the closing comment and recorded in the decision log on docs.samt-bu.no.
 

@@ -82,6 +82,7 @@ Alle lukkede saker havner i Done på brettet. Grunnen ser du på ikonet på kort
 - **Hva skal gjøres** – konkret
 - **Ferdig når** – hva som skal foreligge
 - **Relatert** – lenker til andre oppgaver, sider eller dokumenter (valgfritt)
+- **Avhengigheter** – én linje per oppgave denne venter på, med hvorfor, f.eks. «- #35: trenger juridisk avklaring av samtykke» (valgfritt). Selve koblingen settes med «Mark as blocked by» under Relationships; teksten beskriver den bare. Teksten vises på pila i [tidslinjen](../tidslinje/), og en linje uten kobling gir et varsel der.
 
 For beslutninger i tillegg: **Alternativer** og **Anbefaling**. Selve beslutningen skrives i sluttkommentaren og føres i beslutningsloggen på docs.samt-bu.no.
 

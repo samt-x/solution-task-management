@@ -6,6 +6,10 @@ oppgave som har datoer, en strek for dagens dato og piler fra oppgaven som blokk
 til oppgaven som venter. Pila er rød når den blokkerende oppgaven slutter etter at
 den ventende skal starte.
 
+Pilene er lenker til oppgaven som venter. Verktøytipset viser hvorfor (fra overskriften
+Avhengigheter i issuet, se describe), slakk eller overlapp i dager, og hvem som koblet
+oppgavene og når. En beskrivelse uten «Blocked by» i GitHub gir et varsel under figuren.
+
 Figuren skrives på norsk og engelsk til content/, og vises på siden Tidslinje.
 Workflowen committer bare når en fil er endret. Dagens dato er med i figuren, så
 den endres minst én gang i døgnet.
@@ -16,7 +20,7 @@ ellers `gh auth token`. Skriptet leser bare brettene og skriver aldri til dem.
 Test uten nett: `--data fil.json` leser oppgavene fra en fil i stedet for API-et,
 og `--dump fil.json` skriver det som ble hentet. Formatet er lista som `fetch` gir.
 """
-import argparse, datetime, html, json, os, subprocess, sys, time, urllib.request
+import argparse, datetime, html, json, os, re, subprocess, sys, time, urllib.request
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ORG = 'samt-x'
@@ -39,13 +43,29 @@ TEXT = {
            'no_dates': '{n} oppgaver på brettet har verken startdato eller frist og er ikke med.',
            'legend_arrow': 'Pil: venter på', 'legend_late': 'Rød pil: blokkerende oppgave slutter for sent',
            'legend_open': 'Stiplet: bare startdato', 'legend_due': 'Rute: bare frist',
-           'made': 'Generert {d} fra', 'empty': 'Ingen oppgaver på brettet har datoer ennå.'},
+           'made': 'Generert {d} fra', 'empty': 'Ingen oppgaver på brettet har datoer ennå.',
+           'legend_why': 'Ring: avhengigheten er beskrevet',
+           'waits_for': 'venter på', 'why': 'Hvorfor',
+           'no_why': 'Ikke beskrevet. Skriv en linje under overskriften Avhengigheter i {o}.',
+           'done': '{b} er lukket, så det ventes ikke lenger.',
+           'slack': 'Slakk: {n} dager', 'overlap': 'Overlapp: {n} dager', 'no_slack': 'Ingen slakk',
+           'dates': '{b} slutter {end}, {o} starter {start}',
+           'added': 'Koblet {d} av {by}', 'click': 'Klikk for å åpne {o}',
+           'orphan': '{o} beskriver en avhengighet til {b} under Avhengigheter, men koblingen «Blocked by» finnes ikke i GitHub.'},
     'en': {'today': 'Today', 'months': 'Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec',
            'blocked_by': 'Blocked by', 'blocking': 'Blocking', 'outside': 'not in the chart',
            'no_dates': '{n} tasks on the board have neither start date nor due date and are not shown.',
            'legend_arrow': 'Arrow: waits for', 'legend_late': 'Red arrow: blocking task ends too late',
            'legend_open': 'Dashed: start date only', 'legend_due': 'Diamond: due date only',
-           'made': 'Generated {d} from', 'empty': 'No tasks on the board have dates yet.'},
+           'made': 'Generated {d} from', 'empty': 'No tasks on the board have dates yet.',
+           'legend_why': 'Ring: the dependency is described',
+           'waits_for': 'waits for', 'why': 'Why',
+           'no_why': 'Not described. Write a line under the heading Avhengigheter (Dependencies) in {o}.',
+           'done': '{b} is closed, so there is no longer anything to wait for.',
+           'slack': 'Slack: {n} days', 'overlap': 'Overlap: {n} days', 'no_slack': 'No slack',
+           'dates': '{b} ends {end}, {o} starts {start}',
+           'added': 'Linked {d} by {by}', 'click': 'Click to open {o}',
+           'orphan': '{o} describes a dependency on {b} under Avhengigheter, but the «Blocked by» link does not exist in GitHub.'},
 }
 
 
@@ -72,11 +92,35 @@ def gql(query, **variables):
 
 ITEMS = '''query($n:Int!,$after:String){organization(login:"samt-x"){projectV2(number:$n){title url
   items(first:50,after:$after){pageInfo{hasNextPage endCursor} nodes{
-    content{... on Issue{number title url state repository{name}
-      blockedBy(first:20){nodes{number title url state repository{name}}}}}
+    content{... on Issue{number title url state body repository{name}
+      blockedBy(first:20){nodes{number title url state repository{name}}}
+      timelineItems(last:30,itemTypes:[BLOCKED_BY_ADDED_EVENT]){nodes{
+        ... on BlockedByAddedEvent{createdAt actor{login} blockingIssue{number repository{name}}}}}}}
     fieldValues(first:30){nodes{
       ... on ProjectV2ItemFieldSingleSelectValue{name field{... on ProjectV2FieldCommon{name}}}
       ... on ProjectV2ItemFieldDateValue{date field{... on ProjectV2FieldCommon{name}}}}}}}}}}'''
+
+# Beskrivelse av avhengighetene (solution-task-management#32, nivå 2): overskriften Avhengigheter
+# i issuet som venter, én punktlinje per oppgave det venter på, f.eks. «- #35: trenger juridisk
+# avklaring av samtykke». Selve koblingen er alltid «Blocked by» i GitHub; teksten bare beskriver den.
+SECTION = re.compile(r'^#{2,4}\s*(Avhengigheter|Dependencies)\s*$', re.I | re.M)
+REF = re.compile(r'https://github\.com/samt-x/([\w.-]+)/issues/(\d+)|(?:samt-x/)?([\w.-]+)?#(\d+)', re.I)
+
+
+def describe(body, repo):
+    """Gir {nøkkel: tekst} fra overskriften Avhengigheter i brødteksten."""
+    m = SECTION.search(body or '')
+    if not m:
+        return {}
+    rest = body[m.end():]
+    end = re.search(r'^#{1,4}\s', rest, re.M)
+    out = {}
+    for line in (rest[:end.start()] if end else rest).splitlines():
+        line = line.strip()
+        r = REF.search(line) if line[:1] in '-*' else None
+        if r:
+            out[f'{r.group(1) or r.group(3) or repo}#{r.group(2) or r.group(4)}'] = line[r.end():].strip(' :–—-').strip()
+    return out
 
 
 def fetch(number):
@@ -90,11 +134,21 @@ def fetch(number):
                 continue
             v = {f['field']['name']: f.get('name') or f.get('date')
                  for f in it['fieldValues']['nodes'] if f and f.get('field')}
-            tasks.append({'key': f'{c["repository"]["name"]}#{c["number"]}', 'title': c['title'], 'url': c['url'],
+            repo = c['repository']['name']
+            why = describe(c['body'], repo)
+            added = {f'{e["blockingIssue"]["repository"]["name"]}#{e["blockingIssue"]["number"]}':
+                     (e['createdAt'][:10], (e.get('actor') or {}).get('login'))
+                     for e in c['timelineItems']['nodes'] if e and e.get('blockingIssue')}
+            blocked_by = []
+            for b in c['blockedBy']['nodes']:
+                k = f'{b["repository"]["name"]}#{b["number"]}'
+                since, by = added.get(k, (None, None))
+                blocked_by.append({'key': k, 'title': b['title'], 'url': b['url'], 'closed': b['state'] == 'CLOSED',
+                                   'why': why.pop(k, ''), 'since': since, 'by': by})
+            tasks.append({'key': f'{repo}#{c["number"]}', 'title': c['title'], 'url': c['url'],
                           'closed': c['state'] == 'CLOSED', 'status': v.get('Status'),
-                          'start': v.get(START), 'due': v.get(DUE),
-                          'blocked_by': [{'key': f'{b["repository"]["name"]}#{b["number"]}', 'title': b['title'], 'url': b['url'],
-                                          'closed': b['state'] == 'CLOSED'} for b in c['blockedBy']['nodes']]})
+                          'start': v.get(START), 'due': v.get(DUE), 'blocked_by': blocked_by,
+                          'orphans': sorted(why)})   # beskrevet, men uten «Blocked by» i GitHub
         if not p['items']['pageInfo']['hasNextPage']:
             break
         after = p['items']['pageInfo']['endCursor']
@@ -107,6 +161,10 @@ def day(s):
 
 def esc(s):
     return html.escape(s or '', quote=True)
+
+
+def fmt(d, lang):
+    return f'{d.day}.{d.month}.' if lang == 'nb' else f'{TEXT["en"]["months"].split()[d.month - 1]} {d.day}'
 
 
 def short(s, n):
@@ -151,7 +209,8 @@ def svg(number, title, url, tasks, lang, today):
     row = {o['key']: i for i, o in enumerate(dated)}
     H_rows = len(dated) * ROW_H
     legend_y = TOP + H_rows + 36
-    H = int(legend_y + 52)
+    orphans = [(o['key'], ref) for o in tasks for ref in o.get('orphans', [])]
+    H = int(legend_y + 52 + 16 * len(orphans))
 
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" {font} font-size="12">',
            f'<!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->',
@@ -221,22 +280,43 @@ def svg(number, title, url, tasks, lang, today):
                        f'<path d="M{cx:.1f},{mid - 8:.1f}L{cx + 8:.1f},{mid:.1f}L{cx:.1f},{mid + 8:.1f}L{cx - 8:.1f},{mid:.1f}z" fill="{color}"/></a>')
         span[o['key']] = (x1, x2, mid, s or d, d or s)
 
-    # Pilene: fra slutten på den som blokkerer til starten på den som venter
+    # Pilene: fra slutten på den som blokkerer til starten på den som venter. Hver pil er en lenke til
+    # oppgaven som venter (der koblingen og beskrivelsen står), med et bredt usynlig treffområde.
+    titles = {p['key']: p['title'] for p in dated}
     for o in dated:
         for b in o['blocked_by']:
             if b['key'] not in span:
                 continue
             bx1, bx2, by, bstart, bend = span[b['key']]
             ox1, ox2, oy, ostart, oend = span[o['key']]
-            late = bend >= ostart and not (o['closed'] and next(p for p in dated if p['key'] == b['key'])['closed'])
+            slack = (ostart - bend).days - 1   # hele dager mellom slutt og start; negativ = overlapp
+            late = slack < 0 and not b['closed']
             col, mk = (LATE, mr) if late else (ARROW, ma)
             if ox1 - bx2 >= 16:
                 path = f'M{bx2:.1f},{by:.1f}H{bx2 + 8:.1f}V{oy:.1f}H{ox1 - 1:.1f}'
+                corner = oy
             else:  # for lite plass: gå rundt, inn fra venstre
                 ymid = oy - ROW_H / 2 if oy > by else oy + ROW_H / 2
                 path = (f'M{bx2:.1f},{by:.1f}H{bx2 + 8:.1f}V{ymid:.1f}H{ox1 - 10:.1f}V{oy:.1f}H{ox1 - 1:.1f}')
-            out.append(f'<path d="{path}" fill="none" stroke="{col}" stroke-width="1.5" marker-end="url(#{mk})">'
-                       f'<title>{esc(o["key"])} ← {esc(b["key"])}</title></path>')
+                corner = ymid
+            # Ringen står der pila svinger mot målet – unikt per par, også når flere piler deler start eller mål
+            ob, bb = '#' + o['key'].split('#')[1], '#' + b['key'].split('#')[1]
+            tip = [f'{o["key"]} {o["title"]}', f'{t["waits_for"]} {b["key"]} {titles.get(b["key"], b["title"])}',
+                   f'{t["why"]}: {b["why"]}' if b.get('why') else t['no_why'].format(o=ob)]
+            if b['closed']:
+                tip.append(t['done'].format(b=bb))
+            else:
+                when = t['dates'].format(b=bb, end=fmt(bend, lang), o=ob, start=fmt(ostart, lang))
+                tip.append((t['slack'].format(n=slack) if slack > 0 else t['overlap'].format(n=-slack) if slack < 0
+                            else t['no_slack']) + f' ({when})')
+            if b.get('since'):
+                tip.append(t['added'].format(d=fmt(day(b['since']), lang), by=b.get('by') or '?'))
+            tip.append(t['click'].format(o=ob))
+            dot = (f'<circle cx="{bx2 + 8:.1f}" cy="{corner:.1f}" r="3.2" fill="#ffffff" stroke="{col}" stroke-width="1.5"/>'
+                   if b.get('why') else '')
+            out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{esc(chr(10).join(tip))}</title>'
+                       f'<path d="{path}" fill="none" stroke="{col}" stroke-width="1.5" marker-end="url(#{mk})"/>{dot}'
+                       f'<path d="{path}" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>')
 
     # I dag
     tx = x(today) + px / 2
@@ -257,10 +337,17 @@ def svg(number, title, url, tasks, lang, today):
     lx += 190
     out.append(f'<path d="M{lx + 14},{ly - 7}L{lx + 21},{ly}L{lx + 14},{ly + 7}L{lx + 7},{ly}z" fill="#afb8c1"/>'
                f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(t["legend_due"])}</text>')
+    lx += 150
+    out.append(f'<circle cx="{lx + 14}" cy="{ly}" r="3.2" fill="#ffffff" stroke="{ARROW}" stroke-width="1.5"/>'
+               f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(t["legend_why"])}</text>')
     foot = esc(t['made'].format(d=today.isoformat()))
     note = (' ' + esc(t['no_dates'].format(n=undated))) if undated else ''
-    out.append(f'<text x="{PAD}" y="{ly + 30}" fill="#57606a" font-size="11">{foot} '
-               f'<a href="{esc(url)}" target="_blank"><tspan fill="#0969da">{esc(title)}</tspan></a>.{note}</text>')
+    # dx: Hugos minify fjerner mellomrom mellom tekst og lenke
+    out.append(f'<text x="{PAD}" y="{ly + 30}" fill="#57606a" font-size="11">{foot}'
+               f'<a href="{esc(url)}" target="_blank"><tspan dx="4" fill="#0969da">{esc(title)}</tspan></a>.{note}</text>')
+    for i, (k, ref) in enumerate(orphans):
+        out.append(f'<text x="{PAD}" y="{ly + 48 + i * 16}" fill="{LATE}" font-size="11">'
+                   f'⚠ {esc(t["orphan"].format(o=k, b=ref))}</text>')
     out.append('</svg>')
     return '\n'.join(out) + '\n'
 

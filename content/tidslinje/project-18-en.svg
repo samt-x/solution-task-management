@@ -111,18 +111,54 @@ Blocked by: solution-task-management#37</title><text x="14" y="231.0"><tspan fil
 To do
 … → 2026-11-30
 Blocked by: solution-task-management#37</title><path d="M1040.5,219.0L1048.5,227.0L1040.5,235.0L1032.5,227.0z" fill="#54aeff"/></a>
-<path d="M501.4,71.0H509.4V97.0H535.7" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"><title>solution-task-management#34 ← solution-task-management#33</title></path>
-<path d="M501.4,71.0H509.4V123.0H535.7" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"><title>solution-task-management#35 ← solution-task-management#33</title></path>
-<path d="M713.5,123.0H721.5V136.0H650.5V149.0H659.5" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl18r)"><title>solution-task-management#36 ← solution-task-management#35</title></path>
-<path d="M625.1,97.0H633.1V149.0H659.5" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"><title>solution-task-management#36 ← solution-task-management#34</title></path>
-<path d="M625.1,97.0H633.1V175.0H783.2" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"><title>solution-task-management#39 ← solution-task-management#34</title></path>
-<path d="M872.6,149.0H880.6V201.0H906.9" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"><title>solution-task-management#37 ← solution-task-management#36</title></path>
-<path d="M996.3,201.0H1004.3V227.0H1032.5" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"><title>solution-task-management#38 ← solution-task-management#37</title></path>
+<a href="https://github.com/samt-x/solution-task-management/issues/34" target="_blank"><title>solution-task-management#34 Test tidslinje B: Skissere løsning
+waits for solution-task-management#33 Test tidslinje A: Kartlegge behov
+Why: behovene må være kartlagt før løsningen kan skisseres
+#33 is closed, so there is no longer anything to wait for.
+Linked Oct 31 by erikhag1git
+Click to open #34</title><path d="M501.4,71.0H509.4V97.0H535.7" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><circle cx="509.4" cy="97.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M501.4,71.0H509.4V97.0H535.7" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/35" target="_blank"><title>solution-task-management#35 Test tidslinje C: Avklare juridiske spørsmål
+waits for solution-task-management#33 Test tidslinje A: Kartlegge behov
+Why: kartleggingen viser hvilke juridiske spørsmål som må avklares
+#33 is closed, so there is no longer anything to wait for.
+Linked Oct 31 by erikhag1git
+Click to open #35</title><path d="M501.4,71.0H509.4V123.0H535.7" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><circle cx="509.4" cy="123.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M501.4,71.0H509.4V123.0H535.7" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/36" target="_blank"><title>solution-task-management#36 Test tidslinje D: Bygge prototype
+waits for solution-task-management#35 Test tidslinje C: Avklare juridiske spørsmål
+Why: prototypen kan ikke behandle personopplysninger før behandlingsgrunnlaget er avklart
+Overlap: 3 days (#35 ends Nov 11, #36 starts Nov 9)
+Linked Oct 31 by erikhag1git
+Click to open #36</title><path d="M713.5,123.0H721.5V136.0H650.5V149.0H659.5" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl18r)"/><circle cx="721.5" cy="136.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M713.5,123.0H721.5V136.0H650.5V149.0H659.5" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/36" target="_blank"><title>solution-task-management#36 Test tidslinje D: Bygge prototype
+waits for solution-task-management#34 Test tidslinje B: Skissere løsning
+Why: prototypen bygger på løsningsskissen
+Slack: 2 days (#34 ends Nov 6, #36 starts Nov 9)
+Linked Oct 31 by erikhag1git
+Click to open #36</title><path d="M625.1,97.0H633.1V149.0H659.5" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><circle cx="633.1" cy="149.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M625.1,97.0H633.1V149.0H659.5" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/39" target="_blank"><title>solution-task-management#39 Test tidslinje G: Dokumentere erfaringer
+waits for solution-task-management#34 Test tidslinje B: Skissere løsning
+Not described. Write a line under the heading Avhengigheter (Dependencies) in #39.
+Slack: 9 days (#34 ends Nov 6, #39 starts Nov 16)
+Linked Oct 31 by erikhag1git
+Click to open #39</title><path d="M625.1,97.0H633.1V175.0H783.2" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><path d="M625.1,97.0H633.1V175.0H783.2" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/37" target="_blank"><title>solution-task-management#37 Test tidslinje E: Teste med brukere
+waits for solution-task-management#36 Test tidslinje D: Bygge prototype
+Why: brukertesten trenger en prototype som virker
+Slack: 2 days (#36 ends Nov 20, #37 starts Nov 23)
+Linked Oct 31 by erikhag1git
+Click to open #37</title><path d="M872.6,149.0H880.6V201.0H906.9" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><circle cx="880.6" cy="201.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M872.6,149.0H880.6V201.0H906.9" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/38" target="_blank"><title>solution-task-management#38 Test tidslinje F: Beslutte videreføring
+waits for solution-task-management#37 Test tidslinje E: Teste med brukere
+Why: beslutningen bygger på resultatene fra brukertesten
+Slack: 2 days (#37 ends Nov 27, #38 starts Nov 30)
+Linked Oct 31 by erikhag1git
+Click to open #38</title><path d="M996.3,201.0H1004.3V227.0H1032.5" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><circle cx="1004.3" cy="227.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M996.3,201.0H1004.3V227.0H1032.5" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
 <line x1="510.2" y1="58" x2="510.2" y2="244" stroke="#cf222e" stroke-width="1.5"/>
 <text x="510.2" y="255" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
 <path d="M14,276H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><text x="48" y="280" fill="#24292f">Arrow: waits for</text>
 <path d="M184,276H212" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl18r)"/><text x="218" y="280" fill="#24292f">Red arrow: blocking task ends too late</text>
 <rect x="514" y="270" width="28" height="12" rx="3" fill="#afb8c1" fill-opacity="0.35" stroke="#afb8c1" stroke-dasharray="4 3"/><text x="548" y="280" fill="#24292f">Dashed: start date only</text>
 <path d="M718,269L725,276L718,283L711,276z" fill="#afb8c1"/><text x="738" y="280" fill="#24292f">Diamond: due date only</text>
-<text x="14" y="306" fill="#57606a" font-size="11">Generated 2026-10-31 from <a href="https://github.com/orgs/samt-x/projects/18" target="_blank"><tspan fill="#0969da">SAMT-BU Task management</tspan></a>. 24 tasks on the board have neither start date nor due date and are not shown.</text>
+<circle cx="868" cy="276" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="888" y="280" fill="#24292f">Ring: the dependency is described</text>
+<text x="14" y="306" fill="#57606a" font-size="11">Generated 2026-10-31 from<a href="https://github.com/orgs/samt-x/projects/18" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Task management</tspan></a>. 24 tasks on the board have neither start date nor due date and are not shown.</text>
 </svg>

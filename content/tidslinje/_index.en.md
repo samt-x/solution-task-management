@@ -32,6 +32,9 @@ Project 5. No tasks here have dependencies yet, and only tasks with dates are in
 - **Dashed bar:** start date only. **Diamond:** due date only.
 - **Arrow:** the task the arrow points to waits for the task the arrow comes from.
 - **Red arrow:** the task being waited for ends after the waiting task is due to start. The plan does not add up.
+- **Hover over an arrow:** why the task waits, slack or overlap in days, and who linked the tasks and when. Click the arrow to open the waiting task.
+- **Ring on the arrow:** the dependency is described. Without a ring, the tooltip only says that the description is missing.
+- **⚠ below the chart:** a task describes a dependency that is not linked in GitHub.
 - **⛔ before the title:** the task is still waiting for an open task.
 - **Red vertical line:** today's date.
 
@@ -41,6 +44,7 @@ Tasks without dates are not included. The number is shown below the chart.
 
 1. Set **Start date** and **Due date** on the board. One of them is enough.
 2. If the task waits for another task: open the issue, find **Relationships** in the right-hand margin and choose **Mark as blocked by**. Choose the task being waited for. It can be in another repository.
+3. Write why the task waits under the heading **Avhengigheter** (dependencies) in the issue, one line per task, for example «- #35: needs legal clarification of consent». The Task form has its own field for this. If the task is in another repository, write for example samt-bu-pilot-6#12. The link itself is always the one in step 2. The text only describes it. See [Conventions](../konvensjoner/).
 
 Dependencies can also be searched for on GitHub with **is:blocked**, **is:blocking** and **blocked-by:**.
 
