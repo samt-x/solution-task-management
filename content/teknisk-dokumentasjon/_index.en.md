@@ -62,6 +62,16 @@ The script uses the same app and key as the aggregate board, but only to read th
 
 Background: [solution-task-management#15](https://github.com/samt-x/solution-task-management/issues/15).
 
+## Timeline with dependencies
+
+The workflow [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) runs the script .github/scripts/timeline.py every hour and when run manually. The script reads the boards in PROJECTS (currently Project 5 and 18): status, Start date, Due date and the dependencies («Blocked by») of each issue. It draws one SVG per board and language to content/tidslinje/, shown on the page [Timeline](../tidslinje/).
+
+The chart includes today's date, so it changes at least once a day. The workflow only commits when a chart has changed. Commits by github-actions[bot] do not trigger Trigger rebuild, so the workflow itself asks samt-bu-docs to rebuild, using the organisation secret DOCS_REBUILD_TOKEN. Reading uses the same app as the aggregate board.
+
+Locally: run the script with gh auth token. --out writes the charts to another folder, --data reads the tasks from a JSON file instead of the API, and --today sets today's date. Dependencies can only be set in GitHub or via REST (repos/…/issues/N/dependencies/blocked_by), not with gh before version 2.94.
+
+Background: [solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32).
+
 ## Moving tasks between repositories
 
 When an issue is moved to another repository, it keeps its comments and history, and stays on the boards it was on. It gets a new number in the new repository. Old links are redirected.

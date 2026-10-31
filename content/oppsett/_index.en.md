@@ -44,6 +44,8 @@ Each board has an automatic rule (Auto-add): all open issues in the linked repos
 
 **Status history:** The fields on a board have no history. The workflow [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) therefore writes the status of Project 5 to the file [status/project-5.md](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md) in solution-task-management, every hour and when run manually. The file only gets a new commit when something has changed, so the [history of the file](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) shows how statuses and comments have changed over time. More boards can be added later ([M4 Comment field in the templates](https://github.com/samt-x/solution-task-management/issues/16)).
 
+**Timeline with dependencies:** The workflow [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) draws a timeline for Project 5 and Project 18 every hour, with arrows for the dependencies («Blocked by»). The charts are shown on the page [Timeline](../tidslinje/). First version, for trial ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
+
 ## The template for new boards
 
 | Template | Board | Statuses |

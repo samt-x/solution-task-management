@@ -62,6 +62,16 @@ Skriptet bruker samme app og nøkkel som samlebrettet, men bare til å lese bret
 
 Bakgrunn: [solution-task-management#15](https://github.com/samt-x/solution-task-management/issues/15).
 
+## Tidslinje med avhengigheter
+
+Workflowen [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) kjører skriptet .github/scripts/timeline.py hver time og ved manuell kjøring. Skriptet leser brettene i PROJECTS (nå Project 5 og 18): status, Start date, Due date og avhengighetene («Blocked by») på hvert issue. Det tegner én SVG per brett og språk til content/tidslinje/, som vises på siden [Tidslinje](../tidslinje/).
+
+Figuren har dagens dato, og endres derfor minst én gang i døgnet. Workflowen committer bare når en figur er endret. Commits fra github-actions[bot] utløser ikke Trigger rebuild, så workflowen ber selv samt-bu-docs bygge på nytt, med org-secreten DOCS_REBUILD_TOKEN. Lesingen bruker samme app som samlebrettet.
+
+Lokalt: kjør skriptet med gh auth token. --out skriver figurene til en annen mappe, --data leser oppgavene fra en JSON-fil i stedet for API-et, og --today setter dagens dato. Avhengigheter kan bare settes i GitHub eller via REST (repos/…/issues/N/dependencies/blocked_by), ikke med gh før versjon 2.94.
+
+Bakgrunn: [solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32).
+
 ## Flytte oppgaver mellom repoer
 
 Når et issue flyttes til et annet repo, beholder det kommentarer og historikk, og blir stående på brettene det var på. Det får nytt nummer i det nye repoet. Gamle lenker sendes videre.

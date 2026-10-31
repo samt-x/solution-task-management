@@ -44,6 +44,8 @@ Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues
 
 **Statushistorikk:** Feltene på et brett har ingen historikk. Workflowen [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) skriver derfor statusen på Project 5 til fila [status/project-5.md](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md) i solution-task-management, hver time og ved manuell kjøring. Fila får en ny commit bare når noe er endret, så [historikken til fila](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md) viser hvordan status og kommentarer har endret seg over tid. Flere brett kan tas med senere ([M4 Comment-feltet i malene](https://github.com/samt-x/solution-task-management/issues/16)).
 
+**Tidslinje med avhengigheter:** Workflowen [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) tegner hver time en tidslinje for Project 5 og Project 18, med piler for avhengighetene («Blocked by»). Figurene vises på siden [Tidslinje](../tidslinje/). Første versjon, til utprøving ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
+
 ## Malen for nye brett
 
 | Mal | Brett | Statuser |
