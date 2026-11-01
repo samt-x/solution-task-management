@@ -50,4 +50,4 @@ Oppgaver uten datoer kommer ikke med. Antallet står under figuren.
 
 Avhengigheter kan også søkes fram på GitHub med **is:blocked**, **is:blocking** og **blocked-by:**.
 
-Hvordan «Blocked by» og merkelappen blocked i [Konvensjoner](../konvensjoner/) skal brukes sammen, er ikke avklart ennå. Forslaget er at «Blocked by» brukes når oppgaven venter på en annen oppgave, og merkelappen når den venter på noe utenfor GitHub.
+Venter oppgaven på noe utenfor GitHub, brukes merkelappen blocked i stedet. Den gir ingen pil. Se [Blokkert](../konvensjoner/#blokkert) i Konvensjoner.

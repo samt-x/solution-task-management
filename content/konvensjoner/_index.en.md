@@ -52,7 +52,7 @@ Labels come in addition to the type, and an issue can have several:
 
 | Label | Used for |
 |---|---|
-| blocked | Waiting for something outside the issue |
+| blocked | Waiting for something outside GitHub, see [Blocked](#blocked) |
 | chore | Management and maintenance of repositories, boards and routines |
 | future | Not now, but a candidate later |
 
@@ -118,7 +118,18 @@ Every board is based on the Standard template. The names in GitHub are in Englis
 
 **Actual dates** are recorded by GitHub itself: when the task was created, when it was moved to In progress, and when it was closed. This relies on two habits: move the card to In progress when you start, and close the task when it is done.
 
-**Blocked is not a step.** The task keeps its status and gets the label blocked. Say in a comment what it is waiting for, and remove the label when the obstacle is gone. The label exists in all the repositories, so blocked tasks can be searched for across them.
+### Blocked
+
+**Blocked is not a step.** The task keeps its status. How the block is marked depends on what it is waiting for:
+
+| Waiting for | How to mark it | Goes away |
+|---|---|---|
+| Another task, also in another repository | **Mark as blocked by** under Relationships in the issue. Say why under the heading Avhengigheter (dependencies). | By itself when the task being waited for is closed |
+| Something outside GitHub, for example an answer, an agreement or a person | The label **blocked**. Say in a comment what it is waiting for. | When you remove the label, so remember to do it when the obstacle is gone |
+
+Do not use both for the same obstacle. That gives two places to keep up to date. If the obstacle outside GitHub becomes a task of its own, replace the label with «Blocked by».
+
+Searching across the repositories: **label:blocked** finds what waits for something outside GitHub, **is:blocked** what waits for another task. Only «Blocked by» gives arrows in the [timeline](../tidslinje/).
 
 ## Responsibility
 

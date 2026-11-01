@@ -50,4 +50,4 @@ Tasks without dates are not included. The number is shown below the chart.
 
 Dependencies can also be searched for on GitHub with **is:blocked**, **is:blocking** and **blocked-by:**.
 
-How «Blocked by» and the label blocked in [Conventions](../konvensjoner/) should be used together is not settled yet. The proposal is that «Blocked by» is used when the task waits for another task, and the label when it waits for something outside GitHub.
+If the task waits for something outside GitHub, the label blocked is used instead. It gives no arrow. See [Blocked](../konvensjoner/#blocked) in Conventions.

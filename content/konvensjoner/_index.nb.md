@@ -52,7 +52,7 @@ Merkelapper kommer i tillegg til typen, og en sak kan ha flere:
 
 | Merkelapp | Brukes til |
 |---|---|
-| blocked | Venter på noe utenfor saken |
+| blocked | Venter på noe utenfor GitHub, se [Blokkert](#blokkert) |
 | chore | Styring og vedlikehold av repo, brett og rutiner |
 | future | Ikke nå, men kandidat senere |
 
@@ -118,7 +118,18 @@ Alle brett bygger på malen Standard. Navnene i GitHub er på engelsk, slik at b
 
 **Faktiske datoer** registrerer GitHub selv: når oppgaven ble opprettet, når den ble flyttet til In progress, og når den ble lukket. Det forutsetter to vaner: flytt kortet til In progress når du begynner, og lukk oppgaven når den er ferdig.
 
-**Blokkert er ikke et steg.** Oppgaven beholder statusen sin og får merkelappen blocked. Skriv i en kommentar hva den venter på, og fjern merkelappen når hindringen er borte. Merkelappen finnes i alle repoene, så blokkerte oppgaver kan søkes fram på tvers.
+### Blokkert
+
+**Blokkert er ikke et steg.** Oppgaven beholder statusen sin. Hvordan blokkeringen merkes, kommer an på hva den venter på:
+
+| Venter på | Slik merkes det | Forsvinner |
+|---|---|---|
+| En annen oppgave, også i et annet repo | **Mark as blocked by** under Relationships i issuet. Skriv hvorfor under overskriften Avhengigheter. | Av seg selv når oppgaven det ventes på, lukkes |
+| Noe utenfor GitHub, for eksempel et svar, en avtale eller en person | Merkelappen **blocked**. Skriv i en kommentar hva den venter på. | Når du fjerner merkelappen, så husk det når hindringen er borte |
+
+Bruk ikke begge for samme hindring. Da er det to steder å holde ved like. Blir hindringen utenfor GitHub en egen oppgave, bytt merkelappen ut med «Blocked by».
+
+Søk på tvers av repoene: **label:blocked** finner det som venter på noe utenfor GitHub, **is:blocked** det som venter på en annen oppgave. Bare «Blocked by» gir piler i [tidslinjen](../tidslinje/).
 
 ## Ansvar
 
