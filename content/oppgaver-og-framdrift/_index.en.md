@@ -20,6 +20,6 @@ The tasks for task management itself are issues in [solution-task-management](ht
 
 ## Timeline
 
-The tasks with dates, with arrows showing which tasks wait for each other. The chart is generated from the board every hour. How to read it, and how a task gets into it: see [Timeline](../tidslinje/).
+All tasks on the board, with arrows showing which tasks wait for each other. What has happened is dark. Missing dates are calculated and dashed. The chart is generated from the board every hour. How to read it, and how a task gets into it: see [Timeline](../tidslinje/).
 
 {{< inline-svg "project-18-en.svg" "/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje" >}}

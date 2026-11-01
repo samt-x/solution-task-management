@@ -20,6 +20,6 @@ Oppgavene for selve oppgavestyringen ligger som issues i [solution-task-manageme
 
 ## Tidslinje
 
-Oppgavene med datoer, med pilene for hvilke oppgaver som venter på hverandre. Figuren lages fra brettet hver time. Slik leser du den, og slik får en oppgave med: se [Tidslinje](../tidslinje/).
+Alle oppgavene på brettet, med pilene for hvilke oppgaver som venter på hverandre. Det som har skjedd, er mørkt. Datoer som mangler, er beregnet og stiplet. Figuren lages fra brettet hver time. Slik leser du den, og slik får en oppgave med: se [Tidslinje](../tidslinje/).
 
 {{< inline-svg "project-18-nb.svg" "/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/tidslinje" >}}

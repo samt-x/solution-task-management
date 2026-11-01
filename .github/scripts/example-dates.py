@@ -5,7 +5,8 @@ Med faste datoer ville dagens dato vandre forbi dem. example-dates.json gir star
 issue i dager fra mandag denne uka, så stolpene står på samme ukedager uke etter uke, og datoene
 endres bare én gang i uka. Lørdag og søndag regnes til neste uke, ellers ville pågående eksempler
 ha passert fristen i helgen. Skriptet skriver Start date og Due date på brettet, så GitHub er
-fortsatt master og brettet viser det samme som figuren. Bare felt som avviker, skrives.
+fortsatt master og brettet viser det samme som figuren. Et tredje tall setter Duration (arbeidsdager,
+#32). Bare felt som avviker, skrives.
 
 Token: miljøvariabelen GH_TOKEN (i Actions: token fra appen SAMT-BU Task sync),
 ellers `gh auth token`. Kjør med --dry-run for å se hva som ville blitt endret.
@@ -14,7 +15,7 @@ import datetime, json, os, subprocess, sys, time, urllib.request
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 CONFIG = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'example-dates.json')
-FIELDS = ('Start date', 'Due date')
+FIELDS = ('Start date', 'Due date', 'Duration')
 DRY = '--dry-run' in sys.argv
 
 TOKEN = os.environ.get('GH_TOKEN') or subprocess.run(['gh', 'auth', 'token'], capture_output=True, text=True).stdout.strip()
@@ -45,7 +46,8 @@ monday = week - datetime.timedelta(days=week.weekday())
 p = gql('''query($n:Int!){organization(login:"samt-x"){projectV2(number:$n){id title
     fields(first:50){nodes{... on ProjectV2FieldCommon{id name}}}
     items(first:100){nodes{id content{... on Issue{number repository{name}}}
-      fieldValues(first:30){nodes{... on ProjectV2ItemFieldDateValue{date field{... on ProjectV2FieldCommon{name}}}}}}}}}}''',
+      fieldValues(first:30){nodes{... on ProjectV2ItemFieldDateValue{date field{... on ProjectV2FieldCommon{name}}}
+        ... on ProjectV2ItemFieldNumberValue{number field{... on ProjectV2FieldCommon{name}}}}}}}}}}''',
         n=cfg['project'])['organization']['projectV2']
 field = {f['name']: f['id'] for f in p['fields']['nodes'] if f and f.get('name') in FIELDS}
 print(f'{p["title"]}: mandag denne uka er {monday}')
@@ -56,16 +58,22 @@ for it in p['items']['nodes']:
     plan = cfg['issues'].get(str(c.get('number')))
     if not plan or c['repository']['name'] != cfg['repo']:
         continue
-    now = {v['field']['name']: v['date'] for v in it['fieldValues']['nodes'] if v and v.get('field')}
-    for name, offset in zip(FIELDS, plan):
-        want = (monday + datetime.timedelta(days=offset)).isoformat() if offset is not None else None
+    now = {v['field']['name']: v.get('date') or v.get('number') for v in it['fieldValues']['nodes'] if v and v.get('field')}
+    for name, offset in zip(FIELDS, plan + [None] * (len(FIELDS) - len(plan))):
+        if name == 'Duration':
+            want = offset
+        else:
+            want = (monday + datetime.timedelta(days=offset)).isoformat() if offset is not None else None
         if now.get(name) == want:
             continue
         print(f'  #{c["number"]} {name}: {now.get(name)} → {want}')
         changed += 1
         if DRY:
             continue
-        if want:
+        if want is not None and name == 'Duration':
+            gql('''mutation($p:ID!,$i:ID!,$f:ID!,$n:Float!){updateProjectV2ItemFieldValue(input:{projectId:$p,itemId:$i,
+                fieldId:$f,value:{number:$n}}){clientMutationId}}''', p=p['id'], i=it['id'], f=field[name], n=want)
+        elif want:
             gql('''mutation($p:ID!,$i:ID!,$f:ID!,$d:Date!){updateProjectV2ItemFieldValue(input:{projectId:$p,itemId:$i,
                 fieldId:$f,value:{date:$d}}){clientMutationId}}''', p=p['id'], i=it['id'], f=field[name], d=want)
         else:

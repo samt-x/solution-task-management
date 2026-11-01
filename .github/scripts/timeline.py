@@ -2,9 +2,14 @@
 
 Timeline-visningen i GitHub Projects tegner ikke avhengighetene mellom issues
 («Blocked by» / «Blocking»). Skriptet leser brettet og tegner en SVG med én rad per
-oppgave som har datoer, en strek for dagens dato og piler fra oppgaven som blokkerer
-til oppgaven som venter. Pila er rød når den blokkerende oppgaven slutter etter at
-den ventende skal starte.
+oppgave, en strek for dagens dato og piler fra oppgaven som blokkerer til oppgaven
+som venter. Pila er rød når den blokkerende oppgaven slutter etter at den ventende
+skal starte.
+
+Alle oppgavene kommer med (se plan). Start og slutt tas fra det som har skjedd
+(statusendring til In progress, lukking eller Done), ellers fra Start date og Due date,
+ellers regnes de ut fra Duration (arbeidsdager) og oppgavene det ventes på. Mangler
+Duration, antas én uke. Stolpen viser hvor datoene kommer fra.
 
 Pilene er lenker til oppgaven som venter. Verktøytipset viser hvorfor (fra overskriften
 Avhengigheter i issuet, se describe), slakk eller overlapp i dager, og hvem som koblet
@@ -20,7 +25,7 @@ ellers `gh auth token`. Skriptet leser bare brettene og skriver aldri til dem.
 Test uten nett: `--data fil.json` leser oppgavene fra en fil i stedet for API-et,
 og `--dump fil.json` skriver det som ble hentet. Formatet er lista som `fetch` gir.
 """
-import argparse, datetime, html, json, os, re, subprocess, sys, time, urllib.request
+import argparse, datetime, html, json, math, os, re, subprocess, sys, time, urllib.request
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ORG = 'samt-x'
@@ -29,7 +34,12 @@ ORG = 'samt-x'
 PROJECTS = {5: 'content/tidslinje/project-5',    # Arkitektur → Overordnet arkitektur → Oppgaver og framdrift
             18: 'content/tidslinje/project-18',  # Oppgavestyring → Oppgaver og framdrift
             20: 'content/tidslinje/project-20'}  # [EXAMPLE] Timeline: eksemplene i solution-task-management-examples (#40)
-START, DUE = 'Start date', 'Due date'   # dagens dato følger maskinens tidssone (TZ i workflowen)
+# Eksempeldatoene flyttes hver uke (example-dates.py), så historikken passer ikke med dem. Der leses Start date og
+# Due date som det som har skjedd, for eksempler som er startet eller ferdige.
+NO_HISTORY = {20}
+START, DUE, DURATION = 'Start date', 'Due date', 'Duration'   # dagens dato følger maskinens tidssone (TZ i workflowen)
+STARTED = {'In progress', 'In Progress', 'In review'}
+DEFAULT_DAYS = 5   # arbeidsdager når Duration mangler
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
@@ -43,29 +53,43 @@ LATE, ARROW = '#cf222e', '#57606a'
 TEXT = {
     'nb': {'today': 'I dag', 'months': 'jan feb mar apr mai jun jul aug sep okt nov des',
            'blocked_by': 'Blokkert av', 'blocking': 'Blokkerer', 'outside': 'ikke i figuren',
-           'no_dates': '{n} oppgaver på brettet har verken startdato eller frist og er ikke med.',
+           'assumed': '{n} oppgaver mangler Duration og er antatt å ta én uke.',
            'legend_arrow': 'Pil: venter på', 'legend_late': 'Rød pil: blokkerende oppgave slutter for sent',
-           'legend_open': 'Stiplet: bare startdato', 'legend_due': 'Rute: bare frist',
-           'made': 'Generert {d} fra', 'empty': 'Ingen oppgaver på brettet har datoer ennå.',
+           'legend_actual': 'Mørk: har skjedd', 'legend_set': 'Lys: satte datoer',
+           'legend_calc': 'Stiplet: beregnet eller antatt',
+           'made': 'Generert {d} fra', 'empty': 'Ingen oppgaver på brettet ennå.',
            'legend_why': 'Ring: avhengigheten er beskrevet',
+           'start': 'Start', 'end': 'Slutt',
+           'src': {'actual_s': 'startet (In progress)', 'actual_e': 'ferdig', 'set_s': 'Start date', 'set_e': 'Due date',
+                   'due': 'regnet fra slutt og varighet', 'deps': 'etter oppgavene den venter på',
+                   'today': 'ikke planlagt, fra i dag', 'start': 'regnet fra start og varighet',
+                   'running': 'pågår, forlenget til i dag'},
+           'duration': 'Varighet: {n} arbeidsdager', 'no_duration': 'Varighet: ikke satt, antatt {n} arbeidsdager',
            'waits_for': 'venter på', 'why': 'Hvorfor',
            'no_why': 'Ikke beskrevet. Skriv en linje under overskriften Avhengigheter i {o}.',
            'done': '{b} er lukket, så det ventes ikke lenger.',
-           'slack': 'Slakk: {n} dager', 'overlap': 'Overlapp: {n} dager', 'no_slack': 'Ingen slakk',
+           'slack': 'Slakk: {n} arbeidsdager', 'overlap': 'Overlapp: {n} arbeidsdager', 'no_slack': 'Ingen slakk',
            'dates': '{b} slutter {end}, {o} starter {start}',
            'added': 'Koblet {d} av {by}', 'click': 'Klikk for å åpne {o}',
            'orphan': '{o} beskriver en avhengighet til {b} under Avhengigheter, men koblingen «Blocked by» finnes ikke i GitHub.'},
     'en': {'today': 'Today', 'months': 'Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec',
            'blocked_by': 'Blocked by', 'blocking': 'Blocking', 'outside': 'not in the chart',
-           'no_dates': '{n} tasks on the board have neither start date nor due date and are not shown.',
+           'assumed': '{n} tasks have no Duration and are assumed to take one week.',
            'legend_arrow': 'Arrow: waits for', 'legend_late': 'Red arrow: blocking task ends too late',
-           'legend_open': 'Dashed: start date only', 'legend_due': 'Diamond: due date only',
-           'made': 'Generated {d} from', 'empty': 'No tasks on the board have dates yet.',
+           'legend_actual': 'Dark: has happened', 'legend_set': 'Light: dates set',
+           'legend_calc': 'Dashed: calculated or assumed',
+           'made': 'Generated {d} from', 'empty': 'No tasks on the board yet.',
            'legend_why': 'Ring: the dependency is described',
+           'start': 'Start', 'end': 'End',
+           'src': {'actual_s': 'started (In progress)', 'actual_e': 'finished', 'set_s': 'Start date', 'set_e': 'Due date',
+                   'due': 'calculated from end and duration', 'deps': 'after the tasks it waits for',
+                   'today': 'not planned, from today', 'start': 'calculated from start and duration',
+                   'running': 'still in progress, extended to today'},
+           'duration': 'Duration: {n} working days', 'no_duration': 'Duration: not set, assumed {n} working days',
            'waits_for': 'waits for', 'why': 'Why',
            'no_why': 'Not described. Write a line under the heading Avhengigheter (Dependencies) in {o}.',
            'done': '{b} is closed, so there is no longer anything to wait for.',
-           'slack': 'Slack: {n} days', 'overlap': 'Overlap: {n} days', 'no_slack': 'No slack',
+           'slack': 'Slack: {n} working days', 'overlap': 'Overlap: {n} working days', 'no_slack': 'No slack',
            'dates': '{b} ends {end}, {o} starts {start}',
            'added': 'Linked {d} by {by}', 'click': 'Click to open {o}',
            'orphan': '{o} describes a dependency on {b} under Avhengigheter, but the «Blocked by» link does not exist in GitHub.'},
@@ -95,12 +119,15 @@ def gql(query, **variables):
 
 ITEMS = '''query($n:Int!,$after:String){organization(login:"samt-x"){projectV2(number:$n){title url
   items(first:50,after:$after){pageInfo{hasNextPage endCursor} nodes{
-    content{... on Issue{number title url state body repository{name}
+    content{... on Issue{number title url state closedAt body repository{name}
       blockedBy(first:20){nodes{number title url state repository{name}}}
-      timelineItems(last:30,itemTypes:[BLOCKED_BY_ADDED_EVENT]){nodes{
-        ... on BlockedByAddedEvent{createdAt actor{login} blockingIssue{number repository{name}}}}}}}
+      deps:timelineItems(last:30,itemTypes:[BLOCKED_BY_ADDED_EVENT]){nodes{
+        ... on BlockedByAddedEvent{createdAt actor{login} blockingIssue{number repository{name}}}}}
+      moves:timelineItems(last:50,itemTypes:[PROJECT_V2_ITEM_STATUS_CHANGED_EVENT]){nodes{
+        ... on ProjectV2ItemStatusChangedEvent{createdAt status project{number}}}}}}
     fieldValues(first:30){nodes{
       ... on ProjectV2ItemFieldSingleSelectValue{name field{... on ProjectV2FieldCommon{name}}}
+      ... on ProjectV2ItemFieldNumberValue{number field{... on ProjectV2FieldCommon{name}}}
       ... on ProjectV2ItemFieldDateValue{date field{... on ProjectV2FieldCommon{name}}}}}}}}}}'''
 
 # Beskrivelse av avhengighetene (solution-task-management#32, nivå 2): overskriften Avhengigheter
@@ -135,13 +162,25 @@ def fetch(number):
             c = it['content']
             if not c:  # utkast og pull requests tas ikke med
                 continue
-            v = {f['field']['name']: f.get('name') or f.get('date')
+            v = {f['field']['name']: f.get('name') or f.get('date') or f.get('number')
                  for f in it['fieldValues']['nodes'] if f and f.get('field')}
             repo = c['repository']['name']
             why = describe(c['body'], repo)
             added = {f'{e["blockingIssue"]["repository"]["name"]}#{e["blockingIssue"]["number"]}':
                      (e['createdAt'][:10], (e.get('actor') or {}).get('login'))
-                     for e in c['timelineItems']['nodes'] if e and e.get('blockingIssue')}
+                     for e in c['deps']['nodes'] if e and e.get('blockingIssue')}
+            # Det som har skjedd: første statusendring til In progress på dette brettet, og lukking eller siste
+            # endring til Done. GitHub lagrer endringene som hendelser på issuet.
+            moves = sorted((e['createdAt'], e['status']) for e in c['moves']['nodes']
+                           if e and (e.get('project') or {}).get('number') == number)
+            closed = c['state'] == 'CLOSED'
+            finished = closed or v.get('Status') == 'Done'
+            started = next((local(ts) for ts, s in moves if s in STARTED), None)
+            done = [local(ts) for ts, s in moves if s == 'Done']
+            ended = local(c['closedAt']) if closed and c['closedAt'] else (done[-1] if finished and done else None)
+            if number in NO_HISTORY:
+                started = v.get(START) if finished or v.get('Status') in STARTED else None
+                ended = v.get(DUE) if finished else None
             blocked_by = []
             for b in c['blockedBy']['nodes']:
                 k = f'{b["repository"]["name"]}#{b["number"]}'
@@ -149,8 +188,9 @@ def fetch(number):
                 blocked_by.append({'key': k, 'title': b['title'], 'url': b['url'], 'closed': b['state'] == 'CLOSED',
                                    'why': why.pop(k, ''), 'since': since, 'by': by})
             tasks.append({'key': f'{repo}#{c["number"]}', 'title': c['title'], 'url': c['url'],
-                          'closed': c['state'] == 'CLOSED', 'status': v.get('Status'),
-                          'start': v.get(START), 'due': v.get(DUE), 'blocked_by': blocked_by,
+                          'closed': closed, 'finished': finished, 'status': v.get('Status'),
+                          'start': v.get(START), 'due': v.get(DUE), 'duration': v.get(DURATION),
+                          'started': started, 'ended': ended, 'blocked_by': blocked_by,
                           'orphans': sorted(why)})   # beskrevet, men uten «Blocked by» i GitHub
         if not p['items']['pageInfo']['hasNextPage']:
             break
@@ -160,6 +200,82 @@ def fetch(number):
 
 def day(s):
     return datetime.date.fromisoformat(s) if s else None
+
+
+def local(ts):
+    """Tidspunkt fra GitHub (UTC) → dato i maskinens tidssone."""
+    return datetime.datetime.fromisoformat(ts.replace('Z', '+00:00')).astimezone().date().isoformat()
+
+
+def workday(d):
+    while d.weekday() >= 5:
+        d += datetime.timedelta(days=1)
+    return d
+
+
+def add_days(s, n):
+    """Siste arbeidsdag når arbeidet starter s og varer n arbeidsdager."""
+    d = workday(s)
+    for _ in range(n - 1):
+        d = workday(d + datetime.timedelta(days=1))
+    return d
+
+
+def sub_days(e, n):
+    """Første arbeidsdag når arbeidet varer n arbeidsdager og slutter e."""
+    d = e
+    for k in range(n):
+        if k:
+            d -= datetime.timedelta(days=1)
+        while d.weekday() >= 5:
+            d -= datetime.timedelta(days=1)
+    return d
+
+
+def gap(end, start):
+    """Arbeidsdager mellom slutt og start. Negativt tall = overlapp."""
+    if start > end:
+        return sum(1 for k in range(1, (start - end).days) if (end + datetime.timedelta(days=k)).weekday() < 5)
+    return -sum(1 for k in range((end - start).days + 1) if (start + datetime.timedelta(days=k)).weekday() < 5)
+
+
+def plan(tasks, today):
+    """Gir hver oppgave start s og slutt e, og hvor de kommer fra (s_src, e_src).
+
+    Start: det som har skjedd → Start date → slutt minus varighet → dagen etter at oppgavene det
+    ventes på slutter, men ikke før i dag. Slutt: det som har skjedd → Due date → start pluss varighet.
+    Varigheten er Duration i arbeidsdager, ellers DEFAULT_DAYS (assumed=True)."""
+    by = {o['key']: o for o in tasks}
+    busy = set()   # vern mot avhengigheter i ring
+
+    def go(o):
+        if 's' in o or o['key'] in busy:
+            return o
+        busy.add(o['key'])
+        n = o.get('duration')
+        days = max(1, math.ceil(n)) if n else DEFAULT_DAYS
+        used = False   # varigheten er brukt
+        s, ss = (day(o['started']), 'actual_s') if o.get('started') else (day(o['start']), 'set_s') if o['start'] else (None, None)
+        e, es = (day(o['ended']), 'actual_e') if o.get('ended') else (day(o['due']), 'set_e') if o['due'] else (None, None)
+        if s is None and e is not None:
+            s, ss, used = sub_days(e, days), 'due', True
+        if s is None:
+            s, ss = workday(today), 'today'
+            ends = [go(by[b['key']]).get('e') for b in o['blocked_by'] if b['key'] in by]
+            ends = [x for x in ends if x]
+            if ends and workday(max(ends) + datetime.timedelta(days=1)) >= s:
+                s, ss = workday(max(ends) + datetime.timedelta(days=1)), 'deps'
+        if e is None:
+            e, es, used = add_days(s, days), 'start', True
+            if ss == 'actual_s' and not o.get('finished') and e < today:
+                e, es = today, 'running'
+        o.update(s=s, e=max(e, s), s_src=ss, e_src=es, days=days, assumed=used and not n)
+        busy.discard(o['key'])
+        return o
+
+    for o in tasks:
+        go(o)
+    return tasks
 
 
 def esc(s):
@@ -179,8 +295,8 @@ def svg(number, title, url, tasks, lang, today):
     # Figuren limes rett inn i siden (shortcoden inline-svg), så id-er må være unike på tvers av figurene
     ma, mr = f'tl{number}a', f'tl{number}r'
     months = t['months'].split()
-    dated = [x for x in tasks if x['start'] or x['due']]
-    undated = len(tasks) - len(dated)
+    dated = plan([dict(x) for x in tasks], today)
+    assumed = sum(1 for x in dated if x['assumed'])
     LABEL_W, ROW_H, TOP, PAD = 360, 26, 58, 14
     font = 'font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"'
 
@@ -193,7 +309,7 @@ def svg(number, title, url, tasks, lang, today):
                 f'<a href="{esc(url)}" target="_blank"><tspan fill="#0969da">{esc(title)}</tspan></a></text></svg>\n')
 
     # Tidsaksen: alle datoer pluss i dag, med litt luft på hver side
-    dates = [day(x[k]) for x in dated for k in ('start', 'due') if x[k]] + [today]
+    dates = [x[k] for x in dated for k in ('s', 'e')] + [today]
     first = min(dates) - datetime.timedelta(days=3)
     last = max(dates) + datetime.timedelta(days=4)
     days = (last - first).days + 1
@@ -204,16 +320,25 @@ def svg(number, title, url, tasks, lang, today):
     def x(d):
         return LABEL_W + (d - first).days * px
 
-    # Rekkefølge: tidligste dato først, så frist, så nøkkel
-    def order(o):
-        s, d = day(o['start']), day(o['due'])
-        return (s or d, d or s, o['key'])
-    dated.sort(key=order)
+    # Rekkefølge: start, så slutt, så nøkkel
+    dated.sort(key=lambda o: (o['s'], o['e'], o['key']))
     row = {o['key']: i for i, o in enumerate(dated)}
     H_rows = len(dated) * ROW_H
+
+    # Tegnforklaringen brytes over flere linjer når figuren er smal
+    legend = [('arrow', t['legend_arrow']), ('late', t['legend_late']), ('actual', t['legend_actual']),
+              ('set', t['legend_set']), ('calc', t['legend_calc']), ('why', t['legend_why'])]
+    places, lx, ly = [], PAD, 0
+    for kind, text in legend:
+        w = 34 + len(text) * 6.4 + 24
+        if lx > PAD and lx + w > W - PAD:
+            lx, ly = PAD, ly + 22
+        places.append((kind, text, lx, ly))
+        lx += w
     legend_y = TOP + H_rows + 36
+    foot_y = legend_y + ly + 30
     orphans = [(o['key'], ref) for o in tasks for ref in o.get('orphans', [])]
-    H = int(legend_y + 52 + 16 * len(orphans))
+    H = int(foot_y + 22 + 16 * len(orphans))
 
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" {font} font-size="12">',
            f'<!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->',
@@ -232,7 +357,8 @@ def svg(number, title, url, tasks, lang, today):
         d = first + datetime.timedelta(days=k)
         if d.weekday() >= 5:
             out.append(f'<rect x="{x(d):.1f}" y="{TOP}" width="{px:.1f}" height="{H_rows}" fill="#eaeef2" opacity="0.6"/>')
-        if d.day == 1 or k == 0:
+        nxt = (d.replace(day=28) + datetime.timedelta(days=4)).replace(day=1)
+        if d.day == 1 or (k == 0 and (nxt - d).days * px >= 70):   # første måned bare når navnet får plass
             out.append(f'<text x="{x(d) + 2:.1f}" y="20" fill="#24292f" font-weight="600">{months[d.month - 1]} {d.year}</text>')
             out.append(f'<line x1="{x(d):.1f}" y1="8" x2="{x(d):.1f}" y2="{TOP + H_rows}" stroke="#d0d7de"/>')
         if (step == 7 and d.weekday() == 0) or (step < 7 and k % step == 0):
@@ -245,13 +371,17 @@ def svg(number, title, url, tasks, lang, today):
     for i, o in enumerate(dated):
         y = TOP + i * ROW_H
         mid = y + ROW_H / 2
-        s, d = day(o['start']), day(o['due'])
+        s, d = o['s'], o['e']
         color = CLOSED if o['closed'] else COLORS.get(o['status'], '#afb8c1')
         inside = [b for b in o['blocked_by'] if b['key'] in row]
-        outside = [b for b in o['blocked_by'] if b['key'] not in row]
         blocking = [p['key'] for p in dated if any(b['key'] == o['key'] for b in p['blocked_by'])]
         tip = [f'{o["key"]} {o["title"]}', f'{o["status"] or "–"}' + (' (closed)' if o['closed'] else ''),
-               f'{o["start"] or "…"} → {o["due"] or "…"}']
+               f'{t["start"]}: {fmt(s, lang)} ({t["src"][o["s_src"]]})',
+               f'{t["end"]}: {fmt(d, lang)} ({t["src"][o["e_src"]]})']
+        if o.get('duration'):
+            tip.append(t['duration'].format(n=f'{o["duration"]:g}'))
+        elif o['assumed']:
+            tip.append(t['no_duration'].format(n=o['days']))
         if o['blocked_by']:
             tip.append(f'{t["blocked_by"]}: ' + ', '.join(b['key'] + ('' if b in inside else f' ({t["outside"]})') for b in o['blocked_by']))
         if blocking:
@@ -266,22 +396,20 @@ def svg(number, title, url, tasks, lang, today):
                    f'<text x="{PAD}" y="{mid + 4:.1f}"><tspan fill="#0969da"{deco}>{esc(label)}</tspan>'
                    f'<tspan dx="5" fill="#57606a" font-size="11">{number}</tspan></text></a>')   # dx: Hugos minify fjerner mellomrom først i tspan
 
-        if s and d and d >= s:
-            x1, x2 = x(s), x(d) + px
-            out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{tip}</title>'
-                       f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}"/></a>')
-        elif s:
-            x1 = x(s)
-            x2 = max(x(today) + px, x1 + 7 * px) if not d else x1 + px
-            out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{tip}</title>'
-                       f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}" '
-                       f'fill-opacity="0.35" stroke="{color}" stroke-dasharray="4 3"/></a>')
-        else:
-            cx = x(d) + px / 2
-            x1, x2 = cx - 7, cx + 7
-            out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{tip}</title>'
-                       f'<path d="M{cx:.1f},{mid - 8:.1f}L{cx + 8:.1f},{mid:.1f}L{cx:.1f},{mid + 8:.1f}L{cx - 8:.1f},{mid:.1f}z" fill="{color}"/></a>')
-        span[o['key']] = (x1, x2, mid, s or d, d or s)
+        # Stolpen viser hvor datoene kommer fra: lys med kant når begge er satt eller har skjedd, stiplet når en av
+        # dem er beregnet. Det som har skjedd (fra start til slutt, eller til i dag), tegnes mørkt over.
+        x1, x2 = x(s), x(d) + px
+        firm = o['s_src'] in ('actual_s', 'set_s') and o['e_src'] in ('actual_e', 'set_e')
+        bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}" '
+               + (f'fill-opacity="0.35" stroke="{color}"/>' if firm else
+                  f'fill-opacity="0.12" stroke="{color}" stroke-dasharray="4 3"/>')]
+        if o.get('started'):
+            a1 = x(max(day(o['started']), s))
+            a2 = x(d) + px if o.get('ended') else min(x(today) + px, x2)
+            if a2 > a1:
+                bar.append(f'<rect x="{a1:.1f}" y="{y + 6}" width="{a2 - a1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}"/>')
+        out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{tip}</title>{"".join(bar)}</a>')
+        span[o['key']] = (x1, x2, mid, s, d)
 
     # Pilene: fra slutten på den som blokkerer til starten på den som venter. Hver pil er en lenke til
     # oppgaven som venter (der koblingen og beskrivelsen står), med et bredt usynlig treffområde.
@@ -292,7 +420,7 @@ def svg(number, title, url, tasks, lang, today):
                 continue
             bx1, bx2, by, bstart, bend = span[b['key']]
             ox1, ox2, oy, ostart, oend = span[o['key']]
-            slack = (ostart - bend).days - 1   # hele dager mellom slutt og start; negativ = overlapp
+            slack = gap(bend, ostart)   # arbeidsdager mellom slutt og start; negativ = overlapp
             late = slack < 0 and not b['closed']
             col, mk = (LATE, mr) if late else (ARROW, ma)
             if ox1 - bx2 >= 16:
@@ -328,29 +456,25 @@ def svg(number, title, url, tasks, lang, today):
     out.append(f'<text x="{tx:.1f}" y="{TOP + H_rows + 15}" fill="{LATE}" font-size="10" text-anchor="middle">{esc(t["today"])}</text>')
 
     # Tegnforklaring og kilde
-    ly = legend_y
-    lx = PAD
-    out.append(f'<path d="M{lx},{ly}H{lx + 28}" stroke="{ARROW}" stroke-width="1.5" marker-end="url(#{ma})"/>'
-               f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(t["legend_arrow"])}</text>')
-    lx += 170
-    out.append(f'<path d="M{lx},{ly}H{lx + 28}" stroke="{LATE}" stroke-width="1.5" marker-end="url(#{mr})"/>'
-               f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(t["legend_late"])}</text>')
-    lx += 330
-    out.append(f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="#afb8c1" fill-opacity="0.35" stroke="#afb8c1" stroke-dasharray="4 3"/>'
-               f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(t["legend_open"])}</text>')
-    lx += 190
-    out.append(f'<path d="M{lx + 14},{ly - 7}L{lx + 21},{ly}L{lx + 14},{ly + 7}L{lx + 7},{ly}z" fill="#afb8c1"/>'
-               f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(t["legend_due"])}</text>')
-    lx += 150
-    out.append(f'<circle cx="{lx + 14}" cy="{ly}" r="3.2" fill="#ffffff" stroke="{ARROW}" stroke-width="1.5"/>'
-               f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(t["legend_why"])}</text>')
+    grey = '#8c959f'
+    sample = {'arrow': lambda lx, ly: f'<path d="M{lx},{ly}H{lx + 28}" stroke="{ARROW}" stroke-width="1.5" marker-end="url(#{ma})"/>',
+              'late': lambda lx, ly: f'<path d="M{lx},{ly}H{lx + 28}" stroke="{LATE}" stroke-width="1.5" marker-end="url(#{mr})"/>',
+              'actual': lambda lx, ly: f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}"/>',
+              'set': lambda lx, ly: f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.35" stroke="{grey}"/>',
+              'calc': lambda lx, ly: (f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.12" '
+                                      f'stroke="{grey}" stroke-dasharray="4 3"/>'),
+              'why': lambda lx, ly: f'<circle cx="{lx + 14}" cy="{ly}" r="3.2" fill="#ffffff" stroke="{ARROW}" stroke-width="1.5"/>'}
+    for kind, text, lx, dy in places:
+        ly = legend_y + dy
+        lx = round(lx)
+        out.append(sample[kind](lx, ly) + f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(text)}</text>')
     foot = esc(t['made'].format(d=today.isoformat()))
-    note = (' ' + esc(t['no_dates'].format(n=undated))) if undated else ''
+    note = (' ' + esc(t['assumed'].format(n=assumed))) if assumed else ''
     # dx: Hugos minify fjerner mellomrom mellom tekst og lenke
-    out.append(f'<text x="{PAD}" y="{ly + 30}" fill="#57606a" font-size="11">{foot}'
+    out.append(f'<text x="{PAD}" y="{foot_y}" fill="#57606a" font-size="11">{foot}'
                f'<a href="{esc(url)}" target="_blank"><tspan dx="4" fill="#0969da">{esc(title)}</tspan></a>.{note}</text>')
     for i, (k, ref) in enumerate(orphans):
-        out.append(f'<text x="{PAD}" y="{ly + 48 + i * 16}" fill="{LATE}" font-size="11">'
+        out.append(f'<text x="{PAD}" y="{foot_y + 18 + i * 16}" fill="{LATE}" font-size="11">'
                    f'⚠ {esc(t["orphan"].format(o=k, b=ref))}</text>')
     out.append('</svg>')
     return '\n'.join(out) + '\n'
@@ -385,7 +509,7 @@ def main():
         if a.dump:
             with open(a.dump, 'w', encoding='utf-8') as f:
                 json.dump({'title': title, 'url': url, 'tasks': tasks}, f, ensure_ascii=False, indent=1)
-        n = sum(1 for x in tasks if x['start'] or x['due'])
+        n = sum(1 for x in tasks if x['start'] or x['due'] or x.get('started') or x.get('ended'))
         print(f'Project {number}: {len(tasks)} oppgaver, {n} med datoer, '
               f'{sum(len(x["blocked_by"]) for x in tasks)} avhengigheter')
         for lang in ('nb', 'en'):

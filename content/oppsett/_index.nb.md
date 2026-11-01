@@ -54,7 +54,7 @@ Hvert brett har en regel for automatisk innlegging (Auto-add): alle åpne issues
 
 Malen Enkel (Project 11) ble lagt bort i oktober 2026, og Pilot 3 (Project 4), det eneste brettet som brukte den, fikk statusene Ready og In review uten at noen oppgaver mistet statusen sin. Project 11 heter nå «[REFERENCE] Simple board», er ikke lenger merket som mal og vises derfor ikke i New project. Den er tatt vare på for å kunne teste felles nivå på tvers av brett med ulike steg ([solution-task-management#22](https://github.com/samt-x/solution-task-management/issues/22)).
 
-Malen har feltene Responsible, Priority, Effort, Estimate (person-days), Start date og Due date, og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
+Malen har feltene Responsible, Priority, Effort, Estimate (person-days), Start date, Due date og Duration (arbeidsdager, fra november 2026), og fem visninger: Board (kanban per status), By responsible (kanban per ansvarlig), Open tasks, My tasks og Timeline. Hva statusene og feltene betyr, står under [Konvensjoner](../konvensjoner/).
 
 **Issue types** er definert for hele organisasjonen (Settings → Planning → Issue types, krever eierrettighet): Task, Solution proposal, Question, Decision, Risk og Problem (het Bug til oktober 2026, samme id). Feltet Type er slått på i alle visningene i malen og i Project 5, unntatt Timeline. Brett som ble laget fra malene før oktober 2026, må få feltet slått på for hånd: View → Fields → Type → Save view, og bekreft i dialogen.
 

@@ -18,7 +18,7 @@ Vinduet henter oppgaven fra GitHub. Uten innlogging tillater GitHub omtrent 60 o
 
 ## Eksempel
 
-Sju eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
+Sju eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Derfor viser eksemplene Start date og Due date som det som har skjedd, ikke historikken. To av dem har ingen datoer og plasseres etter oppgavene de venter på: G med Duration 3, og F uten varighet. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
 
 {{< inline-svg "project-20-nb.svg" >}}
 
@@ -33,23 +33,37 @@ Figurene lages alle her, og sidene henter dem herfra. Se [Teknisk dokumentasjon]
 
 ## Slik leser du figuren
 
-- **Stolpe:** fra startdato til frist. Fargen viser status på brettet. Grå med strek over tittelen betyr at oppgaven er lukket.
-- **Stiplet stolpe:** bare startdato. **Rute:** bare frist.
+- **Stolpe:** fra start til slutt. Fargen viser status på brettet. Grå med strek over tittelen betyr at oppgaven er lukket.
+- **Mørk del:** det som har skjedd, fra oppgaven ble flyttet til In progress til den ble lukket, eller til i dag hvis den pågår.
+- **Lys stolpe med kant:** både start og slutt er satt (Start date og Due date) eller har skjedd.
+- **Stiplet stolpe:** minst én av datoene er beregnet, se under.
 - **Pil:** oppgaven pila peker på, venter på oppgaven pila kommer fra.
 - **Rød pil:** oppgaven det ventes på, slutter etter at den ventende skal starte. Planen henger ikke sammen.
-- **Hold musa over en pil:** hvorfor oppgaven venter, slakk eller overlapp i dager, og hvem som koblet oppgavene og når. Klikk på pila for å se avhengigheten og oppgaven som venter i vinduet.
+- **Hold musa over en pil:** hvorfor oppgaven venter, slakk eller overlapp i arbeidsdager, og hvem som koblet oppgavene og når. Klikk på pila for å se avhengigheten og oppgaven som venter i vinduet.
 - **Ring på pila:** avhengigheten er beskrevet. Uten ring står det bare at den mangler beskrivelse.
 - **⚠ under figuren:** en oppgave beskriver en avhengighet som ikke er koblet i GitHub.
 - **⛔ foran tittelen:** oppgaven venter fortsatt på en åpen oppgave.
 - **Rød loddrett strek:** dagens dato.
 
-Oppgaver uten datoer kommer ikke med. Antallet står under figuren.
+## Hvor datoene kommer fra
 
-## Slik får en oppgave med i figuren
+Alle oppgavene på brettet er med. Start og slutt finnes hver for seg, i denne rekkefølgen:
 
-1. Sett **Start date** og **Due date** på brettet. Én av dem holder.
-2. Venter oppgaven på en annen oppgave: åpne issuet, finn **Relationships** i høyremargen og velg **Mark as blocked by**. Velg oppgaven det ventes på. Den kan ligge i et annet repo.
-3. Skriv hvorfor oppgaven venter under overskriften **Avhengigheter** i issuet, én linje per oppgave, for eksempel «- #35: trenger juridisk avklaring av samtykke». Task-skjemaet har et eget felt for det. Er oppgaven i et annet repo, skriv for eksempel samt-bu-pilot-6#12. Selve koblingen er alltid den i steg 2. Teksten beskriver den bare. Se [Konvensjoner](../konvensjoner/).
+1. **Det som har skjedd.** Start er første gang oppgaven ble flyttet til In progress (eller In review) på brettet. Slutt er når oppgaven ble lukket eller flyttet til Done. GitHub registrerer dette selv.
+2. **Satt dato:** Start date og Due date på brettet.
+3. **Beregnet fra varigheten:** finnes bare den ene datoen, regnes den andre ut med feltet **Duration** (arbeidsdager).
+4. **Beregnet fra avhengighetene:** mangler start, starter oppgaven arbeidsdagen etter at den siste oppgaven den venter på, slutter. Den starter likevel ikke før i dag. Venter den ikke på noe, starter den i dag.
+
+Mangler Duration, antas én uke (fem arbeidsdager). Antallet slike oppgaver står under figuren. Pågår en oppgave lenger enn planlagt, forlenges stolpen til i dag. Hold musa over stolpen for å se datoene og hvor de kommer fra.
+
+Planlagte og faktiske datoer har ikke egne felt. Det som har skjedd, ligger i historikken i GitHub.
+
+## Slik får en oppgave riktig plass i figuren
+
+1. Sett **Start date** og **Due date** på brettet, eller én av dem og **Duration**. Uten noen av dem plasseres oppgaven etter oppgavene den venter på.
+2. Flytt kortet til **In progress** når arbeidet begynner, og lukk oppgaven når den er ferdig.
+3. Venter oppgaven på en annen oppgave: åpne issuet, finn **Relationships** i høyremargen og velg **Mark as blocked by**. Velg oppgaven det ventes på. Den kan ligge i et annet repo.
+4. Skriv hvorfor oppgaven venter under overskriften **Avhengigheter** i issuet, én linje per oppgave, for eksempel «- #35: trenger juridisk avklaring av samtykke». Task-skjemaet har et eget felt for det. Er oppgaven i et annet repo, skriv for eksempel samt-bu-pilot-6#12. Selve koblingen er alltid den i steg 3. Teksten beskriver den bare. Se [Konvensjoner](../konvensjoner/).
 
 Avhengigheter kan også søkes fram på GitHub med **is:blocked**, **is:blocking** og **blocked-by:**.
 

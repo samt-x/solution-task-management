@@ -2,7 +2,7 @@
 
 Kopierer alle issues i de offentlige samt-x-repoene til samlebrettet, i én retning.
 Porteføljerepoet og eksempelrepoet (EXCLUDE) er ikke med, fordi det som ligger der, ikke er oppgaver.
-Status oversettes til det felles nivået; Responsible, Priority og datoene kopieres
+Status oversettes til det felles nivået; Responsible, Priority, datoene og Duration kopieres
 fra prosjektbrettet issuet ligger på. Skriptet skriver aldri til prosjektbrettene.
 
 Token: miljøvariabelen GH_TOKEN (i Actions: token fra appen SAMT-BU Task sync),
@@ -21,6 +21,7 @@ SHARED = {'Proposed': 'Not started', 'Backlog': 'Not started', 'Todo': 'Not star
           'In review': 'In progress', 'Done': 'Done'}
 COPY_SELECT = ['Responsible', 'Priority']
 COPY_DATE = ['Start date', 'Due date']
+COPY_NUMBER = ['Duration']       # arbeidsdager (#32)
 
 TOKEN = os.environ.get('GH_TOKEN') or subprocess.run(['gh', 'auth', 'token'], capture_output=True, text=True).stdout.strip()
 
@@ -73,7 +74,8 @@ print(f'{len(issues)} issues')
 # 3. Prosjektbrettene (kilder): alle unntatt maler og samlebrettet
 FV = '''fieldValues(first:30){nodes{
   ... on ProjectV2ItemFieldSingleSelectValue{name field{... on ProjectV2FieldCommon{name}}}
-  ... on ProjectV2ItemFieldDateValue{date field{... on ProjectV2FieldCommon{name}}}}}'''
+  ... on ProjectV2ItemFieldDateValue{date field{... on ProjectV2FieldCommon{name}}}
+  ... on ProjectV2ItemFieldNumberValue{number field{... on ProjectV2FieldCommon{name}}}}}'''
 boards = [p for p in pages('''query($after:String){organization(login:"samt-x"){projectsV2(first:50,after:$after){
     pageInfo{hasNextPage endCursor} nodes{id number title template closed}}}}''', ['organization', 'projectsV2'])
           if not p['template'] and not p['closed'] and p['number'] != TARGET]
@@ -85,7 +87,7 @@ for b in boards:
         cid = (it['content'] or {}).get('id')
         if not cid or cid not in issues:
             continue
-        vals = {v['field']['name']: v.get('name') or v.get('date') for v in it['fieldValues']['nodes'] if v and v.get('field')}
+        vals = {v['field']['name']: v.get('name') or v.get('date') or v.get('number') for v in it['fieldValues']['nodes'] if v and v.get('field')}
         if cid not in source or (not source[cid]['vals'].get('Status') and vals.get('Status')):
             source[cid] = {'board': kort, 'vals': vals}
 print(f'{len(boards)} kildebrett, {len(source)} issues ligger på et brett')
@@ -100,7 +102,8 @@ for it in pages('''query($after:String,$id:ID!){node(id:$id){... on ProjectV2{it
     pageInfo{hasNextPage endCursor} nodes{id content{... on Issue{id}} ''' + FV.replace('fieldValues(first:30){nodes{', 'fieldValues(first:30){nodes{ ... on ProjectV2ItemFieldTextValue{text field{... on ProjectV2FieldCommon{name}}}') + '''}}}}}''',
                 ['node', 'items'], id=PID):
     cid = (it['content'] or {}).get('id')
-    vals = {v['field']['name']: v.get('name') or v.get('date') or v.get('text') for v in it['fieldValues']['nodes'] if v and v.get('field')}
+    vals = {v['field']['name']: v.get('name') or v.get('date') or v.get('text') or v.get('number')
+            for v in it['fieldValues']['nodes'] if v and v.get('field')}
     existing[cid] = {'item': it['id'], 'vals': vals}
 
 # 5. Ønsket tilstand per issue
@@ -110,7 +113,7 @@ for cid, i in issues.items():
     sv = s['vals'] if s else {}
     st = 'Done' if i['closed'] else SHARED.get(sv.get('Status'), 'Not started')
     w = {'Status': st, 'Source status': f"{s['board']}: {sv.get('Status') or '–'}" if s else f"{i['repo']} (no board)"}
-    for f in COPY_SELECT + COPY_DATE:
+    for f in COPY_SELECT + COPY_DATE + COPY_NUMBER:
         w[f] = sv.get(f)
     want[cid] = w
 
@@ -159,6 +162,8 @@ for cid, w in want.items():
             value = f'{{singleSelectOptionId:"{OPT[f][val]}"}}'
         elif f in COPY_DATE:
             value = f'{{date:"{val}"}}'
+        elif f in COPY_NUMBER:
+            value = f'{{number:{val}}}'
         else:
             value = '{text:%s}' % json.dumps(val, ensure_ascii=False)
         ops.append(f'updateProjectV2ItemFieldValue(input:{{projectId:"{PID}",itemId:"{existing[cid]["item"]}",fieldId:"{fid}",value:{value}}}){{clientMutationId}}')
