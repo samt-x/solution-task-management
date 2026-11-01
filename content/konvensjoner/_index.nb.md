@@ -3,7 +3,7 @@ id: 71a9801d-c1a0-4795-8c69-e935427a0b03
 title: "Konvensjoner"
 linkTitle: "Konvensjoner"
 weight: 30
-lastmod: 2026-10-31T02:11:13+01:00
+lastmod: 2026-11-01T14:43:34+01:00
 last_editor: Erik Hagen
 
 ---
