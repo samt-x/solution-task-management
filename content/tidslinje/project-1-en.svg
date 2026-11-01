@@ -1,0 +1,419 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1754" height="922" viewBox="0 0 1754 922" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+<!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
+<defs><marker id="tl1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl1r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker></defs>
+<rect width="1754" height="922" fill="#ffffff"/>
+<rect x="0" y="84" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="136" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="188" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="240" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="292" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="344" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="396" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="448" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="500" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="552" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="604" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="656" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="708" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="0" y="760" width="1754" height="26" fill="#f6f8fa"/>
+<rect x="360.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="362.0" y="20" fill="#24292f" font-weight="600">Feb 2026</text>
+<line x1="360.0" y1="8" x2="360.0" y2="812" stroke="#d0d7de"/>
+<text x="367.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
+<rect x="390.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="395.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="402.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
+<rect x="425.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="430.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="437.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
+<rect x="460.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="465.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="467.0" y="20" fill="#24292f" font-weight="600">Mar 2026</text>
+<line x1="465.0" y1="8" x2="465.0" y2="812" stroke="#d0d7de"/>
+<text x="472.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
+<rect x="495.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="500.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="507.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
+<rect x="530.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="535.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="542.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
+<rect x="565.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="570.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="577.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
+<rect x="600.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="605.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="612.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
+<text x="622.0" y="20" fill="#24292f" font-weight="600">Apr 2026</text>
+<line x1="620.0" y1="8" x2="620.0" y2="812" stroke="#d0d7de"/>
+<rect x="635.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="640.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="647.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
+<rect x="670.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="675.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="682.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
+<rect x="705.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="710.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="717.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
+<rect x="740.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="745.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="752.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
+<text x="772.0" y="20" fill="#24292f" font-weight="600">May 2026</text>
+<line x1="770.0" y1="8" x2="770.0" y2="812" stroke="#d0d7de"/>
+<rect x="775.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="780.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="787.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
+<rect x="810.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="815.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="822.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
+<rect x="845.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="850.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="857.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
+<rect x="880.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="885.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="892.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<rect x="915.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="920.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="927.0" y="20" fill="#24292f" font-weight="600">Jun 2026</text>
+<line x1="925.0" y1="8" x2="925.0" y2="812" stroke="#d0d7de"/>
+<text x="927.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
+<rect x="950.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="955.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="962.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
+<rect x="985.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="990.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="997.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
+<rect x="1020.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1025.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1032.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
+<rect x="1055.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1060.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1067.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
+<text x="1077.0" y="20" fill="#24292f" font-weight="600">Jul 2026</text>
+<line x1="1075.0" y1="8" x2="1075.0" y2="812" stroke="#d0d7de"/>
+<rect x="1090.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1095.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1102.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
+<rect x="1125.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1130.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1137.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
+<rect x="1160.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1165.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1172.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
+<rect x="1195.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1200.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1207.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
+<rect x="1230.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1232.0" y="20" fill="#24292f" font-weight="600">Aug 2026</text>
+<line x1="1230.0" y1="8" x2="1230.0" y2="812" stroke="#d0d7de"/>
+<rect x="1235.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1242.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
+<rect x="1265.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1270.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1277.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
+<rect x="1300.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1305.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1312.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
+<rect x="1335.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1340.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1347.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
+<rect x="1370.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1375.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1382.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
+<text x="1387.0" y="20" fill="#24292f" font-weight="600">Sep 2026</text>
+<line x1="1385.0" y1="8" x2="1385.0" y2="812" stroke="#d0d7de"/>
+<rect x="1405.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1410.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1417.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
+<rect x="1440.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1445.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1452.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
+<rect x="1475.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1480.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1487.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
+<rect x="1510.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1515.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1522.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
+<text x="1537.0" y="20" fill="#24292f" font-weight="600">Oct 2026</text>
+<line x1="1535.0" y1="8" x2="1535.0" y2="812" stroke="#d0d7de"/>
+<rect x="1545.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1550.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1557.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
+<rect x="1580.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1585.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1592.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
+<rect x="1615.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1620.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1627.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
+<rect x="1650.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1655.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1662.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
+<rect x="1685.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1690.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1692.0" y="20" fill="#24292f" font-weight="600">Nov 2026</text>
+<line x1="1690.0" y1="8" x2="1690.0" y2="812" stroke="#d0d7de"/>
+<text x="1697.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
+<rect x="1720.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect x="1725.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<text x="1732.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
+<line x1="0" y1="57.5" x2="1754" y2="57.5" stroke="#d0d7de"/>
+<line x1="359.5" y1="0" x2="359.5" y2="812" stroke="#d0d7de"/>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/13" target="_blank"><title>samt-bu-pilot-1#13 Tegne opp brukerreise og painpoints for overføring av elevliste fra ungdomsskole til videregående skole
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Feb 13 (finished)</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">Tegne opp brukerreise og painpoints for overfør…</tspan><tspan dx="5" fill="#57606a" font-size="11">#13</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/13" target="_blank"><title>samt-bu-pilot-1#13 Tegne opp brukerreise og painpoints for overføring av elevliste fra ungdomsskole til videregående skole
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Feb 13 (finished)</title><rect x="375.0" y="64" width="15.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="375.0" y="64" width="15.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/7" target="_blank"><title>samt-bu-pilot-1#7 Kartlegge data som skal overføres
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Feb 13 (finished)</title><text x="14" y="101.0"><tspan fill="#0969da" text-decoration="line-through">Kartlegge data som skal overføres</tspan><tspan dx="5" fill="#57606a" font-size="11">#7</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/7" target="_blank"><title>samt-bu-pilot-1#7 Kartlegge data som skal overføres
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Feb 13 (finished)</title><rect x="375.0" y="90" width="15.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="375.0" y="90" width="15.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/6" target="_blank"><title>samt-bu-pilot-1#6 Etablere konseptuell modell (ver. 1)
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Feb 14 (finished)</title><text x="14" y="127.0"><tspan fill="#0969da" text-decoration="line-through">Etablere konseptuell modell (ver. 1)</tspan><tspan dx="5" fill="#57606a" font-size="11">#6</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/6" target="_blank"><title>samt-bu-pilot-1#6 Etablere konseptuell modell (ver. 1)
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Feb 14 (finished)</title><rect x="375.0" y="116" width="20.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="375.0" y="116" width="20.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/11" target="_blank"><title>samt-bu-pilot-1#11 Definere overordnet arkitektur
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Apr 27 (finished)</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">Definere overordnet arkitektur</tspan><tspan dx="5" fill="#57606a" font-size="11">#11</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/11" target="_blank"><title>samt-bu-pilot-1#11 Definere overordnet arkitektur
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Apr 27 (finished)</title><rect x="375.0" y="142" width="380.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="375.0" y="142" width="380.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/12" target="_blank"><title>samt-bu-pilot-1#12 Definere arkitektur for MVP
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Apr 27 (finished)</title><text x="14" y="179.0"><tspan fill="#0969da" text-decoration="line-through">Definere arkitektur for MVP</tspan><tspan dx="5" fill="#57606a" font-size="11">#12</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/12" target="_blank"><title>samt-bu-pilot-1#12 Definere arkitektur for MVP
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Apr 27 (finished)</title><rect x="375.0" y="168" width="380.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="375.0" y="168" width="380.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/8" target="_blank"><title>samt-bu-pilot-1#8 Velge arkitektur for MVP og dokumentere denne
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Apr 27 (finished)</title><text x="14" y="205.0"><tspan fill="#0969da" text-decoration="line-through">Velge arkitektur for MVP og dokumentere denne</tspan><tspan dx="5" fill="#57606a" font-size="11">#8</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/8" target="_blank"><title>samt-bu-pilot-1#8 Velge arkitektur for MVP og dokumentere denne
+Done (closed)
+Start: Feb 11 (started (In progress))
+End: Apr 27 (finished)</title><rect x="375.0" y="194" width="380.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="375.0" y="194" width="380.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/9" target="_blank"><title>samt-bu-pilot-1#9 Definere juridiske begrensninger og handlingsrom for MVP
+In review
+Start: Feb 18 (started (In progress))
+End: Nov 2 (still in progress, extended to today)
+Duration: not set, assumed 5 working days</title><text x="14" y="231.0"><tspan fill="#0969da">Definere juridiske begrensninger og handlingsro…</tspan><tspan dx="5" fill="#57606a" font-size="11">#9</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/9" target="_blank"><title>samt-bu-pilot-1#9 Definere juridiske begrensninger og handlingsrom for MVP
+In review
+Start: Feb 18 (started (In progress))
+End: Nov 2 (still in progress, extended to today)
+Duration: not set, assumed 5 working days</title><rect x="410.0" y="220" width="1290.0" height="14" rx="4" fill="#8250df" fill-opacity="0.12" stroke="#8250df" stroke-dasharray="4 3"/><rect x="410.0" y="220" width="1290.0" height="14" rx="4" fill="#8250df"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/18" target="_blank"><title>samt-bu-pilot-1#18 Drømmereise
+Done (closed)
+Start: Feb 23 (started (In progress))
+End: Feb 26 (finished)</title><text x="14" y="257.0"><tspan fill="#0969da" text-decoration="line-through">Drømmereise</tspan><tspan dx="5" fill="#57606a" font-size="11">#18</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/18" target="_blank"><title>samt-bu-pilot-1#18 Drømmereise
+Done (closed)
+Start: Feb 23 (started (In progress))
+End: Feb 26 (finished)</title><rect x="435.0" y="246" width="20.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="435.0" y="246" width="20.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/15" target="_blank"><title>samt-bu-pilot-1#15 Retrospektiv
+Done (closed)
+Start: Feb 23 (started (In progress))
+End: Mar 9 (finished)</title><text x="14" y="283.0"><tspan fill="#0969da" text-decoration="line-through">Retrospektiv</tspan><tspan dx="5" fill="#57606a" font-size="11">#15</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/15" target="_blank"><title>samt-bu-pilot-1#15 Retrospektiv
+Done (closed)
+Start: Feb 23 (started (In progress))
+End: Mar 9 (finished)</title><rect x="435.0" y="272" width="75.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="435.0" y="272" width="75.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/10" target="_blank"><title>samt-bu-pilot-1#10 Forberede ROS-analyse
+In progress
+Start: Feb 23 (started (In progress))
+End: Nov 2 (still in progress, extended to today)
+Duration: not set, assumed 5 working days</title><text x="14" y="309.0"><tspan fill="#0969da">Forberede ROS-analyse</tspan><tspan dx="5" fill="#57606a" font-size="11">#10</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/10" target="_blank"><title>samt-bu-pilot-1#10 Forberede ROS-analyse
+In progress
+Start: Feb 23 (started (In progress))
+End: Nov 2 (still in progress, extended to today)
+Duration: not set, assumed 5 working days</title><rect x="435.0" y="298" width="1265.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="435.0" y="298" width="1265.0" height="14" rx="4" fill="#1f6feb"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/14" target="_blank"><title>samt-bu-pilot-1#14 TO-BE brukerreise
+Done (closed)
+Start: Feb 24 (started (In progress))
+End: Mar 9 (finished)</title><text x="14" y="335.0"><tspan fill="#0969da" text-decoration="line-through">TO-BE brukerreise</tspan><tspan dx="5" fill="#57606a" font-size="11">#14</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/14" target="_blank"><title>samt-bu-pilot-1#14 TO-BE brukerreise
+Done (closed)
+Start: Feb 24 (started (In progress))
+End: Mar 9 (finished)</title><rect x="440.0" y="324" width="70.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="440.0" y="324" width="70.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/16" target="_blank"><title>samt-bu-pilot-1#16 Etablere semantisk modell
+Done (closed)
+Start: Feb 24 (started (In progress))
+End: Apr 29 (finished)</title><text x="14" y="361.0"><tspan fill="#0969da" text-decoration="line-through">Etablere semantisk modell</tspan><tspan dx="5" fill="#57606a" font-size="11">#16</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/16" target="_blank"><title>samt-bu-pilot-1#16 Etablere semantisk modell
+Done (closed)
+Start: Feb 24 (started (In progress))
+End: Apr 29 (finished)</title><rect x="440.0" y="350" width="325.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="440.0" y="350" width="325.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/17" target="_blank"><title>samt-bu-pilot-1#17 Utforske testdata
+Done (closed)
+Start: Mar 5 (started (In progress))
+End: Mar 6 (finished)</title><text x="14" y="387.0"><tspan fill="#0969da" text-decoration="line-through">Utforske testdata</tspan><tspan dx="5" fill="#57606a" font-size="11">#17</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/17" target="_blank"><title>samt-bu-pilot-1#17 Utforske testdata
+Done (closed)
+Start: Mar 5 (started (In progress))
+End: Mar 6 (finished)</title><rect x="485.0" y="376" width="10.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="485.0" y="376" width="10.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/19" target="_blank"><title>samt-bu-pilot-1#19 Automatisk innhenting av testdata
+Done (closed)
+Start: Mar 9 (started (In progress))
+End: Apr 29 (finished)</title><text x="14" y="413.0"><tspan fill="#0969da" text-decoration="line-through">Automatisk innhenting av testdata</tspan><tspan dx="5" fill="#57606a" font-size="11">#19</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/19" target="_blank"><title>samt-bu-pilot-1#19 Automatisk innhenting av testdata
+Done (closed)
+Start: Mar 9 (started (In progress))
+End: Apr 29 (finished)</title><rect x="505.0" y="402" width="260.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="505.0" y="402" width="260.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/23" target="_blank"><title>samt-bu-pilot-1#23 Beskrive gevinster - dataplattform POC
+Done (closed)
+Start: Mar 10 (started (In progress))
+End: Mar 25 (finished)</title><text x="14" y="439.0"><tspan fill="#0969da" text-decoration="line-through">Beskrive gevinster - dataplattform POC</tspan><tspan dx="5" fill="#57606a" font-size="11">#23</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/23" target="_blank"><title>samt-bu-pilot-1#23 Beskrive gevinster - dataplattform POC
+Done (closed)
+Start: Mar 10 (started (In progress))
+End: Mar 25 (finished)</title><rect x="510.0" y="428" width="80.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="510.0" y="428" width="80.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/22" target="_blank"><title>samt-bu-pilot-1#22 Verifisere brukerreiser
+Done (closed)
+Start: Mar 11 (started (In progress))
+End: Mar 17 (finished)</title><text x="14" y="465.0"><tspan fill="#0969da" text-decoration="line-through">Verifisere brukerreiser</tspan><tspan dx="5" fill="#57606a" font-size="11">#22</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/22" target="_blank"><title>samt-bu-pilot-1#22 Verifisere brukerreiser
+Done (closed)
+Start: Mar 11 (started (In progress))
+End: Mar 17 (finished)</title><rect x="515.0" y="454" width="35.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="515.0" y="454" width="35.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/20" target="_blank"><title>samt-bu-pilot-1#20 Validering av fødselsnumre
+Done (closed)
+Start: Mar 11 (started (In progress))
+End: Mar 23 (finished)</title><text x="14" y="491.0"><tspan fill="#0969da" text-decoration="line-through">Validering av fødselsnumre</tspan><tspan dx="5" fill="#57606a" font-size="11">#20</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/20" target="_blank"><title>samt-bu-pilot-1#20 Validering av fødselsnumre
+Done (closed)
+Start: Mar 11 (started (In progress))
+End: Mar 23 (finished)</title><rect x="515.0" y="480" width="65.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="515.0" y="480" width="65.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/24" target="_blank"><title>samt-bu-pilot-1#24 Dokumentasjon i Erik-Hagen-løsningen
+Done (closed)
+Start: Mar 11 (started (In progress))
+End: Apr 27 (finished)</title><text x="14" y="517.0"><tspan fill="#0969da" text-decoration="line-through">Dokumentasjon i Erik-Hagen-løsningen</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/24" target="_blank"><title>samt-bu-pilot-1#24 Dokumentasjon i Erik-Hagen-løsningen
+Done (closed)
+Start: Mar 11 (started (In progress))
+End: Apr 27 (finished)</title><rect x="515.0" y="506" width="240.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="515.0" y="506" width="240.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/27" target="_blank"><title>samt-bu-pilot-1#27 Tilbakemledingsloop om validerte og ugyldige fødselsnumre
+Done (closed)
+Start: Mar 18 (started (In progress))
+End: Apr 29 (finished)</title><text x="14" y="543.0"><tspan fill="#0969da" text-decoration="line-through">Tilbakemledingsloop om validerte og ugyldige fø…</tspan><tspan dx="5" fill="#57606a" font-size="11">#27</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/27" target="_blank"><title>samt-bu-pilot-1#27 Tilbakemledingsloop om validerte og ugyldige fødselsnumre
+Done (closed)
+Start: Mar 18 (started (In progress))
+End: Apr 29 (finished)</title><rect x="550.0" y="532" width="215.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="550.0" y="532" width="215.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/21" target="_blank"><title>samt-bu-pilot-1#21 Avklare / etablere / få tilgang til Vigo testmiljø
+Done (closed)
+Start: Mar 23 (started (In progress))
+End: Apr 27 (finished)</title><text x="14" y="569.0"><tspan fill="#0969da" text-decoration="line-through">Avklare / etablere / få tilgang til Vigo testmi…</tspan><tspan dx="5" fill="#57606a" font-size="11">#21</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/21" target="_blank"><title>samt-bu-pilot-1#21 Avklare / etablere / få tilgang til Vigo testmiljø
+Done (closed)
+Start: Mar 23 (started (In progress))
+End: Apr 27 (finished)</title><rect x="575.0" y="558" width="180.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="575.0" y="558" width="180.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/28" target="_blank"><title>samt-bu-pilot-1#28 Transformere fiktive fødselsnumre til Udir-format
+Done (closed)
+Start: Mar 25 (started (In progress))
+End: Apr 29 (finished)</title><text x="14" y="595.0"><tspan fill="#0969da" text-decoration="line-through">Transformere fiktive fødselsnumre til Udir-form…</tspan><tspan dx="5" fill="#57606a" font-size="11">#28</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/28" target="_blank"><title>samt-bu-pilot-1#28 Transformere fiktive fødselsnumre til Udir-format
+Done (closed)
+Start: Mar 25 (started (In progress))
+End: Apr 29 (finished)</title><rect x="585.0" y="584" width="180.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="585.0" y="584" width="180.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/26" target="_blank"><title>samt-bu-pilot-1#26 Erfaringsrapport
+Done (closed)
+Start: Apr 10 (started (In progress))
+End: Apr 27 (finished)</title><text x="14" y="621.0"><tspan fill="#0969da" text-decoration="line-through">Erfaringsrapport</tspan><tspan dx="5" fill="#57606a" font-size="11">#26</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/26" target="_blank"><title>samt-bu-pilot-1#26 Erfaringsrapport
+Done (closed)
+Start: Apr 10 (started (In progress))
+End: Apr 27 (finished)</title><rect x="665.0" y="610" width="90.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="665.0" y="610" width="90.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/25" target="_blank"><title>samt-bu-pilot-1#25 Vurdere videreføring
+Done (closed)
+Start: Apr 17 (started (In progress))
+End: Apr 20 (finished)</title><text x="14" y="647.0"><tspan fill="#0969da" text-decoration="line-through">Vurdere videreføring</tspan><tspan dx="5" fill="#57606a" font-size="11">#25</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/25" target="_blank"><title>samt-bu-pilot-1#25 Vurdere videreføring
+Done (closed)
+Start: Apr 17 (started (In progress))
+End: Apr 20 (finished)</title><rect x="700.0" y="636" width="20.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="700.0" y="636" width="20.0" height="14" rx="4" fill="#8c959f"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/29" target="_blank"><title>samt-bu-pilot-1#29 Gjennomføre AS IS intervju med Bergen kommune skoleeier
+In progress
+Start: Oct 23 (started (In progress))
+End: Nov 2 (still in progress, extended to today)
+Duration: not set, assumed 5 working days</title><text x="14" y="673.0"><tspan fill="#0969da">Gjennomføre AS IS intervju med Bergen kommune s…</tspan><tspan dx="5" fill="#57606a" font-size="11">#29</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/29" target="_blank"><title>samt-bu-pilot-1#29 Gjennomføre AS IS intervju med Bergen kommune skoleeier
+In progress
+Start: Oct 23 (started (In progress))
+End: Nov 2 (still in progress, extended to today)
+Duration: not set, assumed 5 working days</title><rect x="1645.0" y="662" width="55.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="1645.0" y="662" width="55.0" height="14" rx="4" fill="#1f6feb"/></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/81" target="_blank"><title>samt-bu-common-tasks#81 Brukerreise: Gjennomføre AS IS intervju med skoleleder grunnskole
+To do
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><text x="14" y="699.0"><tspan fill="#0969da">Brukerreise: Gjennomføre AS IS intervju med sko…</tspan><tspan dx="5" fill="#57606a" font-size="11">#81</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/81" target="_blank"><title>samt-bu-common-tasks#81 Brukerreise: Gjennomføre AS IS intervju med skoleleder grunnskole
+To do
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="1695.0" y="688" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/82" target="_blank"><title>samt-bu-common-tasks#82 Samkjøre oss mot moderniseringsprosjekt Novari
+To do
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><text x="14" y="725.0"><tspan fill="#0969da">Samkjøre oss mot moderniseringsprosjekt Novari</tspan><tspan dx="5" fill="#57606a" font-size="11">#82</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/82" target="_blank"><title>samt-bu-common-tasks#82 Samkjøre oss mot moderniseringsprosjekt Novari
+To do
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="1695.0" y="714" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/83" target="_blank"><title>samt-bu-common-tasks#83 Utvikle en skisse til drømmereise
+To do
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><text x="14" y="751.0"><tspan fill="#0969da">Utvikle en skisse til drømmereise</tspan><tspan dx="5" fill="#57606a" font-size="11">#83</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/83" target="_blank"><title>samt-bu-common-tasks#83 Utvikle en skisse til drømmereise
+To do
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="1695.0" y="740" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/84" target="_blank"><title>samt-bu-common-tasks#84 Datamodell
+Proposed
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><text x="14" y="777.0"><tspan fill="#0969da">Datamodell</tspan><tspan dx="5" fill="#57606a" font-size="11">#84</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/84" target="_blank"><title>samt-bu-common-tasks#84 Datamodell
+Proposed
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="1695.0" y="766" width="25.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/30" target="_blank"><title>samt-bu-pilot-1#30 Brukerreise: Gjennomføre AS IS intervju med Novari inntak
+To do
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><text x="14" y="803.0"><tspan fill="#0969da">Brukerreise: Gjennomføre AS IS intervju med Nov…</tspan><tspan dx="5" fill="#57606a" font-size="11">#30</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-pilot-1/issues/30" target="_blank"><title>samt-bu-pilot-1#30 Brukerreise: Gjennomføre AS IS intervju med Novari inntak
+To do
+Start: Nov 2 (not planned, from today)
+End: Nov 6 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="1695.0" y="792" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+<line x1="1697.5" y1="58" x2="1697.5" y2="816" stroke="#cf222e" stroke-width="1.5"/>
+<text x="1697.5" y="827" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
+<path d="M14,848H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl1a)"/><text x="48" y="852" fill="#24292f">Arrow: waits for</text>
+<path d="M174,848H202" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl1r)"/><text x="208" y="852" fill="#24292f">Red arrow: blocking task ends too late</text>
+<rect x="476" y="842" width="28" height="12" rx="3" fill="#8c959f"/><text x="510" y="852" fill="#24292f">Dark: has happened</text>
+<rect x="649" y="842" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><text x="683" y="852" fill="#24292f">Light: dates set</text>
+<rect x="809" y="842" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="843" y="852" fill="#24292f">Dashed: calculated or assumed</text>
+<rect x="1053" y="842" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#bf8700"/><line x1="1053" y1="857" x2="1081" y2="857" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><text x="1087" y="852" fill="#24292f">Yellow border and line: late start</text>
+<rect x="1328" y="842" width="14" height="12" fill="#cf222e"/><rect x="1342" y="842" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="1362" y="852" fill="#24292f">Red: after the due date (light: forecast)</text>
+<circle cx="28" cy="870" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="874" fill="#24292f">Ring: the dependency is described</text>
+<text x="14" y="900" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/1" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 1 – Overgang ungdomsskole videregående</tspan></a>. 8 tasks have no Duration and are assumed to take one week.</text>
+</svg>
