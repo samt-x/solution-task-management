@@ -57,6 +57,8 @@ TEXT = {
            'legend_arrow': 'Pil: venter på', 'legend_late': 'Rød pil: blokkerende oppgave slutter for sent',
            'legend_actual': 'Mørk: har skjedd', 'legend_set': 'Lys: satte datoer',
            'legend_calc': 'Stiplet: beregnet eller antatt',
+           'legend_overdue': 'Rød kant og strek: forsinket start eller slutt',
+           'late_s': 'Forsinket: skulle startet {d}', 'late_e': 'Forsinket: skulle vært ferdig {d}',
            'made': 'Generert {d} fra', 'empty': 'Ingen oppgaver på brettet ennå.',
            'legend_why': 'Ring: avhengigheten er beskrevet',
            'start': 'Start', 'end': 'Slutt',
@@ -78,6 +80,8 @@ TEXT = {
            'legend_arrow': 'Arrow: waits for', 'legend_late': 'Red arrow: blocking task ends too late',
            'legend_actual': 'Dark: has happened', 'legend_set': 'Light: dates set',
            'legend_calc': 'Dashed: calculated or assumed',
+           'legend_overdue': 'Red border and line: start or end overdue',
+           'late_s': 'Overdue: should have started {d}', 'late_e': 'Overdue: should have been finished {d}',
            'made': 'Generated {d} from', 'empty': 'No tasks on the board yet.',
            'legend_why': 'Ring: the dependency is described',
            'start': 'Start', 'end': 'End',
@@ -267,9 +271,14 @@ def plan(tasks, today):
                 s, ss = workday(max(ends) + datetime.timedelta(days=1)), 'deps'
         if e is None:
             e, es, used = add_days(s, days), 'start', True
-            if ss == 'actual_s' and not o.get('finished') and e < today:
-                e, es = today, 'running'
-        o.update(s=s, e=max(e, s), s_src=ss, e_src=es, days=days, assumed=used and not n)
+        # Forsinket: datoen er passert uten at oppgaven er startet eller ferdig. Bare datoer noen har satt, eller
+        # regnet med en Duration noen har satt; antatt varighet gir ikke rødt.
+        open_ = not o.get('finished')
+        late_s = s if open_ and not o.get('started') and (ss == 'set_s' or (ss == 'due' and n)) and s < today else None
+        late_e = e if open_ and (es == 'set_e' or (es == 'start' and n)) and e < today else None
+        if es == 'start' and ss == 'actual_s' and open_ and e < today:   # pågår fortsatt
+            e, es = today, 'running'
+        o.update(s=s, e=max(e, s), s_src=ss, e_src=es, days=days, assumed=used and not n, late_s=late_s, late_e=late_e)
         busy.discard(o['key'])
         return o
 
@@ -327,7 +336,7 @@ def svg(number, title, url, tasks, lang, today):
 
     # Tegnforklaringen brytes over flere linjer når figuren er smal
     legend = [('arrow', t['legend_arrow']), ('late', t['legend_late']), ('actual', t['legend_actual']),
-              ('set', t['legend_set']), ('calc', t['legend_calc']), ('why', t['legend_why'])]
+              ('set', t['legend_set']), ('calc', t['legend_calc']), ('late_bar', t['legend_overdue']), ('why', t['legend_why'])]
     places, lx, ly = [], PAD, 0
     for kind, text in legend:
         w = 34 + len(text) * 6.4 + 24
@@ -382,6 +391,10 @@ def svg(number, title, url, tasks, lang, today):
             tip.append(t['duration'].format(n=f'{o["duration"]:g}'))
         elif o['assumed']:
             tip.append(t['no_duration'].format(n=o['days']))
+        if o['late_s']:
+            tip.append(t['late_s'].format(d=fmt(o['late_s'], lang)))
+        if o['late_e']:
+            tip.append(t['late_e'].format(d=fmt(o['late_e'], lang)))
         if o['blocked_by']:
             tip.append(f'{t["blocked_by"]}: ' + ', '.join(b['key'] + ('' if b in inside else f' ({t["outside"]})') for b in o['blocked_by']))
         if blocking:
@@ -400,14 +413,23 @@ def svg(number, title, url, tasks, lang, today):
         # dem er beregnet. Det som har skjedd (fra start til slutt, eller til i dag), tegnes mørkt over.
         x1, x2 = x(s), x(d) + px
         firm = o['s_src'] in ('actual_s', 'set_s') and o['e_src'] in ('actual_e', 'set_e')
+        late = o['late_s'] or o['late_e']
+        edge = LATE if late else color
         bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}" '
-               + (f'fill-opacity="0.35" stroke="{color}"/>' if firm else
-                  f'fill-opacity="0.12" stroke="{color}" stroke-dasharray="4 3"/>')]
+               + (f'fill-opacity="0.35" stroke="{edge}"/>' if firm else
+                  f'fill-opacity="0.12" stroke="{edge}" stroke-dasharray="4 3"/>')]
         if o.get('started'):
             a1 = x(max(day(o['started']), s))
             a2 = x(d) + px if o.get('ended') else min(x(today) + px, x2)
             if a2 > a1:
                 bar.append(f'<rect x="{a1:.1f}" y="{y + 6}" width="{a2 - a1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}"/>')
+        if late:
+            # Rød kant, og rød strek under stolpen fra datoen som er passert, til i dag
+            if o.get('started'):
+                bar.append(f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="none" stroke="{LATE}"/>')
+            lx1 = x(o['late_s']) if o['late_s'] else x(o['late_e']) + px
+            bar.append(f'<line x1="{lx1:.1f}" y1="{y + ROW_H - 3}" x2="{x(today) + px / 2:.1f}" y2="{y + ROW_H - 3}" '
+                       f'stroke="{LATE}" stroke-width="2" stroke-dasharray="4 2"/>')
         out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{tip}</title>{"".join(bar)}</a>')
         span[o['key']] = (x1, x2, mid, s, d)
 
@@ -463,6 +485,9 @@ def svg(number, title, url, tasks, lang, today):
               'set': lambda lx, ly: f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.35" stroke="{grey}"/>',
               'calc': lambda lx, ly: (f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.12" '
                                       f'stroke="{grey}" stroke-dasharray="4 3"/>'),
+              'late_bar': lambda lx, ly: (f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.35" '
+                                          f'stroke="{LATE}"/><line x1="{lx}" y1="{ly + 9}" x2="{lx + 28}" y2="{ly + 9}" '
+                                          f'stroke="{LATE}" stroke-width="2" stroke-dasharray="4 2"/>'),
               'why': lambda lx, ly: f'<circle cx="{lx + 14}" cy="{ly}" r="3.2" fill="#ffffff" stroke="{ARROW}" stroke-width="1.5"/>'}
     for kind, text, lx, dy in places:
         ly = legend_y + dy

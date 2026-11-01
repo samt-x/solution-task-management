@@ -18,7 +18,7 @@ Vinduet henter oppgaven fra GitHub. Uten innlogging tillater GitHub omtrent 60 o
 
 ## Eksempel
 
-Sju eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Derfor viser eksemplene Start date og Due date som det som har skjedd, ikke historikken. To av dem har ingen datoer og plasseres etter oppgavene de venter på: G med Duration 3, og F uten varighet. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
+Sju eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Derfor viser eksemplene Start date og Due date som det som har skjedd, ikke historikken. To av dem har ingen datoer og plasseres etter oppgavene de venter på: G med Duration 3, og F uten varighet. B er forsinket, fordi fristen var fredag forrige uke. D skulle startet samme dag, men venter fortsatt på B og C. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
 
 {{< inline-svg "project-20-nb.svg" >}}
 
@@ -37,6 +37,7 @@ Figurene lages alle her, og sidene henter dem herfra. Se [Teknisk dokumentasjon]
 - **Mørk del:** det som har skjedd, fra oppgaven ble flyttet til In progress til den ble lukket, eller til i dag hvis den pågår.
 - **Lys stolpe med kant:** både start og slutt er satt (Start date og Due date) eller har skjedd.
 - **Stiplet stolpe:** minst én av datoene er beregnet, se under.
+- **Rød kant og rød strek under stolpen:** oppgaven er forsinket. Enten skulle den vært startet og er ikke det, eller den skulle vært ferdig og er ikke det. Streken går fra datoen som er passert, til i dag. Bare datoer noen har satt, teller: Start date, Due date, eller en dato regnet med Duration. En antatt varighet gir ikke rødt.
 - **Pil:** oppgaven pila peker på, venter på oppgaven pila kommer fra.
 - **Rød pil:** oppgaven det ventes på, slutter etter at den ventende skal starte. Planen henger ikke sammen.
 - **Hold musa over en pil:** hvorfor oppgaven venter, slakk eller overlapp i arbeidsdager, og hvem som koblet oppgavene og når. Klikk på pila for å se avhengigheten og oppgaven som venter i vinduet.
