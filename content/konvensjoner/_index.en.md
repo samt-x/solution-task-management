@@ -162,7 +162,7 @@ Each sub-project with a board of its own shall have a page called **Oppgaver og 
 
 The name is not «Oppgavestyring» (task management), because that is the name of the solution. The overview of all the boards is under Project governance → Tasks and follow-up.
 
-Tried first for Project 5 and Project 18 (November 2026), then for the other boards ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
+Tried first for Project 5 and Project 18, and put into use for all boards on 2 November 2026 ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)). The list of pages is on [Timeline](../tidslinje/#where-the-chart-is-used). New board: see [Technical documentation](../teknisk-dokumentasjon/#timeline-with-dependencies).
 
 ## Examples in the documentation
 

@@ -26,8 +26,19 @@ Ni eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x
 
 Tidslinjen for et brett vises på siden **Oppgaver og framdrift** i delprosjektet som eier brettet:
 
-- [Arkitektur → Overordnet arkitektur → Oppgaver og framdrift](/arkitektur/overordnet-arkitektur/oppgaver-og-framdrift/) (Project 5)
-- [Oppgavestyring → Oppgaver og framdrift](../oppgaver-og-framdrift/) (Project 18)
+| Delprosjekt | Brett |
+|---|---|
+| [Pilot 1](/pilotering/pilot-1/oppgaver-og-framdrift/) | Project 1 |
+| [Pilot 2](/pilotering/pilot-2/oppgaver-og-framdrift/) | Project 2 |
+| [Pilot 3](/pilotering/pilot-3/oppgaver-og-framdrift/) | Project 4 |
+| [Pilot 4](/pilotering/pilot-4/oppgaver-og-framdrift/) | Project 3 |
+| [Pilot 5](/pilotering/pilot-5/oppgaver-og-framdrift/) | Project 9 |
+| [Pilot 6](/pilotering/pilot-6/oppgaver-og-framdrift/) | Project 10 |
+| [Pilot 7](/pilotering/pilot-7/oppgaver-og-framdrift/) | Project 19 |
+| [Overordnet arkitektur](/arkitektur/overordnet-arkitektur/oppgaver-og-framdrift/) | Project 5 |
+| [Informasjonsarkitektur](/arkitektur/informasjonsarkitektur/oppgaver-og-framdrift/) | Project 6 |
+| [SAMT-BU Docs](/prosjektleveranser/loesninger/samhandlingsplattform/samt-bu-docs/oppgaver-og-framdrift/) | Project 17 |
+| [Oppgavestyring](../oppgaver-og-framdrift/) | Project 18 |
 
 Figurene lages alle her, og sidene henter dem herfra. Se [Teknisk dokumentasjon](../teknisk-dokumentasjon/#tidslinje-med-avhengigheter).
 

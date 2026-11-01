@@ -26,8 +26,19 @@ Nine examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt
 
 The timeline for a board is shown on the page **Tasks and progress** of the sub-project that owns the board:
 
-- [Architecture → High-level architecture → Tasks and progress](/en/arkitektur/overordnet-arkitektur/oppgaver-og-framdrift/) (Project 5)
-- [Task management → Tasks and progress](../oppgaver-og-framdrift/) (Project 18)
+| Sub-project | Board |
+|---|---|
+| [Pilot 1](/en/pilotering/pilot-1/oppgaver-og-framdrift/) | Project 1 |
+| [Pilot 2](/en/pilotering/pilot-2/oppgaver-og-framdrift/) | Project 2 |
+| [Pilot 3](/en/pilotering/pilot-3/oppgaver-og-framdrift/) | Project 4 |
+| [Pilot 4](/en/pilotering/pilot-4/oppgaver-og-framdrift/) | Project 3 |
+| [Pilot 5](/en/pilotering/pilot-5/oppgaver-og-framdrift/) | Project 9 |
+| [Pilot 6](/en/pilotering/pilot-6/oppgaver-og-framdrift/) | Project 10 |
+| [Pilot 7](/en/pilotering/pilot-7/oppgaver-og-framdrift/) | Project 19 |
+| [High-level architecture](/en/arkitektur/overordnet-arkitektur/oppgaver-og-framdrift/) | Project 5 |
+| [Information architecture](/en/arkitektur/informasjonsarkitektur/oppgaver-og-framdrift/) | Project 6 |
+| [SAMT-BU Docs](/en/prosjektleveranser/loesninger/samhandlingsplattform/samt-bu-docs/oppgaver-og-framdrift/) | Project 17 |
+| [Task management](../oppgaver-og-framdrift/) | Project 18 |
 
 The charts are all generated here, and the pages fetch them from here. See [Technical documentation](../teknisk-dokumentasjon/#timeline-with-dependencies).
 

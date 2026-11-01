@@ -162,7 +162,7 @@ Hvert delprosjekt med eget brett skal ha en side som heter **Oppgaver og framdri
 
 Navnet er ikke «Oppgavestyring», fordi det er navnet på løsningen. Oversikten over alle brettene står under Prosjektstyring → Oppgaver og oppfølging.
 
-Prøves først for Project 5 og Project 18 (november 2026), deretter for de andre brettene ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
+Prøvd først for Project 5 og Project 18, og tatt i bruk for alle brettene 2. november 2026 ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)). Listen over sidene står på [Tidslinje](../tidslinje/#hvor-figuren-brukes). Nytt brett: se [Teknisk dokumentasjon](../teknisk-dokumentasjon/#tidslinje-med-avhengigheter).
 
 ## Eksempler i dokumentasjonen
 

@@ -31,9 +31,19 @@ sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ORG = 'samt-x'
 # Brett → filnavn uten -nb.svg/-en.svg, relativ til reporoten. Figurene ligger alle på siden Tidslinje og vises på
 # sidene Oppgaver og framdrift med inline-svg og stien til Tidslinje (andre argument i shortcoden).
-PROJECTS = {5: 'content/tidslinje/project-5',    # Arkitektur → Overordnet arkitektur → Oppgaver og framdrift
-            18: 'content/tidslinje/project-18',  # Oppgavestyring → Oppgaver og framdrift
+PROJECTS = {1: 'content/tidslinje/project-1',    # Pilot 1 (samt-bu-pilot-1)
+            2: 'content/tidslinje/project-2',    # Pilot 2 (samt-bu-pilot-2)
+            4: 'content/tidslinje/project-4',    # Pilot 3 (samt-bu-pilot-3) – Project 4 er pilot 3
+            3: 'content/tidslinje/project-3',    # Pilot 4 (samt-bu-pilot-4) – Project 3 er pilot 4
+            9: 'content/tidslinje/project-9',    # Pilot 5 (samt-bu-pilot-5)
+            10: 'content/tidslinje/project-10',  # Pilot 6 (samt-bu-pilot-6)
+            19: 'content/tidslinje/project-19',  # Pilot 7 (samt-bu-pilot-7)
+            5: 'content/tidslinje/project-5',    # Arkitektur → Overordnet arkitektur (team-architecture)
+            6: 'content/tidslinje/project-6',    # Arkitektur → Informasjonsarkitektur (team-semantics; issuene i information-models)
+            17: 'content/tidslinje/project-17',  # Docs platform (solution-samt-bu-docs)
+            18: 'content/tidslinje/project-18',  # Oppgavestyring (solution-task-management)
             20: 'content/tidslinje/project-20'}  # [EXAMPLE] Timeline: eksemplene i solution-task-management-examples (#40)
+# Hvert brett vises på siden Oppgaver og framdrift i innholdsrepoet som eier brettet.
 # Eksempeldatoene flyttes hver uke (example-dates.py), så historikken passer ikke med dem. Der leses Start date og
 # Due date som det som har skjedd, for eksempler som er startet eller ferdige.
 NO_HISTORY = {20}
