@@ -11,9 +11,15 @@ on:
   schedule:
     - cron: '17 * * * *'   # hver time
   workflow_dispatch:
+    inputs:
+      test_failure:
+        description: 'Feil med vilje, for å teste at feilen meldes som issue'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
+  issues: write   # workflow-alert.py melder feil som issue
 
 concurrency:
   group: timeline
@@ -27,6 +33,10 @@ jobs:
       TZ: Europe/Oslo   # dagens dato i figuren
     steps:
       - uses: actions/checkout@v7
+
+      - name: Testfeil
+        if: inputs.test_failure
+        run: echo "Feiler med vilje (test_failure)" && exit 1
 
       - name: Lag token fra appen
         id: app
@@ -72,3 +82,18 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/SAMT-X/samt-bu-docs/dispatches \
             --data '{"event_type":"module-updated","client_payload":{"source":"solution-task-management","message":"Auto: tidslinje oppdatert"}}'
+
+      # Feil meldes som issue, som lukkes ved neste vellykkede kjøring (se workflow-alert.py)
+      - name: Meld feil som issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python3 .github/scripts/workflow-alert.py fail "Timeline" "tidslinjene på docs.samt-bu.no"
+
+      - name: Lukk feilmelding
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python3 .github/scripts/workflow-alert.py ok "Timeline"

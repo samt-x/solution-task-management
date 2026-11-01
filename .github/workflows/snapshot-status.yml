@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  issues: write   # workflow-alert.py melder feil som issue
 
 concurrency:
   group: snapshot-status
@@ -52,3 +53,18 @@ jobs:
               sleep 3
             done
           fi
+
+      # Feil meldes som issue, som lukkes ved neste vellykkede kjøring (se workflow-alert.py)
+      - name: Meld feil som issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python3 .github/scripts/workflow-alert.py fail "Snapshot status" "statushistorikken i status/"
+
+      - name: Lukk feilmelding
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python3 .github/scripts/workflow-alert.py ok "Snapshot status"
