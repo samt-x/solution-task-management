@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="350" viewBox="0 0 1134 350" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="372" viewBox="0 0 1134 372" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
-<defs><marker id="tl9a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl9r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker></defs>
-<rect width="1134" height="350" fill="#ffffff"/>
+<defs><marker id="tl9a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl9r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl9h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
+<rect width="1134" height="372" fill="#ffffff"/>
 <rect x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
 <rect x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
 <rect x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
@@ -135,6 +135,8 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="924.6" y="220" width=
 <rect x="835" y="270" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="869" y="280" fill="#24292f">Stiplet: beregnet eller antatt</text>
 <rect x="14" y="292" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#bf8700"/><line x1="14" y1="307" x2="42" y2="307" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><text x="48" y="302" fill="#24292f">Gul kant og strek: sen start</text>
 <rect x="251" y="292" width="14" height="12" fill="#cf222e"/><rect x="265" y="292" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="285" y="302" fill="#24292f">Rødt: etter fristen (lyst: prognose)</text>
-<circle cx="554" cy="298" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="574" y="302" fill="#24292f">Ring: avhengigheten er beskrevet</text>
-<text x="14" y="328" fill="#57606a" font-size="11">Generert 2026-11-02 fra<a href="https://github.com/orgs/samt-x/projects/9" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 5 – Id-er i utdanning</tspan></a>. 7 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<text x="548" y="302" fill="#24292f">✓</text><text x="574" y="302" fill="#24292f">Fullført</text>
+<rect x="649" y="292" width="28" height="12" rx="3" fill="url(#tl9h)" stroke="#8c959f"/><text x="683" y="302" fill="#24292f">Skravert og ✕: lukket uten å bli gjort</text>
+<circle cx="28" cy="320" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="324" fill="#24292f">Ring: avhengigheten er beskrevet</text>
+<text x="14" y="350" fill="#57606a" font-size="11">Generert 2026-11-02 fra<a href="https://github.com/orgs/samt-x/projects/9" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 5 – Id-er i utdanning</tspan></a>. 7 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </svg>

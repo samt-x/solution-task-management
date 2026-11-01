@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1334" height="532" viewBox="0 0 1334 532" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
-<defs><marker id="tl2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl2r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker></defs>
+<defs><marker id="tl2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl2r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl2h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
 <rect width="1334" height="532" fill="#ffffff"/>
 <rect x="0" y="84" width="1334" height="26" fill="#f6f8fa"/>
 <rect x="0" y="136" width="1334" height="26" fill="#f6f8fa"/>
@@ -139,11 +139,11 @@ Start: May 6 (started (In progress))
 End: Jun 12 (Due date)
 Overdue: should have been finished Jun 12</title><rect x="375.0" y="116" width="190.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#54aeff"/><rect x="375.0" y="116" width="190.0" height="14" rx="4" fill="#54aeff"/><rect x="565.0" y="116" width="715.0" height="14" fill="#cf222e"/></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/6" target="_blank"><title>samt-bu-pilot-2#6 Etablere metodikk og arbeidsform
-Done (closed)
+Done (closed: completed)
 Start: May 6 (started (In progress))
-End: Aug 7 (finished)</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">Etablere metodikk og arbeidsform</tspan><tspan dx="5" fill="#57606a" font-size="11">#6</tspan></text></a>
+End: Aug 7 (finished)</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">✓ Etablere metodikk og arbeidsform</tspan><tspan dx="5" fill="#57606a" font-size="11">#6</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/6" target="_blank"><title>samt-bu-pilot-2#6 Etablere metodikk og arbeidsform
-Done (closed)
+Done (closed: completed)
 Start: May 6 (started (In progress))
 End: Aug 7 (finished)</title><rect x="375.0" y="142" width="470.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="375.0" y="142" width="470.0" height="14" rx="4" fill="#8c959f"/></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/19" target="_blank"><title>samt-bu-pilot-2#19 HK-dir: Kartlegge eksisterende Nå-situasjon av dokumentasjon vi har for utdanning.no
@@ -255,6 +255,8 @@ Duration: not set, assumed 5 working days</title><rect x="1275.0" y="402" width=
 <rect x="809" y="452" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="843" y="462" fill="#24292f">Dashed: calculated or assumed</text>
 <rect x="14" y="474" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#bf8700"/><line x1="14" y1="489" x2="42" y2="489" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><text x="48" y="484" fill="#24292f">Yellow border and line: late start</text>
 <rect x="290" y="474" width="14" height="12" fill="#cf222e"/><rect x="304" y="474" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="324" y="484" fill="#24292f">Red: after the due date (light: forecast)</text>
-<circle cx="624" cy="480" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="644" y="484" fill="#24292f">Ring: the dependency is described</text>
+<text x="618" y="484" fill="#24292f">✓</text><text x="644" y="484" fill="#24292f">Completed</text>
+<rect x="726" y="474" width="28" height="12" rx="3" fill="url(#tl2h)" stroke="#8c959f"/><text x="760" y="484" fill="#24292f">Hatched and ✕: closed without being done</text>
+<circle cx="1054" cy="480" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="1074" y="484" fill="#24292f">Ring: the dependency is described</text>
 <text x="14" y="510" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/2" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 2 – Valg av utdanningsløp</tspan></a>. 7 tasks have no Duration and are assumed to take one week.</text>
 </svg>

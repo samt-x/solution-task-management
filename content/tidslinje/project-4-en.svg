@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="870" viewBox="0 0 1134 870" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="892" viewBox="0 0 1134 892" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
-<defs><marker id="tl4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl4r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker></defs>
-<rect width="1134" height="870" fill="#ffffff"/>
+<defs><marker id="tl4a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl4r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl4h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
+<rect width="1134" height="892" fill="#ffffff"/>
 <rect x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
 <rect x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
 <rect x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
@@ -86,35 +86,35 @@
 <line x1="0" y1="57.5" x2="1134" y2="57.5" stroke="#d0d7de"/>
 <line x1="359.5" y1="0" x2="359.5" y2="760" stroke="#d0d7de"/>
 <a href="https://github.com/samt-x/samt-bu-pilot-3/issues/7" target="_blank"><title>samt-bu-pilot-3#7 Opprette usikkerhetsregister for Pilot3
-Done (closed)
+Done (closed: completed)
 Start: Jul 2 (started (In progress))
-End: Jul 2 (finished)</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">Opprette usikkerhetsregister for Pilot3</tspan><tspan dx="5" fill="#57606a" font-size="11">#7</tspan></text></a>
+End: Jul 2 (finished)</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">✓ Opprette usikkerhetsregister for Pilot3</tspan><tspan dx="5" fill="#57606a" font-size="11">#7</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-3/issues/7" target="_blank"><title>samt-bu-pilot-3#7 Opprette usikkerhetsregister for Pilot3
-Done (closed)
+Done (closed: completed)
 Start: Jul 2 (started (In progress))
 End: Jul 2 (finished)</title><rect x="376.9" y="64" width="5.6" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="376.9" y="64" width="5.6" height="14" rx="4" fill="#8c959f"/></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-3/issues/4" target="_blank"><title>samt-bu-pilot-3#4 Oppstartsmøte august Pilot3
-Done (closed)
+Done (closed: completed)
 Start: Jul 2 (started (In progress))
-End: Aug 7 (finished)</title><text x="14" y="101.0"><tspan fill="#0969da" text-decoration="line-through">Oppstartsmøte august Pilot3</tspan><tspan dx="5" fill="#57606a" font-size="11">#4</tspan></text></a>
+End: Aug 7 (finished)</title><text x="14" y="101.0"><tspan fill="#0969da" text-decoration="line-through">✓ Oppstartsmøte august Pilot3</tspan><tspan dx="5" fill="#57606a" font-size="11">#4</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-3/issues/4" target="_blank"><title>samt-bu-pilot-3#4 Oppstartsmøte august Pilot3
-Done (closed)
+Done (closed: completed)
 Start: Jul 2 (started (In progress))
 End: Aug 7 (finished)</title><rect x="376.9" y="90" width="208.3" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="376.9" y="90" width="208.3" height="14" rx="4" fill="#8c959f"/></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-3/issues/26" target="_blank"><title>samt-bu-pilot-3#26 Møte/mini-workshop med ressurspersoner fra KS Digital
-Done (closed)
+Done (closed: completed)
 Start: Aug 10 (started (In progress))
-End: Sep 15 (finished)</title><text x="14" y="127.0"><tspan fill="#0969da" text-decoration="line-through">Møte/mini-workshop med ressurspersoner fra KS D…</tspan><tspan dx="5" fill="#57606a" font-size="11">#26</tspan></text></a>
+End: Sep 15 (finished)</title><text x="14" y="127.0"><tspan fill="#0969da" text-decoration="line-through">✓ Møte/mini-workshop med ressurspersoner fra KS…</tspan><tspan dx="5" fill="#57606a" font-size="11">#26</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-3/issues/26" target="_blank"><title>samt-bu-pilot-3#26 Møte/mini-workshop med ressurspersoner fra KS Digital
-Done (closed)
+Done (closed: completed)
 Start: Aug 10 (started (In progress))
 End: Sep 15 (finished)</title><rect x="596.4" y="116" width="208.3" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="596.4" y="116" width="208.3" height="14" rx="4" fill="#8c959f"/></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-3/issues/5" target="_blank"><title>samt-bu-pilot-3#5 Workshop 1 - Oslo Kommune
-Done (closed)
+Done (closed: completed)
 Start: Aug 17 (started (In progress))
-End: Aug 20 (finished)</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">Workshop 1 - Oslo Kommune</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
+End: Aug 20 (finished)</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">✓ Workshop 1 - Oslo Kommune</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-3/issues/5" target="_blank"><title>samt-bu-pilot-3#5 Workshop 1 - Oslo Kommune
-Done (closed)
+Done (closed: completed)
 Start: Aug 17 (started (In progress))
 End: Aug 20 (finished)</title><rect x="635.9" y="142" width="22.5" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="635.9" y="142" width="22.5" height="14" rx="4" fill="#8c959f"/></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-3/issues/27" target="_blank"><title>samt-bu-pilot-3#27 Demo - KS Digital samtykkeløsning
@@ -356,6 +356,8 @@ Duration: not set, assumed 5 working days</title><rect x="1069.3" y="740" width=
 <rect x="809" y="790" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="843" y="800" fill="#24292f">Dashed: calculated or assumed</text>
 <rect x="14" y="812" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#bf8700"/><line x1="14" y1="827" x2="42" y2="827" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><text x="48" y="822" fill="#24292f">Yellow border and line: late start</text>
 <rect x="290" y="812" width="14" height="12" fill="#cf222e"/><rect x="304" y="812" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="324" y="822" fill="#24292f">Red: after the due date (light: forecast)</text>
-<circle cx="624" cy="818" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="644" y="822" fill="#24292f">Ring: the dependency is described</text>
-<text x="14" y="848" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/4" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 3 – Flytting av barn og unge i skoleåret</tspan></a>. 23 tasks have no Duration and are assumed to take one week.</text>
+<text x="618" y="822" fill="#24292f">✓</text><text x="644" y="822" fill="#24292f">Completed</text>
+<rect x="726" y="812" width="28" height="12" rx="3" fill="url(#tl4h)" stroke="#8c959f"/><text x="760" y="822" fill="#24292f">Hatched and ✕: closed without being done</text>
+<circle cx="28" cy="840" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="844" fill="#24292f">Ring: the dependency is described</text>
+<text x="14" y="870" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/4" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 3 – Flytting av barn og unge i skoleåret</tspan></a>. 23 tasks have no Duration and are assumed to take one week.</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="1818" viewBox="0 0 880 1818" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
-<defs><marker id="tl17a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl17r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker></defs>
+<defs><marker id="tl17a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl17r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl17h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
 <rect width="880" height="1818" fill="#ffffff"/>
 <rect x="0" y="84" width="880" height="26" fill="#f6f8fa"/>
 <rect x="0" y="136" width="880" height="26" fill="#f6f8fa"/>
@@ -69,45 +69,45 @@
 <line x1="0" y1="57.5" x2="880" y2="57.5" stroke="#d0d7de"/>
 <line x1="359.5" y1="0" x2="359.5" y2="1670" stroke="#d0d7de"/>
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/24" target="_blank"><title>solution-samt-bu-docs#24 CI: injiser last_editor for alle redigeringsveier (ikke bare CMS)
-Done (closed)
+Done (lukket: fullført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">CI: injiser last_editor for alle redigeringsvei…</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">✓ CI: injiser last_editor for alle redigeringsv…</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/24" target="_blank"><title>solution-samt-bu-docs#24 CI: injiser last_editor for alle redigeringsveier (ikke bare CMS)
-Done (closed)
+Done (lukket: fullført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="64" width="154.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/4" target="_blank"><title>solution-samt-bu-docs#4 Rydd opp tom SAMT-BU GitHub-org
-Done (closed)
+Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="101.0"><tspan fill="#0969da" text-decoration="line-through">Rydd opp tom SAMT-BU GitHub-org</tspan><tspan dx="5" fill="#57606a" font-size="11">#4</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="101.0"><tspan fill="#0969da" text-decoration="line-through">✕ Rydd opp tom SAMT-BU GitHub-org</tspan><tspan dx="5" fill="#57606a" font-size="11">#4</tspan></text></a>
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/4" target="_blank"><title>solution-samt-bu-docs#4 Rydd opp tom SAMT-BU GitHub-org
-Done (closed)
+Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="90" width="154.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="90" width="154.0" height="14" rx="4" fill="url(#tl17h)" stroke="#8c959f"/></a>
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/43" target="_blank"><title>solution-samt-bu-docs#43 Vurder GitHub Projects board når prosjektet vokser
-Done (closed)
+Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="127.0"><tspan fill="#0969da" text-decoration="line-through">Vurder GitHub Projects board når prosjektet vok…</tspan><tspan dx="5" fill="#57606a" font-size="11">#43</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="127.0"><tspan fill="#0969da" text-decoration="line-through">✕ Vurder GitHub Projects board når prosjektet v…</tspan><tspan dx="5" fill="#57606a" font-size="11">#43</tspan></text></a>
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/43" target="_blank"><title>solution-samt-bu-docs#43 Vurder GitHub Projects board når prosjektet vokser
-Done (closed)
+Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="116" width="154.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="116" width="154.0" height="14" rx="4" fill="url(#tl17h)" stroke="#8c959f"/></a>
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/5" target="_blank"><title>solution-samt-bu-docs#5 Bug: 3+ raske endringer viser inkonsistent jobbantall i statusfeltet
-Done (closed)
+Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">Bug: 3+ raske endringer viser inkonsistent jobb…</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">✕ Bug: 3+ raske endringer viser inkonsistent jo…</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/5" target="_blank"><title>solution-samt-bu-docs#5 Bug: 3+ raske endringer viser inkonsistent jobbantall i statusfeltet
-Done (closed)
+Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="142" width="154.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="142" width="154.0" height="14" rx="4" fill="url(#tl17h)" stroke="#8c959f"/></a>
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/1" target="_blank"><title>solution-samt-bu-docs#1 Org-admin og CI/CD-secrets bør eies av organisasjonskonto, ikke personlig konto
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -697,7 +697,9 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1650" width
 <rect x="14" y="1722" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="48" y="1732" fill="#24292f">Stiplet: beregnet eller antatt</text>
 <rect x="264" y="1722" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#bf8700"/><line x1="264" y1="1737" x2="292" y2="1737" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><text x="298" y="1732" fill="#24292f">Gul kant og strek: sen start</text>
 <rect x="501" y="1722" width="14" height="12" fill="#cf222e"/><rect x="515" y="1722" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="535" y="1732" fill="#24292f">Rødt: etter fristen (lyst: prognose)</text>
-<circle cx="28" cy="1750" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="1754" fill="#24292f">Ring: avhengigheten er beskrevet</text>
+<text x="22" y="1754" fill="#24292f">✓</text><text x="48" y="1754" fill="#24292f">Fullført</text>
+<rect x="123" y="1744" width="28" height="12" rx="3" fill="url(#tl17h)" stroke="#8c959f"/><text x="157" y="1754" fill="#24292f">Skravert og ✕: lukket uten å bli gjort</text>
+<circle cx="438" cy="1750" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="458" y="1754" fill="#24292f">Ring: avhengigheten er beskrevet</text>
 <text x="14" y="1780" fill="#57606a" font-size="11">Generert 2026-11-02 fra<a href="https://github.com/orgs/samt-x/projects/17" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Docs platform</tspan></a>. 62 oppgaver mangler Duration og er antatt å ta én uke.</text>
 <text x="14" y="1798" fill="#cf222e" font-size="11">⚠ solution-samt-bu-docs#18 beskriver en avhengighet til solution-samt-bu-docs#17 under Avhengigheter, men koblingen «Blocked by» finnes ikke i GitHub.</text>
 </svg>

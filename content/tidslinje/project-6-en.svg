@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="948" viewBox="0 0 1134 948" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="970" viewBox="0 0 1134 970" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
-<defs><marker id="tl6a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl6r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker></defs>
-<rect width="1134" height="948" fill="#ffffff"/>
+<defs><marker id="tl6a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl6r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl6h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
+<rect width="1134" height="970" fill="#ffffff"/>
 <rect x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
 <rect x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
 <rect x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
@@ -71,52 +71,52 @@
 <line x1="0" y1="57.5" x2="1134" y2="57.5" stroke="#d0d7de"/>
 <line x1="359.5" y1="0" x2="359.5" y2="838" stroke="#d0d7de"/>
 <a href="https://github.com/samt-x/information-models/issues/22" target="_blank"><title>information-models#22 Bruke MCP-server mot lovdata til å få KI til å hente ut lovpålagte tjenester knyttet til opplæring.
-Done (closed)
+Done (closed: completed)
 Start: Sep 17 (calculated from end and duration)
 End: Sep 23 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">Bruke MCP-server mot lovdata til å få KI til å…</tspan><tspan dx="5" fill="#57606a" font-size="11">#22</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">✓ Bruke MCP-server mot lovdata til å få KI til…</tspan><tspan dx="5" fill="#57606a" font-size="11">#22</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/22" target="_blank"><title>information-models#22 Bruke MCP-server mot lovdata til å få KI til å hente ut lovpålagte tjenester knyttet til opplæring.
-Done (closed)
+Done (closed: completed)
 Start: Sep 17 (calculated from end and duration)
 End: Sep 23 (finished)
 Duration: not set, assumed 5 working days</title><rect x="399.3" y="64" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 <a href="https://github.com/samt-x/information-models/issues/24" target="_blank"><title>information-models#24 Bruke MCP-server mot lovdata til å få KI til å hente ut innbyggeres plikter og rettigheter i opplæringsløpet
-Done (closed)
+Done (closed: completed)
 Start: Oct 6 (calculated from end and duration)
 End: Oct 12 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="101.0"><tspan fill="#0969da" text-decoration="line-through">Bruke MCP-server mot lovdata til å få KI til å…</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="14" y="101.0"><tspan fill="#0969da" text-decoration="line-through">✓ Bruke MCP-server mot lovdata til å få KI til…</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/24" target="_blank"><title>information-models#24 Bruke MCP-server mot lovdata til å få KI til å hente ut innbyggeres plikter og rettigheter i opplæringsløpet
-Done (closed)
+Done (closed: completed)
 Start: Oct 6 (calculated from end and duration)
 End: Oct 12 (finished)
 Duration: not set, assumed 5 working days</title><rect x="648.3" y="90" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 <a href="https://github.com/samt-x/information-models/issues/25" target="_blank"><title>information-models#25 Hente ut oversikt over begrep fra LOS 4.0
-Done (closed)
+Done (closed: completed)
 Start: Oct 6 (calculated from end and duration)
 End: Oct 12 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="127.0"><tspan fill="#0969da" text-decoration="line-through">Hente ut oversikt over begrep fra LOS 4.0</tspan><tspan dx="5" fill="#57606a" font-size="11">#25</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="14" y="127.0"><tspan fill="#0969da" text-decoration="line-through">✓ Hente ut oversikt over begrep fra LOS 4.0</tspan><tspan dx="5" fill="#57606a" font-size="11">#25</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/25" target="_blank"><title>information-models#25 Hente ut oversikt over begrep fra LOS 4.0
-Done (closed)
+Done (closed: completed)
 Start: Oct 6 (calculated from end and duration)
 End: Oct 12 (finished)
 Duration: not set, assumed 5 working days</title><rect x="648.3" y="116" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 <a href="https://github.com/samt-x/information-models/issues/30" target="_blank"><title>information-models#30 Bruke LLM med MCP mot lovdata til å hente ut relevante begrep i lovverket
-Done (closed)
+Done (closed: completed)
 Start: Oct 6 (calculated from end and duration)
 End: Oct 12 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">Bruke LLM med MCP mot lovdata til å hente ut re…</tspan><tspan dx="5" fill="#57606a" font-size="11">#30</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">✓ Bruke LLM med MCP mot lovdata til å hente ut…</tspan><tspan dx="5" fill="#57606a" font-size="11">#30</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/30" target="_blank"><title>information-models#30 Bruke LLM med MCP mot lovdata til å hente ut relevante begrep i lovverket
-Done (closed)
+Done (closed: completed)
 Start: Oct 6 (calculated from end and duration)
 End: Oct 12 (finished)
 Duration: not set, assumed 5 working days</title><rect x="648.3" y="142" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 <a href="https://github.com/samt-x/information-models/issues/8" target="_blank"><title>information-models#8 Hente ut sentrale begreper fra tjenestene/lovverket
-Done (closed)
+Done (closed: completed)
 Start: Oct 6 (calculated from end and duration)
 End: Oct 12 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="179.0"><tspan fill="#0969da" text-decoration="line-through">Hente ut sentrale begreper fra tjenestene/lovve…</tspan><tspan dx="5" fill="#57606a" font-size="11">#8</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="14" y="179.0"><tspan fill="#0969da" text-decoration="line-through">✓ Hente ut sentrale begreper fra tjenestene/lov…</tspan><tspan dx="5" fill="#57606a" font-size="11">#8</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/8" target="_blank"><title>information-models#8 Hente ut sentrale begreper fra tjenestene/lovverket
-Done (closed)
+Done (closed: completed)
 Start: Oct 6 (calculated from end and duration)
 End: Oct 12 (finished)
 Duration: not set, assumed 5 working days</title><rect x="648.3" y="168" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
@@ -379,6 +379,8 @@ Duration: not set, assumed 5 working days</title><rect x="1002.1" y="818" width=
 <rect x="809" y="868" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="843" y="878" fill="#24292f">Dashed: calculated or assumed</text>
 <rect x="14" y="890" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#bf8700"/><line x1="14" y1="905" x2="42" y2="905" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><text x="48" y="900" fill="#24292f">Yellow border and line: late start</text>
 <rect x="290" y="890" width="14" height="12" fill="#cf222e"/><rect x="304" y="890" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="324" y="900" fill="#24292f">Red: after the due date (light: forecast)</text>
-<circle cx="624" cy="896" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="644" y="900" fill="#24292f">Ring: the dependency is described</text>
-<text x="14" y="926" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/6" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Informasjonsmodeller</tspan></a>. 30 tasks have no Duration and are assumed to take one week.</text>
+<text x="618" y="900" fill="#24292f">✓</text><text x="644" y="900" fill="#24292f">Completed</text>
+<rect x="726" y="890" width="28" height="12" rx="3" fill="url(#tl6h)" stroke="#8c959f"/><text x="760" y="900" fill="#24292f">Hatched and ✕: closed without being done</text>
+<circle cx="28" cy="918" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="922" fill="#24292f">Ring: the dependency is described</text>
+<text x="14" y="948" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/6" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Informasjonsmodeller</tspan></a>. 30 tasks have no Duration and are assumed to take one week.</text>
 </svg>
