@@ -3,7 +3,7 @@ id: b5b5edfa-2185-4b4a-925b-1ef9e8c14868
 title: "Tidslinje med avhengigheter"
 linkTitle: "Tidslinje"
 weight: 35
-lastmod: 2026-11-01T23:53:48+01:00
+lastmod: 2026-11-02T00:11:40+01:00
 last_editor: Erik Hagen
 
 ---
