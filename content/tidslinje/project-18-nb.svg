@@ -329,6 +329,7 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="949.0" y="688" width=
 <rect x="508" y="738" width="28" height="12" rx="3" fill="#8c959f"/><text x="542" y="748" fill="#24292f">Mørk: har skjedd</text>
 <rect x="668" y="738" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><text x="702" y="748" fill="#24292f">Lys: satte datoer</text>
 <rect x="835" y="738" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="869" y="748" fill="#24292f">Stiplet: beregnet eller antatt</text>
-<circle cx="28" cy="766" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="770" fill="#24292f">Ring: avhengigheten er beskrevet</text>
+<rect x="14" y="760" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#cf222e"/><line x1="14" y1="775" x2="42" y2="775" stroke="#cf222e" stroke-width="2" stroke-dasharray="4 2"/><text x="48" y="770" fill="#24292f">Rød kant og strek: forsinket start eller slutt</text>
+<circle cx="380" cy="766" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="400" y="770" fill="#24292f">Ring: avhengigheten er beskrevet</text>
 <text x="14" y="796" fill="#57606a" font-size="11">Generert 2026-11-01 fra<a href="https://github.com/orgs/samt-x/projects/18" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Task management</tspan></a>. 25 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </svg>
