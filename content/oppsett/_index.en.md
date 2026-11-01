@@ -77,6 +77,8 @@ The boards that existed before the templates were moved over to them in October 
 
 The board is filled by the workflow [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) in the repository solution-task-management, every hour and when run manually. The sync goes one way only, and never writes to the project boards. All automatic rules on the aggregate board are switched off, and must stay that way. Access is described under [Technical documentation](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/teknisk-dokumentasjon/).
 
+If Sync All tasks, Timeline or Snapshot status fails, an issue «Workflow failed: …» appears on the board for task management (Project 18). It is closed automatically when the workflow works again. See [Scheduled runs](/en/prosjektleveranser/loesninger/samhandlingsplattform/oppgavestyring/teknisk-dokumentasjon/#scheduled-runs).
+
 ## Access
 
 Access is granted through teams in the organisation. Each pilot has a team with the same name as the repository, for example samt-bu-pilot-3, with write access to the pilot's repository. The core team has write access to all the repositories.

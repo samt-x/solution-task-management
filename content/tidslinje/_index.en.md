@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-The Timeline view in GitHub Projects shows tasks along a time axis, but does not draw which tasks wait for each other. The charts on this page do. They are generated automatically from the boards every hour, and updated on docs shortly after.
+The Timeline view in GitHub Projects shows tasks along a time axis, but does not draw which tasks wait for each other. The charts on this page do. They are generated automatically from the boards every hour, and updated on docs shortly after. A fixed script makes them following the rules on this page. If a run fails, the previous chart stays until the error is fixed, and the date below the chart shows when it was made. See [Scheduled runs](../teknisk-dokumentasjon/#scheduled-runs).
 
 Click a title, a bar or an arrow to see the task in a window on top of the chart. Move the window by its title bar and resize it from the bottom right corner. Links to other tasks inside the window open in the same window. Click somewhere outside the window that is not a link, press Esc or click × to close it. Ctrl-click opens the task on GitHub instead. Hover to see status, dates and dependencies. If the column is narrow, the chart can be scrolled sideways.
 

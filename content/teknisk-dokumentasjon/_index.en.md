@@ -86,6 +86,24 @@ The examples used in the documentation live in the repository [solution-task-man
 
 **New example:** create the issue in the example repository with the line «Eksempel, ikke en oppgave» (example, not a task) first, add it to the board, and add its number with offsets to example-dates.json. Background: [solution-task-management#40](https://github.com/samt-x/solution-task-management/issues/40).
 
+## Scheduled runs
+
+Three workflows in solution-task-management run on a schedule:
+
+| Workflow | When | What it updates |
+|---|---|---|
+| [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) | 17 minutes past every hour | The aggregate board (Project 12) |
+| [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) | 17 minutes past every hour | The timelines on docs, and the dates on the example board |
+| [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) | 47 minutes past every hour | The status history in status/ |
+
+**The engine is GitHub Actions.** The schedule is a schedule with cron in each workflow. GitHub starts the run on its own machines, so no server of ours is needed. All three can also be run by hand with «Run workflow». GitHub does not guarantee the time: runs can be delayed when GitHub is busy, and on rare occasions dropped. That is why the full hour is not used.
+
+**Fixed scripts, not AI.** The workflows run Python scripts that follow the rules described here and on the page [Timeline](../tidslinje/). No AI judges anything along the way. A case nobody has thought of therefore either gets an answer from the rules, which always have a last resort (for example start today and an assumed duration of one week), or the script stops with an error. Then nothing is committed, and the previous result stays. The date below the timeline shows when the chart was made.
+
+**Failures are reported as an issue.** The last step in each workflow runs the script .github/scripts/workflow-alert.py. If a step fails, it creates the issue «Workflow failed: <name>» with the type Problem and a link to the run. The issue lands on Project 18 through Auto-add. If the workflow fails again, a comment is added to the same issue. The next successful run closes it, with a comment. The script uses the workflow's own token (GITHUB_TOKEN with issues: write). Timeline has the option test_failure when run by hand, which fails on purpose, so the reporting can be tested ([solution-task-management#41](https://github.com/samt-x/solution-task-management/issues/41) was the test).
+
+**The schedule can be switched off.** GitHub switches off scheduled workflows in public repositories after 60 days without activity in the repository. Then nothing runs, and no failure is reported. Timeline and Snapshot status commit at least once a day themselves, so as long as they work, there is activity. If a workflow has been switched off, switch it on again under Actions → the workflow → «Enable workflow». The risk is followed up in [solution-task-management#42](https://github.com/samt-x/solution-task-management/issues/42).
+
 ## Moving tasks between repositories
 
 When an issue is moved to another repository, it keeps its comments and history, and stays on the boards it was on. It gets a new number in the new repository. Old links are redirected.

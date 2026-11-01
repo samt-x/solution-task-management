@@ -77,6 +77,8 @@ Brettene som fantes før malene, ble lagt over på dem i oktober 2026 ([M2 Malen
 
 Brettet fylles av workflowen [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) i repoet solution-task-management, hver time og ved manuell kjøring. Synkingen går bare én vei, og skriver aldri til prosjektbrettene. Alle automatiske regler på samlebrettet er slått av, og skal være det. Tilgangen er beskrevet under [Teknisk dokumentasjon](../teknisk-dokumentasjon/).
 
+Feiler Sync All tasks, Timeline eller Snapshot status, kommer det et issue «Workflow failed: …» på brettet for oppgavestyringen (Project 18). Det lukkes av seg selv når workflowen virker igjen. Se [Planlagte kjøringer](../teknisk-dokumentasjon/#planlagte-kjøringer).
+
 ## Tilgang
 
 Tilgang gis gjennom team i organisasjonen. Hver pilot har et team med samme navn som repoet, for eksempel samt-bu-pilot-3, med skrivetilgang til pilotens repo. Kjerneteamet har skrivetilgang til alle repoene.

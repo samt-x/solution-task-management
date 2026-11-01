@@ -86,6 +86,24 @@ Eksemplene som brukes i dokumentasjonen, ligger i repoet [solution-task-manageme
 
 **Nytt eksempel:** lag issuet i eksempelrepoet med linjen «Eksempel, ikke en oppgave» først, legg det på brettet, og legg inn nummeret med forskyvninger i example-dates.json. Bakgrunn: [solution-task-management#40](https://github.com/samt-x/solution-task-management/issues/40).
 
+## Planlagte kjøringer
+
+Tre workflows i solution-task-management kjører etter tidsplan:
+
+| Workflow | Når | Hva den oppdaterer |
+|---|---|---|
+| [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) | 17 minutter over hver time | Samlebrettet (Project 12) |
+| [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) | 17 minutter over hver time | Tidslinjene på docs, og datoene på eksempelbrettet |
+| [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) | 47 minutter over hver time | Statushistorikken i status/ |
+
+**Motoren er GitHub Actions.** Tidsplanen står som schedule med cron i hver workflow. GitHub starter kjøringen på sine egne maskiner, så det trengs ingen server hos oss. Alle tre kan også kjøres for hånd med «Run workflow». GitHub garanterer ikke tidspunktet: kjøringer kan bli forsinket når det er travelt hos GitHub, og en sjelden gang falle bort. Derfor brukes ikke hel time.
+
+**Faste skript, ikke KI.** Workflowene kjører Python-skript som følger reglene som er beskrevet her og på siden [Tidslinje](../tidslinje/). Ingen KI vurderer noe underveis. Et tilfelle ingen har tenkt på, får derfor enten et svar etter reglene, som alltid har en siste utvei (for eksempel start i dag og én uke antatt varighet), eller så stopper skriptet med en feil. Da committes ingenting, og det forrige resultatet blir stående. Datoen under tidslinjen viser når figuren ble laget.
+
+**Feil meldes som issue.** Siste steg i hver workflow kjører skriptet .github/scripts/workflow-alert.py. Feiler et steg, lager det issuet «Workflow failed: <navn>» med typen Problem og lenke til kjøringen. Issuet havner på Project 18 med Auto-add. Feiler workflowen igjen, kommer det en kommentar på det samme issuet. Neste vellykkede kjøring lukker det, med en kommentar. Skriptet bruker workflowens egen token (GITHUB_TOKEN med issues: write). Timeline har valget test_failure ved manuell kjøring, som feiler med vilje, så varslingen kan testes ([solution-task-management#41](https://github.com/samt-x/solution-task-management/issues/41) var testen).
+
+**Tidsplanen kan bli slått av.** GitHub slår av planlagte workflows i offentlige repoer etter 60 dager uten aktivitet i repoet. Da kjører ingenting, og ingen feil meldes. Timeline og Snapshot status committer selv minst én gang i døgnet, så så lenge de virker, er det aktivitet. Er en workflow slått av, slås den på igjen under Actions → workflowen → «Enable workflow». Risikoen følges opp i [solution-task-management#42](https://github.com/samt-x/solution-task-management/issues/42).
+
 ## Flytte oppgaver mellom repoer
 
 Når et issue flyttes til et annet repo, beholder det kommentarer og historikk, og blir stående på brettene det var på. Det får nytt nummer i det nye repoet. Gamle lenker sendes videre.
