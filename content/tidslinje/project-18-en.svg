@@ -329,7 +329,8 @@ Duration: not set, assumed 5 working days</title><rect x="949.0" y="688" width="
 <rect x="476" y="738" width="28" height="12" rx="3" fill="#8c959f"/><text x="510" y="748" fill="#24292f">Dark: has happened</text>
 <rect x="649" y="738" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><text x="683" y="748" fill="#24292f">Light: dates set</text>
 <rect x="809" y="738" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="843" y="748" fill="#24292f">Dashed: calculated or assumed</text>
-<rect x="14" y="760" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#cf222e"/><line x1="14" y1="775" x2="42" y2="775" stroke="#cf222e" stroke-width="2" stroke-dasharray="4 2"/><text x="48" y="770" fill="#24292f">Red border and line: start or end overdue</text>
-<circle cx="348" cy="766" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="368" y="770" fill="#24292f">Ring: the dependency is described</text>
+<rect x="14" y="760" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#bf8700"/><line x1="14" y1="775" x2="42" y2="775" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><text x="48" y="770" fill="#24292f">Yellow border and line: late start</text>
+<rect x="290" y="760" width="14" height="12" fill="#cf222e"/><rect x="304" y="760" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="324" y="770" fill="#24292f">Red: after the due date (light: forecast)</text>
+<circle cx="624" cy="766" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="644" y="770" fill="#24292f">Ring: the dependency is described</text>
 <text x="14" y="796" fill="#57606a" font-size="11">Generated 2026-11-01 from<a href="https://github.com/orgs/samt-x/projects/18" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Task management</tspan></a>. 25 tasks have no Duration and are assumed to take one week.</text>
 </svg>
