@@ -155,6 +155,14 @@ Endringer i repoer, brett, merkelapper og rutiner får en chore-oppgave som besk
 
 Et nytt repo får topics når det opprettes. Mangler `scope-*`, er levetiden ikke avklart ennå. Skillet mellom prosjektspesifikt og varig er grunnen til at arkitektur og semantikk har innhold og oppgaver i hvert sitt repo, mens pilotene har begge deler i ett. Se [solution-task-management#31](https://github.com/samt-x/solution-task-management/issues/31).
 
+## Oppgaver og framdrift
+
+Hvert delprosjekt med eget brett skal ha en side som heter **Oppgaver og framdrift** (engelsk Tasks and progress) i sitt innholdsrepo, siste side i delprosjektets meny. Siden har samme innhold overalt: lenke til brettet og de faste visningene, og [tidslinjen](../tidslinje/) for brettet. Da finner leserne oppgavene på samme måte i alle delprosjekter, og den som eier innholdet, eier også siden. Retningen står fortsatt på delprosjektets egne sider (for eksempel Veikart), statusen på GitHub.
+
+Navnet er ikke «Oppgavestyring», fordi det er navnet på løsningen. Oversikten over alle brettene står under Prosjektstyring → Oppgaver og oppfølging.
+
+Prøves først for Project 5 og Project 18 (november 2026), deretter for de andre brettene ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
+
 ## Eksempler i dokumentasjonen
 
 Issues og brett som bare skal vise hvordan løsningen virker, er eksempler, ikke oppgaver. De ligger i et eget repo med navnet til løsningen og `-examples`, for eksempel [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples), på et eget brett med «[EXAMPLE]» først i navnet.

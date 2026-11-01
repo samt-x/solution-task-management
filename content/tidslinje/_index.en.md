@@ -22,11 +22,14 @@ Seven examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/sam
 
 {{< inline-svg "project-20-en.svg" >}}
 
-## SAMT-BU framework and generic architecture
+## Where the chart is used
 
-Project 5. No tasks here have dependencies yet, and only tasks with dates are included.
+The timeline for a board is shown on the page **Tasks and progress** of the sub-project that owns the board:
 
-{{< inline-svg "project-5-en.svg" >}}
+- [Architecture → High-level architecture → Tasks and progress](/en/arkitektur/overordnet-arkitektur/oppgaver-og-framdrift/) (Project 5)
+- [Task management → Tasks and progress](../oppgaver-og-framdrift/) (Project 18)
+
+The charts are all generated here, and the pages fetch them from here. See [Technical documentation](../teknisk-dokumentasjon/#timeline-with-dependencies).
 
 ## How to read the chart
 

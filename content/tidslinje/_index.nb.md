@@ -22,11 +22,14 @@ Sju eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-
 
 {{< inline-svg "project-20-nb.svg" >}}
 
-## SAMT-BU rammeverk og generisk arkitektur
+## Hvor figuren brukes
 
-Project 5. Ingen oppgaver her har avhengigheter ennå, og bare oppgaver med datoer kommer med.
+Tidslinjen for et brett vises på siden **Oppgaver og framdrift** i delprosjektet som eier brettet:
 
-{{< inline-svg "project-5-nb.svg" >}}
+- [Arkitektur → Overordnet arkitektur → Oppgaver og framdrift](/arkitektur/overordnet-arkitektur/oppgaver-og-framdrift/) (Project 5)
+- [Oppgavestyring → Oppgaver og framdrift](../oppgaver-og-framdrift/) (Project 18)
+
+Figurene lages alle her, og sidene henter dem herfra. Se [Teknisk dokumentasjon](../teknisk-dokumentasjon/#tidslinje-med-avhengigheter).
 
 ## Slik leser du figuren
 

@@ -24,7 +24,10 @@ import argparse, datetime, html, json, os, re, subprocess, sys, time, urllib.req
 
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ORG = 'samt-x'
-PROJECTS = {5: 'content/tidslinje/project-5',    # brett → filnavn uten -nb.svg/-en.svg, relativ til reporoten
+# Brett → filnavn uten -nb.svg/-en.svg, relativ til reporoten. Figurene ligger alle på siden Tidslinje og vises på
+# sidene Oppgaver og framdrift med inline-svg og stien til Tidslinje (andre argument i shortcoden).
+PROJECTS = {5: 'content/tidslinje/project-5',    # Arkitektur → Overordnet arkitektur → Oppgaver og framdrift
+            18: 'content/tidslinje/project-18',  # Oppgavestyring → Oppgaver og framdrift
             20: 'content/tidslinje/project-20'}  # [EXAMPLE] Timeline: eksemplene i solution-task-management-examples (#40)
 START, DUE = 'Start date', 'Due date'   # dagens dato følger maskinens tidssone (TZ i workflowen)
 

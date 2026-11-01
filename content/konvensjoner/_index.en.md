@@ -155,6 +155,14 @@ Changes to repositories, boards, labels and routines get a chore task describing
 
 A new repository gets topics when it is created. If `scope-*` is missing, the lifetime has not been settled yet. The distinction between project-specific and lasting is why architecture and semantics have content and tasks in separate repositories, while the pilots have both in one. See [solution-task-management#31](https://github.com/samt-x/solution-task-management/issues/31).
 
+## Tasks and progress
+
+Each sub-project with a board of its own shall have a page called **Oppgaver og framdrift** (English Tasks and progress) in its content repository, as the last page in the sub-project's menu. The page has the same content everywhere: a link to the board and the standard views, and the [timeline](../tidslinje/) for the board. Readers then find the tasks the same way in every sub-project, and whoever owns the content also owns the page. The direction is still described on the sub-project's own pages (for example Roadmap), the status on GitHub.
+
+The name is not «Oppgavestyring» (task management), because that is the name of the solution. The overview of all the boards is under Project governance → Tasks and follow-up.
+
+Tried first for Project 5 and Project 18 (November 2026), then for the other boards ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
+
 ## Examples in the documentation
 
 Issues and boards that only show how the solution works are examples, not tasks. They live in a repository of their own named after the solution plus `-examples`, for example [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples), on a board of their own with «[EXAMPLE]» at the start of its name.
