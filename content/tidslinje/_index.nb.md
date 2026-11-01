@@ -18,7 +18,13 @@ Vinduet henter oppgaven fra GitHub. Uten innlogging tillater GitHub omtrent 60 o
 
 ## Eksempel
 
-Ti eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Derfor viser eksemplene Start date og Due date som det som har skjedd, ikke historikken. To av dem har ingen datoer og plasseres etter oppgavene de venter på: G med Duration 3, og F uten varighet. B har passert fristen, som var fredag forrige uke. D skulle startet samme dag (sen start), men venter fortsatt på B og C. Når C er ferdig, rekker ikke D fristen sin, og E, som venter på D, blir også sen. H og I har frist og Duration, men ingen startdato, og rekker ikke fristen. I har ingen avhengigheter, men i dag pluss varigheten går forbi fristen. H venter på C, og tidligste start etter C pluss varigheten går forbi fristen. A er fullført, mens J ble lukket uten å bli gjort. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
+Ti eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Derfor viser eksemplene Start date og Due date som det som har skjedd, ikke historikken. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
+
+- **Lukket:** A er fullført (✓). J ble lukket uten å bli gjort (✕).
+- **Uten datoer:** G (med Duration 3) og F (uten varighet) plasseres etter oppgavene de venter på.
+- **Passert frist:** B skulle vært ferdig fredag forrige uke.
+- **Sen start, og forsinkelsen forplanter seg:** D skulle startet samme fredag, men venter fortsatt på B og C. Når C er ferdig, rekker ikke D fristen sin, og E, som venter på D, blir også sen.
+- **Frist og Duration, men ingen startdato:** I har ingen avhengigheter, men i dag pluss varigheten går forbi fristen. H venter på C, og tidligste start etter C pluss varigheten går forbi fristen.
 
 {{< inline-svg "project-20-nb.svg" >}}
 

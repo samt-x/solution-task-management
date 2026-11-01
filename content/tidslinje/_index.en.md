@@ -18,7 +18,13 @@ The window fetches the task from GitHub. Without logging in, GitHub allows about
 
 ## Example
 
-Ten examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. Two of them have no dates and are placed after the tasks they wait for: G with Duration 3, and F without a duration. B has passed its due date, which was Friday last week. D should have started the same day (late start), but is still waiting for B and C. When C is finished, D cannot make its due date, and E, which waits for D, is late too. H and I have a due date and Duration, but no start date, and cannot make their due dates. I has no dependencies, but today plus the duration goes past the due date. H waits for C, and the earliest start after C plus the duration goes past the due date. A is completed, while J was closed without being done. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
+Ten examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
+
+- **Closed:** A is completed (✓). J was closed without being done (✕).
+- **Without dates:** G (with Duration 3) and F (without a duration) are placed after the tasks they wait for.
+- **Due date passed:** B should have been finished Friday last week.
+- **Late start, and the delay propagates:** D should have started the same Friday, but is still waiting for B and C. When C is finished, D cannot make its due date, and E, which waits for D, is late too.
+- **Due date and Duration, but no start date:** I has no dependencies, but today plus the duration goes past the due date. H waits for C, and the earliest start after C plus the duration goes past the due date.
 
 {{< inline-svg "project-20-en.svg" >}}
 
