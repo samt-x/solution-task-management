@@ -58,6 +58,7 @@ COLORS = {'In progress': '#1f6feb', 'In Progress': '#1f6feb', 'In review': '#825
           'Ready': '#54aeff', 'To do': '#54aeff', 'Todo': '#54aeff', 'Backlog': '#9ec9f5',
           'Proposed': '#afb8c1', 'Done': '#2da44e'}
 CLOSED = '#8c959f'
+DROPPED = {'NOT_PLANNED', 'DUPLICATE'}   # lukket uten å bli gjort (stateReason)
 LATE, ARROW, AMBER = '#cf222e', '#57606a', '#bf8700'
 
 TEXT = {
@@ -68,6 +69,9 @@ TEXT = {
            'legend_actual': 'Mørk: har skjedd', 'legend_set': 'Lys: satte datoer',
            'legend_calc': 'Stiplet: beregnet eller antatt',
            'legend_late_start': 'Gul kant og strek: sen start',
+           'legend_done': 'Fullført', 'legend_dropped': 'Skravert og ✕: lukket uten å bli gjort',
+           'reason': {'COMPLETED': 'lukket: fullført', 'NOT_PLANNED': 'lukket: ikke gjennomført',
+                      'DUPLICATE': 'lukket: duplikat'},
            'legend_overrun': 'Rødt: etter fristen (lyst: prognose)',
            'late_s': 'Sen start: skulle startet {d}', 'late_e': 'Forsinket: skulle vært ferdig {d}',
            'forecast': 'Prognose: ferdig {f}, {n} arbeidsdager etter fristen {d}',
@@ -93,6 +97,9 @@ TEXT = {
            'legend_actual': 'Dark: has happened', 'legend_set': 'Light: dates set',
            'legend_calc': 'Dashed: calculated or assumed',
            'legend_late_start': 'Yellow border and line: late start',
+           'legend_done': 'Completed', 'legend_dropped': 'Hatched and ✕: closed without being done',
+           'reason': {'COMPLETED': 'closed: completed', 'NOT_PLANNED': 'closed: not planned',
+                      'DUPLICATE': 'closed: duplicate'},
            'legend_overrun': 'Red: after the due date (light: forecast)',
            'late_s': 'Late start: should have started {d}', 'late_e': 'Overdue: should have been finished {d}',
            'forecast': 'Forecast: finished {f}, {n} working days after the due date {d}',
@@ -137,7 +144,7 @@ def gql(query, **variables):
 
 ITEMS = '''query($n:Int!,$after:String){organization(login:"samt-x"){projectV2(number:$n){title url
   items(first:50,after:$after){pageInfo{hasNextPage endCursor} nodes{
-    content{... on Issue{number title url state closedAt body repository{name}
+    content{... on Issue{number title url state stateReason closedAt body repository{name}
       blockedBy(first:20){nodes{number title url state repository{name}}}
       deps:timelineItems(last:30,itemTypes:[BLOCKED_BY_ADDED_EVENT]){nodes{
         ... on BlockedByAddedEvent{createdAt actor{login} blockingIssue{number repository{name}}}}}
@@ -207,6 +214,7 @@ def fetch(number):
                                    'why': why.pop(k, ''), 'since': since, 'by': by})
             tasks.append({'key': f'{repo}#{c["number"]}', 'title': c['title'], 'url': c['url'],
                           'closed': closed, 'finished': finished, 'status': v.get('Status'),
+                          'reason': c.get('stateReason') if closed else None,   # COMPLETED, NOT_PLANNED, DUPLICATE
                           'start': v.get(START), 'due': v.get(DUE), 'duration': v.get(DURATION),
                           'started': started, 'ended': ended, 'blocked_by': blocked_by,
                           'orphans': sorted(why)})   # beskrevet, men uten «Blocked by» i GitHub
@@ -336,7 +344,7 @@ def short(s, n):
 def svg(number, title, url, tasks, lang, today):
     t = TEXT[lang]
     # Figuren limes rett inn i siden (shortcoden inline-svg), så id-er må være unike på tvers av figurene
-    ma, mr = f'tl{number}a', f'tl{number}r'
+    ma, mr, mh = f'tl{number}a', f'tl{number}r', f'tl{number}h'
     months = t['months'].split()
     dated = plan([dict(x) for x in tasks], today)
     assumed = sum(1 for x in dated if x['assumed'])
@@ -371,7 +379,8 @@ def svg(number, title, url, tasks, lang, today):
     # Tegnforklaringen brytes over flere linjer når figuren er smal
     legend = [('arrow', t['legend_arrow']), ('late', t['legend_late']), ('actual', t['legend_actual']),
               ('set', t['legend_set']), ('calc', t['legend_calc']), ('late_start', t['legend_late_start']),
-              ('overrun', t['legend_overrun']), ('why', t['legend_why'])]
+              ('overrun', t['legend_overrun']), ('done', t['legend_done']), ('dropped', t['legend_dropped']),
+              ('why', t['legend_why'])]
     places, lx, ly = [], PAD, 0
     for kind, text in legend:
         w = 34 + len(text) * 6.4 + 24
@@ -389,6 +398,8 @@ def svg(number, title, url, tasks, lang, today):
            '<defs>'
            f'<marker id="{ma}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{ARROW}"/></marker>'
            f'<marker id="{mr}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{LATE}"/></marker>'
+           f'<pattern id="{mh}" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
+           f'<rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="{CLOSED}" stroke-width="2"/></pattern>'
            '</defs>',
            f'<rect width="{W}" height="{H}" fill="#ffffff"/>']
 
@@ -419,7 +430,9 @@ def svg(number, title, url, tasks, lang, today):
         color = CLOSED if o['closed'] else COLORS.get(o['status'], '#afb8c1')
         inside = [b for b in o['blocked_by'] if b['key'] in row]
         blocking = [p['key'] for p in dated if any(b['key'] == o['key'] for b in p['blocked_by'])]
-        tip = [f'{o["key"]} {o["title"]}', f'{o["status"] or "–"}' + (' (closed)' if o['closed'] else ''),
+        dropped = o['closed'] and o.get('reason') in DROPPED   # lukket uten å bli gjort
+        tip = [f'{o["key"]} {o["title"]}', f'{o["status"] or "–"}'
+               + (f' ({t["reason"].get(o.get("reason"), t["reason"]["COMPLETED"])})' if o['closed'] else ''),
                f'{t["start"]}: {fmt(s, lang)} ({t["src"][o["s_src"]]})',
                f'{t["end"]}: {fmt(d, lang)} ({t["src"][o["e_src"]]})']
         if o.get('duration'):
@@ -440,7 +453,9 @@ def svg(number, title, url, tasks, lang, today):
             tip.append(f'{t["blocking"]}: ' + ', '.join(blocking))
         tip = esc('\n'.join(tip))
         # ⛔ bare når en åpen oppgave fortsatt blokkerer
-        mark = '⛔ ' if not o['closed'] and any(not b.get('closed') for b in o['blocked_by']) else ''
+        # ✕ lukket uten å bli gjort, ✓ fullført, ⛔ venter fortsatt på en åpen oppgave
+        mark = ('✕ ' if dropped else '✓ ' if o['closed'] else
+                '⛔ ' if any(not b.get('closed') for b in o['blocked_by']) else '')
         label = short(f'{mark}{o["title"]}', 48)
         deco = ' text-decoration="line-through"' if o['closed'] else ''
         number = '#' + o['key'].split('#')[1]
@@ -453,10 +468,14 @@ def svg(number, title, url, tasks, lang, today):
         x1, x2 = x(s), x(d) + px
         firm = o['s_src'] in ('actual_s', 'set_s') and o['e_src'] in ('actual_e', 'set_e')
         edge = AMBER if o['late_s'] else color
-        bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}" '
-               + (f'fill-opacity="0.35" stroke="{edge}"/>' if firm else
-                  f'fill-opacity="0.12" stroke="{edge}" stroke-dasharray="4 3"/>')]
-        if o.get('started'):
+        if dropped:   # skravert, uten mørk del: det som var planlagt, ble ikke gjort
+            bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" '
+                   f'fill="url(#{mh})" stroke="{CLOSED}"/>']
+        else:
+            bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}" '
+                   + (f'fill-opacity="0.35" stroke="{edge}"/>' if firm else
+                      f'fill-opacity="0.12" stroke="{edge}" stroke-dasharray="4 3"/>')]
+        if o.get('started') and not dropped:
             a1 = x(max(day(o['started']), s))
             a2 = x(d) + px if o.get('ended') else min(x(today) + px, x2)
             if a2 > a1:
@@ -529,6 +548,8 @@ def svg(number, title, url, tasks, lang, today):
               'set': lambda lx, ly: f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.35" stroke="{grey}"/>',
               'calc': lambda lx, ly: (f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.12" '
                                       f'stroke="{grey}" stroke-dasharray="4 3"/>'),
+              'done': lambda lx, ly: f'<text x="{lx + 8}" y="{ly + 4}" fill="#24292f">✓</text>',
+              'dropped': lambda lx, ly: f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="url(#{mh})" stroke="{CLOSED}"/>',
               'late_start': lambda lx, ly: (f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.35" '
                                             f'stroke="{AMBER}"/><line x1="{lx}" y1="{ly + 9}" x2="{lx + 28}" y2="{ly + 9}" '
                                             f'stroke="{AMBER}" stroke-width="2" stroke-dasharray="4 2"/>'),

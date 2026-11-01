@@ -10,7 +10,7 @@ last_editor: Erik Hagen
 
 The Timeline view in GitHub Projects shows tasks along a time axis, but does not draw which tasks wait for each other. The charts on this page do. They are generated automatically from the boards every hour, and updated on docs shortly after. A fixed script makes them following the rules on this page. If a run fails, the previous chart stays until the error is fixed, and the date below the chart shows when it was made. See [Scheduled runs](../teknisk-dokumentasjon/#scheduled-runs).
 
-Click a title, a bar or an arrow to see the task in a window on top of the chart. Move the window by its title bar and resize it from the bottom right corner. Links to other tasks inside the window open in the same window. Click somewhere outside the window that is not a link, press Esc or click × to close it. Ctrl-click opens the task on GitHub instead. Hover to see status, dates and dependencies. If the column is narrow, the chart can be scrolled sideways.
+Click a title, a bar or an arrow to see the task in a window on top of the chart. Move the window by its title bar and resize it from the bottom right corner. Links to other tasks inside the window open in the same window. Click somewhere outside the window that is not a link, press Esc or click × to close it. Ctrl-click opens the task on GitHub instead. Hover to see status, dates and dependencies. The chart is shown at full size in a frame that can be scrolled sideways and up and down. The toolbar above the chart zooms out and in (− and +), back to full size (100 %) or so that the whole width fits (Fit width). Ctrl + mouse wheel over the chart zooms only the chart. «Open the chart in a new window» shows the chart on its own, where it can be saved or copied.
 
 The window fetches the task from GitHub. Without logging in, GitHub allows about 60 lookups an hour. If the limit is reached, a link to GitHub is shown instead, and logging in raises the limit.
 
@@ -18,7 +18,7 @@ The window fetches the task from GitHub. Without logging in, GitHub allows about
 
 ## Example
 
-Nine examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. Two of them have no dates and are placed after the tasks they wait for: G with Duration 3, and F without a duration. B has passed its due date, which was Friday last week. D should have started the same day (late start), but is still waiting for B and C. When C is finished, D cannot make its due date, and E, which waits for D, is late too. H and I have a due date and Duration, but no start date, and cannot make their due dates. I has no dependencies, but today plus the duration goes past the due date. H waits for C, and the earliest start after C plus the duration goes past the due date. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
+Ten examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. Two of them have no dates and are placed after the tasks they wait for: G with Duration 3, and F without a duration. B has passed its due date, which was Friday last week. D should have started the same day (late start), but is still waiting for B and C. When C is finished, D cannot make its due date, and E, which waits for D, is late too. H and I have a due date and Duration, but no start date, and cannot make their due dates. I has no dependencies, but today plus the duration goes past the due date. H waits for C, and the earliest start after C plus the duration goes past the due date. A is completed, while J was closed without being done. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
 
 {{< inline-svg "project-20-en.svg" >}}
 
@@ -44,7 +44,7 @@ The charts are all generated here, and the pages fetch them from here. See [Tech
 
 ## How to read the chart
 
-- **Bar:** from start to end. The colour shows the status on the board. Grey with the title struck through means the task is closed.
+- **Bar:** from start to end. The colour shows the status on the board. Grey with the title struck through means the task is closed: **✓** before the title means completed, and **✕** with a hatched bar means closed without being done (in GitHub: «Close as not planned» or duplicate).
 - **Dark part:** what has happened, from when the task was moved to In progress until it was closed, or until today if it is still going on.
 - **Light bar with border:** both start and end are set (Start date and Due date) or have happened.
 - **Dashed bar:** at least one of the dates is calculated, see below.

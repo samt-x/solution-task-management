@@ -10,7 +10,7 @@ last_editor: Erik Hagen
 
 Timeline-visningen i GitHub Projects viser oppgavene langs en tidsakse, men tegner ikke hvilke oppgaver som venter på hverandre. Figurene på denne siden gjør det. De lages automatisk fra brettene hver time, og oppdateres på docs kort tid etter. Et fast skript lager dem etter reglene på denne siden. Feiler en kjøring, står den forrige figuren til feilen er rettet, og datoen under figuren viser når den ble laget. Se [Planlagte kjøringer](../teknisk-dokumentasjon/#planlagte-kjøringer).
 
-Klikk på en tittel, en stolpe eller en pil for å se oppgaven i et vindu over figuren. Vinduet flyttes i tittellinjen og endres i størrelse fra hjørnet nede til høyre. Lenker til andre oppgaver inne i vinduet åpnes i det samme vinduet. Klikk et sted utenfor vinduet som ikke er en lenke, trykk Esc eller klikk × for å lukke det. Ctrl-klikk åpner oppgaven på GitHub i stedet. Hold musa over for å se status, datoer og avhengigheter. Er spalten smal, kan figuren rulles sidelengs.
+Klikk på en tittel, en stolpe eller en pil for å se oppgaven i et vindu over figuren. Vinduet flyttes i tittellinjen og endres i størrelse fra hjørnet nede til høyre. Lenker til andre oppgaver inne i vinduet åpnes i det samme vinduet. Klikk et sted utenfor vinduet som ikke er en lenke, trykk Esc eller klikk × for å lukke det. Ctrl-klikk åpner oppgaven på GitHub i stedet. Hold musa over for å se status, datoer og avhengigheter. Figuren vises i full størrelse i en ramme som kan rulles sidelengs og på høyden. Verktøylinja over figuren zoomer ut og inn (− og +), tilbake til full størrelse (100 %) eller slik at hele bredden får plass (Tilpass bredden). Ctrl + musehjul over figuren zoomer bare figuren. «Åpne figuren i nytt vindu» viser figuren alene, der den kan lagres eller kopieres.
 
 Vinduet henter oppgaven fra GitHub. Uten innlogging tillater GitHub omtrent 60 oppslag i timen. Er grensen nådd, vises en lenke til GitHub i stedet, og innlogging hever grensen.
 
@@ -18,7 +18,7 @@ Vinduet henter oppgaven fra GitHub. Uten innlogging tillater GitHub omtrent 60 o
 
 ## Eksempel
 
-Ni eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Derfor viser eksemplene Start date og Due date som det som har skjedd, ikke historikken. To av dem har ingen datoer og plasseres etter oppgavene de venter på: G med Duration 3, og F uten varighet. B har passert fristen, som var fredag forrige uke. D skulle startet samme dag (sen start), men venter fortsatt på B og C. Når C er ferdig, rekker ikke D fristen sin, og E, som venter på D, blir også sen. H og I har frist og Duration, men ingen startdato, og rekker ikke fristen. I har ingen avhengigheter, men i dag pluss varigheten går forbi fristen. H venter på C, og tidligste start etter C pluss varigheten går forbi fristen. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
+Ti eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Derfor viser eksemplene Start date og Due date som det som har skjedd, ikke historikken. To av dem har ingen datoer og plasseres etter oppgavene de venter på: G med Duration 3, og F uten varighet. B har passert fristen, som var fredag forrige uke. D skulle startet samme dag (sen start), men venter fortsatt på B og C. Når C er ferdig, rekker ikke D fristen sin, og E, som venter på D, blir også sen. H og I har frist og Duration, men ingen startdato, og rekker ikke fristen. I har ingen avhengigheter, men i dag pluss varigheten går forbi fristen. H venter på C, og tidligste start etter C pluss varigheten går forbi fristen. A er fullført, mens J ble lukket uten å bli gjort. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
 
 {{< inline-svg "project-20-nb.svg" >}}
 
@@ -44,7 +44,7 @@ Figurene lages alle her, og sidene henter dem herfra. Se [Teknisk dokumentasjon]
 
 ## Slik leser du figuren
 
-- **Stolpe:** fra start til slutt. Fargen viser status på brettet. Grå med strek over tittelen betyr at oppgaven er lukket.
+- **Stolpe:** fra start til slutt. Fargen viser status på brettet. Grå med strek over tittelen betyr at oppgaven er lukket: **✓** foran tittelen betyr fullført, og **✕** med skravert stolpe betyr lukket uten å bli gjort (i GitHub: «Close as not planned» eller duplikat).
 - **Mørk del:** det som har skjedd, fra oppgaven ble flyttet til In progress til den ble lukket, eller til i dag hvis den pågår.
 - **Lys stolpe med kant:** både start og slutt er satt (Start date og Due date) eller har skjedd.
 - **Stiplet stolpe:** minst én av datoene er beregnet, se under.
