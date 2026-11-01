@@ -64,7 +64,7 @@ Background: [solution-task-management#15](https://github.com/samt-x/solution-tas
 
 ## Timeline with dependencies
 
-The workflow [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) runs the script .github/scripts/timeline.py every hour and when run manually. The script reads the boards in PROJECTS (currently Project 5 and 18): status, Start date, Due date and the dependencies («Blocked by») of each issue. It draws one SVG per board and language to content/tidslinje/, shown on the page [Timeline](../tidslinje/). The page embeds the charts directly with the theme's inline-svg shortcode, so links and tooltips work. A plain image would disable them. The ids in a chart include the board number, so several charts on one page do not collide.
+The workflow [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) runs the script .github/scripts/timeline.py every hour and when run manually. The script reads the boards in PROJECTS (currently Project 5 and the example board Project 20): status, Start date, Due date and the dependencies («Blocked by») of each issue. It draws one SVG per board and language to content/tidslinje/, shown on the page [Timeline](../tidslinje/). The page embeds the charts directly with the theme's inline-svg shortcode, so links and tooltips work. A plain image would disable them. The ids in a chart include the board number, so several charts on one page do not collide.
 
 **The arrows.** GitHub's dependencies have no fields of their own. The script therefore builds the arrow tooltip from three sources: «Blocked by» (whether the arrow exists), the event BlockedByAddedEvent in the issue timeline (who linked and when), and the heading Avhengigheter in the body of the waiting issue (why). The heading is read by the function describe: bullet lines starting with an issue reference (#35, samt-bu-pilot-6#12 or a full link). If a reference there has no matching «Blocked by», no arrow is drawn, but a warning appears below the chart. The link in GitHub is the master, and the text only describes it. Slack and overlap are counted in whole days between due date and start date.
 
@@ -75,6 +75,14 @@ The chart includes today's date, so it changes at least once a day. The workflow
 Locally: run the script with gh auth token. --out writes the charts to another folder, --data reads the tasks from a JSON file instead of the API, and --today sets today's date. Dependencies can only be set in GitHub or via REST (repos/…/issues/N/dependencies/blocked_by), not with gh before version 2.94.
 
 Background: [solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32).
+
+## The example board
+
+The examples used in the documentation live in the repository [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples) and on [Project 20](https://github.com/orgs/samt-x/projects/20) «[EXAMPLE] Timeline». The repository is listed in EXCLUDE in sync-all-tasks.py, so the examples do not reach the aggregate board.
+
+**The dates follow today's date.** Before the timeline is drawn, Timeline runs the script .github/scripts/example-dates.py. It reads .github/scripts/example-dates.json, which has the start and due date for each issue in days from Monday this week (null = no date), and writes Start date and Due date on the board with the app's token. Saturday and Sunday count as the next week, otherwise ongoing examples would pass their due date at the weekend. Only fields that differ are written, so the dates change once a week. The board is still the master, and the chart and the board show the same thing. Status, dependencies and descriptions are set in GitHub as usual. --dry-run shows what would be changed.
+
+**New example:** create the issue in the example repository with the line «Eksempel, ikke en oppgave» (example, not a task) first, add it to the board, and add its number with offsets to example-dates.json. Background: [solution-task-management#40](https://github.com/samt-x/solution-task-management/issues/40).
 
 ## Moving tasks between repositories
 

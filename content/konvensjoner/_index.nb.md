@@ -151,9 +151,20 @@ Endringer i repoer, brett, merkelapper og rutiner får en chore-oppgave som besk
 |---|---|---|
 | Prosjekt | `project-samt-bu` | Brukes i eller tilhører prosjektet. Et repo kan ha flere. |
 | Levetid | `scope-project`, `scope-shared` | Tilhører prosjektet, eller er ment å leve videre etter det, i nye team og prosjekter |
-| Type | `content`, `tasks`, `models`, `code`, `files`, `site`, `platform`, `solution`, `admin`, `pilot` | Hva repoet inneholder. Flere kan stå sammen. |
+| Type | `content`, `tasks`, `models`, `code`, `files`, `site`, `platform`, `solution`, `admin`, `pilot`, `examples` | Hva repoet inneholder. Flere kan stå sammen. |
 
 Et nytt repo får topics når det opprettes. Mangler `scope-*`, er levetiden ikke avklart ennå. Skillet mellom prosjektspesifikt og varig er grunnen til at arkitektur og semantikk har innhold og oppgaver i hvert sitt repo, mens pilotene har begge deler i ett. Se [solution-task-management#31](https://github.com/samt-x/solution-task-management/issues/31).
+
+## Eksempler i dokumentasjonen
+
+Issues og brett som bare skal vise hvordan løsningen virker, er eksempler, ikke oppgaver. De ligger i et eget repo med navnet til løsningen og `-examples`, for eksempel [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples), på et eget brett med «[EXAMPLE]» først i navnet.
+
+- Hvert eksempel begynner med «Eksempel, ikke en oppgave» og sier hvor det brukes.
+- Repoet får topic `examples` og holdes utenfor samlebrettet.
+- Eksemplene står så lenge dokumentasjonen bruker dem, og vedlikeholdes sammen med den. Datoer kan følge dagens dato, se [Teknisk dokumentasjon](../teknisk-dokumentasjon/#eksempelbrettet).
+- Lag ikke eksempler i et repo med ekte oppgaver. Der ser de ut som arbeid som skal gjøres.
+
+Se [solution-task-management#40](https://github.com/samt-x/solution-task-management/issues/40).
 
 ## Skrivetips
 

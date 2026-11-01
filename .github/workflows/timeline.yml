@@ -2,7 +2,8 @@ name: Timeline
 
 # Tegner tidslinjen med avhengigheter for prosjektbrettene til content/tidslinje/*.svg
 # og committer når en figur er endret (solution-task-management#32).
-# Token for å lese brettene lages fra appen SAMT-BU Task sync; commit skjer med GITHUB_TOKEN.
+# Først flyttes datoene på eksempelbrettet (example-dates.py, #40), så eksemplene ligger rundt dagens dato.
+# Token for brettene lages fra appen SAMT-BU Task sync; commit skjer med GITHUB_TOKEN.
 # Commits fra github-actions[bot] utløser ikke trigger-docs-rebuild.yml, så denne
 # workflowen ber selv samt-bu-docs bygge på nytt når figurene er endret.
 
@@ -34,6 +35,11 @@ jobs:
           client-id: Iv23li5HEtj5juPOKb0x   # SAMT-BU Task sync (ikke hemmelig)
           private-key: ${{ secrets.TASK_SYNC_PRIVATE_KEY }}
           owner: samt-x
+
+      - name: Flytt datoene på eksempelbrettet
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+        run: python3 .github/scripts/example-dates.py
 
       - name: Tegn tidslinjene
         env:

@@ -151,9 +151,20 @@ Changes to repositories, boards, labels and routines get a chore task describing
 |---|---|---|
 | Project | `project-samt-bu` | Used in or belongs to the project. A repository can have several. |
 | Lifetime | `scope-project`, `scope-shared` | Belongs to the project, or is meant to live on after it, in new teams and projects |
-| Type | `content`, `tasks`, `models`, `code`, `files`, `site`, `platform`, `solution`, `admin`, `pilot` | What the repository contains. Several can be combined. |
+| Type | `content`, `tasks`, `models`, `code`, `files`, `site`, `platform`, `solution`, `admin`, `pilot`, `examples` | What the repository contains. Several can be combined. |
 
 A new repository gets topics when it is created. If `scope-*` is missing, the lifetime has not been settled yet. The distinction between project-specific and lasting is why architecture and semantics have content and tasks in separate repositories, while the pilots have both in one. See [solution-task-management#31](https://github.com/samt-x/solution-task-management/issues/31).
+
+## Examples in the documentation
+
+Issues and boards that only show how the solution works are examples, not tasks. They live in a repository of their own named after the solution plus `-examples`, for example [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples), on a board of their own with «[EXAMPLE]» at the start of its name.
+
+- Each example starts with «Eksempel, ikke en oppgave» (example, not a task) and says where it is used.
+- The repository gets the topic `examples` and is kept out of the aggregate board.
+- The examples stay as long as the documentation uses them, and are maintained together with it. Dates can follow today's date, see [Technical documentation](../teknisk-dokumentasjon/#the-example-board).
+- Do not create examples in a repository with real tasks. There they look like work to be done.
+
+See [solution-task-management#40](https://github.com/samt-x/solution-task-management/issues/40).
 
 ## Writing tips
 

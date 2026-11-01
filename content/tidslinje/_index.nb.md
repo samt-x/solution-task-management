@@ -16,11 +16,11 @@ Vinduet henter oppgaven fra GitHub. Uten innlogging tillater GitHub omtrent 60 o
 
 **Første versjon, til utprøving** ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
 
-## Eksempel med testoppgaver
+## Eksempel
 
-Sju testoppgaver i Task management (Project 18) viser hvordan figuren ser ut med avhengigheter. De er ikke ekte oppgaver.
+Sju eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
 
-{{< inline-svg "project-18-nb.svg" >}}
+{{< inline-svg "project-20-nb.svg" >}}
 
 ## SAMT-BU rammeverk og generisk arkitektur
 

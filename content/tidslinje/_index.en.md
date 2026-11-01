@@ -16,11 +16,11 @@ The window fetches the task from GitHub. Without logging in, GitHub allows about
 
 **First version, for trial** ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)). Task titles are in the language they were written in, usually Norwegian.
 
-## Example with test tasks
+## Example
 
-Seven test tasks in Task management (Project 18) show what the chart looks like with dependencies. They are not real tasks.
+Seven examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
 
-{{< inline-svg "project-18-en.svg" >}}
+{{< inline-svg "project-20-en.svg" >}}
 
 ## SAMT-BU framework and generic architecture
 

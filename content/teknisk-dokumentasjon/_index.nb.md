@@ -64,7 +64,7 @@ Bakgrunn: [solution-task-management#15](https://github.com/samt-x/solution-task-
 
 ## Tidslinje med avhengigheter
 
-Workflowen [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) kjører skriptet .github/scripts/timeline.py hver time og ved manuell kjøring. Skriptet leser brettene i PROJECTS (nå Project 5 og 18): status, Start date, Due date og avhengighetene («Blocked by») på hvert issue. Det tegner én SVG per brett og språk til content/tidslinje/, som vises på siden [Tidslinje](../tidslinje/). Siden limer figurene rett inn med shortcoden inline-svg i temaet, så lenker og verktøytips virker. Et vanlig bilde ville slått dem av. Id-ene i figuren har brettnummeret i seg, så flere figurer på samme side ikke kolliderer.
+Workflowen [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) kjører skriptet .github/scripts/timeline.py hver time og ved manuell kjøring. Skriptet leser brettene i PROJECTS (nå Project 5 og eksempelbrettet Project 20): status, Start date, Due date og avhengighetene («Blocked by») på hvert issue. Det tegner én SVG per brett og språk til content/tidslinje/, som vises på siden [Tidslinje](../tidslinje/). Siden limer figurene rett inn med shortcoden inline-svg i temaet, så lenker og verktøytips virker. Et vanlig bilde ville slått dem av. Id-ene i figuren har brettnummeret i seg, så flere figurer på samme side ikke kolliderer.
 
 **Pilene.** GitHubs avhengigheter har ingen egne felt. Skriptet bygger derfor verktøytipset på pila av tre kilder: «Blocked by» (om pila finnes), hendelsen BlockedByAddedEvent i issuets tidslinje (hvem som koblet og når), og overskriften Avhengigheter i brødteksten til issuet som venter (hvorfor). Overskriften leses av funksjonen describe: punktlinjer som begynner med en issue-henvisning (#35, samt-bu-pilot-6#12 eller full lenke). Står en henvisning der uten tilsvarende «Blocked by», tegnes ingen pil, men det kommer et varsel under figuren. Koblingen i GitHub er altså master, og teksten beskriver den bare. Slakk og overlapp regnes i hele dager mellom frist og startdato.
 
@@ -75,6 +75,14 @@ Figuren har dagens dato, og endres derfor minst én gang i døgnet. Workflowen c
 Lokalt: kjør skriptet med gh auth token. --out skriver figurene til en annen mappe, --data leser oppgavene fra en JSON-fil i stedet for API-et, og --today setter dagens dato. Avhengigheter kan bare settes i GitHub eller via REST (repos/…/issues/N/dependencies/blocked_by), ikke med gh før versjon 2.94.
 
 Bakgrunn: [solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32).
+
+## Eksempelbrettet
+
+Eksemplene som brukes i dokumentasjonen, ligger i repoet [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples) og på [Project 20](https://github.com/orgs/samt-x/projects/20) «[EXAMPLE] Timeline». Repoet står i EXCLUDE i sync-all-tasks.py, så eksemplene kommer ikke på samlebrettet.
+
+**Datoene følger dagens dato.** Før tidslinjen tegnes, kjører Timeline skriptet .github/scripts/example-dates.py. Det leser .github/scripts/example-dates.json, som har start og frist per issue i dager fra mandag denne uka (null = ingen dato), og skriver Start date og Due date på brettet med appens token. Lørdag og søndag regnes til neste uke, ellers ville pågående eksempler ha passert fristen i helgen. Bare felt som avviker, skrives, så datoene endres én gang i uka. Brettet er fortsatt master, og figuren og brettet viser det samme. Status, avhengigheter og beskrivelser settes i GitHub som ellers. --dry-run viser hva som ville blitt endret.
+
+**Nytt eksempel:** lag issuet i eksempelrepoet med linjen «Eksempel, ikke en oppgave» først, legg det på brettet, og legg inn nummeret med forskyvninger i example-dates.json. Bakgrunn: [solution-task-management#40](https://github.com/samt-x/solution-task-management/issues/40).
 
 ## Flytte oppgaver mellom repoer
 

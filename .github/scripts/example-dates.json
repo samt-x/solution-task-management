@@ -1,0 +1,14 @@
+{
+ "_om": "Datoene på eksempelbrettet, i dager fra mandag denne uka (lørdag og søndag regnes til neste uke): [start, frist], null = ingen dato. Leses av example-dates.py (solution-task-management#40).",
+ "project": 20,
+ "repo": "solution-task-management-examples",
+ "issues": {
+  "1": [-14, -10],
+  "2": [-7, 4],
+  "3": [-5, 9],
+  "4": [7, 18],
+  "5": [21, 25],
+  "6": [null, 28],
+  "7": [14, null]
+ }
+}

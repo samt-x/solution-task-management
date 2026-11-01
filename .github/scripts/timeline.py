@@ -25,7 +25,7 @@ import argparse, datetime, html, json, os, re, subprocess, sys, time, urllib.req
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ORG = 'samt-x'
 PROJECTS = {5: 'content/tidslinje/project-5',    # brett → filnavn uten -nb.svg/-en.svg, relativ til reporoten
-            18: 'content/tidslinje/project-18'}  # testoppgavene #33–#39 ligger her
+            20: 'content/tidslinje/project-20'}  # [EXAMPLE] Timeline: eksemplene i solution-task-management-examples (#40)
 START, DUE = 'Start date', 'Due date'   # dagens dato følger maskinens tidssone (TZ i workflowen)
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))

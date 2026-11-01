@@ -1,7 +1,7 @@
 """Synk til samlebrettet «SAMT-BU Overview – All tasks» (A2, solution-task-management#8).
 
 Kopierer alle issues i de offentlige samt-x-repoene til samlebrettet, i én retning.
-Porteføljerepoet (EXCLUDE) er ikke med, fordi kortene der ikke er oppgaver.
+Porteføljerepoet og eksempelrepoet (EXCLUDE) er ikke med, fordi det som ligger der, ikke er oppgaver.
 Status oversettes til det felles nivået; Responsible, Priority og datoene kopieres
 fra prosjektbrettet issuet ligger på. Skriptet skriver aldri til prosjektbrettene.
 
@@ -13,7 +13,8 @@ import json, os, subprocess, sys, time, urllib.request
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ORG = 'samt-x'
 TARGET = 12                      # SAMT-BU Overview – All tasks
-EXCLUDE = {'samt-bu-portfolio'}   # porteføljekort, ikke oppgaver
+EXCLUDE = {'samt-bu-portfolio',                   # porteføljekort, ikke oppgaver
+           'solution-task-management-examples'}   # eksempler i dokumentasjonen, ikke oppgaver (#40)
 DRY = '--dry-run' in sys.argv
 SHARED = {'Proposed': 'Not started', 'Backlog': 'Not started', 'Todo': 'Not started', 'To do': 'Not started',
           'Ready': 'Not started', 'In progress': 'In progress', 'In Progress': 'In progress',
