@@ -18,7 +18,7 @@ The window fetches the task from GitHub. Without logging in, GitHub allows about
 
 ## Example
 
-Seven examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. Two of them have no dates and are placed after the tasks they wait for: G with Duration 3, and F without a duration. B is overdue, because its due date was Friday last week. D should have started the same day, but is still waiting for B and C. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
+Seven examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. Two of them have no dates and are placed after the tasks they wait for: G with Duration 3, and F without a duration. B has passed its due date, which was Friday last week. D should have started the same day (late start), but is still waiting for B and C. When C is finished, D cannot make its due date, and E, which waits for D, is late too. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
 
 {{< inline-svg "project-20-en.svg" >}}
 
@@ -37,7 +37,9 @@ The charts are all generated here, and the pages fetch them from here. See [Tech
 - **Dark part:** what has happened, from when the task was moved to In progress until it was closed, or until today if it is still going on.
 - **Light bar with border:** both start and end are set (Start date and Due date) or have happened.
 - **Dashed bar:** at least one of the dates is calculated, see below.
-- **Red border and red line under the bar:** the task is overdue. Either it should have started and has not, or it should have been finished and is not. The line runs from the date that has passed until today. Only dates someone has set count: Start date, Due date, or a date calculated with Duration. An assumed duration does not turn red.
+- **Yellow border and yellow line under the bar:** late start. The task should have started and has not. The line runs from the start date until today.
+- **Red after the due date:** late end. The bar is extended past the due date, and the part after the due date is red. Solid red is the time from the due date until today, when the due date has passed without the task being finished. Light red is the forecast: when the task can be finished if it starts today, or when the tasks it waits for are finished, and lasts as long as planned. The duration is Duration, otherwise the length from Start date to Due date. A delay therefore propagates: if one task is late, the tasks waiting for it can turn red before their own due date is reached.
+- Only dates someone has set give yellow and red: Start date, Due date, or a date calculated with Duration. An assumed duration never gives yellow or red.
 - **Arrow:** the task the arrow points to waits for the task the arrow comes from.
 - **Red arrow:** the task being waited for ends after the waiting task is due to start. The plan does not add up.
 - **Hover over an arrow:** why the task waits, slack or overlap in working days, and who linked the tasks and when. Click the arrow to see the dependency and the waiting task in the window.

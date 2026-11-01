@@ -48,7 +48,7 @@ COLORS = {'In progress': '#1f6feb', 'In Progress': '#1f6feb', 'In review': '#825
           'Ready': '#54aeff', 'To do': '#54aeff', 'Todo': '#54aeff', 'Backlog': '#9ec9f5',
           'Proposed': '#afb8c1', 'Done': '#2da44e'}
 CLOSED = '#8c959f'
-LATE, ARROW = '#cf222e', '#57606a'
+LATE, ARROW, AMBER = '#cf222e', '#57606a', '#bf8700'
 
 TEXT = {
     'nb': {'today': 'I dag', 'months': 'jan feb mar apr mai jun jul aug sep okt nov des',
@@ -57,8 +57,10 @@ TEXT = {
            'legend_arrow': 'Pil: venter på', 'legend_late': 'Rød pil: blokkerende oppgave slutter for sent',
            'legend_actual': 'Mørk: har skjedd', 'legend_set': 'Lys: satte datoer',
            'legend_calc': 'Stiplet: beregnet eller antatt',
-           'legend_overdue': 'Rød kant og strek: forsinket start eller slutt',
-           'late_s': 'Forsinket: skulle startet {d}', 'late_e': 'Forsinket: skulle vært ferdig {d}',
+           'legend_late_start': 'Gul kant og strek: sen start',
+           'legend_overrun': 'Rødt: etter fristen (lyst: prognose)',
+           'late_s': 'Sen start: skulle startet {d}', 'late_e': 'Forsinket: skulle vært ferdig {d}',
+           'forecast': 'Prognose: ferdig {f}, {n} arbeidsdager etter fristen {d}',
            'made': 'Generert {d} fra', 'empty': 'Ingen oppgaver på brettet ennå.',
            'legend_why': 'Ring: avhengigheten er beskrevet',
            'start': 'Start', 'end': 'Slutt',
@@ -80,8 +82,10 @@ TEXT = {
            'legend_arrow': 'Arrow: waits for', 'legend_late': 'Red arrow: blocking task ends too late',
            'legend_actual': 'Dark: has happened', 'legend_set': 'Light: dates set',
            'legend_calc': 'Dashed: calculated or assumed',
-           'legend_overdue': 'Red border and line: start or end overdue',
-           'late_s': 'Overdue: should have started {d}', 'late_e': 'Overdue: should have been finished {d}',
+           'legend_late_start': 'Yellow border and line: late start',
+           'legend_overrun': 'Red: after the due date (light: forecast)',
+           'late_s': 'Late start: should have started {d}', 'late_e': 'Overdue: should have been finished {d}',
+           'forecast': 'Forecast: finished {f}, {n} working days after the due date {d}',
            'made': 'Generated {d} from', 'empty': 'No tasks on the board yet.',
            'legend_why': 'Ring: the dependency is described',
            'start': 'Start', 'end': 'End',
@@ -236,6 +240,11 @@ def sub_days(e, n):
     return d
 
 
+def count_days(a, b):
+    """Arbeidsdager fra og med a til og med b, minst 1."""
+    return max(1, sum(1 for k in range((b - a).days + 1) if (a + datetime.timedelta(days=k)).weekday() < 5))
+
+
 def gap(end, start):
     """Arbeidsdager mellom slutt og start. Negativt tall = overlapp."""
     if start > end:
@@ -263,22 +272,37 @@ def plan(tasks, today):
         e, es = (day(o['ended']), 'actual_e') if o.get('ended') else (day(o['due']), 'set_e') if o['due'] else (None, None)
         if s is None and e is not None:
             s, ss, used = sub_days(e, days), 'due', True
+        # Oppgavene det ventes på, regnes med forventet slutt (f), så en forsinkelse forplanter seg
+        after = [go(by[b['key']]).get('f') for b in o['blocked_by'] if b['key'] in by]
+        after = [x for x in after if x]
+        nxt = workday(max(after) + datetime.timedelta(days=1)) if after else None
         if s is None:
             s, ss = workday(today), 'today'
-            ends = [go(by[b['key']]).get('e') for b in o['blocked_by'] if b['key'] in by]
-            ends = [x for x in ends if x]
-            if ends and workday(max(ends) + datetime.timedelta(days=1)) >= s:
-                s, ss = workday(max(ends) + datetime.timedelta(days=1)), 'deps'
+            if nxt and nxt >= s:
+                s, ss = nxt, 'deps'
         if e is None:
             e, es, used = add_days(s, days), 'start', True
-        # Forsinket: datoen er passert uten at oppgaven er startet eller ferdig. Bare datoer noen har satt, eller
-        # regnet med en Duration noen har satt; antatt varighet gir ikke rødt.
         open_ = not o.get('finished')
-        late_s = s if open_ and not o.get('started') and (ss == 'set_s' or (ss == 'due' and n)) and s < today else None
-        late_e = e if open_ and (es == 'set_e' or (es == 'start' and n)) and e < today else None
-        if es == 'start' and ss == 'actual_s' and open_ and e < today:   # pågår fortsatt
+        started = day(o.get('started'))
+        # Sen start: ikke startet, og en start noen har satt (eller regnet med en Duration noen har satt) er passert
+        late_s = s if open_ and not started and (ss == 'set_s' or (ss == 'due' and n)) and s < today else None
+        # Planlagt slutt: Due date, eller start pluss en Duration noen har satt. Antatt varighet gir aldri rødt.
+        planned = e if open_ and (es == 'set_e' or (es == 'start' and n)) else None
+        f = None
+        if planned:
+            # Prognose: start (faktisk, ellers tidligst mulig) pluss varigheten, som er Duration eller planlagt lengde
+            span = days if n else (count_days(day(o['start']), day(o['due'])) if o['start'] and o['due'] else None)
+            if started:
+                fs = started
+            else:
+                fs = max([workday(today)] + ([nxt] if nxt else []) + ([day(o['start'])] if o['start'] else []))
+            fe = add_days(fs, span) if span else planned
+            f = max(fe, planned, today if planned < today else planned)
+        if es == 'start' and not n and ss == 'actual_s' and open_ and e < today:   # pågår fortsatt, antatt varighet
             e, es = today, 'running'
-        o.update(s=s, e=max(e, s), s_src=ss, e_src=es, days=days, assumed=used and not n, late_s=late_s, late_e=late_e)
+        e = max(e, s)
+        o.update(s=s, e=e, s_src=ss, e_src=es, days=days, assumed=used and not n, late_s=late_s,
+                 planned=planned, late_e=planned if planned and planned < today else None, f=max(f or e, e))
         busy.discard(o['key'])
         return o
 
@@ -318,7 +342,7 @@ def svg(number, title, url, tasks, lang, today):
                 f'<a href="{esc(url)}" target="_blank"><tspan fill="#0969da">{esc(title)}</tspan></a></text></svg>\n')
 
     # Tidsaksen: alle datoer pluss i dag, med litt luft på hver side
-    dates = [x[k] for x in dated for k in ('s', 'e')] + [today]
+    dates = [x[k] for x in dated for k in ('s', 'e', 'f')] + [today]
     first = min(dates) - datetime.timedelta(days=3)
     last = max(dates) + datetime.timedelta(days=4)
     days = (last - first).days + 1
@@ -336,7 +360,8 @@ def svg(number, title, url, tasks, lang, today):
 
     # Tegnforklaringen brytes over flere linjer når figuren er smal
     legend = [('arrow', t['legend_arrow']), ('late', t['legend_late']), ('actual', t['legend_actual']),
-              ('set', t['legend_set']), ('calc', t['legend_calc']), ('late_bar', t['legend_overdue']), ('why', t['legend_why'])]
+              ('set', t['legend_set']), ('calc', t['legend_calc']), ('late_start', t['legend_late_start']),
+              ('overrun', t['legend_overrun']), ('why', t['legend_why'])]
     places, lx, ly = [], PAD, 0
     for kind, text in legend:
         w = 34 + len(text) * 6.4 + 24
@@ -395,6 +420,10 @@ def svg(number, title, url, tasks, lang, today):
             tip.append(t['late_s'].format(d=fmt(o['late_s'], lang)))
         if o['late_e']:
             tip.append(t['late_e'].format(d=fmt(o['late_e'], lang)))
+        if o['planned'] and o['f'] > o['planned'] and o['f'] > today:
+            over = sum(1 for k in range(1, (o['f'] - o['planned']).days + 1)
+                       if (o['planned'] + datetime.timedelta(days=k)).weekday() < 5)
+            tip.append(t['forecast'].format(f=fmt(o['f'], lang), n=over, d=fmt(o['planned'], lang)))
         if o['blocked_by']:
             tip.append(f'{t["blocked_by"]}: ' + ', '.join(b['key'] + ('' if b in inside else f' ({t["outside"]})') for b in o['blocked_by']))
         if blocking:
@@ -413,8 +442,7 @@ def svg(number, title, url, tasks, lang, today):
         # dem er beregnet. Det som har skjedd (fra start til slutt, eller til i dag), tegnes mørkt over.
         x1, x2 = x(s), x(d) + px
         firm = o['s_src'] in ('actual_s', 'set_s') and o['e_src'] in ('actual_e', 'set_e')
-        late = o['late_s'] or o['late_e']
-        edge = LATE if late else color
+        edge = AMBER if o['late_s'] else color
         bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}" '
                + (f'fill-opacity="0.35" stroke="{edge}"/>' if firm else
                   f'fill-opacity="0.12" stroke="{edge}" stroke-dasharray="4 3"/>')]
@@ -423,15 +451,21 @@ def svg(number, title, url, tasks, lang, today):
             a2 = x(d) + px if o.get('ended') else min(x(today) + px, x2)
             if a2 > a1:
                 bar.append(f'<rect x="{a1:.1f}" y="{y + 6}" width="{a2 - a1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}"/>')
-        if late:
-            # Rød kant, og rød strek under stolpen fra datoen som er passert, til i dag
-            if o.get('started'):
-                bar.append(f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="none" stroke="{LATE}"/>')
-            lx1 = x(o['late_s']) if o['late_s'] else x(o['late_e']) + px
-            bar.append(f'<line x1="{lx1:.1f}" y1="{y + ROW_H - 3}" x2="{x(today) + px / 2:.1f}" y2="{y + ROW_H - 3}" '
-                       f'stroke="{LATE}" stroke-width="2" stroke-dasharray="4 2"/>')
+        if o['late_s']:
+            # Sen start: gul kant, og gul strek under stolpen fra startdatoen til i dag
+            bar.append(f'<line x1="{x(o["late_s"]):.1f}" y1="{y + ROW_H - 3}" x2="{x(today) + px / 2:.1f}" y2="{y + ROW_H - 3}" '
+                       f'stroke="{AMBER}" stroke-width="2" stroke-dasharray="4 2"/>')
+        end = x2
+        if o['planned'] and o['f'] > o['planned']:
+            # Sen slutt: stolpen forlenges forbi fristen og fylles rødt; helt rødt til i dag, lyst for prognosen etter
+            r1, rt, end = x(o['planned']) + px, x(today) + px, x(o['f']) + px
+            if min(rt, end) > r1:
+                bar.append(f'<rect x="{r1:.1f}" y="{y + 6}" width="{min(rt, end) - r1:.1f}" height="{ROW_H - 12}" fill="{LATE}"/>')
+            if end > max(r1, rt):
+                bar.append(f'<rect x="{max(r1, rt):.1f}" y="{y + 6}" width="{end - max(r1, rt):.1f}" height="{ROW_H - 12}" '
+                           f'fill="{LATE}" fill-opacity="0.25" stroke="{LATE}" stroke-dasharray="4 3"/>')
         out.append(f'<a href="{esc(o["url"])}" target="_blank"><title>{tip}</title>{"".join(bar)}</a>')
-        span[o['key']] = (x1, x2, mid, s, d)
+        span[o['key']] = (x1, end, mid, s, o['f'])
 
     # Pilene: fra slutten på den som blokkerer til starten på den som venter. Hver pil er en lenke til
     # oppgaven som venter (der koblingen og beskrivelsen står), med et bredt usynlig treffområde.
@@ -485,9 +519,12 @@ def svg(number, title, url, tasks, lang, today):
               'set': lambda lx, ly: f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.35" stroke="{grey}"/>',
               'calc': lambda lx, ly: (f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.12" '
                                       f'stroke="{grey}" stroke-dasharray="4 3"/>'),
-              'late_bar': lambda lx, ly: (f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.35" '
-                                          f'stroke="{LATE}"/><line x1="{lx}" y1="{ly + 9}" x2="{lx + 28}" y2="{ly + 9}" '
-                                          f'stroke="{LATE}" stroke-width="2" stroke-dasharray="4 2"/>'),
+              'late_start': lambda lx, ly: (f'<rect x="{lx}" y="{ly - 6}" width="28" height="12" rx="3" fill="{grey}" fill-opacity="0.35" '
+                                            f'stroke="{AMBER}"/><line x1="{lx}" y1="{ly + 9}" x2="{lx + 28}" y2="{ly + 9}" '
+                                            f'stroke="{AMBER}" stroke-width="2" stroke-dasharray="4 2"/>'),
+              'overrun': lambda lx, ly: (f'<rect x="{lx}" y="{ly - 6}" width="14" height="12" fill="{LATE}"/>'
+                                         f'<rect x="{lx + 14}" y="{ly - 6}" width="14" height="12" fill="{LATE}" fill-opacity="0.25" '
+                                         f'stroke="{LATE}" stroke-dasharray="4 3"/>'),
               'why': lambda lx, ly: f'<circle cx="{lx + 14}" cy="{ly}" r="3.2" fill="#ffffff" stroke="{ARROW}" stroke-width="1.5"/>'}
     for kind, text, lx, dy in places:
         ly = legend_y + dy
