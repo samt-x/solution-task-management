@@ -14,7 +14,7 @@ last_editor: Erik Hagen
 
 1. **Én eier per oppgave.** Oppgaven opprettes der ansvaret ligger, se [Brukerveiledning](../brukerveiledning/). Vi kopierer ikke oppgaver mellom repoer.
 2. **Lenke i stedet for kopi.** Berører oppgaven et annet område, lenkes det til den i en kommentar. GitHub viser koblingen i begge oppgavene.
-3. **Underoppgaver ved avhengighet.** Når en arkitekturoppgave er avhengig av en leveranse fra en pilot, eller omvendt, legges den andre oppgaven inn som underoppgave (sub-issue). Det virker på tvers av repoer, og fremdriften vises på brettet.
+3. **Venter på, eller del av?** Venter en oppgave på en annen, for eksempel en arkitekturoppgave på en leveranse fra en pilot, kobles de med «Blocked by», se [Blokkert](#blokkert) og [Brukerveiledning](../brukerveiledning/#avhengigheter-mellom-oppgaver). Er den andre oppgaven en del av denne, legges den inn som underoppgave (sub-issue), og fremdriften vises på brettet. Begge virker på tvers av repoer.
 
 Grunnen er at status og andre felt lagres per brett. Ligger samme oppgave på to brett, får den to statuser som fort blir ulike.
 

@@ -14,7 +14,7 @@ last_editor: Erik Hagen
 
 1. **One owner per task.** The task is created where the responsibility lies, see [User guide](../brukerveiledning/). We do not copy tasks between repositories.
 2. **Link instead of copy.** If the task affects another area, link to it in a comment. GitHub shows the connection in both tasks.
-3. **Sub-issues for dependencies.** When an architecture task depends on a deliverable from a pilot, or vice versa, the other task is added as a sub-issue. This works across repositories, and progress is shown on the board.
+3. **Waits for, or part of?** If a task waits for another, for example an architecture task waiting for a deliverable from a pilot, they are linked with «Blocked by», see [Blocked](#blocked) and [User guide](../brukerveiledning/#dependencies-between-tasks). If the other task is part of this one, it is added as a sub-issue, and progress is shown on the board. Both work across repositories.
 
 The reason is that status and other fields are stored per board. If the same task is on two boards, it gets two statuses that soon diverge.
 

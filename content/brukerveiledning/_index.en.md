@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-This page explains where a task should live, and how to create, follow up and close it.
+This page explains where a task should live, and how to create, follow up, link and close it.
 
 ## Where should the task live?
 
@@ -64,6 +64,37 @@ Project 5 has the field **Comment**, which shows the latest status of each task.
 Overwrite the old comment. The field holds a single line, and the previous one is kept in the [status history](https://github.com/samt-x/solution-task-management/commits/main/status/project-5.md), which is updated every hour.
 
 **Reading the whole comment:** Long comments are cut off in the table. Click the title of the task to open a panel on the right with the whole comment and the other fields. To see all the comments together, use the [status table](https://github.com/samt-x/solution-task-management/blob/main/status/project-5.md), which is also updated every hour.
+
+## Dependencies between tasks
+
+When a task cannot start or be finished until another task is done, link them in GitHub. Everyone can then see that the task is waiting, and the [timeline](../tidslinje/) draws an arrow between them.
+
+### Within the same project
+
+1. Open the task that **waits**.
+2. Find **Relationships** in the right margin, and choose **Mark as blocked by**.
+3. Search for the task being waited for, by title or number, and select it.
+4. Write why the task waits in the description, under the heading **Avhengigheter** (Dependencies), one line per task, for example «- #35: needs legal clarification of consent». The Task form has a field for it.
+
+The task being waited for shows the link as **Blocking**. When it is closed, the waiting is considered over.
+
+### Across projects
+
+The link also works when the tasks are in different repositories in samt-x, for example an architecture task waiting for a delivery from a pilot.
+
+- Do the same as above, from the waiting task. If the task does not show up in the search, paste the link to it.
+- Under Avhengigheter, write the repository before the number, for example «- samt-bu-pilot-6#12: needs test data from the pilot».
+- The timeline only draws arrows between tasks on the **same board**. If the task being waited for is on another board, the waiting task gets ⛔ before its title, and the tooltip says that the task being waited for is not in the chart.
+
+### Waits for, part of, or waits for something outside GitHub?
+
+| Situation | Use |
+|---|---|
+| The task waits for another task | **Mark as blocked by** (above) |
+| The task is part of a larger task | Sub-issue: open the larger task and choose **Create sub-issue** or **Add existing issue**. See [Timeline](../tidslinje/#how-a-task-gets-the-right-place-in-the-chart). |
+| The task waits for something that is not a task in GitHub (an answer, an agreement, a decision elsewhere) | The label **blocked**, see [Blocked](../konvensjoner/#blocked) |
+
+Dependencies can be searched for with **is:blocked** (waits for something) and **is:blocking** (something waits for it).
 
 ## Closing a task
 
