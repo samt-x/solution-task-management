@@ -80,7 +80,7 @@ TEXT = {
            'late_s': 'Sen start: skulle startet {d}', 'late_e': 'Forsinket: skulle vært ferdig {d}',
            'forecast': 'Prognose: ferdig {f}, {n} arbeidsdager etter fristen {d}',
            'made': 'Generert {d} fra', 'empty': 'Ingen oppgaver på brettet ennå.',
-           'legend_why': 'Ring: avhengigheten er beskrevet', 'legend_kids': 'Klamme: sub-issuene (mørk = ferdige, rød kant = forsinket)',
+           'legend_why': 'Ring: avhengigheten er beskrevet', 'legend_kids': 'Klamme: sub-issuene samlet (rød kant: én er forsinket)',
            'start': 'Start', 'end': 'Slutt',
            'src': {'actual_s': 'startet (In progress)', 'actual_e': 'ferdig', 'set_s': 'Start date', 'set_e': 'Due date',
                    'due': 'regnet fra slutt og varighet', 'deps': 'etter oppgavene den venter på',
@@ -110,7 +110,7 @@ TEXT = {
            'late_s': 'Late start: should have started {d}', 'late_e': 'Overdue: should have been finished {d}',
            'forecast': 'Forecast: finished {f}, {n} working days after the due date {d}',
            'made': 'Generated {d} from', 'empty': 'No tasks on the board yet.',
-           'legend_why': 'Ring: the dependency is described', 'legend_kids': 'Bracket: the sub-issues (dark = completed, red border = delayed)',
+           'legend_why': 'Ring: the dependency is described', 'legend_kids': 'Bracket: the sub-issues together (red border: one is delayed)',
            'start': 'Start', 'end': 'End',
            'src': {'actual_s': 'started (In progress)', 'actual_e': 'finished', 'set_s': 'Start date', 'set_e': 'Due date',
                    'due': 'calculated from end and duration', 'deps': 'after the tasks it waits for',
@@ -370,6 +370,13 @@ def is_late(o):
     return bool(o['late_s'] or o['late_e'] or (o['planned'] and o['f'] > o['planned'])) or any(is_late(k) for k in o['kids'])
 
 
+def first_start(o):
+    """Første faktiske start (In progress) på oppgaven eller en etterkommer, eller None."""
+    found = [day(o['started'])] if o.get('started') else []
+    found += [d for d in (first_start(k) for k in o['kids']) if d]
+    return min(found) if found else None
+
+
 def order(tasks):
     """Rekkefølge: start, så slutt, så nøkkel – med barna rett under forelderen."""
     out = []
@@ -546,21 +553,24 @@ def svg(number, title, url, tasks, lang, today):
         edge = AMBER if o['late_s'] else color
         if o['kids']:
             # Klamme fra første start til siste slutt blant barna, prognosen medregnet. Fargen er forelderens status
-            # (grå når lukket, skravert når avbrutt), den mørke delen er andelen ferdige sub-issues, og rød kant betyr
-            # at minst én sub-issue er forsinket – synlig også når gruppen er foldet inn (#44).
+            # (grå når lukket, skravert når avbrutt). Den mørke delen er det som har skjedd, som på stolpene: fra første
+            # faktiske start blant barna til i dag. Framdriften står som tekst («1/3»). Rød kant betyr at minst én
+            # sub-issue er forsinket – synlig også når gruppen er foldet inn (#44).
             x2 = x(o['f']) + px
             shape = f'M{x1:.1f},{y + 19}V{y + 7}H{x2:.1f}V{y + 19}L{x2 - 6:.1f},{y + 14}H{x1 + 6:.1f}Z'
             late_kids = not o['closed'] and any(is_late(k) for k in o['kids'])
             line = f'stroke="{LATE}" stroke-width="2"' if late_kids else f'stroke="{color}"'
-            c, n = o.get('subs') or [0, 0]
+            began = first_start(o)
             if dropped:
                 bar = [f'<path d="{shape}" fill="url(#{mh})" stroke="{CLOSED}"/>']
             elif o['closed']:
                 bar = [f'<path d="{shape}" fill="{CLOSED}" stroke="{CLOSED}"/>']
             else:
                 bar = [f'<path d="{shape}" fill="{color}" fill-opacity="0.3" {line}/>']
-                if n and c:
-                    bar.append(f'<rect x="{x1:.1f}" y="{y + 7}" width="{(x2 - x1) * c / n:.1f}" height="7" fill="{color}"/>')
+                if began:
+                    a1, a2 = x(max(began, s)), min(x(today) + px, x2)
+                    if a2 > a1:
+                        bar.append(f'<rect x="{a1:.1f}" y="{y + 7}" width="{a2 - a1:.1f}" height="7" fill="{color}"/>')
                 bar.append(f'<path d="{shape}" fill="none" {line}/>')   # kanten over fyllingen
         elif dropped:   # skravert, uten mørk del: det som var planlagt, ble ikke gjort
             bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" '
