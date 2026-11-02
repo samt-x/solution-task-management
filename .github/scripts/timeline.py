@@ -370,11 +370,23 @@ def is_late(o):
     return bool(o['late_s'] or o['late_e'] or (o['planned'] and o['f'] > o['planned'])) or any(is_late(k) for k in o['kids'])
 
 
-def first_start(o):
-    """Første faktiske start (In progress) på oppgaven eller en etterkommer, eller None."""
-    found = [day(o['started'])] if o.get('started') else []
-    found += [d for d in (first_start(k) for k in o['kids']) if d]
-    return min(found) if found else None
+def worked(o, today):
+    """Periodene der minst én sub-issue faktisk var i arbeid: fra In progress til ferdig, eller til i dag.
+    Oppgaver lukket uten å bli gjort telles ikke. Perioder som møtes eller overlapper, slås sammen, så et
+    hull viser at ingenting var i arbeid (#44)."""
+    spans = []
+    for k in o['kids']:
+        if k['kids']:
+            spans += worked(k, today)
+        elif k.get('started') and not (k['closed'] and k.get('reason') in DROPPED):
+            spans.append((day(k['started']), day(k['ended']) if k.get('ended') else today))
+    merged = []
+    for a, b in sorted(spans):
+        if merged and a <= merged[-1][1] + datetime.timedelta(days=1):
+            merged[-1] = (merged[-1][0], max(merged[-1][1], b))
+        else:
+            merged.append((a, b))
+    return merged
 
 
 def order(tasks):
@@ -553,22 +565,21 @@ def svg(number, title, url, tasks, lang, today):
         edge = AMBER if o['late_s'] else color
         if o['kids']:
             # Klamme fra første start til siste slutt blant barna, prognosen medregnet. Fargen er forelderens status
-            # (grå når lukket, skravert når avbrutt). Den mørke delen er det som har skjedd, som på stolpene: fra første
-            # faktiske start blant barna til i dag. Framdriften står som tekst («1/3»). Rød kant betyr at minst én
+            # (grå når lukket, skravert når avbrutt). Den mørke delen er det som har skjedd, som på stolpene: periodene
+            # der minst én sub-issue var i arbeid (worked). Framdriften står som tekst («1/3»). Rød kant betyr at minst én
             # sub-issue er forsinket – synlig også når gruppen er foldet inn (#44).
             x2 = x(o['f']) + px
             shape = f'M{x1:.1f},{y + 19}V{y + 7}H{x2:.1f}V{y + 19}L{x2 - 6:.1f},{y + 14}H{x1 + 6:.1f}Z'
             late_kids = not o['closed'] and any(is_late(k) for k in o['kids'])
             line = f'stroke="{LATE}" stroke-width="2"' if late_kids else f'stroke="{color}"'
-            began = first_start(o)
             if dropped:
                 bar = [f'<path d="{shape}" fill="url(#{mh})" stroke="{CLOSED}"/>']
             elif o['closed']:
                 bar = [f'<path d="{shape}" fill="{CLOSED}" stroke="{CLOSED}"/>']
             else:
                 bar = [f'<path d="{shape}" fill="{color}" fill-opacity="0.3" {line}/>']
-                if began:
-                    a1, a2 = x(max(began, s)), min(x(today) + px, x2)
+                for a, b in worked(o, today):
+                    a1, a2 = x(max(a, s)), min(x(b) + px, x2)
                     if a2 > a1:
                         bar.append(f'<rect x="{a1:.1f}" y="{y + 7}" width="{a2 - a1:.1f}" height="7" fill="{color}"/>')
                 bar.append(f'<path d="{shape}" fill="none" {line}/>')   # kanten over fyllingen

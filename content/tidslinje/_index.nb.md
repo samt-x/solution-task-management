@@ -27,7 +27,7 @@ Fjorten eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/s
 - **Passert frist:** B skulle vært ferdig fredag forrige uke.
 - **Sen start, og forsinkelsen forplanter seg:** D skulle startet samme fredag, men venter fortsatt på B og C. Når C er ferdig, rekker ikke D fristen sin, og E, som venter på D, blir også sen.
 - **Frist og Duration, men ingen startdato:** I har ingen avhengigheter, men i dag pluss varigheten går forbi fristen. H venter på C, og tidligste start etter C pluss varigheten går forbi fristen.
-- **Sub-issues:** K har tre sub-issues: K1 er ferdig, K2 er ikke startet og har passert fristen, og K3 pågår, men venter på K2. K viser framdriften 1/3, og klammen har rød kant fordi K2 er forsinket. Klikk ▾ foran K for å folde sub-issuene inn. K3 har Responsible satt, så den markeres med **Mine oppgaver** for den som har det brukernavnet.
+- **Sub-issues:** K har tre sub-issues: K1 er ferdig, K2 er ikke startet og har passert fristen, og K3 pågår, men venter på K2. K viser framdriften 1/3, og klammen har rød kant fordi K2 er forsinket. Hullet i den mørke delen er dagene mellom K1 og K3 da ingen av dem var i arbeid. Klikk ▾ foran K for å folde sub-issuene inn. K3 har Responsible satt, så den markeres med **Mine oppgaver** for den som har det brukernavnet.
 
 {{< inline-svg "project-20-nb.svg" >}}
 
@@ -67,7 +67,7 @@ Figurene lages alle her, og sidene henter dem herfra. Se [Teknisk dokumentasjon]
 - **⚠ under figuren:** en oppgave beskriver en avhengighet som ikke er koblet i GitHub.
 - **⛔ foran tittelen:** oppgaven venter fortsatt på en åpen oppgave.
 - **Rød loddrett strek:** dagens dato.
-- **Sub-issues:** står innrykket under forelderen. Forelderen har en klamme fra første start til siste slutt blant sub-issuene på brettet, med prognosen medregnet, og framdriften etter nummeret, for eksempel «#11 · 1/3» (ferdige av alle sub-issuene, også dem på andre brett). Fargen på klammen er forelderens status på brettet. Den mørke delen er det som har skjedd, som på stolpene: fra første gang en av sub-issuene ble flyttet til In progress, til i dag. **Rød kant** betyr at minst én sub-issue er forsinket, og den synes også når sub-issuene er foldet inn. En lukket forelder har grå klamme med ✓ når den er fullført, og skravert klamme med ✕ når den er lukket uten å bli gjort. Statusen på forelderen settes for hånd og følger ikke sub-issuene automatisk. **▾** foran tittelen folder sub-issuene inn, **▸** folder dem ut igjen. Pilene til og fra sub-issues som er foldet inn, skjules.
+- **Sub-issues:** står innrykket under forelderen. Forelderen har en klamme fra første start til siste slutt blant sub-issuene på brettet, med prognosen medregnet, og framdriften etter nummeret, for eksempel «#11 · 1/3» (ferdige av alle sub-issuene, også dem på andre brett). Fargen på klammen er forelderens status på brettet. Den mørke delen er det som har skjedd, som på stolpene: periodene der minst én sub-issue var i arbeid (fra In progress til ferdig, eller til i dag). Et lyst hull betyr at ingen av sub-issuene var i arbeid da. **Rød kant** betyr at minst én sub-issue er forsinket, og den synes også når sub-issuene er foldet inn. En lukket forelder har grå klamme med ✓ når den er fullført, og skravert klamme med ✕ når den er lukket uten å bli gjort. Statusen på forelderen settes for hånd og følger ikke sub-issuene automatisk. **▾** foran tittelen folder sub-issuene inn, **▸** folder dem ut igjen. Pilene til og fra sub-issues som er foldet inn, skjules.
 
 ## Hvor datoene kommer fra
 
