@@ -130,6 +130,6 @@ Click to open #6</title><path d="M942.1,123.0H950.1V149.0H973.5" fill="none" str
 <rect x="816" y="192" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><text x="850" y="202" fill="#24292f">Light: dates set</text>
 <rect x="14" y="214" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="48" y="224" fill="#24292f">Dashed: calculated or assumed</text>
 <rect x="258" y="214" width="14" height="12" fill="#cf222e"/><rect x="272" y="214" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="292" y="224" fill="#24292f">Red: after the due date (light: forecast)</text>
-<text x="14" y="250" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/20" target="_blank"><tspan dx="4" fill="#0969da">[EXAMPLE] Timeline</tspan></a>. 1 tasks have no Duration and are assumed to take one week.</text>
+<text x="14" y="250" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/20" target="_blank"><tspan dx="4" fill="#0969da">[EXAMPLE] Timeline</tspan></a>. One task has no Duration and is assumed to take one week.</text>
 </g>
 </svg>

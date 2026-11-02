@@ -48,7 +48,7 @@ F og G har verken Start date eller Due date, så de plasseres etter oppgavene de
 
 ### Frist og varighet, men ingen startdato
 
-I har ingen avhengigheter, men i dag pluss varigheten går forbi fristen, så prognosen er rød. H venter på C, og tidligste start etter C pluss varigheten går forbi fristen.
+Mangler startdatoen, regnes den bakover fra fristen med varigheten (stiplet stolpe). I har ingen avhengigheter, men startdatoen som er regnet ut, er passert (gul), og i dag pluss varigheten går forbi fristen, så prognosen er rød. H venter på C. For å rekke fristen måtte H startet før C er ferdig, så pila er rød, og tidligste start etter C pluss varigheten går forbi fristen.
 
 {{< inline-svg "example-due-and-duration-nb.svg" >}}
 

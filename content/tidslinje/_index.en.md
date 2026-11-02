@@ -48,7 +48,7 @@ F and G have neither Start date nor Due date, so they are placed after the tasks
 
 ### Due date and duration, but no start date
 
-I has no dependencies, but today plus the duration goes past the due date, so the forecast is red. H waits for C, and the earliest start after C plus the duration goes past the due date.
+When the start date is missing, it is calculated backwards from the due date with the duration (dashed bar). I has no dependencies, but the calculated start date has passed (yellow), and today plus the duration goes past the due date, so the forecast is red. H waits for C. To make its due date, H would have to start before C is finished, so the arrow is red, and the earliest start after C plus the duration goes past the due date.
 
 {{< inline-svg "example-due-and-duration-en.svg" >}}
 

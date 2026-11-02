@@ -77,6 +77,7 @@ TEXT = {
     'nb': {'today': 'I dag', 'months': 'jan feb mar apr mai jun jul aug sep okt nov des',
            'blocked_by': 'Blokkert av', 'blocking': 'Blokkerer', 'outside': 'ikke i figuren',
            'assumed': '{n} oppgaver mangler Duration og er antatt å ta én uke.',
+           'assumed1': 'Én oppgave mangler Duration og er antatt å ta én uke.',
            'legend_arrow': 'Pil: venter på', 'legend_late': 'Rød pil: blokkerende oppgave slutter for sent',
            'legend_actual': 'Mørk: har skjedd', 'legend_set': 'Lys: satte datoer',
            'legend_calc': 'Stiplet: beregnet eller antatt',
@@ -109,6 +110,7 @@ TEXT = {
     'en': {'today': 'Today', 'months': 'Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec',
            'blocked_by': 'Blocked by', 'blocking': 'Blocking', 'outside': 'not in the chart',
            'assumed': '{n} tasks have no Duration and are assumed to take one week.',
+           'assumed1': 'One task has no Duration and is assumed to take one week.',
            'legend_arrow': 'Arrow: waits for', 'legend_late': 'Red arrow: blocking task ends too late',
            'legend_actual': 'Dark: has happened', 'legend_set': 'Light: dates set',
            'legend_calc': 'Dashed: calculated or assumed',
@@ -706,7 +708,7 @@ def svg(number, title, url, tasks, lang, today, fid=None):
         lx = round(lx)
         out.append(sample[kind](lx, ly) + f'<text x="{lx + 34}" y="{ly + 4}" fill="#24292f">{esc(text)}</text>')
     foot = esc(t['made'].format(d=today.isoformat()))
-    note = (' ' + esc(t['assumed'].format(n=assumed))) if assumed else ''
+    note = (' ' + esc(t['assumed1'] if assumed == 1 else t['assumed'].format(n=assumed))) if assumed else ''
     # dx: Hugos minify fjerner mellomrom mellom tekst og lenke
     out.append(f'<text x="{PAD}" y="{foot_y}" fill="#57606a" font-size="11">{foot}'
                f'<a href="{esc(url)}" target="_blank"><tspan dx="4" fill="#0969da">{esc(title)}</tspan></a>.{note}</text>')
