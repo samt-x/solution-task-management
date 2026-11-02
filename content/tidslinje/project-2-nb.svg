@@ -1,113 +1,114 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1334" height="532" viewBox="0 0 1334 532" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+<svg xmlns="http://www.w3.org/2000/svg" width="1334" height="532" viewBox="0 0 1334 532" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="2" data-tl-top="58" data-tl-rowh="26" data-tl-rows="14" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl2r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl2h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
 <rect width="1334" height="532" fill="#ffffff"/>
-<rect x="0" y="84" width="1334" height="26" fill="#f6f8fa"/>
-<rect x="0" y="136" width="1334" height="26" fill="#f6f8fa"/>
-<rect x="0" y="188" width="1334" height="26" fill="#f6f8fa"/>
-<rect x="0" y="240" width="1334" height="26" fill="#f6f8fa"/>
-<rect x="0" y="292" width="1334" height="26" fill="#f6f8fa"/>
-<rect x="0" y="344" width="1334" height="26" fill="#f6f8fa"/>
-<rect x="0" y="396" width="1334" height="26" fill="#f6f8fa"/>
-<rect x="360.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-stripe" data-i="1" x="0" y="84" width="1334" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="3" x="0" y="136" width="1334" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="5" x="0" y="188" width="1334" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="7" x="0" y="240" width="1334" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="9" x="0" y="292" width="1334" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="11" x="0" y="344" width="1334" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="13" x="0" y="396" width="1334" height="26" fill="#f6f8fa"/>
+<rect class="tl-vh" x="360.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">mai 2026</text>
-<line x1="360.0" y1="8" x2="360.0" y2="422" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="422" stroke="#d0d7de"/>
 <text x="367.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
-<rect x="390.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="395.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="390.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="395.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="402.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
-<rect x="425.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="430.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="425.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="430.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="437.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
-<rect x="460.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="465.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="460.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="465.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="472.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<rect x="495.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="500.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="495.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="500.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="507.0" y="20" fill="#24292f" font-weight="600">jun 2026</text>
-<line x1="505.0" y1="8" x2="505.0" y2="422" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="505.0" y1="8" x2="505.0" y2="422" stroke="#d0d7de"/>
 <text x="507.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
-<rect x="530.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="535.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="530.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="535.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="542.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
-<rect x="565.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="570.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="565.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="570.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="577.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
-<rect x="600.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="605.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="600.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="605.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="612.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
-<rect x="635.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="640.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="635.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="640.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="647.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
 <text x="657.0" y="20" fill="#24292f" font-weight="600">jul 2026</text>
-<line x1="655.0" y1="8" x2="655.0" y2="422" stroke="#d0d7de"/>
-<rect x="670.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="675.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="655.0" y1="8" x2="655.0" y2="422" stroke="#d0d7de"/>
+<rect class="tl-vh" x="670.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="675.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="682.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
-<rect x="705.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="710.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="705.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="710.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="717.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
-<rect x="740.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="745.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="740.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="745.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="752.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
-<rect x="775.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="780.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="775.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="780.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="787.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
-<rect x="810.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="810.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="812.0" y="20" fill="#24292f" font-weight="600">aug 2026</text>
-<line x1="810.0" y1="8" x2="810.0" y2="422" stroke="#d0d7de"/>
-<rect x="815.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="810.0" y1="8" x2="810.0" y2="422" stroke="#d0d7de"/>
+<rect class="tl-vh" x="815.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="822.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
-<rect x="845.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="850.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="845.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="850.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="857.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
-<rect x="880.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="885.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="880.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="885.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="892.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
-<rect x="915.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="920.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="915.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="920.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="927.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<rect x="950.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="955.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="950.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="955.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="962.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
 <text x="967.0" y="20" fill="#24292f" font-weight="600">sep 2026</text>
-<line x1="965.0" y1="8" x2="965.0" y2="422" stroke="#d0d7de"/>
-<rect x="985.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="990.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="965.0" y1="8" x2="965.0" y2="422" stroke="#d0d7de"/>
+<rect class="tl-vh" x="985.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="990.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="997.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
-<rect x="1020.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="1025.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1020.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1025.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1032.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
-<rect x="1055.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="1060.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1055.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1060.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1067.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
-<rect x="1090.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="1095.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1090.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1095.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1102.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
 <text x="1117.0" y="20" fill="#24292f" font-weight="600">okt 2026</text>
-<line x1="1115.0" y1="8" x2="1115.0" y2="422" stroke="#d0d7de"/>
-<rect x="1125.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="1130.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="1115.0" y1="8" x2="1115.0" y2="422" stroke="#d0d7de"/>
+<rect class="tl-vh" x="1125.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1130.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1137.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
-<rect x="1160.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="1165.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1160.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1165.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1172.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
-<rect x="1195.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="1200.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1195.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1200.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1207.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
-<rect x="1230.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="1235.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1230.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1235.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1242.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
-<rect x="1265.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="1270.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1265.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1270.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1272.0" y="20" fill="#24292f" font-weight="600">nov 2026</text>
-<line x1="1270.0" y1="8" x2="1270.0" y2="422" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="1270.0" y1="8" x2="1270.0" y2="422" stroke="#d0d7de"/>
 <text x="1277.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<rect x="1300.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect x="1305.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1300.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1305.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1312.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
 <line x1="0" y1="57.5" x2="1334" y2="57.5" stroke="#d0d7de"/>
-<line x1="359.5" y1="0" x2="359.5" y2="422" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="422" stroke="#d0d7de"/>
+<g class="tl-row" data-key="samt-bu-pilot-2#5" data-parent="" data-y="58" data-state="open" data-late="1" data-people="jenslauritsnielsen-novari">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/5" target="_blank"><title>samt-bu-pilot-2#5 Forventningsavklaring (mål, scope, leveranser)
 In progress
 Start: 6.5. (startet (In progress))
@@ -118,6 +119,8 @@ In progress
 Start: 6.5. (startet (In progress))
 Slutt: 6.5. (Due date)
 Forsinket: skulle vært ferdig 6.5.</title><rect x="375.0" y="64" width="5.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="375.0" y="64" width="5.0" height="14" rx="4" fill="#1f6feb"/><rect x="380.0" y="64" width="900.0" height="14" fill="#cf222e"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#8" data-parent="" data-y="84" data-state="open" data-late="1" data-people="alstad nataliakgundersen-novari">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/8" target="_blank"><title>samt-bu-pilot-2#8 Novari: Kartlegge eksisterende Nå-situasjon av dokumentasjon vi har for vilbli.no
 In progress
 Start: 6.5. (startet (In progress))
@@ -128,6 +131,8 @@ In progress
 Start: 6.5. (startet (In progress))
 Slutt: 29.5. (Due date)
 Forsinket: skulle vært ferdig 29.5.</title><rect x="375.0" y="90" width="120.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="375.0" y="90" width="120.0" height="14" rx="4" fill="#1f6feb"/><rect x="495.0" y="90" width="785.0" height="14" fill="#cf222e"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#7" data-parent="" data-y="110" data-state="open" data-late="1" data-people="jenslauritsnielsen-novari">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/7" target="_blank"><title>samt-bu-pilot-2#7 Lage rammer for en nå-situasjon workshop
 To do
 Start: 6.5. (startet (In progress))
@@ -138,6 +143,8 @@ To do
 Start: 6.5. (startet (In progress))
 Slutt: 12.6. (Due date)
 Forsinket: skulle vært ferdig 12.6.</title><rect x="375.0" y="116" width="190.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#54aeff"/><rect x="375.0" y="116" width="190.0" height="14" rx="4" fill="#54aeff"/><rect x="565.0" y="116" width="715.0" height="14" fill="#cf222e"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#6" data-parent="" data-y="136" data-state="done" data-people="jenslauritsnielsen-novari">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/6" target="_blank"><title>samt-bu-pilot-2#6 Etablere metodikk og arbeidsform
 Done (lukket: fullført)
 Start: 6.5. (startet (In progress))
@@ -146,6 +153,8 @@ Slutt: 7.8. (ferdig)</title><text x="14" y="153.0"><tspan fill="#0969da" text-de
 Done (lukket: fullført)
 Start: 6.5. (startet (In progress))
 Slutt: 7.8. (ferdig)</title><rect x="375.0" y="142" width="470.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="375.0" y="142" width="470.0" height="14" rx="4" fill="#8c959f"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#19" data-parent="" data-y="162" data-state="open" data-late="1" data-people="emfagerli">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/19" target="_blank"><title>samt-bu-pilot-2#19 HK-dir: Kartlegge eksisterende Nå-situasjon av dokumentasjon vi har for utdanning.no
 In review
 Start: 8.5. (startet (In progress))
@@ -156,6 +165,8 @@ In review
 Start: 8.5. (startet (In progress))
 Slutt: 29.5. (Due date)
 Forsinket: skulle vært ferdig 29.5.</title><rect x="385.0" y="168" width="110.0" height="14" rx="4" fill="#8250df" fill-opacity="0.35" stroke="#8250df"/><rect x="385.0" y="168" width="110.0" height="14" rx="4" fill="#8250df"/><rect x="495.0" y="168" width="785.0" height="14" fill="#cf222e"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#10" data-parent="" data-y="188" data-state="open" data-late="1" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/10" target="_blank"><title>samt-bu-pilot-2#10 Starte arbeidet med en interessent / aktør oversikt
 In progress
 Start: 5.6. (startet (In progress))
@@ -166,6 +177,8 @@ In progress
 Start: 5.6. (startet (In progress))
 Slutt: 5.6. (Due date)
 Forsinket: skulle vært ferdig 29.5.</title><rect x="525.0" y="194" width="5.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="525.0" y="194" width="5.0" height="14" rx="4" fill="#1f6feb"/><rect x="495.0" y="194" width="785.0" height="14" fill="#cf222e"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#11" data-parent="" data-y="214" data-state="open" data-late="1" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/11" target="_blank"><title>samt-bu-pilot-2#11 Utarbeide et forslag for fremtids løsning (med eksempler/scenarier)
 In progress
 Start: 7.8. (startet (In progress))
@@ -176,6 +189,8 @@ In progress
 Start: 7.8. (startet (In progress))
 Slutt: 14.8. (Due date)
 Forsinket: skulle vært ferdig 14.8.</title><rect x="840.0" y="220" width="40.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="840.0" y="220" width="40.0" height="14" rx="4" fill="#1f6feb"/><rect x="880.0" y="220" width="400.0" height="14" fill="#cf222e"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#17" data-parent="" data-y="240" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/17" target="_blank"><title>samt-bu-pilot-2#17 Forslag til fremtidig eierskap og forvaltning ​
 In progress
 Start: 7.8. (startet (In progress))
@@ -186,6 +201,8 @@ In progress
 Start: 7.8. (startet (In progress))
 Slutt: 2.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="840.0" y="246" width="440.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="840.0" y="246" width="440.0" height="14" rx="4" fill="#1f6feb"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#12" data-parent="" data-y="266" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/12" target="_blank"><title>samt-bu-pilot-2#12 Erfaringsrapport fra Pilot 2: Valg av utdanningsløp
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -196,6 +213,8 @@ To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1275.0" y="272" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#13" data-parent="" data-y="292" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/13" target="_blank"><title>samt-bu-pilot-2#13 Forslag til gevinster for Pilot 2: Valg av utdanningsløp
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -206,6 +225,8 @@ To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1275.0" y="298" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#14" data-parent="" data-y="318" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/14" target="_blank"><title>samt-bu-pilot-2#14 Forslag til arbeid rundt juridiske avklaringer
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -216,6 +237,8 @@ To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1275.0" y="324" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#15" data-parent="" data-y="344" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/15" target="_blank"><title>samt-bu-pilot-2#15 Forslag til informasjonsmodel
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -226,6 +249,8 @@ To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1275.0" y="350" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#16" data-parent="" data-y="370" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/16" target="_blank"><title>samt-bu-pilot-2#16 Forslag til arkitektur
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -236,6 +261,8 @@ To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1275.0" y="376" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-pilot-2#18" data-parent="" data-y="396" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/18" target="_blank"><title>samt-bu-pilot-2#18 Forslag til samarbeidsavtale ​
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -246,7 +273,9 @@ To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1275.0" y="402" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<line x1="1277.5" y1="58" x2="1277.5" y2="426" stroke="#cf222e" stroke-width="1.5"/>
+</g>
+<line class="tl-vy2" data-dy="4" x1="1277.5" y1="58" x2="1277.5" y2="426" stroke="#cf222e" stroke-width="1.5"/>
+<g class="tl-foot">
 <text x="1277.5" y="437" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <path d="M14,458H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl2a)"/><text x="48" y="462" fill="#24292f">Pil: venter på</text>
 <path d="M162,458H190" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl2r)"/><text x="196" y="462" fill="#24292f">Rød pil: blokkerende oppgave slutter for sent</text>
@@ -259,4 +288,5 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1275.0" y="402" width
 <rect x="649" y="474" width="28" height="12" rx="3" fill="url(#tl2h)" stroke="#8c959f"/><text x="683" y="484" fill="#24292f">Skravert og ✕: lukket uten å bli gjort</text>
 <circle cx="964" cy="480" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="984" y="484" fill="#24292f">Ring: avhengigheten er beskrevet</text>
 <text x="14" y="510" fill="#57606a" font-size="11">Generert 2026-11-02 fra<a href="https://github.com/orgs/samt-x/projects/2" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 2 – Valg av utdanningsløp</tspan></a>. 7 oppgaver mangler Duration og er antatt å ta én uke.</text>
+</g>
 </svg>

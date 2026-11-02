@@ -1,376 +1,439 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="970" viewBox="0 0 1134 970" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="970" viewBox="0 0 1134 970" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="6" data-tl-top="58" data-tl-rowh="26" data-tl-rows="30" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl6a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl6r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl6h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
 <rect width="1134" height="970" fill="#ffffff"/>
-<rect x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="240" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="292" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="344" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="396" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="448" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="500" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="552" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="604" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="656" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="708" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="760" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="812" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="1" x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="3" x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="5" x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="7" x="0" y="240" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="9" x="0" y="292" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="11" x="0" y="344" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="13" x="0" y="396" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="15" x="0" y="448" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="17" x="0" y="500" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="19" x="0" y="552" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="21" x="0" y="604" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="23" x="0" y="656" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="25" x="0" y="708" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="27" x="0" y="760" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="29" x="0" y="812" width="1134" height="26" fill="#f6f8fa"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">sep 2026</text>
-<line x1="360.0" y1="8" x2="360.0" y2="838" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="838" stroke="#d0d7de"/>
 <text x="366.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
 <text x="392.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
 <text x="419.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
-<rect x="425.5" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
-<rect x="438.6" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="425.5" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="438.6" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="445.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
 <text x="471.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
 <text x="497.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<rect x="517.2" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="517.2" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="523.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
-<rect x="530.3" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="530.3" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="550.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
 <text x="576.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
 <text x="584.8" y="20" fill="#24292f" font-weight="600">okt 2026</text>
-<line x1="582.8" y1="8" x2="582.8" y2="838" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="582.8" y1="8" x2="582.8" y2="838" stroke="#d0d7de"/>
 <text x="602.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<rect x="609.0" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
-<rect x="622.1" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="609.0" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="622.1" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="628.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
 <text x="654.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
 <text x="681.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
-<rect x="700.7" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="700.7" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="707.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
-<rect x="713.8" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="713.8" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="733.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
 <text x="759.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
 <text x="785.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<rect x="792.4" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
-<rect x="805.5" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="792.4" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="805.5" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="812.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
 <text x="838.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
 <text x="864.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
-<rect x="884.1" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="884.1" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="890.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<rect x="897.2" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="897.2" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="916.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
 <text x="943.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
 <text x="969.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
-<rect x="975.9" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
-<rect x="989.0" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="975.9" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="989.0" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="991.0" y="20" fill="#24292f" font-weight="600">nov 2026</text>
-<line x1="989.0" y1="8" x2="989.0" y2="838" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="989.0" y1="8" x2="989.0" y2="838" stroke="#d0d7de"/>
 <text x="995.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
 <text x="1021.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
 <text x="1047.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
-<rect x="1067.6" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1067.6" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1074.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
-<rect x="1080.7" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1080.7" y="58" width="13.1" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1100.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
 <line x1="0" y1="57.5" x2="1134" y2="57.5" stroke="#d0d7de"/>
-<line x1="359.5" y1="0" x2="359.5" y2="838" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="838" stroke="#d0d7de"/>
+<g class="tl-row" data-key="information-models#6" data-parent="" data-y="58" data-state="open" data-people="">
+<g class="tl-fold" role="button" display="none" cursor="pointer"><title>Fold sub-issuene inn eller ut</title><rect x="12" y="58" width="16" height="26" fill="transparent"/><text x="14" y="76.0" fill="#57606a" font-size="15">▾</text></g>
+<a href="https://github.com/samt-x/information-models/issues/6" target="_blank"><title>information-models#6 Få oversikt over de viktigste oppgavene/tjenestene knyttet til opplæring
+Ready
+Start: 17.9. (fra sub-issuene)
+Slutt: 6.11. (fra sub-issuene)
+Sub-issues: 2 av 4 ferdige</title><text x="28" y="75.0"><tspan fill="#0969da">Få oversikt over de viktigste oppgavene/tjene…</tspan><tspan dx="5" fill="#57606a" font-size="11">#6 · 2/4</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/6" target="_blank"><title>information-models#6 Få oversikt over de viktigste oppgavene/tjenestene knyttet til opplæring
+Ready
+Start: 17.9. (fra sub-issuene)
+Slutt: 6.11. (fra sub-issuene)
+Sub-issues: 2 av 4 ferdige</title><path d="M399.3,76V66H1067.6V76L1061.6,71H405.3Z" fill="#24292f"/></a>
+</g>
+<g class="tl-row" data-key="information-models#22" data-parent="information-models#6" data-y="84" data-state="done" data-people="KjerstiSteien">
 <a href="https://github.com/samt-x/information-models/issues/22" target="_blank"><title>information-models#22 Bruke MCP-server mot lovdata til å få KI til å hente ut lovpålagte tjenester knyttet til opplæring.
 Done (lukket: fullført)
 Start: 17.9. (regnet fra slutt og varighet)
 Slutt: 23.9. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">✓ Bruke MCP-server mot lovdata til å få KI til…</tspan><tspan dx="5" fill="#57606a" font-size="11">#22</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="101.0"><tspan fill="#0969da" text-decoration="line-through">✓ Bruke MCP-server mot lovdata til å få KI…</tspan><tspan dx="5" fill="#57606a" font-size="11">#22</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/22" target="_blank"><title>information-models#22 Bruke MCP-server mot lovdata til å få KI til å hente ut lovpålagte tjenester knyttet til opplæring.
 Done (lukket: fullført)
 Start: 17.9. (regnet fra slutt og varighet)
 Slutt: 23.9. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="399.3" y="64" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="399.3" y="90" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#24" data-parent="information-models#6" data-y="110" data-state="done" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/24" target="_blank"><title>information-models#24 Bruke MCP-server mot lovdata til å få KI til å hente ut innbyggeres plikter og rettigheter i opplæringsløpet
 Done (lukket: fullført)
 Start: 6.10. (regnet fra slutt og varighet)
 Slutt: 12.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="101.0"><tspan fill="#0969da" text-decoration="line-through">✓ Bruke MCP-server mot lovdata til å få KI til…</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="127.0"><tspan fill="#0969da" text-decoration="line-through">✓ Bruke MCP-server mot lovdata til å få KI…</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/24" target="_blank"><title>information-models#24 Bruke MCP-server mot lovdata til å få KI til å hente ut innbyggeres plikter og rettigheter i opplæringsløpet
-Done (lukket: fullført)
-Start: 6.10. (regnet fra slutt og varighet)
-Slutt: 12.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="648.3" y="90" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/25" target="_blank"><title>information-models#25 Hente ut oversikt over begrep fra LOS 4.0
-Done (lukket: fullført)
-Start: 6.10. (regnet fra slutt og varighet)
-Slutt: 12.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="127.0"><tspan fill="#0969da" text-decoration="line-through">✓ Hente ut oversikt over begrep fra LOS 4.0</tspan><tspan dx="5" fill="#57606a" font-size="11">#25</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/25" target="_blank"><title>information-models#25 Hente ut oversikt over begrep fra LOS 4.0
 Done (lukket: fullført)
 Start: 6.10. (regnet fra slutt og varighet)
 Slutt: 12.10. (ferdig)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="648.3" y="116" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/30" target="_blank"><title>information-models#30 Bruke LLM med MCP mot lovdata til å hente ut relevante begrep i lovverket
-Done (lukket: fullført)
-Start: 6.10. (regnet fra slutt og varighet)
-Slutt: 12.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">✓ Bruke LLM med MCP mot lovdata til å hente ut…</tspan><tspan dx="5" fill="#57606a" font-size="11">#30</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/30" target="_blank"><title>information-models#30 Bruke LLM med MCP mot lovdata til å hente ut relevante begrep i lovverket
-Done (lukket: fullført)
-Start: 6.10. (regnet fra slutt og varighet)
-Slutt: 12.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="648.3" y="142" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/8" target="_blank"><title>information-models#8 Hente ut sentrale begreper fra tjenestene/lovverket
-Done (lukket: fullført)
-Start: 6.10. (regnet fra slutt og varighet)
-Slutt: 12.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="179.0"><tspan fill="#0969da" text-decoration="line-through">✓ Hente ut sentrale begreper fra tjenestene/lov…</tspan><tspan dx="5" fill="#57606a" font-size="11">#8</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/8" target="_blank"><title>information-models#8 Hente ut sentrale begreper fra tjenestene/lovverket
-Done (lukket: fullført)
-Start: 6.10. (regnet fra slutt og varighet)
-Slutt: 12.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="648.3" y="168" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#20" data-parent="information-models#6" data-y="136" data-state="open" data-people="stignarve">
 <a href="https://github.com/samt-x/information-models/issues/20" target="_blank"><title>information-models#20 Få oversikt over kommunenes oppgaveplikter på opplæringsområdet
 In review
 Start: 27.10. (startet (In progress))
 Slutt: 2.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="205.0"><tspan fill="#0969da">Få oversikt over kommunenes oppgaveplikter på o…</tspan><tspan dx="5" fill="#57606a" font-size="11">#20</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="153.0"><tspan fill="#0969da">Få oversikt over kommunenes oppgaveplikter…</tspan><tspan dx="5" fill="#57606a" font-size="11">#20</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/20" target="_blank"><title>information-models#20 Få oversikt over kommunenes oppgaveplikter på opplæringsområdet
 In review
 Start: 27.10. (startet (In progress))
 Slutt: 2.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="923.4" y="194" width="91.7" height="14" rx="4" fill="#8250df" fill-opacity="0.12" stroke="#8250df" stroke-dasharray="4 3"/><rect x="923.4" y="194" width="91.7" height="14" rx="4" fill="#8250df"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="923.4" y="142" width="91.7" height="14" rx="4" fill="#8250df" fill-opacity="0.12" stroke="#8250df" stroke-dasharray="4 3"/><rect x="923.4" y="142" width="91.7" height="14" rx="4" fill="#8250df"/></a>
+</g>
+<g class="tl-row" data-key="information-models#21" data-parent="information-models#6" data-y="162" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/21" target="_blank"><title>information-models#21 Kartlegge output fra skoleadministrativsystemet, og hvilke aktiviteter/oppgaver de er knyttet til
+Ready
+Start: 2.11. (ikke planlagt, fra i dag)
+Slutt: 6.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="179.0"><tspan fill="#0969da">Kartlegge output fra skoleadministrativsyst…</tspan><tspan dx="5" fill="#57606a" font-size="11">#21</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/21" target="_blank"><title>information-models#21 Kartlegge output fra skoleadministrativsystemet, og hvilke aktiviteter/oppgaver de er knyttet til
+Ready
+Start: 2.11. (ikke planlagt, fra i dag)
+Slutt: 6.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="168" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#25" data-parent="" data-y="188" data-state="done" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/25" target="_blank"><title>information-models#25 Hente ut oversikt over begrep fra LOS 4.0
+Done (lukket: fullført)
+Start: 6.10. (regnet fra slutt og varighet)
+Slutt: 12.10. (ferdig)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="205.0"><tspan fill="#0969da" text-decoration="line-through">✓ Hente ut oversikt over begrep fra LOS 4.0</tspan><tspan dx="5" fill="#57606a" font-size="11">#25</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/25" target="_blank"><title>information-models#25 Hente ut oversikt over begrep fra LOS 4.0
+Done (lukket: fullført)
+Start: 6.10. (regnet fra slutt og varighet)
+Slutt: 12.10. (ferdig)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="648.3" y="194" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#30" data-parent="" data-y="214" data-state="done" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/30" target="_blank"><title>information-models#30 Bruke LLM med MCP mot lovdata til å hente ut relevante begrep i lovverket
+Done (lukket: fullført)
+Start: 6.10. (regnet fra slutt og varighet)
+Slutt: 12.10. (ferdig)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="231.0"><tspan fill="#0969da" text-decoration="line-through">✓ Bruke LLM med MCP mot lovdata til å hente u…</tspan><tspan dx="5" fill="#57606a" font-size="11">#30</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/30" target="_blank"><title>information-models#30 Bruke LLM med MCP mot lovdata til å hente ut relevante begrep i lovverket
+Done (lukket: fullført)
+Start: 6.10. (regnet fra slutt og varighet)
+Slutt: 12.10. (ferdig)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="648.3" y="220" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#8" data-parent="" data-y="240" data-state="done" data-people="stignarve">
+<a href="https://github.com/samt-x/information-models/issues/8" target="_blank"><title>information-models#8 Hente ut sentrale begreper fra tjenestene/lovverket
+Done (lukket: fullført)
+Start: 6.10. (regnet fra slutt og varighet)
+Slutt: 12.10. (ferdig)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="257.0"><tspan fill="#0969da" text-decoration="line-through">✓ Hente ut sentrale begreper fra tjenestene/l…</tspan><tspan dx="5" fill="#57606a" font-size="11">#8</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/8" target="_blank"><title>information-models#8 Hente ut sentrale begreper fra tjenestene/lovverket
+Done (lukket: fullført)
+Start: 6.10. (regnet fra slutt og varighet)
+Slutt: 12.10. (ferdig)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="648.3" y="246" width="91.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#1" data-parent="" data-y="266" data-state="open" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/1" target="_blank"><title>information-models#1 Hvilken strategi bør vi velge når det gjelder dybde og kompleksitet for modeller?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="231.0"><tspan fill="#0969da">Hvilken strategi bør vi velge når det gjelder d…</tspan><tspan dx="5" fill="#57606a" font-size="11">#1</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="283.0"><tspan fill="#0969da">Hvilken strategi bør vi velge når det gjelder…</tspan><tspan dx="5" fill="#57606a" font-size="11">#1</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/1" target="_blank"><title>information-models#1 Hvilken strategi bør vi velge når det gjelder dybde og kompleksitet for modeller?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="220" width="65.5" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="272" width="65.5" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#10" data-parent="" data-y="292" data-state="open" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/10" target="_blank"><title>information-models#10 Velge ut hvilke begrep som hører hjemme på domene-nivået
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="257.0"><tspan fill="#0969da">Velge ut hvilke begrep som hører hjemme på dome…</tspan><tspan dx="5" fill="#57606a" font-size="11">#10</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="309.0"><tspan fill="#0969da">Velge ut hvilke begrep som hører hjemme på do…</tspan><tspan dx="5" fill="#57606a" font-size="11">#10</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/10" target="_blank"><title>information-models#10 Velge ut hvilke begrep som hører hjemme på domene-nivået
-To do
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="246" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/11" target="_blank"><title>information-models#11 Beskrive de sentrale begrepene i domenemodellen ihht skos-ap-no-begrep
-To do
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="283.0"><tspan fill="#0969da">Beskrive de sentrale begrepene i domenemodellen…</tspan><tspan dx="5" fill="#57606a" font-size="11">#11</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/11" target="_blank"><title>information-models#11 Beskrive de sentrale begrepene i domenemodellen ihht skos-ap-no-begrep
-To do
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="272" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/12" target="_blank"><title>information-models#12 Legge til relasjoner mellom begrepene i modellen.
-To do
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="309.0"><tspan fill="#0969da">Legge til relasjoner mellom begrepene i modelle…</tspan><tspan dx="5" fill="#57606a" font-size="11">#12</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/12" target="_blank"><title>information-models#12 Legge til relasjoner mellom begrepene i modellen.
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="298" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/13" target="_blank"><title>information-models#13 Publisere tjenestebeskrivelser i demomiljøet til data.norge.no
+</g>
+<g class="tl-row" data-key="information-models#11" data-parent="" data-y="318" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/11" target="_blank"><title>information-models#11 Beskrive de sentrale begrepene i domenemodellen ihht skos-ap-no-begrep
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="335.0"><tspan fill="#0969da">Publisere tjenestebeskrivelser i demomiljøet ti…</tspan><tspan dx="5" fill="#57606a" font-size="11">#13</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/13" target="_blank"><title>information-models#13 Publisere tjenestebeskrivelser i demomiljøet til data.norge.no
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="335.0"><tspan fill="#0969da">Beskrive de sentrale begrepene i domenemodell…</tspan><tspan dx="5" fill="#57606a" font-size="11">#11</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/11" target="_blank"><title>information-models#11 Beskrive de sentrale begrepene i domenemodellen ihht skos-ap-no-begrep
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="324" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/14" target="_blank"><title>information-models#14 Publisere modellen og begrepsbeskrivelsene i demomiljøet til data.norge.no
+</g>
+<g class="tl-row" data-key="information-models#12" data-parent="" data-y="344" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/12" target="_blank"><title>information-models#12 Legge til relasjoner mellom begrepene i modellen.
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="361.0"><tspan fill="#0969da">Publisere modellen og begrepsbeskrivelsene i de…</tspan><tspan dx="5" fill="#57606a" font-size="11">#14</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/14" target="_blank"><title>information-models#14 Publisere modellen og begrepsbeskrivelsene i demomiljøet til data.norge.no
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="361.0"><tspan fill="#0969da">Legge til relasjoner mellom begrepene i model…</tspan><tspan dx="5" fill="#57606a" font-size="11">#12</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/12" target="_blank"><title>information-models#12 Legge til relasjoner mellom begrepene i modellen.
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="350" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/15" target="_blank"><title>information-models#15 Bruke verktøy basert på link.ml til å konvertere modell til en ontologi (i samarbeid med Brreg).
+</g>
+<g class="tl-row" data-key="information-models#14" data-parent="" data-y="370" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/14" target="_blank"><title>information-models#14 Publisere modellen og begrepsbeskrivelsene i demomiljøet til data.norge.no
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="387.0"><tspan fill="#0969da">Bruke verktøy basert på link.ml til å konverter…</tspan><tspan dx="5" fill="#57606a" font-size="11">#15</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/15" target="_blank"><title>information-models#15 Bruke verktøy basert på link.ml til å konvertere modell til en ontologi (i samarbeid med Brreg).
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="387.0"><tspan fill="#0969da">Publisere modellen og begrepsbeskrivelsene i…</tspan><tspan dx="5" fill="#57606a" font-size="11">#14</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/14" target="_blank"><title>information-models#14 Publisere modellen og begrepsbeskrivelsene i demomiljøet til data.norge.no
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="376" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/16" target="_blank"><title>information-models#16 Kvalitetssikre ontologi
+</g>
+<g class="tl-row" data-key="information-models#15" data-parent="" data-y="396" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/15" target="_blank"><title>information-models#15 Bruke verktøy basert på link.ml til å konvertere modell til en ontologi (i samarbeid med Brreg).
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="413.0"><tspan fill="#0969da">Kvalitetssikre ontologi</tspan><tspan dx="5" fill="#57606a" font-size="11">#16</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/16" target="_blank"><title>information-models#16 Kvalitetssikre ontologi
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="413.0"><tspan fill="#0969da">Bruke verktøy basert på link.ml til å konvert…</tspan><tspan dx="5" fill="#57606a" font-size="11">#15</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/15" target="_blank"><title>information-models#15 Bruke verktøy basert på link.ml til å konvertere modell til en ontologi (i samarbeid med Brreg).
 To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="402" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/17" target="_blank"><title>information-models#17 Etablere en oversikt over gjeldende kilder og hvilken «status» de har på opplæringsområdet
-Ready
+</g>
+<g class="tl-row" data-key="information-models#16" data-parent="" data-y="422" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/16" target="_blank"><title>information-models#16 Kvalitetssikre ontologi
+To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="439.0"><tspan fill="#0969da">Etablere en oversikt over gjeldende kilder og h…</tspan><tspan dx="5" fill="#57606a" font-size="11">#17</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/17" target="_blank"><title>information-models#17 Etablere en oversikt over gjeldende kilder og hvilken «status» de har på opplæringsområdet
-Ready
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="439.0"><tspan fill="#0969da">Kvalitetssikre ontologi</tspan><tspan dx="5" fill="#57606a" font-size="11">#16</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/16" target="_blank"><title>information-models#16 Kvalitetssikre ontologi
+To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="428" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/18" target="_blank"><title>information-models#18 Verifisere definisjoner av begrep på tvers av tjenester, forvaltningspraksis og lovverk.
-To do
+</g>
+<g class="tl-row" data-key="information-models#17" data-parent="" data-y="448" data-state="open" data-people="Te-Bert">
+<a href="https://github.com/samt-x/information-models/issues/17" target="_blank"><title>information-models#17 Etablere en oversikt over gjeldende kilder og hvilken «status» de har på opplæringsområdet
+Ready
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="465.0"><tspan fill="#0969da">Verifisere definisjoner av begrep på tvers av t…</tspan><tspan dx="5" fill="#57606a" font-size="11">#18</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/18" target="_blank"><title>information-models#18 Verifisere definisjoner av begrep på tvers av tjenester, forvaltningspraksis og lovverk.
-To do
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="465.0"><tspan fill="#0969da">Etablere en oversikt over gjeldende kilder og…</tspan><tspan dx="5" fill="#57606a" font-size="11">#17</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/17" target="_blank"><title>information-models#17 Etablere en oversikt over gjeldende kilder og hvilken «status» de har på opplæringsområdet
+Ready
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="454" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/19" target="_blank"><title>information-models#19 Definere hva en tjeneste er i tjenestekatalogsammenheng
-In progress
+</g>
+<g class="tl-row" data-key="information-models#18" data-parent="" data-y="474" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/18" target="_blank"><title>information-models#18 Verifisere definisjoner av begrep på tvers av tjenester, forvaltningspraksis og lovverk.
+To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="491.0"><tspan fill="#0969da">Definere hva en tjeneste er i tjenestekatalogsa…</tspan><tspan dx="5" fill="#57606a" font-size="11">#19</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/19" target="_blank"><title>information-models#19 Definere hva en tjeneste er i tjenestekatalogsammenheng
-In progress
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="491.0"><tspan fill="#0969da">Verifisere definisjoner av begrep på tvers av…</tspan><tspan dx="5" fill="#57606a" font-size="11">#18</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/18" target="_blank"><title>information-models#18 Verifisere definisjoner av begrep på tvers av tjenester, forvaltningspraksis og lovverk.
+To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="480" width="65.5" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="480" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#2" data-parent="" data-y="500" data-state="open" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/2" target="_blank"><title>information-models#2 Hvordan kan vi involvere bredt nok?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="517.0"><tspan fill="#0969da">Hvordan kan vi involvere bredt nok?</tspan><tspan dx="5" fill="#57606a" font-size="11">#2</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="517.0"><tspan fill="#0969da">Hvordan kan vi involvere bredt nok?</tspan><tspan dx="5" fill="#57606a" font-size="11">#2</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/2" target="_blank"><title>information-models#2 Hvordan kan vi involvere bredt nok?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="506" width="65.5" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/21" target="_blank"><title>information-models#21 Kartlegge output fra skoleadministrativsystemet, og hvilke aktiviteter/oppgaver de er knyttet til
-Ready
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="543.0"><tspan fill="#0969da">Kartlegge output fra skoleadministrativsystemet…</tspan><tspan dx="5" fill="#57606a" font-size="11">#21</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/21" target="_blank"><title>information-models#21 Kartlegge output fra skoleadministrativsystemet, og hvilke aktiviteter/oppgaver de er knyttet til
-Ready
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="532" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#23" data-parent="" data-y="526" data-state="open" data-people="ChristianeFrhlich">
 <a href="https://github.com/samt-x/information-models/issues/23" target="_blank"><title>information-models#23 Gå gjennom case-/pilotbeskrivelsene i prosjektet og hente ut det som er relevant for oss
 In progress
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="569.0"><tspan fill="#0969da">Gå gjennom case-/pilotbeskrivelsene i prosjekte…</tspan><tspan dx="5" fill="#57606a" font-size="11">#23</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="543.0"><tspan fill="#0969da">Gå gjennom case-/pilotbeskrivelsene i prosjek…</tspan><tspan dx="5" fill="#57606a" font-size="11">#23</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/23" target="_blank"><title>information-models#23 Gå gjennom case-/pilotbeskrivelsene i prosjektet og hente ut det som er relevant for oss
 In progress
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="558" width="65.5" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="532" width="65.5" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#26" data-parent="" data-y="552" data-state="open" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/26" target="_blank"><title>information-models#26 Kartlegge relevante semantiske standarder/vokabular
 Ready
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="595.0"><tspan fill="#0969da">Kartlegge relevante semantiske standarder/vokab…</tspan><tspan dx="5" fill="#57606a" font-size="11">#26</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="569.0"><tspan fill="#0969da">Kartlegge relevante semantiske standarder/vok…</tspan><tspan dx="5" fill="#57606a" font-size="11">#26</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/26" target="_blank"><title>information-models#26 Kartlegge relevante semantiske standarder/vokabular
+Ready
+Start: 2.11. (ikke planlagt, fra i dag)
+Slutt: 6.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="558" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#27" data-parent="" data-y="578" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/27" target="_blank"><title>information-models#27 Hente ut oversikt over begreper i FINT-modellen
+Ready
+Start: 2.11. (ikke planlagt, fra i dag)
+Slutt: 6.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="595.0"><tspan fill="#0969da">Hente ut oversikt over begreper i FINT-modell…</tspan><tspan dx="5" fill="#57606a" font-size="11">#27</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/27" target="_blank"><title>information-models#27 Hente ut oversikt over begreper i FINT-modellen
 Ready
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="584" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/27" target="_blank"><title>information-models#27 Hente ut oversikt over begreper i FINT-modellen
-Ready
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="621.0"><tspan fill="#0969da">Hente ut oversikt over begreper i FINT-modellen</tspan><tspan dx="5" fill="#57606a" font-size="11">#27</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/27" target="_blank"><title>information-models#27 Hente ut oversikt over begreper i FINT-modellen
-Ready
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="610" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/28" target="_blank"><title>information-models#28 Velge ut de tjenestene vi ønsker å beskrive ihht cpsv-ap-no
-Ready
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="647.0"><tspan fill="#0969da">Velge ut de tjenestene vi ønsker å beskrive ihh…</tspan><tspan dx="5" fill="#57606a" font-size="11">#28</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/28" target="_blank"><title>information-models#28 Velge ut de tjenestene vi ønsker å beskrive ihht cpsv-ap-no
-Ready
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="636" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/29" target="_blank"><title>information-models#29 Beskrive utvalgte tjenester etter cpsv-ap-no
-To do
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="673.0"><tspan fill="#0969da">Beskrive utvalgte tjenester etter cpsv-ap-no</tspan><tspan dx="5" fill="#57606a" font-size="11">#29</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/29" target="_blank"><title>information-models#29 Beskrive utvalgte tjenester etter cpsv-ap-no
-To do
-Start: 2.11. (ikke planlagt, fra i dag)
-Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="662" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#3" data-parent="" data-y="604" data-state="open" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/3" target="_blank"><title>information-models#3 Bør fiktive id-nummer være en del av person-modellen?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="699.0"><tspan fill="#0969da">Bør fiktive id-nummer være en del av person-mod…</tspan><tspan dx="5" fill="#57606a" font-size="11">#3</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="621.0"><tspan fill="#0969da">Bør fiktive id-nummer være en del av person-m…</tspan><tspan dx="5" fill="#57606a" font-size="11">#3</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/3" target="_blank"><title>information-models#3 Bør fiktive id-nummer være en del av person-modellen?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="688" width="65.5" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="610" width="65.5" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#4" data-parent="" data-y="630" data-state="open" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/4" target="_blank"><title>information-models#4 Hvordan kan vi koble modellene vi lager til eksisterende modeller på en god måte?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="725.0"><tspan fill="#0969da">Hvordan kan vi koble modellene vi lager til eks…</tspan><tspan dx="5" fill="#57606a" font-size="11">#4</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="647.0"><tspan fill="#0969da">Hvordan kan vi koble modellene vi lager til e…</tspan><tspan dx="5" fill="#57606a" font-size="11">#4</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/4" target="_blank"><title>information-models#4 Hvordan kan vi koble modellene vi lager til eksisterende modeller på en god måte?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="714" width="65.5" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="636" width="65.5" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#5" data-parent="" data-y="656" data-state="open" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/5" target="_blank"><title>information-models#5 Hva kan være en god URI for person?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="751.0"><tspan fill="#0969da">Hva kan være en god URI for person?</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="673.0"><tspan fill="#0969da">Hva kan være en god URI for person?</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/5" target="_blank"><title>information-models#5 Hva kan være en god URI for person?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="740" width="65.5" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/6" target="_blank"><title>information-models#6 Få oversikt over de viktigste oppgavene/tjenestene knyttet til opplæring
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="662" width="65.5" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#7" data-parent="" data-y="682" data-state="open" data-people="">
+<g class="tl-fold" role="button" display="none" cursor="pointer"><title>Fold sub-issuene inn eller ut</title><rect x="12" y="682" width="16" height="26" fill="transparent"/><text x="14" y="700.0" fill="#57606a" font-size="15">▾</text></g>
+<a href="https://github.com/samt-x/information-models/issues/7" target="_blank"><title>information-models#7 Beskrive de viktigste tjenestene innenfor opplæring ihht cpsv-ap-no
+Ready
+Start: 2.11. (fra sub-issuene)
+Slutt: 6.11. (fra sub-issuene)
+Sub-issues: 0 av 4 ferdige</title><text x="28" y="699.0"><tspan fill="#0969da">Beskrive de viktigste tjenestene innenfor opp…</tspan><tspan dx="5" fill="#57606a" font-size="11">#7 · 0/4</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/7" target="_blank"><title>information-models#7 Beskrive de viktigste tjenestene innenfor opplæring ihht cpsv-ap-no
+Ready
+Start: 2.11. (fra sub-issuene)
+Slutt: 6.11. (fra sub-issuene)
+Sub-issues: 0 av 4 ferdige</title><path d="M1002.1,700V690H1067.6V700L1061.6,695H1008.1Z" fill="#24292f"/></a>
+</g>
+<g class="tl-row" data-key="information-models#13" data-parent="information-models#7" data-y="708" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/13" target="_blank"><title>information-models#13 Publisere tjenestebeskrivelser i demomiljøet til data.norge.no
+To do
+Start: 2.11. (ikke planlagt, fra i dag)
+Slutt: 6.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="725.0"><tspan fill="#0969da">Publisere tjenestebeskrivelser i demomiljøe…</tspan><tspan dx="5" fill="#57606a" font-size="11">#13</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/13" target="_blank"><title>information-models#13 Publisere tjenestebeskrivelser i demomiljøet til data.norge.no
+To do
+Start: 2.11. (ikke planlagt, fra i dag)
+Slutt: 6.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="714" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#19" data-parent="information-models#7" data-y="734" data-state="open" data-people="Te-Bert">
+<a href="https://github.com/samt-x/information-models/issues/19" target="_blank"><title>information-models#19 Definere hva en tjeneste er i tjenestekatalogsammenheng
+In progress
+Start: 2.11. (ikke planlagt, fra i dag)
+Slutt: 6.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="751.0"><tspan fill="#0969da">Definere hva en tjeneste er i tjenestekatal…</tspan><tspan dx="5" fill="#57606a" font-size="11">#19</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/19" target="_blank"><title>information-models#19 Definere hva en tjeneste er i tjenestekatalogsammenheng
+In progress
+Start: 2.11. (ikke planlagt, fra i dag)
+Slutt: 6.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="740" width="65.5" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#28" data-parent="information-models#7" data-y="760" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/28" target="_blank"><title>information-models#28 Velge ut de tjenestene vi ønsker å beskrive ihht cpsv-ap-no
 Ready
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="777.0"><tspan fill="#0969da">Få oversikt over de viktigste oppgavene/tjenest…</tspan><tspan dx="5" fill="#57606a" font-size="11">#6</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/6" target="_blank"><title>information-models#6 Få oversikt over de viktigste oppgavene/tjenestene knyttet til opplæring
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="777.0"><tspan fill="#0969da">Velge ut de tjenestene vi ønsker å beskrive…</tspan><tspan dx="5" fill="#57606a" font-size="11">#28</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/28" target="_blank"><title>information-models#28 Velge ut de tjenestene vi ønsker å beskrive ihht cpsv-ap-no
 Ready
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="766" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/information-models/issues/7" target="_blank"><title>information-models#7 Beskrive de viktigste tjenestene innenfor opplæring ihht cpsv-ap-no
-Ready
+</g>
+<g class="tl-row" data-key="information-models#29" data-parent="information-models#7" data-y="786" data-state="open" data-people="">
+<a href="https://github.com/samt-x/information-models/issues/29" target="_blank"><title>information-models#29 Beskrive utvalgte tjenester etter cpsv-ap-no
+To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="803.0"><tspan fill="#0969da">Beskrive de viktigste tjenestene innenfor opplæ…</tspan><tspan dx="5" fill="#57606a" font-size="11">#7</tspan></text></a>
-<a href="https://github.com/samt-x/information-models/issues/7" target="_blank"><title>information-models#7 Beskrive de viktigste tjenestene innenfor opplæring ihht cpsv-ap-no
-Ready
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="803.0"><tspan fill="#0969da">Beskrive utvalgte tjenester etter cpsv-ap-no</tspan><tspan dx="5" fill="#57606a" font-size="11">#29</tspan></text></a>
+<a href="https://github.com/samt-x/information-models/issues/29" target="_blank"><title>information-models#29 Beskrive utvalgte tjenester etter cpsv-ap-no
+To do
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="792" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="information-models#9" data-parent="" data-y="812" data-state="open" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/9" target="_blank"><title>information-models#9 Finne eksisterende beskrivelser av sentrale begrep innen opplæring
 Ready
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="829.0"><tspan fill="#0969da">Finne eksisterende beskrivelser av sentrale beg…</tspan><tspan dx="5" fill="#57606a" font-size="11">#9</tspan></text></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="829.0"><tspan fill="#0969da">Finne eksisterende beskrivelser av sentrale b…</tspan><tspan dx="5" fill="#57606a" font-size="11">#9</tspan></text></a>
 <a href="https://github.com/samt-x/information-models/issues/9" target="_blank"><title>information-models#9 Finne eksisterende beskrivelser av sentrale begrep innen opplæring
 Ready
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="818" width="65.5" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<line x1="1008.6" y1="58" x2="1008.6" y2="842" stroke="#cf222e" stroke-width="1.5"/>
+</g>
+<line class="tl-vy2" data-dy="4" x1="1008.6" y1="58" x2="1008.6" y2="842" stroke="#cf222e" stroke-width="1.5"/>
+<g class="tl-foot">
 <text x="1008.6" y="853" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <path d="M14,874H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl6a)"/><text x="48" y="878" fill="#24292f">Pil: venter på</text>
 <path d="M162,874H190" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl6r)"/><text x="196" y="878" fill="#24292f">Rød pil: blokkerende oppgave slutter for sent</text>
@@ -382,5 +445,7 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1002.1" y="818" width
 <text x="548" y="900" fill="#24292f">✓</text><text x="574" y="900" fill="#24292f">Fullført</text>
 <rect x="649" y="890" width="28" height="12" rx="3" fill="url(#tl6h)" stroke="#8c959f"/><text x="683" y="900" fill="#24292f">Skravert og ✕: lukket uten å bli gjort</text>
 <circle cx="28" cy="918" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="922" fill="#24292f">Ring: avhengigheten er beskrevet</text>
-<text x="14" y="948" fill="#57606a" font-size="11">Generert 2026-11-02 fra<a href="https://github.com/orgs/samt-x/projects/6" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Informasjonsmodeller</tspan></a>. 30 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<path d="M277,923V913H305V923L299,918H283Z" fill="#24292f"/><text x="311" y="922" fill="#24292f">Klamme: sub-issuene samlet</text>
+<text x="14" y="948" fill="#57606a" font-size="11">Generert 2026-11-02 fra<a href="https://github.com/orgs/samt-x/projects/6" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Informasjonsmodeller</tspan></a>. 28 oppgaver mangler Duration og er antatt å ta én uke.</text>
+</g>
 </svg>

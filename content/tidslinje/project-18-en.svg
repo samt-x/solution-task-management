@@ -1,370 +1,431 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="944" viewBox="0 0 1134 944" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="944" viewBox="0 0 1134 944" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="18" data-tl-top="58" data-tl-rowh="26" data-tl-rows="29" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl18a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl18r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl18h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
 <rect width="1134" height="944" fill="#ffffff"/>
-<rect x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="240" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="292" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="344" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="396" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="448" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="500" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="552" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="604" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="656" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="708" width="1134" height="26" fill="#f6f8fa"/>
-<rect x="0" y="760" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="1" x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="3" x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="5" x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="7" x="0" y="240" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="9" x="0" y="292" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="11" x="0" y="344" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="13" x="0" y="396" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="15" x="0" y="448" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="17" x="0" y="500" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="19" x="0" y="552" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="21" x="0" y="604" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="23" x="0" y="656" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="25" x="0" y="708" width="1134" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="27" x="0" y="760" width="1134" height="26" fill="#f6f8fa"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">Oct 2026</text>
-<line x1="360.0" y1="8" x2="360.0" y2="812" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="812" stroke="#d0d7de"/>
 <text x="369.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<rect x="379.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="379.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="388.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
-<rect x="398.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="398.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="407.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
 <text x="426.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
 <text x="445.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
 <text x="464.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
 <text x="483.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
 <text x="502.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
-<rect x="512.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="512.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="521.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
-<rect x="531.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="531.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="540.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
 <text x="559.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
 <text x="578.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
 <text x="597.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
 <text x="616.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
 <text x="635.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<rect x="645.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="645.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="654.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
-<rect x="664.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="664.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="673.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
 <text x="692.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
 <text x="711.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
 <text x="730.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
 <text x="749.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
 <text x="768.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<rect x="778.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="778.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="787.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<rect x="797.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="797.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="806.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
 <text x="825.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
 <text x="844.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
 <text x="863.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
 <text x="882.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
 <text x="901.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
-<rect x="911.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="911.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="920.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
-<rect x="930.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="930.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="932.0" y="20" fill="#24292f" font-weight="600">Nov 2026</text>
-<line x1="930.0" y1="8" x2="930.0" y2="812" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="930.0" y1="8" x2="930.0" y2="812" stroke="#d0d7de"/>
 <text x="939.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
 <text x="958.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
 <text x="977.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
 <text x="996.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
 <text x="1015.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
 <text x="1034.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
-<rect x="1044.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1044.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="1053.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
-<rect x="1063.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1063.0" y="58" width="19.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="1072.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
 <text x="1091.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
 <text x="1110.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
 <line x1="0" y1="57.5" x2="1134" y2="57.5" stroke="#d0d7de"/>
-<line x1="359.5" y1="0" x2="359.5" y2="812" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="812" stroke="#d0d7de"/>
+<g class="tl-row" data-key="solution-task-management#2" data-parent="" data-y="58" data-state="done" data-people="erikhag1git">
 <a href="https://github.com/samt-x/solution-task-management/issues/2" target="_blank"><title>solution-task-management#2 Spørsmål: innvendinger mot bruken av Responsible og Assignees i Project 5?
 Done (closed: completed)
 Start: Oct 5 (calculated from end and duration)
 End: Oct 10 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="75.0"><tspan fill="#0969da" text-decoration="line-through">✓ Spørsmål: innvendinger mot bruken av Responsi…</tspan><tspan dx="5" fill="#57606a" font-size="11">#2</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="75.0"><tspan fill="#0969da" text-decoration="line-through">✓ Spørsmål: innvendinger mot bruken av Respon…</tspan><tspan dx="5" fill="#57606a" font-size="11">#2</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/2" target="_blank"><title>solution-task-management#2 Spørsmål: innvendinger mot bruken av Responsible og Assignees i Project 5?
 Done (closed: completed)
 Start: Oct 5 (calculated from end and duration)
 End: Oct 10 (finished)
 Duration: not set, assumed 5 working days</title><rect x="417.0" y="64" width="114.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#18" data-parent="" data-y="84" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/18" target="_blank"><title>solution-task-management#18 Delete unused GitHub default labels (bug, enhancement, duplicate, invalid, wontfix)
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="101.0"><tspan fill="#0969da" text-decoration="line-through">✓ Delete unused GitHub default labels (bug, enh…</tspan><tspan dx="5" fill="#57606a" font-size="11">#18</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="101.0"><tspan fill="#0969da" text-decoration="line-through">✓ Delete unused GitHub default labels (bug, e…</tspan><tspan dx="5" fill="#57606a" font-size="11">#18</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/18" target="_blank"><title>solution-task-management#18 Delete unused GitHub default labels (bug, enhancement, duplicate, invalid, wontfix)
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
 Duration: not set, assumed 5 working days</title><rect x="721.0" y="90" width="133.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#19" data-parent="" data-y="110" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/19" target="_blank"><title>solution-task-management#19 One Project per solution: SAMT-BU Docs platform and SAMT-BU Task management
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="127.0"><tspan fill="#0969da" text-decoration="line-through">✓ One Project per solution: SAMT-BU Docs platfo…</tspan><tspan dx="5" fill="#57606a" font-size="11">#19</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="127.0"><tspan fill="#0969da" text-decoration="line-through">✓ One Project per solution: SAMT-BU Docs plat…</tspan><tspan dx="5" fill="#57606a" font-size="11">#19</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/19" target="_blank"><title>solution-task-management#19 One Project per solution: SAMT-BU Docs platform and SAMT-BU Task management
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
 Duration: not set, assumed 5 working days</title><rect x="721.0" y="116" width="133.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#20" data-parent="" data-y="136" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/20" target="_blank"><title>solution-task-management#20 Proposed in both templates and on all boards
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="153.0"><tspan fill="#0969da" text-decoration="line-through">✓ Proposed in both templates and on all boards</tspan><tspan dx="5" fill="#57606a" font-size="11">#20</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="153.0"><tspan fill="#0969da" text-decoration="line-through">✓ Proposed in both templates and on all boards</tspan><tspan dx="5" fill="#57606a" font-size="11">#20</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/20" target="_blank"><title>solution-task-management#20 Proposed in both templates and on all boards
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
 Duration: not set, assumed 5 working days</title><rect x="721.0" y="142" width="133.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#21" data-parent="" data-y="162" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/21" target="_blank"><title>solution-task-management#21 Auto-add on Project 5 and 6, workflows in the Simple template as in Standard
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="179.0"><tspan fill="#0969da" text-decoration="line-through">✓ Auto-add on Project 5 and 6, workflows in the…</tspan><tspan dx="5" fill="#57606a" font-size="11">#21</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="179.0"><tspan fill="#0969da" text-decoration="line-through">✓ Auto-add on Project 5 and 6, workflows in t…</tspan><tspan dx="5" fill="#57606a" font-size="11">#21</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/21" target="_blank"><title>solution-task-management#21 Auto-add on Project 5 and 6, workflows in the Simple template as in Standard
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
 Duration: not set, assumed 5 working days</title><rect x="721.0" y="168" width="133.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#22" data-parent="" data-y="188" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/22" target="_blank"><title>solution-task-management#22 One template: Project 4 to Standard, retire the Simple template
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="205.0"><tspan fill="#0969da" text-decoration="line-through">✓ One template: Project 4 to Standard, retire t…</tspan><tspan dx="5" fill="#57606a" font-size="11">#22</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="205.0"><tspan fill="#0969da" text-decoration="line-through">✓ One template: Project 4 to Standard, retire…</tspan><tspan dx="5" fill="#57606a" font-size="11">#22</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/22" target="_blank"><title>solution-task-management#22 One template: Project 4 to Standard, retire the Simple template
 Done (closed: completed)
 Start: Oct 21 (calculated from end and duration)
 End: Oct 27 (finished)
 Duration: not set, assumed 5 working days</title><rect x="721.0" y="194" width="133.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#29" data-parent="" data-y="214" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/29" target="_blank"><title>solution-task-management#29 Én master per opplysning: oppgaven på GitHub, innholdet på docs
 Done (closed: completed)
 Start: Oct 26 (calculated from end and duration)
 End: Oct 31 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="231.0"><tspan fill="#0969da" text-decoration="line-through">✓ Én master per opplysning: oppgaven på GitHub,…</tspan><tspan dx="5" fill="#57606a" font-size="11">#29</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="231.0"><tspan fill="#0969da" text-decoration="line-through">✓ Én master per opplysning: oppgaven på GitHu…</tspan><tspan dx="5" fill="#57606a" font-size="11">#29</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/29" target="_blank"><title>solution-task-management#29 Én master per opplysning: oppgaven på GitHub, innholdet på docs
 Done (closed: completed)
 Start: Oct 26 (calculated from end and duration)
 End: Oct 31 (finished)
 Duration: not set, assumed 5 working days</title><rect x="816.0" y="220" width="114.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#32" data-parent="" data-y="240" data-state="open" data-people="">
+<g class="tl-fold" role="button" display="none" cursor="pointer"><title>Collapse or expand the sub-issues</title><rect x="12" y="240" width="16" height="26" fill="transparent"/><text x="14" y="258.0" fill="#57606a" font-size="15">▾</text></g>
+<a href="https://github.com/samt-x/solution-task-management/issues/32" target="_blank"><title>solution-task-management#32 Tidslinje med avhengigheter: Gantt-figur fra prosjektbrett, vist på docs
+Proposed
+Start: Oct 26 (from the sub-issues)
+End: Nov 1 (from the sub-issues)
+Sub-issues: 1 of 1 completed</title><text x="28" y="257.0"><tspan fill="#0969da">Tidslinje med avhengigheter: Gantt-figur fra…</tspan><tspan dx="5" fill="#57606a" font-size="11">#32 · 1/1</tspan></text></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/32" target="_blank"><title>solution-task-management#32 Tidslinje med avhengigheter: Gantt-figur fra prosjektbrett, vist på docs
+Proposed
+Start: Oct 26 (from the sub-issues)
+End: Nov 1 (from the sub-issues)
+Sub-issues: 1 of 1 completed</title><path d="M816.0,258V248H949.0V258L943.0,253H822.0Z" fill="#24292f"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#40" data-parent="solution-task-management#32" data-y="266" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/40" target="_blank"><title>solution-task-management#40 Eget repo for eksempel-issues i løsningsdokumentasjonen, med datoer relativt til i dag
 Done (closed: completed)
 Start: Oct 26 (calculated from end and duration)
 End: Nov 1 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="257.0"><tspan fill="#0969da" text-decoration="line-through">✓ Eget repo for eksempel-issues i løsningsdokum…</tspan><tspan dx="5" fill="#57606a" font-size="11">#40</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="42" y="283.0"><tspan fill="#0969da" text-decoration="line-through">✓ Eget repo for eksempel-issues i løsningsd…</tspan><tspan dx="5" fill="#57606a" font-size="11">#40</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/40" target="_blank"><title>solution-task-management#40 Eget repo for eksempel-issues i løsningsdokumentasjonen, med datoer relativt til i dag
-Done (closed: completed)
-Start: Oct 26 (calculated from end and duration)
-End: Nov 1 (finished)
-Duration: not set, assumed 5 working days</title><rect x="816.0" y="246" width="133.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/41" target="_blank"><title>solution-task-management#41 Workflow failed: Timeline
-Done (closed: completed)
-Start: Oct 26 (calculated from end and duration)
-End: Nov 1 (finished)
-Duration: not set, assumed 5 working days</title><text x="14" y="283.0"><tspan fill="#0969da" text-decoration="line-through">✓ Workflow failed: Timeline</tspan><tspan dx="5" fill="#57606a" font-size="11">#41</tspan></text></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/41" target="_blank"><title>solution-task-management#41 Workflow failed: Timeline
 Done (closed: completed)
 Start: Oct 26 (calculated from end and duration)
 End: Nov 1 (finished)
 Duration: not set, assumed 5 working days</title><rect x="816.0" y="272" width="133.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/solution-samt-bu-docs/issues/88" target="_blank"><title>solution-samt-bu-docs#88 Vise og redigere issuebeskrivelser på docs, skrevet tilbake til GitHub
-Proposed
-Start: Nov 2 (not planned, from today)
-End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="309.0"><tspan fill="#0969da">Vise og redigere issuebeskrivelser på docs, skr…</tspan><tspan dx="5" fill="#57606a" font-size="11">#88</tspan></text></a>
-<a href="https://github.com/samt-x/solution-samt-bu-docs/issues/88" target="_blank"><title>solution-samt-bu-docs#88 Vise og redigere issuebeskrivelser på docs, skrevet tilbake til GitHub
-Proposed
-Start: Nov 2 (not planned, from today)
-End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="949.0" y="298" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#41" data-parent="" data-y="292" data-state="done" data-people="">
+<a href="https://github.com/samt-x/solution-task-management/issues/41" target="_blank"><title>solution-task-management#41 Workflow failed: Timeline
+Done (closed: completed)
+Start: Oct 26 (calculated from end and duration)
+End: Nov 1 (finished)
+Duration: not set, assumed 5 working days</title><text x="28" y="309.0"><tspan fill="#0969da" text-decoration="line-through">✓ Workflow failed: Timeline</tspan><tspan dx="5" fill="#57606a" font-size="11">#41</tspan></text></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/41" target="_blank"><title>solution-task-management#41 Workflow failed: Timeline
+Done (closed: completed)
+Start: Oct 26 (calculated from end and duration)
+End: Nov 1 (finished)
+Duration: not set, assumed 5 working days</title><rect x="816.0" y="298" width="133.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#1" data-parent="" data-y="318" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/solution-task-management/issues/1" target="_blank"><title>solution-task-management#1 Spørsmål: hvem følger med på oppgaver som krysser arkitektur og piloter?
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="335.0"><tspan fill="#0969da">Spørsmål: hvem følger med på oppgaver som kryss…</tspan><tspan dx="5" fill="#57606a" font-size="11">#1</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="335.0"><tspan fill="#0969da">Spørsmål: hvem følger med på oppgaver som kry…</tspan><tspan dx="5" fill="#57606a" font-size="11">#1</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/1" target="_blank"><title>solution-task-management#1 Spørsmål: hvem følger med på oppgaver som krysser arkitektur og piloter?
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="324" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#11" data-parent="" data-y="344" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/solution-task-management/issues/11" target="_blank"><title>solution-task-management#11 Porteføljen koblet nedover til oppgavene og oppover til målene
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="361.0"><tspan fill="#0969da">Porteføljen koblet nedover til oppgavene og opp…</tspan><tspan dx="5" fill="#57606a" font-size="11">#11</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="361.0"><tspan fill="#0969da">Porteføljen koblet nedover til oppgavene og o…</tspan><tspan dx="5" fill="#57606a" font-size="11">#11</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/11" target="_blank"><title>solution-task-management#11 Porteføljen koblet nedover til oppgavene og oppover til målene
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="350" width="95.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#12" data-parent="" data-y="370" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/12" target="_blank"><title>solution-task-management#12 Porteføljen oppdateres automatisk fra delprosjektenes brett
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="387.0"><tspan fill="#0969da">Porteføljen oppdateres automatisk fra delprosje…</tspan><tspan dx="5" fill="#57606a" font-size="11">#12</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="387.0"><tspan fill="#0969da">Porteføljen oppdateres automatisk fra delpros…</tspan><tspan dx="5" fill="#57606a" font-size="11">#12</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/12" target="_blank"><title>solution-task-management#12 Porteføljen oppdateres automatisk fra delprosjektenes brett
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="376" width="95.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#13" data-parent="" data-y="396" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/13" target="_blank"><title>solution-task-management#13 Opprett nye delprosjekter automatisk: team, repo, brett og porteføljekort
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="413.0"><tspan fill="#0969da">Opprett nye delprosjekter automatisk: team, rep…</tspan><tspan dx="5" fill="#57606a" font-size="11">#13</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="413.0"><tspan fill="#0969da">Opprett nye delprosjekter automatisk: team, r…</tspan><tspan dx="5" fill="#57606a" font-size="11">#13</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/13" target="_blank"><title>solution-task-management#13 Opprett nye delprosjekter automatisk: team, repo, brett og porteføljekort
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="402" width="95.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#16" data-parent="" data-y="422" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/16" target="_blank"><title>solution-task-management#16 Comment-feltet i malene og øyeblikksbilde av alle brett
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="439.0"><tspan fill="#0969da">Comment-feltet i malene og øyeblikksbilde av al…</tspan><tspan dx="5" fill="#57606a" font-size="11">#16</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="439.0"><tspan fill="#0969da">Comment-feltet i malene og øyeblikksbilde av…</tspan><tspan dx="5" fill="#57606a" font-size="11">#16</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/16" target="_blank"><title>solution-task-management#16 Comment-feltet i malene og øyeblikksbilde av alle brett
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="428" width="95.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#23" data-parent="" data-y="448" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/23" target="_blank"><title>solution-task-management#23 Testprosjekt: vis felles statusnivå på tvers av brett med ulike steg
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="465.0"><tspan fill="#0969da">Testprosjekt: vis felles statusnivå på tvers av…</tspan><tspan dx="5" fill="#57606a" font-size="11">#23</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="465.0"><tspan fill="#0969da">Testprosjekt: vis felles statusnivå på tvers…</tspan><tspan dx="5" fill="#57606a" font-size="11">#23</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/23" target="_blank"><title>solution-task-management#23 Testprosjekt: vis felles statusnivå på tvers av brett med ulike steg
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="454" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#24" data-parent="" data-y="474" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/24" target="_blank"><title>solution-task-management#24 Foreslå type for issues uten type på brettene
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="491.0"><tspan fill="#0969da">Foreslå type for issues uten type på brettene</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="491.0"><tspan fill="#0969da">Foreslå type for issues uten type på brettene</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/24" target="_blank"><title>solution-task-management#24 Foreslå type for issues uten type på brettene
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="480" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#25" data-parent="" data-y="500" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/25" target="_blank"><title>solution-task-management#25 Kvalitetssikring av hvordan issues skrives på brettene
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="517.0"><tspan fill="#0969da">Kvalitetssikring av hvordan issues skrives på b…</tspan><tspan dx="5" fill="#57606a" font-size="11">#25</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="517.0"><tspan fill="#0969da">Kvalitetssikring av hvordan issues skrives på…</tspan><tspan dx="5" fill="#57606a" font-size="11">#25</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/25" target="_blank"><title>solution-task-management#25 Kvalitetssikring av hvordan issues skrives på brettene
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="506" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#26" data-parent="" data-y="526" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/26" target="_blank"><title>solution-task-management#26 Hjelpe prosjektene i gang med issue-skjemaene
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="543.0"><tspan fill="#0969da">Hjelpe prosjektene i gang med issue-skjemaene</tspan><tspan dx="5" fill="#57606a" font-size="11">#26</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="543.0"><tspan fill="#0969da">Hjelpe prosjektene i gang med issue-skjemaene</tspan><tspan dx="5" fill="#57606a" font-size="11">#26</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/26" target="_blank"><title>solution-task-management#26 Hjelpe prosjektene i gang med issue-skjemaene
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="532" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#27" data-parent="" data-y="552" data-state="open" data-people="">
+<g class="tl-fold" role="button" display="none" cursor="pointer"><title>Collapse or expand the sub-issues</title><rect x="12" y="552" width="16" height="26" fill="transparent"/><text x="14" y="570.0" fill="#57606a" font-size="15">▾</text></g>
 <a href="https://github.com/samt-x/solution-task-management/issues/27" target="_blank"><title>solution-task-management#27 Issuebeskrivelser vist og redigert på docs, med GitHub som master
 Proposed
-Start: Nov 2 (not planned, from today)
-End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="569.0"><tspan fill="#0969da">Issuebeskrivelser vist og redigert på docs, med…</tspan><tspan dx="5" fill="#57606a" font-size="11">#27</tspan></text></a>
+Start: Nov 2 (from the sub-issues)
+End: Nov 6 (from the sub-issues)
+Sub-issues: 0 of 2 completed</title><text x="28" y="569.0"><tspan fill="#0969da">Issuebeskrivelser vist og redigert på docs, m…</tspan><tspan dx="5" fill="#57606a" font-size="11">#27 · 0/2</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/27" target="_blank"><title>solution-task-management#27 Issuebeskrivelser vist og redigert på docs, med GitHub som master
 Proposed
-Start: Nov 2 (not planned, from today)
-End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="949.0" y="558" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/28" target="_blank"><title>solution-task-management#28 Owner på porteføljekortene: komplettere med prosjektleder og avtale rutine
+Start: Nov 2 (from the sub-issues)
+End: Nov 6 (from the sub-issues)
+Sub-issues: 0 of 2 completed</title><path d="M949.0,570V560H1044.0V570L1038.0,565H955.0Z" fill="#24292f"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#88" data-parent="solution-task-management#27" data-y="578" data-state="open" data-people="">
+<a href="https://github.com/samt-x/solution-samt-bu-docs/issues/88" target="_blank"><title>solution-samt-bu-docs#88 Vise og redigere issuebeskrivelser på docs, skrevet tilbake til GitHub
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="595.0"><tspan fill="#0969da">Owner på porteføljekortene: komplettere med pro…</tspan><tspan dx="5" fill="#57606a" font-size="11">#28</tspan></text></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/28" target="_blank"><title>solution-task-management#28 Owner på porteføljekortene: komplettere med prosjektleder og avtale rutine
+Duration: not set, assumed 5 working days</title><text x="42" y="595.0"><tspan fill="#0969da">Vise og redigere issuebeskrivelser på docs,…</tspan><tspan dx="5" fill="#57606a" font-size="11">#88</tspan></text></a>
+<a href="https://github.com/samt-x/solution-samt-bu-docs/issues/88" target="_blank"><title>solution-samt-bu-docs#88 Vise og redigere issuebeskrivelser på docs, skrevet tilbake til GitHub
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="584" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#30" data-parent="solution-task-management#27" data-y="604" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/30" target="_blank"><title>solution-task-management#30 Automatisk oversettelse av issuetekst på docs, merket maskinoversatt (DeepL)
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="621.0"><tspan fill="#0969da">Automatisk oversettelse av issuetekst på docs,…</tspan><tspan dx="5" fill="#57606a" font-size="11">#30</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="42" y="621.0"><tspan fill="#0969da">Automatisk oversettelse av issuetekst på do…</tspan><tspan dx="5" fill="#57606a" font-size="11">#30</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/30" target="_blank"><title>solution-task-management#30 Automatisk oversettelse av issuetekst på docs, merket maskinoversatt (DeepL)
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="610" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/31" target="_blank"><title>solution-task-management#31 Repo-navn: smal navneregel, og klassifisering med topics
+</g>
+<g class="tl-row" data-key="solution-task-management#28" data-parent="" data-y="630" data-state="open" data-people="">
+<a href="https://github.com/samt-x/solution-task-management/issues/28" target="_blank"><title>solution-task-management#28 Owner på porteføljekortene: komplettere med prosjektleder og avtale rutine
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="647.0"><tspan fill="#0969da">Repo-navn: smal navneregel, og klassifisering m…</tspan><tspan dx="5" fill="#57606a" font-size="11">#31</tspan></text></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/31" target="_blank"><title>solution-task-management#31 Repo-navn: smal navneregel, og klassifisering med topics
+Duration: not set, assumed 5 working days</title><text x="28" y="647.0"><tspan fill="#0969da">Owner på porteføljekortene: komplettere med p…</tspan><tspan dx="5" fill="#57606a" font-size="11">#28</tspan></text></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/28" target="_blank"><title>solution-task-management#28 Owner på porteføljekortene: komplettere med prosjektleder og avtale rutine
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="636" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/32" target="_blank"><title>solution-task-management#32 Tidslinje med avhengigheter: Gantt-figur fra prosjektbrett, vist på docs
+</g>
+<g class="tl-row" data-key="solution-task-management#31" data-parent="" data-y="656" data-state="open" data-people="">
+<a href="https://github.com/samt-x/solution-task-management/issues/31" target="_blank"><title>solution-task-management#31 Repo-navn: smal navneregel, og klassifisering med topics
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="673.0"><tspan fill="#0969da">Tidslinje med avhengigheter: Gantt-figur fra pr…</tspan><tspan dx="5" fill="#57606a" font-size="11">#32</tspan></text></a>
-<a href="https://github.com/samt-x/solution-task-management/issues/32" target="_blank"><title>solution-task-management#32 Tidslinje med avhengigheter: Gantt-figur fra prosjektbrett, vist på docs
+Duration: not set, assumed 5 working days</title><text x="28" y="673.0"><tspan fill="#0969da">Repo-navn: smal navneregel, og klassifisering…</tspan><tspan dx="5" fill="#57606a" font-size="11">#31</tspan></text></a>
+<a href="https://github.com/samt-x/solution-task-management/issues/31" target="_blank"><title>solution-task-management#31 Repo-navn: smal navneregel, og klassifisering med topics
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="662" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#42" data-parent="" data-y="682" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/42" target="_blank"><title>solution-task-management#42 Planlagte workflows kan bli slått av etter 60 dager uten aktivitet
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="699.0"><tspan fill="#0969da">Planlagte workflows kan bli slått av etter 60 d…</tspan><tspan dx="5" fill="#57606a" font-size="11">#42</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="699.0"><tspan fill="#0969da">Planlagte workflows kan bli slått av etter 60…</tspan><tspan dx="5" fill="#57606a" font-size="11">#42</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/42" target="_blank"><title>solution-task-management#42 Planlagte workflows kan bli slått av etter 60 dager uten aktivitet
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="688" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#43" data-parent="" data-y="708" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/43" target="_blank"><title>solution-task-management#43 ROS-kapittel for hvert delprosjekt, bygget fra Risk-issuene, og løpende vurdering av risikoene
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="725.0"><tspan fill="#0969da">ROS-kapittel for hvert delprosjekt, bygget fra…</tspan><tspan dx="5" fill="#57606a" font-size="11">#43</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="725.0"><tspan fill="#0969da">ROS-kapittel for hvert delprosjekt, bygget fr…</tspan><tspan dx="5" fill="#57606a" font-size="11">#43</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/43" target="_blank"><title>solution-task-management#43 ROS-kapittel for hvert delprosjekt, bygget fra Risk-issuene, og løpende vurdering av risikoene
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="714" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#44" data-parent="" data-y="734" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/44" target="_blank"><title>solution-task-management#44 Tidslinje: sub-issues med fold ut og inn, filter og Mine oppgaver
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="751.0"><tspan fill="#0969da">Tidslinje: sub-issues med fold ut og inn, filte…</tspan><tspan dx="5" fill="#57606a" font-size="11">#44</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="751.0"><tspan fill="#0969da">Tidslinje: sub-issues med fold ut og inn, fil…</tspan><tspan dx="5" fill="#57606a" font-size="11">#44</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/44" target="_blank"><title>solution-task-management#44 Tidslinje: sub-issues med fold ut og inn, filter og Mine oppgaver
 Proposed
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="740" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#5" data-parent="" data-y="760" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/solution-task-management/issues/5" target="_blank"><title>solution-task-management#5 Personlig oppgavestyring: egne oppgaver sammenstilt med oppgaver tildelt meg på tvers av repoer og plattformer
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="777.0"><tspan fill="#0969da">Personlig oppgavestyring: egne oppgaver sammens…</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="777.0"><tspan fill="#0969da">Personlig oppgavestyring: egne oppgaver samme…</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/5" target="_blank"><title>solution-task-management#5 Personlig oppgavestyring: egne oppgaver sammenstilt med oppgaver tildelt meg på tvers av repoer og plattformer
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="766" width="95.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management#9" data-parent="" data-y="786" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/solution-task-management/issues/9" target="_blank"><title>solution-task-management#9 Oppgaver fra andre git-plattformer i den personlige oversikten
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><text x="14" y="803.0"><tspan fill="#0969da">Oppgaver fra andre git-plattformer i den person…</tspan><tspan dx="5" fill="#57606a" font-size="11">#9</tspan></text></a>
+Duration: not set, assumed 5 working days</title><text x="28" y="803.0"><tspan fill="#0969da">Oppgaver fra andre git-plattformer i den pers…</tspan><tspan dx="5" fill="#57606a" font-size="11">#9</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management/issues/9" target="_blank"><title>solution-task-management#9 Oppgaver fra andre git-plattformer i den personlige oversikten
 To do
 Start: Nov 2 (not planned, from today)
 End: Nov 6 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="949.0" y="792" width="95.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-<line x1="958.5" y1="58" x2="958.5" y2="816" stroke="#cf222e" stroke-width="1.5"/>
+</g>
+<line class="tl-vy2" data-dy="4" x1="958.5" y1="58" x2="958.5" y2="816" stroke="#cf222e" stroke-width="1.5"/>
+<g class="tl-foot">
 <text x="958.5" y="827" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
 <path d="M14,848H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl18a)"/><text x="48" y="852" fill="#24292f">Arrow: waits for</text>
 <path d="M174,848H202" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl18r)"/><text x="208" y="852" fill="#24292f">Red arrow: blocking task ends too late</text>
@@ -376,5 +437,7 @@ Duration: not set, assumed 5 working days</title><rect x="949.0" y="792" width="
 <text x="618" y="874" fill="#24292f">✓</text><text x="644" y="874" fill="#24292f">Completed</text>
 <rect x="726" y="864" width="28" height="12" rx="3" fill="url(#tl18h)" stroke="#8c959f"/><text x="760" y="874" fill="#24292f">Hatched and ✕: closed without being done</text>
 <circle cx="28" cy="892" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="896" fill="#24292f">Ring: the dependency is described</text>
-<text x="14" y="922" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/18" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Task management</tspan></a>. 29 tasks have no Duration and are assumed to take one week.</text>
+<path d="M283,897V887H311V897L305,892H289Z" fill="#24292f"/><text x="317" y="896" fill="#24292f">Bracket: the sub-issues together</text>
+<text x="14" y="922" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/18" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Task management</tspan></a>. 27 tasks have no Duration and are assumed to take one week.</text>
+</g>
 </svg>

@@ -1,73 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1818" viewBox="0 0 880 1818" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1818" viewBox="0 0 880 1818" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="17" data-tl-top="58" data-tl-rowh="26" data-tl-rows="62" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl17a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl17r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl17h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
 <rect width="880" height="1818" fill="#ffffff"/>
-<rect x="0" y="84" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="136" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="188" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="240" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="292" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="344" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="396" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="448" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="500" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="552" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="604" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="656" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="708" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="760" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="812" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="864" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="916" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="968" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1020" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1072" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1124" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1176" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1228" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1280" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1332" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1384" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1436" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1488" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1540" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1592" width="880" height="26" fill="#f6f8fa"/>
-<rect x="0" y="1644" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="1" x="0" y="84" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="3" x="0" y="136" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="5" x="0" y="188" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="7" x="0" y="240" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="9" x="0" y="292" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="11" x="0" y="344" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="13" x="0" y="396" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="15" x="0" y="448" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="17" x="0" y="500" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="19" x="0" y="552" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="21" x="0" y="604" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="23" x="0" y="656" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="25" x="0" y="708" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="27" x="0" y="760" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="29" x="0" y="812" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="31" x="0" y="864" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="33" x="0" y="916" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="35" x="0" y="968" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="37" x="0" y="1020" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="39" x="0" y="1072" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="41" x="0" y="1124" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="43" x="0" y="1176" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="45" x="0" y="1228" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="47" x="0" y="1280" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="49" x="0" y="1332" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="51" x="0" y="1384" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="53" x="0" y="1436" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="55" x="0" y="1488" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="57" x="0" y="1540" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="59" x="0" y="1592" width="880" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="61" x="0" y="1644" width="880" height="26" fill="#f6f8fa"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">okt 2026</text>
-<line x1="360.0" y1="8" x2="360.0" y2="1670" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="1670" stroke="#d0d7de"/>
 <text x="371.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
 <text x="393.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
 <text x="415.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
 <text x="437.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
 <text x="459.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<rect x="470.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="470.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
 <text x="481.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<rect x="492.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="492.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
 <text x="503.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
 <text x="525.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
 <text x="547.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
 <text x="569.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
 <text x="591.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
 <text x="613.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
-<rect x="624.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="624.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
 <text x="635.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
-<rect x="646.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="646.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
 <text x="648.0" y="20" fill="#24292f" font-weight="600">nov 2026</text>
-<line x1="646.0" y1="8" x2="646.0" y2="1670" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="646.0" y1="8" x2="646.0" y2="1670" stroke="#d0d7de"/>
 <text x="657.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
 <text x="679.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
 <text x="701.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
 <text x="723.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
 <text x="745.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
 <text x="767.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
-<rect x="778.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="778.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
 <text x="789.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
-<rect x="800.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="800.0" y="58" width="22.0" height="1612" fill="#eaeef2" opacity="0.6"/>
 <text x="811.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
 <text x="833.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
 <text x="855.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
 <line x1="0" y1="57.5" x2="880" y2="57.5" stroke="#d0d7de"/>
-<line x1="359.5" y1="0" x2="359.5" y2="1670" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="1670" stroke="#d0d7de"/>
+<g class="tl-row" data-key="solution-samt-bu-docs#24" data-parent="" data-y="58" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/24" target="_blank"><title>solution-samt-bu-docs#24 CI: injiser last_editor for alle redigeringsveier (ikke bare CMS)
 Done (lukket: fullført)
 Start: 22.10. (regnet fra slutt og varighet)
@@ -78,6 +79,8 @@ Done (lukket: fullført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="64" width="154.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#4" data-parent="" data-y="84" data-state="dropped" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/4" target="_blank"><title>solution-samt-bu-docs#4 Rydd opp tom SAMT-BU GitHub-org
 Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
@@ -88,6 +91,8 @@ Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="90" width="154.0" height="14" rx="4" fill="url(#tl17h)" stroke="#8c959f"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#43" data-parent="" data-y="110" data-state="dropped" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/43" target="_blank"><title>solution-samt-bu-docs#43 Vurder GitHub Projects board når prosjektet vokser
 Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
@@ -98,6 +103,8 @@ Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="116" width="154.0" height="14" rx="4" fill="url(#tl17h)" stroke="#8c959f"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#5" data-parent="" data-y="136" data-state="dropped" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/5" target="_blank"><title>solution-samt-bu-docs#5 Bug: 3+ raske endringer viser inkonsistent jobbantall i statusfeltet
 Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
@@ -108,6 +115,8 @@ Done (lukket: ikke gjennomført)
 Start: 22.10. (regnet fra slutt og varighet)
 Slutt: 28.10. (ferdig)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="426.0" y="142" width="154.0" height="14" rx="4" fill="url(#tl17h)" stroke="#8c959f"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#1" data-parent="" data-y="162" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/1" target="_blank"><title>solution-samt-bu-docs#1 Org-admin og CI/CD-secrets bør eies av organisasjonskonto, ikke personlig konto
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -118,6 +127,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="168" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#10" data-parent="" data-y="188" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/10" target="_blank"><title>solution-samt-bu-docs#10 Fullfør engelsk prosjektbeskrivelse – bilder mangler + QA
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -128,6 +139,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="194" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#11" data-parent="" data-y="214" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/11" target="_blank"><title>solution-samt-bu-docs#11 «Gi kommentar»-funksjon: opprett GitHub Issue fra Endre-menyen
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -138,6 +151,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="220" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#12" data-parent="" data-y="240" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/12" target="_blank"><title>solution-samt-bu-docs#12 Digdir designsystem-samsvar
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -148,6 +163,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="246" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#13" data-parent="" data-y="266" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/13" target="_blank"><title>solution-samt-bu-docs#13 Språkfallback: vis NB-innhold med infobox når EN-versjon mangler
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -158,6 +175,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="272" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#14" data-parent="" data-y="292" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/14" target="_blank"><title>solution-samt-bu-docs#14 «Rapporter feil»-menyvalg for brukere uten GitHub-kunnskap
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -168,6 +187,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="298" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#17" data-parent="" data-y="318" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/17" target="_blank"><title>solution-samt-bu-docs#17 Stabile UUID-lenker: sider beholder gyldige URL-er selv etter omdøping
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -178,6 +199,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="324" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#18" data-parent="" data-y="344" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/18" target="_blank"><title>solution-samt-bu-docs#18 Versjonslenke: del og vis frosne historiske versjoner av en side
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -188,6 +211,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="350" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#19" data-parent="" data-y="370" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/19" target="_blank"><title>solution-samt-bu-docs#19 Tidsreise: vis nettstedet slik det så ut på et gitt tidspunkt
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -198,6 +223,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="376" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#2" data-parent="" data-y="396" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/2" target="_blank"><title>solution-samt-bu-docs#2 Slett gammel PAT: «old-samt-x-docs-worker»
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -208,6 +235,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="402" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#20" data-parent="" data-y="422" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/20" target="_blank"><title>solution-samt-bu-docs#20 Verktøyuavhengig arkivering av bygde versjoner
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -218,6 +247,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="428" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#21" data-parent="" data-y="448" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/21" target="_blank"><title>solution-samt-bu-docs#21 Ny side på samme nivå – valg i Endre-menyen
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -228,6 +259,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="454" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#23" data-parent="" data-y="474" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/23" target="_blank"><title>solution-samt-bu-docs#23 Hjelpescripter for vanlige repo-operasjoner
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -238,6 +271,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="480" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#25" data-parent="" data-y="500" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/25" target="_blank"><title>solution-samt-bu-docs#25 Flytt Cloudflare Worker til organisasjonskonto
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -248,6 +283,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="506" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#26" data-parent="" data-y="526" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/26" target="_blank"><title>solution-samt-bu-docs#26 Navnerydding: Cloudflare Worker og OAuth-infrastruktur
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -258,6 +295,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="532" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#27" data-parent="" data-y="552" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/27" target="_blank"><title>solution-samt-bu-docs#27 Branch-strategi for GUI-utvikling (dev-branch + CF Pages preview)
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -268,6 +307,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="558" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#28" data-parent="" data-y="578" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/28" target="_blank"><title>solution-samt-bu-docs#28 Admin-dropdown i headeren: PR-oversikt og moduloppdatering
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -278,6 +319,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="584" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#29" data-parent="" data-y="604" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/29" target="_blank"><title>solution-samt-bu-docs#29 AI-skrivehjelp i TipTap-editoren (brukerens egen API-nøkkel)
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -288,6 +331,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="610" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#30" data-parent="" data-y="630" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/30" target="_blank"><title>solution-samt-bu-docs#30 Mappestruktur for innspill i samt-bu-files: én mappe per innspill
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -298,6 +343,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="636" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#46" data-parent="" data-y="656" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/46" target="_blank"><title>solution-samt-bu-docs#46 Advarsel ved redigering av side som allerede bygges eller er åpen av andre
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -308,6 +355,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="662" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#47" data-parent="" data-y="682" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/47" target="_blank"><title>solution-samt-bu-docs#47 Navigasjonsadvarsel: vis kun hvis bruker faktisk har gjort endringer (dirty-deteksjon)
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -318,6 +367,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="688" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#48" data-parent="" data-y="708" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/48" target="_blank"><title>solution-samt-bu-docs#48 Ikke igangsett byggejobb hvis ingen faktiske endringer er gjort
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -328,6 +379,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="714" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#49" data-parent="" data-y="734" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/49" target="_blank"><title>solution-samt-bu-docs#49 GUI: Legg inn kommentar som HTML-kommentar i markdown-fil
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -338,6 +391,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="740" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#50" data-parent="" data-y="760" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/50" target="_blank"><title>solution-samt-bu-docs#50 GUI: Tekstseleksjon i TipTap → W3C TextQuoteSelector-annotasjon
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -348,6 +403,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="766" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#51" data-parent="" data-y="786" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/51" target="_blank"><title>solution-samt-bu-docs#51 Ontologisk rammeverk for innspill i markedsdialog – strategi og prosess
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -358,6 +415,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="792" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#52" data-parent="" data-y="812" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/52" target="_blank"><title>solution-samt-bu-docs#52 Vis prosessstatus for caser (Registrert/Til vurdering/Pilot/Utgår) i tillegg til redaksjonell status
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -368,6 +427,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="818" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#53" data-parent="" data-y="838" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/53" target="_blank"><title>solution-samt-bu-docs#53 Testinnhold er synlig på det live nettstedet
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -378,6 +439,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="844" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#54" data-parent="" data-y="864" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/54" target="_blank"><title>solution-samt-bu-docs#54 Engelsk oversettelse mangler for case 7, 10 og 11
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -388,6 +451,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="870" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#55" data-parent="" data-y="890" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/55" target="_blank"><title>solution-samt-bu-docs#55 Pilot 1: engelsk forside er et arkitekturnotat som ikke finnes på norsk
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -398,6 +463,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="896" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#57" data-parent="" data-y="916" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/57" target="_blank"><title>solution-samt-bu-docs#57 Case/pilot-inkonsistenser avdekket i innholdskartlegging
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -408,6 +475,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="922" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#58" data-parent="" data-y="942" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/58" target="_blank"><title>solution-samt-bu-docs#58 Metamodell: deontisk lag (rettighet/plikt/hjemmel) og manglende tillatelseskonsept i ArchiMate
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -418,6 +487,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="948" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#59" data-parent="" data-y="968" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/59" target="_blank"><title>solution-samt-bu-docs#59 ArchiMate 4: konsekvenser for metamodell, fargekonvensjon og deontiske beslutninger
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -428,6 +499,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="974" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#6" data-parent="" data-y="994" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/6" target="_blank"><title>solution-samt-bu-docs#6 Flytt-dialog mangler PR-støtte for brukere uten skrivetilgang
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -438,6 +511,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1000" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#61" data-parent="" data-y="1020" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/61" target="_blank"><title>solution-samt-bu-docs#61 Oppfølging etter PR-runde: manglende bilder og inkonsistenser i pilot 2-4
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -448,6 +523,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1026" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#62" data-parent="" data-y="1046" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/62" target="_blank"><title>solution-samt-bu-docs#62 Varslingsstrategi: skill ansvar fra interesse
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -458,6 +535,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1052" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#63" data-parent="" data-y="1072" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/63" target="_blank"><title>solution-samt-bu-docs#63 CODEOWNERS: ansvarlig redaksjon per repo (trinn 1 i #62)
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -468,6 +547,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1078" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#64" data-parent="" data-y="1098" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/64" target="_blank"><title>solution-samt-bu-docs#64 Repostruktur for kode, informasjonsmodeller og annet ikke-redaksjonelt innhold
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -478,6 +559,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1104" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#65" data-parent="" data-y="1124" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/65" target="_blank"><title>solution-samt-bu-docs#65 Sporbarhet fra innspill til leveranse: opphavskanter i frontmatter
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -488,6 +571,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1130" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#66" data-parent="" data-y="1150" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/66" target="_blank"><title>solution-samt-bu-docs#66 Behandle forslag V2: diff-visning i nettleseren
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -498,6 +583,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1156" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#67" data-parent="" data-y="1176" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/67" target="_blank"><title>solution-samt-bu-docs#67 Mine forslag: bidragsyterens egen statusoversikt
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -508,6 +595,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1182" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#68" data-parent="" data-y="1202" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/68" target="_blank"><title>solution-samt-bu-docs#68 Konflikt → editor: løs flettekonflikter uten å gå til GitHub
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -518,6 +607,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1208" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#7" data-parent="" data-y="1228" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/7" target="_blank"><title>solution-samt-bu-docs#7 Info-ikon ved «Logg inn»-knappen
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -528,6 +619,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1234" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#70" data-parent="" data-y="1254" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/70" target="_blank"><title>solution-samt-bu-docs#70 Søkeindeksen eksponerer hele brødteksten på alle sider i én åpen fil
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -538,6 +631,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1260" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#71" data-parent="" data-y="1280" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/71" target="_blank"><title>solution-samt-bu-docs#71 Internt innhold i docs-løsningen: Cloudflare Access foran eget bygg
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -548,6 +643,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1286" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#73" data-parent="" data-y="1306" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/73" target="_blank"><title>solution-samt-bu-docs#73 Nytt modulrepo: oppskriften mangler steget for temaet og «hugo mod get»-linjen
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -558,6 +655,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1312" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#74" data-parent="" data-y="1332" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/74" target="_blank"><title>solution-samt-bu-docs#74 GitHub-struktur: krymp seksjonen om plattformvalg og rett påstander om GitLab
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -568,6 +667,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1338" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#75" data-parent="" data-y="1358" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/75" target="_blank"><title>solution-samt-bu-docs#75 Live issue-lister fra milepæler på docs-sider (shortcode + worker)
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -578,6 +679,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1364" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#76" data-parent="" data-y="1384" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/76" target="_blank"><title>solution-samt-bu-docs#76 Arrangementer: Samlinger, Hva skjer og seminarer i markedsdialogen – hvor hører hva hjemme?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -588,6 +691,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1390" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#8" data-parent="" data-y="1410" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/8" target="_blank"><title>solution-samt-bu-docs#8 Rediger-konfliktvarsel: varsle bruker når siden er endret siden siste åpning
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -598,6 +703,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1416" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#80" data-parent="" data-y="1436" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/80" target="_blank"><title>solution-samt-bu-docs#80 Flere prosjekter i samt-x: skille SAMT-BU med metadata, eller én org per prosjekt?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -608,6 +715,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1442" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#81" data-parent="" data-y="1462" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/81" target="_blank"><title>solution-samt-bu-docs#81 Sikring: varsle når filer i samt-bu-docs legges på en sti som en modul eier
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -618,6 +727,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1468" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#82" data-parent="" data-y="1488" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/82" target="_blank"><title>solution-samt-bu-docs#82 Repo per ansvarsområde: snevrere skrivetilgang i samt-bu-docs, Styring og Behov som egne moduler
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -628,6 +739,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1494" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#85" data-parent="" data-y="1514" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/85" target="_blank"><title>solution-samt-bu-docs#85 WORKER_PAT: bytt klassisk token uten utløp til fine-grained
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -638,6 +751,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1520" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#86" data-parent="" data-y="1540" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/86" target="_blank"><title>solution-samt-bu-docs#86 Gjennomgang av lukkede issues: mangler dokumentasjon eller avkrysning?
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -648,6 +763,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1546" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#88" data-parent="" data-y="1566" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/88" target="_blank"><title>solution-samt-bu-docs#88 Vise og redigere issuebeskrivelser på docs, skrevet tilbake til GitHub
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -658,6 +775,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1572" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#89" data-parent="" data-y="1592" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/89" target="_blank"><title>solution-samt-bu-docs#89 Kommentarpanelet viser ikke kommentarer fra den andre språkversjonen av siden
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -668,6 +787,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1598" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#9" data-parent="" data-y="1618" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/9" target="_blank"><title>solution-samt-bu-docs#9 Draft-synlighet: draft-sider bør vises og kunne redigeres av innloggede redaktører
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -678,6 +799,8 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1624" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-samt-bu-docs#90" data-parent="" data-y="1644" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/90" target="_blank"><title>solution-samt-bu-docs#90 Oppgaveliste med status på docs-sider, hentet fra GitHub
 Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
@@ -688,7 +811,9 @@ Proposed
 Start: 2.11. (ikke planlagt, fra i dag)
 Slutt: 6.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1650" width="110.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
-<line x1="679.0" y1="58" x2="679.0" y2="1674" stroke="#cf222e" stroke-width="1.5"/>
+</g>
+<line class="tl-vy2" data-dy="4" x1="679.0" y1="58" x2="679.0" y2="1674" stroke="#cf222e" stroke-width="1.5"/>
+<g class="tl-foot">
 <text x="679.0" y="1685" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <path d="M14,1706H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl17a)"/><text x="48" y="1710" fill="#24292f">Pil: venter på</text>
 <path d="M162,1706H190" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl17r)"/><text x="196" y="1710" fill="#24292f">Rød pil: blokkerende oppgave slutter for sent</text>
@@ -702,4 +827,5 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="668.0" y="1650" width
 <circle cx="438" cy="1750" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="458" y="1754" fill="#24292f">Ring: avhengigheten er beskrevet</text>
 <text x="14" y="1780" fill="#57606a" font-size="11">Generert 2026-11-02 fra<a href="https://github.com/orgs/samt-x/projects/17" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Docs platform</tspan></a>. 62 oppgaver mangler Duration og er antatt å ta én uke.</text>
 <text x="14" y="1798" fill="#cf222e" font-size="11">⚠ solution-samt-bu-docs#18 beskriver en avhengighet til solution-samt-bu-docs#17 under Avhengigheter, men koblingen «Blocked by» finnes ikke i GitHub.</text>
+</g>
 </svg>
