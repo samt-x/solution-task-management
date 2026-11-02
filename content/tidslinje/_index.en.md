@@ -128,7 +128,7 @@ Planned and actual dates have no separate fields. What has happened is in the hi
 1. Set **Start date** and **Due date** on the board, or one of them and **Duration**. Without any of them, the task is placed after the tasks it waits for.
 2. Move the card to **In progress** when work begins, and close the task when it is done.
 3. If the task waits for another task: open the issue, find **Relationships** in the right-hand margin and choose **Mark as blocked by**. Choose the task being waited for. It can be in another repository.
-4. Write why the task waits under the heading **Avhengigheter** (dependencies) in the issue, one line per task, for example «- #35: needs legal clarification of consent». The Task form has its own field for this. If the task is in another repository, write for example samt-bu-pilot-6#12. The link itself is always the one in step 3. The text only describes it. See [Conventions](../konvensjoner/).
+4. Write why the task waits under the heading **Avhengigheter** (dependencies) in the issue, one line per task, for example «- #35: needs legal clarification of consent». The Task form has its own field for this. If the task is in another repository, write for example samt-x/samt-bu-pilot-6#12, with samt-x/ in front, otherwise there is no link. The link itself is always the one in step 3. The text only describes it. See [Conventions](../konvensjoner/).
 
 If you split a task into smaller tasks, make them sub-issues: open the parent and choose **Create sub-issue** or **Add existing issue** at the bottom of the description. The sub-issues must be on the same board to be shown under the parent in the chart.
 

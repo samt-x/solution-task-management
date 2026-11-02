@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-This page explains where a task should live, and how to create, follow up, link and close it.
+This page explains where a task should live, and how to create, follow up, link and close it. At the end are [tips for using GitHub](#tips-github-for-task-management).
 
 ## Where should the task live?
 
@@ -37,7 +37,7 @@ If in doubt, put it where you think it fits best. Tasks can be moved between rep
 
 The forms apply to all repositories in samt-x. To write freely, choose **Blank issue** at the bottom of the list, and set the type yourself in the **Type** field on the right.
 
-In the pilot repositories, samt-bu-architecture and information-models, the task is added automatically to the repository's project board. The other repositories have no board of their own.
+The task is added automatically to the repository's project board. All the repositories in the table above have a board of their own, except samt-bu-common-tasks. Information-models also has a board. Tasks from all the repositories are collected every hour on [SAMT-BU Overview – All tasks](https://github.com/orgs/samt-x/projects/12), including those from samt-bu-common-tasks.
 
 ## Following up
 
@@ -83,7 +83,7 @@ The task being waited for shows the link as **Blocking**. When it is closed, the
 The link also works when the tasks are in different repositories in samt-x, for example an architecture task waiting for a delivery from a pilot.
 
 - Do the same as above, from the waiting task. If the task does not show up in the search, paste the link to it.
-- Under Avhengigheter, write the repository before the number, for example «- samt-bu-pilot-6#12: needs test data from the pilot».
+- Under Avhengigheter, write the organisation and repository before the number, for example «- samt-x/samt-bu-pilot-6#12: needs test data from the pilot». Without samt-x/ there is no link.
 - The timeline only draws arrows between tasks on the **same board**. If the task being waited for is on another board, the waiting task gets ⛔ before its title, and the tooltip says that the task being waited for is not in the chart.
 
 ### Waits for, part of, or waits for something outside GitHub?
@@ -101,3 +101,64 @@ Dependencies can be searched for with **is:blocked** (waits for something) and *
 - Always write a **closing comment** on the outcome, with a link to the page, document or change
 - Close as **completed** when the task is done, as **not planned** when it is rejected, aborted or cancelled, and as **duplicate** when it already exists – and say why
 - The status on the board is set to done automatically when the task is closed
+
+## Tips: GitHub for task management
+
+What makes everyday work easiest, collected in one place. The details are in the chapters above and in [Conventions](../konvensjoner/).
+
+### Finding your way
+
+- **Your tasks:** bookmark the search [My open tasks in samt-x](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20assignee%3A%40me%20org%3Asamt-x). It is the quickest way to what you need to do.
+- **All the boards and the standard searches** are collected under [Project governance → Tasks and follow-up](https://docs.samt-bu.no/en/prosjektstyring/oppgaver-og-oppfolging/).
+- **The overview board** [SAMT-BU Overview – All tasks](https://github.com/orgs/samt-x/projects/12) shows the tasks from all the repositories.
+- **The timeline** for each board is on the page «Tasks and progress» for the pilot or solution, see [Timeline](../tidslinje/). If you are signed in on docs, your tasks are highlighted in yellow.
+
+### Useful searches
+
+Type the search in the search field on [github.com/issues](https://github.com/issues) (requires signing in) or in the issue list of a repository. The terms can be combined, for example `is:open assignee:@me org:samt-x`.
+
+| Search term | Shows |
+|---|---|
+| `org:samt-x` | only tasks in samt-x |
+| `repo:samt-x/samt-bu-pilot-6` | only tasks in one repository |
+| `is:open` | only open tasks |
+| `assignee:@me` | tasks assigned to you |
+| `no:assignee` | tasks not assigned to anyone |
+| `mentions:@me` | tasks where you are @-mentioned |
+| `is:blocked` | tasks waiting for another task |
+| `is:blocking` | tasks another task is waiting for |
+| `label:blocked` | tasks waiting for something outside GitHub |
+| `type:Risk` | one type: Task, Decision, Question, Risk … |
+| `sort:updated-desc` | most recently changed first |
+
+### Link, don't copy
+
+- `#12` links to task 12 in the same repository. If the task is in another repository, write `samt-x/samt-bu-pilot-6#12`. You can also paste the whole address, and GitHub shows it in short form.
+- The link adds a note in the task being linked to, so the connection is visible from both sides.
+- If the task waits for another, use **Mark as blocked by**. If it is part of a larger task, use a sub-issue. See [Dependencies between tasks](#dependencies-between-tasks).
+- To mention a number without linking, put it in code format, see [Writing tips](../konvensjoner/#writing-tips).
+
+### Notifications
+
+- `@username` notifies the person and subscribes them to the whole thread from then on. Use it when the person should follow the issue.
+- You get notifications for tasks you created, are assigned to or are @-mentioned in. To follow another task, choose **Subscribe** in the right margin.
+- Notifications are collected at [github.com/notifications](https://github.com/notifications). Whether they also come by email is set under **Settings → Notifications** in GitHub.
+
+### On the board
+
+- Set the status **In progress** when you start. When the task is closed, it is set to done automatically. The timeline uses these times as the actual start and end.
+- Give the task a **Start date** and **Duration** (working days), or a **Due date**. It then gets the right place in the timeline, see [Timeline](../tidslinje/#how-a-task-gets-the-right-place-in-the-chart).
+- Click the title of a task on the board to see and change all the fields in a panel, without leaving the board.
+- Sub-issues end up on the same board as the task they are part of.
+
+### Keyboard shortcuts
+
+| Key | Does |
+|---|---|
+| `/` | Goes to the search field |
+| `?` | Shows all the shortcuts on the page |
+| `c` | New task, from the issue list in a repository |
+| `r` | Quotes the text you have selected in your reply |
+| `Ctrl+Enter` | Saves the comment |
+
+Select text in the editor and paste an address, and the text becomes a link.

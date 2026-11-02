@@ -8,7 +8,7 @@ last_editor: Erik Hagen
 
 ---
 
-Denne siden forklarer hvor en oppgave skal ligge, og hvordan du oppretter, følger opp, kobler og lukker den.
+Denne siden forklarer hvor en oppgave skal ligge, og hvordan du oppretter, følger opp, kobler og lukker den. Til slutt står [tips til bruk av GitHub](#tips-github-til-oppgavestyring).
 
 ## Hvor skal oppgaven ligge?
 
@@ -37,7 +37,7 @@ Er du i tvil, legg den der du tror den passer best. Oppgaver kan flyttes mellom 
 
 Skjemaene gjelder alle repoene i samt-x. Vil du skrive helt fritt, velg **Blank issue** nederst i lista, og velg typen selv i feltet **Type** til høyre.
 
-I pilotrepoene, samt-bu-architecture og information-models havner oppgaven automatisk på repoets prosjektbrett. De øvrige repoene har ikke eget brett.
+Oppgaven havner automatisk på repoets prosjektbrett. Alle repoene i tabellen over har eget brett, unntatt samt-bu-common-tasks. Information-models har også brett. Oppgavene fra alle repoene samles hver time på [SAMT-BU Overview – All tasks](https://github.com/orgs/samt-x/projects/12), også fra samt-bu-common-tasks.
 
 ## Følge opp
 
@@ -83,7 +83,7 @@ Oppgaven det ventes på, viser koblingen som **Blocking**. Når den lukkes, regn
 Koblingen virker også når oppgavene ligger i forskjellige repoer i samt-x, for eksempel en arkitekturoppgave som venter på en leveranse fra en pilot.
 
 - Gjør det samme som over, fra oppgaven som venter. Finner du ikke oppgaven i søket, lim inn lenken til den.
-- Under Avhengigheter skriver du repoet foran nummeret, for eksempel «- samt-bu-pilot-6#12: trenger testdata fra piloten».
+- Under Avhengigheter skriver du organisasjonen og repoet foran nummeret, for eksempel «- samt-x/samt-bu-pilot-6#12: trenger testdata fra piloten». Uten samt-x/ blir det ingen lenke.
 - Tidslinjen tegner bare pil mellom oppgaver på **samme brett**. Ligger oppgaven det ventes på, på et annet brett, får den ventende oppgaven ⛔ foran tittelen, og verktøytipset sier at oppgaven det ventes på, ikke er i figuren.
 
 ### Venter på, del av, eller venter på noe utenfor GitHub?
@@ -101,3 +101,64 @@ Avhengigheter kan søkes fram med **is:blocked** (venter på noe) og **is:blocki
 - Skriv alltid en **sluttkommentar** om resultatet, med lenke til siden, dokumentet eller endringen
 - Lukk som **completed** når oppgaven er gjort, som **not planned** når den er avvist, avbrutt eller kansellert, og som **duplicate** når den finnes fra før – og si hvorfor
 - Statusen på brettet settes til ferdig automatisk når oppgaven lukkes
+
+## Tips: GitHub til oppgavestyring
+
+Her er det som gjør hverdagen enklest, samlet på ett sted. Detaljene står i kapitlene over og i [Konvensjoner](../konvensjoner/).
+
+### Finne fram
+
+- **Dine oppgaver:** bokmerk søket [Mine åpne oppgaver i samt-x](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20assignee%3A%40me%20org%3Asamt-x). Det er den raskeste veien til det du skal gjøre.
+- **Alle brettene og de faste søkene** står samlet under [Styring → Oppgaver og oppfølging](https://docs.samt-bu.no/prosjektstyring/oppgaver-og-oppfolging/).
+- **Samlebrettet** [SAMT-BU Overview – All tasks](https://github.com/orgs/samt-x/projects/12) viser oppgavene fra alle repoene.
+- **Tidslinjen** for hvert brett står på siden «Oppgaver og framdrift» for piloten eller løsningen, se [Tidslinje](../tidslinje/). Er du logget inn på docs, er dine oppgaver markert med gult.
+
+### Nyttige søk
+
+Skriv søket i søkefeltet på [github.com/issues](https://github.com/issues) (krever innlogging) eller i oppgavelisten i et repo. Søkeordene kan kombineres, for eksempel `is:open assignee:@me org:samt-x`.
+
+| Søkeord | Viser |
+|---|---|
+| `org:samt-x` | bare oppgaver i samt-x |
+| `repo:samt-x/samt-bu-pilot-6` | bare oppgaver i ett repo |
+| `is:open` | bare åpne oppgaver |
+| `assignee:@me` | oppgaver tildelt deg |
+| `no:assignee` | oppgaver som ikke er tildelt noen |
+| `mentions:@me` | oppgaver der du er @-omtalt |
+| `is:blocked` | oppgaver som venter på en annen oppgave |
+| `is:blocking` | oppgaver som en annen oppgave venter på |
+| `label:blocked` | oppgaver som venter på noe utenfor GitHub |
+| `type:Risk` | én type: Task, Decision, Question, Risk … |
+| `sort:updated-desc` | sist endret først |
+
+### Lenk, ikke kopier
+
+- `#12` lenker til oppgave 12 i samme repo. Er oppgaven i et annet repo, skriv `samt-x/samt-bu-pilot-6#12`. Du kan også lime inn hele adressen, så viser GitHub den i kortform.
+- Lenken gir en merknad i oppgaven det lenkes til, så sammenhengen synes fra begge sider.
+- Venter oppgaven på en annen, bruk **Mark as blocked by**. Er den en del av en større oppgave, bruk sub-issue. Se [Avhengigheter mellom oppgaver](#avhengigheter-mellom-oppgaver).
+- Vil du nevne et nummer uten å lenke, sett det i kodeformat, se [Skrivetips](../konvensjoner/#skrivetips).
+
+### Varsler
+
+- `@brukernavn` varsler personen og melder vedkommende på hele tråden framover. Bruk det når personen skal følge saken.
+- Du får varsler om oppgaver du har opprettet, er tildelt eller er @-omtalt i. Vil du følge en annen oppgave, velg **Subscribe** i høyremargen.
+- Varslene samles på [github.com/notifications](https://github.com/notifications). Om de også kommer som e-post, velger du under **Settings → Notifications** i GitHub.
+
+### På brettet
+
+- Sett status **In progress** når du begynner. Når oppgaven lukkes, settes den til ferdig automatisk. Tidslinjen bruker disse tidspunktene som faktisk start og slutt.
+- Gi oppgaven **Start date** og **Duration** (arbeidsdager), eller **Due date**. Da får den riktig plass i tidslinjen, se [Tidslinje](../tidslinje/#slik-får-en-oppgave-riktig-plass-i-figuren).
+- Klikk på tittelen til en oppgave på brettet for å se og endre alle feltene i et panel, uten å forlate brettet.
+- Sub-issues havner på samme brett som oppgaven de er en del av.
+
+### Hurtigtaster
+
+| Tast | Gjør |
+|---|---|
+| `/` | Går til søkefeltet |
+| `?` | Viser alle hurtigtastene på siden |
+| `c` | Ny oppgave, fra oppgavelisten i et repo |
+| `r` | Siterer teksten du har markert, i svaret ditt |
+| `Ctrl+Enter` | Lagrer kommentaren |
+
+Marker tekst i skrivefeltet og lim inn en adresse, så blir teksten en lenke.

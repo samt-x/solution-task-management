@@ -128,7 +128,7 @@ Planlagte og faktiske datoer har ikke egne felt. Det som har skjedd, ligger i hi
 1. Sett **Start date** og **Due date** på brettet, eller én av dem og **Duration**. Uten noen av dem plasseres oppgaven etter oppgavene den venter på.
 2. Flytt kortet til **In progress** når arbeidet begynner, og lukk oppgaven når den er ferdig.
 3. Venter oppgaven på en annen oppgave: åpne issuet, finn **Relationships** i høyremargen og velg **Mark as blocked by**. Velg oppgaven det ventes på. Den kan ligge i et annet repo.
-4. Skriv hvorfor oppgaven venter under overskriften **Avhengigheter** i issuet, én linje per oppgave, for eksempel «- #35: trenger juridisk avklaring av samtykke». Task-skjemaet har et eget felt for det. Er oppgaven i et annet repo, skriv for eksempel samt-bu-pilot-6#12. Selve koblingen er alltid den i steg 3. Teksten beskriver den bare. Se [Konvensjoner](../konvensjoner/).
+4. Skriv hvorfor oppgaven venter under overskriften **Avhengigheter** i issuet, én linje per oppgave, for eksempel «- #35: trenger juridisk avklaring av samtykke». Task-skjemaet har et eget felt for det. Er oppgaven i et annet repo, skriv for eksempel samt-x/samt-bu-pilot-6#12, med samt-x/ foran, ellers blir det ingen lenke. Selve koblingen er alltid den i steg 3. Teksten beskriver den bare. Se [Konvensjoner](../konvensjoner/).
 
 Deler du en oppgave i mindre oppgaver, gjør dem til sub-issues: åpne forelderen, velg **Create sub-issue** eller **Add existing issue** nederst i beskrivelsen. Sub-issuene må ligge på samme brett for å vises under forelderen i figuren.
 
