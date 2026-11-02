@@ -18,16 +18,55 @@ The window fetches the task from GitHub. Without logging in, GitHub allows about
 
 **First version, for trial** ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)). Task titles are in the language they were written in, usually Norwegian.
 
-## Example
+## Examples
 
-Fourteen examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
+The examples below show typical situations, with a few tasks each. The legend below each chart shows only what is in that chart. The examples are on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20). They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Each situation has its own label, and an example can be part of several. The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
 
-- **Closed:** A is completed (✓). J was closed without being done (✕).
-- **Without dates:** G (with Duration 3) and F (without a duration) are placed after the tasks they wait for.
-- **Due date passed:** B should have been finished Friday last week.
-- **Late start, and the delay propagates:** D should have started the same Friday, but is still waiting for B and C. When C is finished, D cannot make its due date, and E, which waits for D, is late too.
-- **Due date and Duration, but no start date:** I has no dependencies, but today plus the duration goes past the due date. H waits for C, and the earliest start after C plus the duration goes past the due date.
-- **Sub-issues:** K has three sub-issues: K1 is completed, K2 has not started and is past its due date, and K3 is in progress but waits for K2. K shows the progress 1/3, and the bracket has a red border because K2 is delayed. The gap in the dark part is the days between K1 and K3 when neither was being worked on. Click ▾ in front of K to collapse the sub-issues. K3 has Responsible set, so it is highlighted with **My tasks** for the person with that user name.
+### A simple plan
+
+A is completed (✓). L is in progress: the dark part is what has been done until today, and the light part is the rest of the plan until the due date. M has not started and waits for L (⛔). The arrow goes from L to M, and the ring on the arrow shows that the dependency is described in M.
+
+{{< inline-svg "example-simple-plan-en.svg" >}}
+
+### Dependencies and slack
+
+M, N and O all wait for L. Hover over an arrow to see the slack. M starts the working day after L ends, with no slack. N has a week of slack, but the dependency is not described, so the arrow has no ring. O is due to start before L is finished. The arrow is red because the plan does not add up, and the forecast (light red) shows when O can be finished if it starts after L.
+
+{{< inline-svg "example-dependencies-en.svg" >}}
+
+### A delay that propagates
+
+B should have been finished Friday last week, and is red from the due date. D should have started the same Friday (yellow border and line), but is still waiting for B and C. When C is finished, D cannot make its due date. E waits for D, and is therefore late too, even though the due date of E has not been reached.
+
+{{< inline-svg "example-delays-en.svg" >}}
+
+### Without dates
+
+F and G have neither Start date nor Due date, so they are placed after the tasks they wait for: G after B and F after E. The bars are dashed because the dates are calculated. G has Duration 3. F has no duration and is assumed to take one week, as stated below the chart. B is delayed, and so G is moved as well.
+
+{{< inline-svg "example-no-dates-en.svg" >}}
+
+### Due date and duration, but no start date
+
+I has no dependencies, but today plus the duration goes past the due date, so the forecast is red. H waits for C, and the earliest start after C plus the duration goes past the due date.
+
+{{< inline-svg "example-due-and-duration-en.svg" >}}
+
+### Closed: completed and cancelled
+
+A is completed (✓). J was closed without being done (✕, hatched bar), in GitHub with «Close as not planned». Both are grey with the title struck through.
+
+{{< inline-svg "example-closed-en.svg" >}}
+
+### Sub-issues
+
+K has three sub-issues: K1 is completed, K2 has not started and is past its due date, and K3 is in progress but waits for K2. K shows the progress 1/3, and the bracket has a red border because K2 is delayed. The gap in the dark part is the days between K1 and K3 when neither was being worked on. Click ▾ in front of K to collapse the sub-issues, and ▸ to expand them again. K3 has Responsible set, so it gets a yellow background with **My tasks** for the person with that user name.
+
+{{< inline-svg "example-sub-issues-en.svg" >}}
+
+### All the examples together
+
+This is the board with all the examples in one chart. Try the filter above the chart, for example **Delayed**.
 
 {{< inline-svg "project-20-en.svg" >}}
 
@@ -66,6 +105,8 @@ The charts are all generated here, and the pages fetch them from here. See [Tech
 - **Ring on the arrow:** the dependency is described. Without a ring, the tooltip only says that the description is missing.
 - **⚠ below the chart:** a task describes a dependency that is not linked in GitHub.
 - **⛔ before the title:** the task is still waiting for an open task.
+- **Yellow background:** the task is yours, when you have selected **My tasks** (only when you are signed in to docs).
+- **The legend** below the chart shows only what is in the chart.
 - **Red vertical line:** today's date.
 - **Sub-issues:** indented below the parent. The parent has a bracket from the first start to the last end among the sub-issues on the board, forecast included, and the progress after the number, for example «#11 · 1/3» (completed out of all sub-issues, also those on other boards). The colour of the bracket is the parent's status on the board. The dark part is what has happened, as on the bars: the periods when at least one sub-issue was being worked on (from In progress until finished, or until today). A light gap means none of the sub-issues was being worked on then. A **red border** means that at least one sub-issue is delayed, and it shows also when the sub-issues are collapsed. A closed parent has a grey bracket with ✓ when completed, and a hatched bracket with ✕ when closed without being done. The status of the parent is set by hand and does not follow the sub-issues automatically. **▾** before the title collapses the sub-issues, **▸** expands them again. Arrows to and from collapsed sub-issues are hidden.
 

@@ -19,6 +19,11 @@ Sub-issues står innrykket under forelderen, som får en klamme fra første star
 blant barna og framdriften «1/3» (#44). Rader og piler har data-attributter, så skriptet i
 shortcoden inline-svg (temaet) kan folde, filtrere og markere Mine oppgaver i nettleseren.
 
+Tegnforklaringen viser bare det som er tegnet i figuren (#45).
+
+Eksempelbrettet (EXAMPLES) får i tillegg én figur per situasjon: eksemplene med merkelappen
+example/<situasjon> tegnes for seg, som content/tidslinje/example-<situasjon>-nb.svg (#45).
+
 Figuren skrives på norsk og engelsk til content/, og vises på siden Tidslinje.
 Workflowen committer bare når en fil er endret. Dagens dato er med i figuren, så
 den endres minst én gang i døgnet.
@@ -51,6 +56,9 @@ PROJECTS = {1: 'content/tidslinje/project-1',    # Pilot 1 (samt-bu-pilot-1)
 # Eksempeldatoene flyttes hver uke (example-dates.py), så historikken passer ikke med dem. Der leses Start date og
 # Due date som det som har skjedd, for eksempler som er startet eller ferdige.
 NO_HISTORY = {20}
+# Brett med eksempler → filnavn uten -<situasjon>-nb.svg. Én figur per merkelapp example/<situasjon> (#45).
+EXAMPLES = {20: 'content/tidslinje/example'}
+EXAMPLE_LABEL = 'example/'
 START, DUE, DURATION = 'Start date', 'Due date', 'Duration'   # dagens dato følger maskinens tidssone (TZ i workflowen)
 STARTED = {'In progress', 'In Progress', 'In review'}
 DEFAULT_DAYS = 5   # arbeidsdager når Duration mangler
@@ -81,6 +89,8 @@ TEXT = {
            'forecast': 'Prognose: ferdig {f}, {n} arbeidsdager etter fristen {d}',
            'made': 'Generert {d} fra', 'empty': 'Ingen oppgaver på brettet ennå.',
            'legend_why': 'Ring: avhengigheten er beskrevet', 'legend_kids': 'Klamme: sub-issuene samlet (rød kant: én er forsinket)',
+           'legend_blocked': 'Venter på en åpen oppgave', 'legend_fold': 'Fold sub-issuene inn og ut',
+           'legend_mine': 'Gul: Mine oppgaver (innlogget)',
            'start': 'Start', 'end': 'Slutt',
            'src': {'actual_s': 'startet (In progress)', 'actual_e': 'ferdig', 'set_s': 'Start date', 'set_e': 'Due date',
                    'due': 'regnet fra slutt og varighet', 'deps': 'etter oppgavene den venter på',
@@ -111,6 +121,8 @@ TEXT = {
            'forecast': 'Forecast: finished {f}, {n} working days after the due date {d}',
            'made': 'Generated {d} from', 'empty': 'No tasks on the board yet.',
            'legend_why': 'Ring: the dependency is described', 'legend_kids': 'Bracket: the sub-issues together (red border: one is delayed)',
+           'legend_blocked': 'Waits for an open task', 'legend_fold': 'Collapse and expand the sub-issues',
+           'legend_mine': 'Yellow: My tasks (signed in)',
            'start': 'Start', 'end': 'End',
            'src': {'actual_s': 'started (In progress)', 'actual_e': 'finished', 'set_s': 'Start date', 'set_e': 'Due date',
                    'due': 'calculated from end and duration', 'deps': 'after the tasks it waits for',
@@ -154,6 +166,7 @@ ITEMS = '''query($n:Int!,$after:String){organization(login:"samt-x"){projectV2(n
   items(first:50,after:$after){pageInfo{hasNextPage endCursor} nodes{
     content{... on Issue{number title url state stateReason closedAt body repository{name}
       parent{number repository{name}} subIssuesSummary{total completed} assignees(first:10){nodes{login}}
+      labels(first:20){nodes{name}}
       blockedBy(first:20){nodes{number title url state repository{name}}}
       deps:timelineItems(last:30,itemTypes:[BLOCKED_BY_ADDED_EVENT]){nodes{
         ... on BlockedByAddedEvent{createdAt actor{login} blockingIssue{number repository{name}}}}}
@@ -233,7 +246,8 @@ def fetch(number):
                           'subs': [c['subIssuesSummary']['completed'], c['subIssuesSummary']['total']]
                                   if (c.get('subIssuesSummary') or {}).get('total') else None,
                           'people': sorted({a['login'] for a in c['assignees']['nodes'] if a}
-                                           | ({v['Responsible']} if v.get('Responsible') else set()))})
+                                           | ({v['Responsible']} if v.get('Responsible') else set())),
+                          'labels': sorted(l['name'] for l in c['labels']['nodes'] if l)})
         if not p['items']['pageInfo']['hasNextPage']:
             break
         after = p['items']['pageInfo']['endCursor']
@@ -414,10 +428,12 @@ def short(s, n):
     return s if len(s) <= n else s[:n - 1].rstrip() + '…'
 
 
-def svg(number, title, url, tasks, lang, today):
+def svg(number, title, url, tasks, lang, today, fid=None):
     t = TEXT[lang]
-    # Figuren limes rett inn i siden (shortcoden inline-svg), så id-er må være unike på tvers av figurene
-    ma, mr, mh = f'tl{number}a', f'tl{number}r', f'tl{number}h'
+    # Figuren limes rett inn i siden (shortcoden inline-svg), så id-er må være unike på tvers av figurene,
+    # også når flere figurer fra samme brett står på én side (eksemplene, fid)
+    fid = fid or f'tl{number}'
+    ma, mr, mh = f'{fid}a', f'{fid}r', f'{fid}h'
     months = t['months'].split()
     dated = summarize(plan([dict(x) for x in tasks], today))
     fold = any(o['kids'] for o in dated)   # egen kolonne for ▾/▸ når figuren har sub-issues
@@ -449,36 +465,10 @@ def svg(number, title, url, tasks, lang, today):
     row = {o['key']: i for i, o in enumerate(dated)}
     H_rows = len(dated) * ROW_H
 
-    # Tegnforklaringen brytes over flere linjer når figuren er smal
-    legend = [('arrow', t['legend_arrow']), ('late', t['legend_late']), ('actual', t['legend_actual']),
-              ('set', t['legend_set']), ('calc', t['legend_calc']), ('late_start', t['legend_late_start']),
-              ('overrun', t['legend_overrun']), ('done', t['legend_done']), ('dropped', t['legend_dropped']),
-              ('why', t['legend_why'])] + ([('kids', t['legend_kids'])] if fold else [])
-    places, lx, ly = [], PAD, 0
-    for kind, text in legend:
-        w = 34 + len(text) * 6.4 + 24
-        if lx > PAD and lx + w > W - PAD:
-            lx, ly = PAD, ly + 22
-        places.append((kind, text, lx, ly))
-        lx += w
-    legend_y = TOP + H_rows + 36
-    foot_y = legend_y + ly + 30
-    orphans = [(o['key'], ref) for o in tasks for ref in o.get('orphans', [])]
-    H = int(foot_y + 22 + 16 * len(orphans))
-
-    # data-tl*: skriptet i shortcoden inline-svg (temaet) legger radene ut på nytt ved folding og filter (#44).
-    # Det flytter rader (class tl-row, data-y = opprinnelig y), skjuler striper, setter høyden på det som spenner
-    # over alle radene (tl-vh, tl-vy2), flytter tegnforklaringen (tl-foot) og tegner pilene (tl-dep) på nytt.
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" {font} font-size="12" '
-           f'data-tl="{number}" data-tl-top="{TOP}" data-tl-rowh="{ROW_H}" data-tl-rows="{len(dated)}" data-tl-pad="{PAD}">',
-           f'<!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->',
-           '<defs>'
-           f'<marker id="{ma}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{ARROW}"/></marker>'
-           f'<marker id="{mr}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{LATE}"/></marker>'
-           f'<pattern id="{mh}" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
-           f'<rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="{CLOSED}" stroke-width="2"/></pattern>'
-           '</defs>',
-           f'<rect width="{W}" height="{H}" fill="#ffffff"/>']
+    # Det som tegnes, samles i used, så tegnforklaringen bare viser det som finnes i figuren (#45). Toppen av
+    # figuren (svg med høyden, defs og bakgrunn) legges først til slutt, når høyden med tegnforklaringen er kjent.
+    used = set()
+    out = []
 
     # Bakgrunn: annenhver rad, helger, månedsnavn og dagstall
     for i in range(len(dated)):
@@ -544,12 +534,17 @@ def svg(number, title, url, tasks, lang, today):
         # ✕ lukket uten å bli gjort, ✓ fullført, ⛔ venter fortsatt på en åpen oppgave
         mark = ('✕ ' if dropped else '✓ ' if o['closed'] else
                 '⛔ ' if any(not b.get('closed') for b in o['blocked_by']) else '')
+        if mark:
+            used.add({'✕ ': 'dropped', '✓ ': 'done', '⛔ ': 'blocked'}[mark])
+        if people:
+            used.add('mine')
         # Innrykk for sub-issues, og en kolonne til venstre for ▾/▸ når figuren har sub-issues
         indent = (14 if fold else 0) + 14 * o['depth']
         label = short(f'{mark}{o["title"]}', 48 - indent // 7)
         deco = ' text-decoration="line-through"' if o['closed'] else ''
         number = '#' + o['key'].split('#')[1] + (f' · {o["subs"][0]}/{o["subs"][1]}' if o.get('subs') else '')
         if o['kids']:
+            used.update(('kids', 'fold'))
             # Knappen for å folde barna inn og ut vises først når skriptet i temaet har startet
             out.append(f'<g class="tl-fold" role="button" display="none" cursor="pointer"><title>{esc(t["fold"])}</title>'
                        f'<rect x="{PAD + indent - 16}" y="{y}" width="16" height="{ROW_H}" fill="transparent"/>'
@@ -582,6 +577,7 @@ def svg(number, title, url, tasks, lang, today):
                     a1, a2 = x(max(a, s)), min(x(b) + px, x2)
                     if a2 > a1:
                         bar.append(f'<rect x="{a1:.1f}" y="{y + 7}" width="{a2 - a1:.1f}" height="7" fill="{color}"/>')
+                        used.add('actual')
                 bar.append(f'<path d="{shape}" fill="none" {line}/>')   # kanten over fyllingen
         elif dropped:   # skravert, uten mørk del: det som var planlagt, ble ikke gjort
             bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" '
@@ -590,12 +586,18 @@ def svg(number, title, url, tasks, lang, today):
             bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}" '
                    + (f'fill-opacity="0.35" stroke="{edge}"/>' if firm else
                       f'fill-opacity="0.12" stroke="{edge}" stroke-dasharray="4 3"/>')]
+        dark = None
         if o.get('started') and not dropped and not o['kids']:
             a1 = x(max(day(o['started']), s))
             a2 = x(d) + px if o.get('ended') else min(x(today) + px, x2)
             if a2 > a1:
                 bar.append(f'<rect x="{a1:.1f}" y="{y + 6}" width="{a2 - a1:.1f}" height="{ROW_H - 12}" rx="4" fill="{color}"/>')
+                dark = (a1, a2)
+                used.add('actual')
+        if not o['kids'] and not dropped and not (dark and dark[0] <= x1 + 0.5 and dark[1] >= x2 - 0.5):
+            used.add('set' if firm else 'calc')   # den lyse eller stiplede delen synes
         if o['late_s']:
+            used.add('late_start')
             # Sen start: gul kant, og gul strek under stolpen fra startdatoen til i dag
             bar.append(f'<line x1="{x(o["late_s"]):.1f}" y1="{y + ROW_H - 3}" x2="{x(today) + px / 2:.1f}" y2="{y + ROW_H - 3}" '
                        f'stroke="{AMBER}" stroke-width="2" stroke-dasharray="4 2"/>')
@@ -603,6 +605,7 @@ def svg(number, title, url, tasks, lang, today):
         if o['planned'] and o['f'] > o['planned']:
             # Sen slutt: stolpen forlenges forbi fristen og fylles rødt; helt rødt til i dag, lyst for prognosen etter
             r1, rt, end = x(o['planned']) + px, x(today) + px, x(o['f']) + px
+            used.add('overrun')
             if min(rt, end) > r1:
                 bar.append(f'<rect x="{r1:.1f}" y="{y + 6}" width="{min(rt, end) - r1:.1f}" height="{ROW_H - 12}" fill="{LATE}"/>')
             if end > max(r1, rt):
@@ -646,6 +649,7 @@ def svg(number, title, url, tasks, lang, today):
             tip.append(t['click'].format(o=ob))
             dot = (f'<circle cx="{bx2 + 8:.1f}" cy="{corner:.1f}" r="3.2" fill="#ffffff" stroke="{col}" stroke-width="1.5"/>'
                    if b.get('why') else '')
+            used.update(('late' if late else 'arrow',) + (('why',) if dot else ()))
             # class tl-dep: vinduet i shortcoden inline-svg viser verktøytipset over oppgaven som venter.
             # data-*: skriptet i inline-svg tegner pila på nytt med samme regel som over når radene flyttes (#44).
             out.append(f'<a class="tl-dep" href="{esc(o["url"])}" target="_blank" data-from="{esc(b["key"])}" '
@@ -679,7 +683,24 @@ def svg(number, title, url, tasks, lang, today):
               'why': lambda lx, ly: f'<circle cx="{lx + 14}" cy="{ly}" r="3.2" fill="#ffffff" stroke="{ARROW}" stroke-width="1.5"/>',
               'kids': lambda lx, ly: (f'<path d="M{lx},{ly + 6}V{ly - 6}H{lx + 28}V{ly + 6}L{lx + 22},{ly + 1}H{lx + 6}Z" '
                                       f'fill="#1f6feb" fill-opacity="0.3" stroke="{LATE}" stroke-width="2"/>'
-                                      f'<rect x="{lx}" y="{ly - 6}" width="10" height="7" fill="#1f6feb"/>')}
+                                      f'<rect x="{lx}" y="{ly - 6}" width="10" height="7" fill="#1f6feb"/>'),
+              'blocked': lambda lx, ly: f'<text x="{lx + 6}" y="{ly + 4}">⛔</text>',
+              'fold': lambda lx, ly: f'<text x="{lx + 4}" y="{ly + 5}" fill="#57606a" font-size="15">▾ ▸</text>',
+              'mine': lambda lx, ly: f'<rect x="{lx}" y="{ly - 7}" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/>'}
+    # Bare det som er tegnet, i fast rekkefølge. Tegnforklaringen brytes over flere linjer når figuren er smal.
+    legend = [(k, t[f'legend_{k}']) for k in ('arrow', 'late', 'why', 'blocked', 'actual', 'set', 'calc', 'late_start',
+                                               'overrun', 'done', 'dropped', 'kids', 'fold', 'mine') if k in used]
+    places, lx, ly = [], PAD, 0
+    for kind, text in legend:
+        w = 34 + len(text) * 6.4 + 24
+        if lx > PAD and lx + w > W - PAD:
+            lx, ly = PAD, ly + 22
+        places.append((kind, text, lx, ly))
+        lx += w
+    legend_y = TOP + H_rows + 36
+    foot_y = legend_y + ly + 30 if places else legend_y
+    orphans = [(o['key'], ref) for o in tasks for ref in o.get('orphans', [])]
+    H = int(foot_y + 22 + 16 * len(orphans))
     for kind, text, lx, dy in places:
         ly = legend_y + dy
         lx = round(lx)
@@ -694,6 +715,20 @@ def svg(number, title, url, tasks, lang, today):
                    f'⚠ {esc(t["orphan"].format(o=k, b=ref))}</text>')
     out.append('</g>')
     out.append('</svg>')
+
+    # data-tl*: skriptet i shortcoden inline-svg (temaet) legger radene ut på nytt ved folding og filter (#44).
+    # Det flytter rader (class tl-row, data-y = opprinnelig y), skjuler striper, setter høyden på det som spenner
+    # over alle radene (tl-vh, tl-vy2), flytter tegnforklaringen (tl-foot) og tegner pilene (tl-dep) på nytt.
+    out[:0] = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" {font} font-size="12" '
+               f'data-tl="{number}" data-tl-top="{TOP}" data-tl-rowh="{ROW_H}" data-tl-rows="{len(dated)}" data-tl-pad="{PAD}">',
+               f'<!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->',
+               '<defs>'
+               f'<marker id="{ma}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{ARROW}"/></marker>'
+               f'<marker id="{mr}" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="{LATE}"/></marker>'
+               f'<pattern id="{mh}" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'
+               f'<rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="{CLOSED}" stroke-width="2"/></pattern>'
+               '</defs>',
+               f'<rect width="{W}" height="{H}" fill="#ffffff"/>']
     return '\n'.join(out) + '\n'
 
 
@@ -734,6 +769,18 @@ def main():
             if a.out:
                 path = os.path.join(os.path.abspath(a.out), os.path.basename(path))
             write(path, svg(number, title, url, tasks, lang, today))
+        if number in EXAMPLES:
+            # Én figur per situasjon: eksemplene med merkelappen example/<situasjon> (#45). Et eksempel kan ha
+            # flere merkelapper. Oppgaver det ventes på, men som ikke har merkelappen, er ikke med i figuren.
+            slugs = sorted({l[len(EXAMPLE_LABEL):] for x in tasks for l in x.get('labels', []) if l.startswith(EXAMPLE_LABEL)})
+            for slug in slugs:
+                part = [x for x in tasks if EXAMPLE_LABEL + slug in x.get('labels', [])]
+                print(f'  {EXAMPLE_LABEL}{slug}: {len(part)} eksempler')
+                for lang in ('nb', 'en'):
+                    path = f'{EXAMPLES[number]}-{slug}-{lang}.svg'
+                    if a.out:
+                        path = os.path.join(os.path.abspath(a.out), os.path.basename(path))
+                    write(path, svg(number, title, url, part, lang, today, fid=f'tl{number}-{slug}'))
 
 
 main()

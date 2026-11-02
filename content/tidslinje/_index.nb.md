@@ -18,16 +18,55 @@ Vinduet henter oppgaven fra GitHub. Uten innlogging tillater GitHub omtrent 60 o
 
 **Første versjon, til utprøving** ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)).
 
-## Eksempel
+## Eksempler
 
-Fjorten eksempler på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) viser hvordan figuren ser ut med avhengigheter. De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Derfor viser eksemplene Start date og Due date som det som har skjedd, ikke historikken. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
+Eksemplene under viser typiske situasjoner, med noen få oppgaver hver. Tegnforklaringen under hver figur viser bare det som finnes i den figuren. Eksemplene ligger på brettet [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20). De er ikke oppgaver, og ligger i et eget repo, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). Hver situasjon har sin merkelapp, og et eksempel kan være med i flere. Datoene flyttes automatisk hver uke, så eksemplene alltid ligger rundt dagens dato. Derfor viser eksemplene Start date og Due date som det som har skjedd, ikke historikken. Se [Eksempler i dokumentasjonen](../konvensjoner/#eksempler-i-dokumentasjonen).
 
-- **Lukket:** A er fullført (✓). J ble lukket uten å bli gjort (✕).
-- **Uten datoer:** G (med Duration 3) og F (uten varighet) plasseres etter oppgavene de venter på.
-- **Passert frist:** B skulle vært ferdig fredag forrige uke.
-- **Sen start, og forsinkelsen forplanter seg:** D skulle startet samme fredag, men venter fortsatt på B og C. Når C er ferdig, rekker ikke D fristen sin, og E, som venter på D, blir også sen.
-- **Frist og Duration, men ingen startdato:** I har ingen avhengigheter, men i dag pluss varigheten går forbi fristen. H venter på C, og tidligste start etter C pluss varigheten går forbi fristen.
-- **Sub-issues:** K har tre sub-issues: K1 er ferdig, K2 er ikke startet og har passert fristen, og K3 pågår, men venter på K2. K viser framdriften 1/3, og klammen har rød kant fordi K2 er forsinket. Hullet i den mørke delen er dagene mellom K1 og K3 da ingen av dem var i arbeid. Klikk ▾ foran K for å folde sub-issuene inn. K3 har Responsible satt, så den markeres med **Mine oppgaver** for den som har det brukernavnet.
+### Enkel plan
+
+A er fullført (✓). L pågår: den mørke delen er det som er gjort fram til i dag, og den lyse delen er resten av planen fram til fristen. M er ikke startet og venter på L (⛔). Pila går fra L til M, og ringen på pila viser at avhengigheten er beskrevet i M.
+
+{{< inline-svg "example-simple-plan-nb.svg" >}}
+
+### Avhengigheter og slakk
+
+M, N og O venter alle på L. Hold musa over en pil for å se slakken. M starter arbeidsdagen etter at L slutter, uten slakk. N har en uke slakk, men avhengigheten er ikke beskrevet, så pila har ingen ring. O skal starte før L er ferdig. Pila er rød fordi planen ikke henger sammen, og prognosen (lys rød) viser når O kan bli ferdig hvis den starter etter L.
+
+{{< inline-svg "example-dependencies-nb.svg" >}}
+
+### Forsinkelse som forplanter seg
+
+B skulle vært ferdig fredag forrige uke, og er rød fra fristen. D skulle startet samme fredag (gul kant og strek), men venter fortsatt på B og C. Når C er ferdig, rekker ikke D fristen sin. E venter på D, og blir derfor også sen, selv om fristen til E ikke er nådd.
+
+{{< inline-svg "example-delays-nb.svg" >}}
+
+### Uten datoer
+
+F og G har verken Start date eller Due date, så de plasseres etter oppgavene de venter på: G etter B og F etter E. Stolpene er stiplet fordi datoene er beregnet. G har Duration 3. F har ingen varighet og antas å ta én uke, og det står under figuren. B er forsinket, og derfor flyttes også G.
+
+{{< inline-svg "example-no-dates-nb.svg" >}}
+
+### Frist og varighet, men ingen startdato
+
+I har ingen avhengigheter, men i dag pluss varigheten går forbi fristen, så prognosen er rød. H venter på C, og tidligste start etter C pluss varigheten går forbi fristen.
+
+{{< inline-svg "example-due-and-duration-nb.svg" >}}
+
+### Lukket: fullført og avbrutt
+
+A er fullført (✓). J ble lukket uten å bli gjort (✕, skravert stolpe), i GitHub med «Close as not planned». Begge er grå med strek over tittelen.
+
+{{< inline-svg "example-closed-nb.svg" >}}
+
+### Sub-issues
+
+K har tre sub-issues: K1 er ferdig, K2 er ikke startet og har passert fristen, og K3 pågår, men venter på K2. K viser framdriften 1/3, og klammen har rød kant fordi K2 er forsinket. Hullet i den mørke delen er dagene mellom K1 og K3 da ingen av dem var i arbeid. Klikk ▾ foran K for å folde sub-issuene inn, og ▸ for å folde dem ut igjen. K3 har Responsible satt, så den får gul bakgrunn med **Mine oppgaver** for den som har det brukernavnet.
+
+{{< inline-svg "example-sub-issues-nb.svg" >}}
+
+### Alle eksemplene sammen
+
+Slik ser brettet ut med alle eksemplene i én figur. Prøv filteret over figuren, for eksempel **Forsinkede**.
 
 {{< inline-svg "project-20-nb.svg" >}}
 
@@ -66,6 +105,8 @@ Figurene lages alle her, og sidene henter dem herfra. Se [Teknisk dokumentasjon]
 - **Ring på pila:** avhengigheten er beskrevet. Uten ring står det bare at den mangler beskrivelse.
 - **⚠ under figuren:** en oppgave beskriver en avhengighet som ikke er koblet i GitHub.
 - **⛔ foran tittelen:** oppgaven venter fortsatt på en åpen oppgave.
+- **Gul bakgrunn:** oppgaven er din, når du har valgt **Mine oppgaver** (bare når du er logget inn på docs).
+- **Tegnforklaringen** under figuren viser bare det som finnes i figuren.
 - **Rød loddrett strek:** dagens dato.
 - **Sub-issues:** står innrykket under forelderen. Forelderen har en klamme fra første start til siste slutt blant sub-issuene på brettet, med prognosen medregnet, og framdriften etter nummeret, for eksempel «#11 · 1/3» (ferdige av alle sub-issuene, også dem på andre brett). Fargen på klammen er forelderens status på brettet. Den mørke delen er det som har skjedd, som på stolpene: periodene der minst én sub-issue var i arbeid (fra In progress til ferdig, eller til i dag). Et lyst hull betyr at ingen av sub-issuene var i arbeid da. **Rød kant** betyr at minst én sub-issue er forsinket, og den synes også når sub-issuene er foldet inn. En lukket forelder har grå klamme med ✓ når den er fullført, og skravert klamme med ✕ når den er lukket uten å bli gjort. Statusen på forelderen settes for hånd og følger ikke sub-issuene automatisk. **▾** foran tittelen folder sub-issuene inn, **▸** folder dem ut igjen. Pilene til og fra sub-issues som er foldet inn, skjules.
 

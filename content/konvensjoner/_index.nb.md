@@ -170,6 +170,7 @@ Issues og brett som bare skal vise hvordan løsningen virker, er eksempler, ikke
 
 - Hvert eksempel begynner med «Eksempel, ikke en oppgave» og sier hvor det brukes.
 - Repoet får topic `examples` og holdes utenfor samlebrettet.
+- Eksemplene får en merkelapp per situasjon de viser, for eksempel `example/sub-issues`, så dokumentasjonen kan vise hver situasjon for seg. Et eksempel kan ha flere.
 - Eksemplene står så lenge dokumentasjonen bruker dem, og vedlikeholdes sammen med den. Datoer kan følge dagens dato, se [Teknisk dokumentasjon](../teknisk-dokumentasjon/#eksempelbrettet).
 - Lag ikke eksempler i et repo med ekte oppgaver. Der ser de ut som arbeid som skal gjøres.
 

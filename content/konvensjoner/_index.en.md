@@ -170,6 +170,7 @@ Issues and boards that only show how the solution works are examples, not tasks.
 
 - Each example starts with «Eksempel, ikke en oppgave» (example, not a task) and says where it is used.
 - The repository gets the topic `examples` and is kept out of the aggregate board.
+- The examples get one label per situation they show, for example `example/sub-issues`, so the documentation can show each situation on its own. An example can have several.
 - The examples stay as long as the documentation uses them, and are maintained together with it. Dates can follow today's date, see [Technical documentation](../teknisk-dokumentasjon/#the-example-board).
 - Do not create examples in a repository with real tasks. There they look like work to be done.
 

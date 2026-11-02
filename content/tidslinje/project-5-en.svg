@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="944" viewBox="0 0 1134 944" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="5" data-tl-top="58" data-tl-rowh="26" data-tl-rows="29" data-tl-pad="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="922" viewBox="0 0 1134 922" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#21" data-tl-top="58" data-tl-rowh="26" data-tl-rows="29" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl5r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl5h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
-<rect width="1134" height="944" fill="#ffffff"/>
+<rect width="1134" height="922" fill="#ffffff"/>
 <rect class="tl-stripe" data-i="1" x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="3" x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="5" x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
@@ -407,17 +407,13 @@ End: Nov 10 (Due date)</title><rect x="941.2" y="792" width="119.2" height="14" 
 <line class="tl-vy2" data-dy="4" x1="933.7" y1="58" x2="933.7" y2="816" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
 <text x="933.7" y="827" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
-<path d="M14,848H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl5a)"/><text x="48" y="852" fill="#24292f">Arrow: waits for</text>
-<path d="M174,848H202" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl5r)"/><text x="208" y="852" fill="#24292f">Red arrow: blocking task ends too late</text>
-<rect x="476" y="842" width="28" height="12" rx="3" fill="#8c959f"/><text x="510" y="852" fill="#24292f">Dark: has happened</text>
-<rect x="649" y="842" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><text x="683" y="852" fill="#24292f">Light: dates set</text>
-<rect x="809" y="842" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="843" y="852" fill="#24292f">Dashed: calculated or assumed</text>
-<rect x="14" y="864" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#bf8700"/><line x1="14" y1="879" x2="42" y2="879" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><text x="48" y="874" fill="#24292f">Yellow border and line: late start</text>
-<rect x="290" y="864" width="14" height="12" fill="#cf222e"/><rect x="304" y="864" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="324" y="874" fill="#24292f">Red: after the due date (light: forecast)</text>
-<text x="618" y="874" fill="#24292f">✓</text><text x="644" y="874" fill="#24292f">Completed</text>
-<rect x="726" y="864" width="28" height="12" rx="3" fill="url(#tl5h)" stroke="#8c959f"/><text x="760" y="874" fill="#24292f">Hatched and ✕: closed without being done</text>
-<circle cx="28" cy="892" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="896" fill="#24292f">Ring: the dependency is described</text>
-<path d="M283,898V886H311V898L305,893H289Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="283" y="886" width="10" height="7" fill="#1f6feb"/><text x="317" y="896" fill="#24292f">Bracket: the sub-issues together (red border: one is delayed)</text>
-<text x="14" y="922" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/5" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU rammeverk og generisk arkitektur</tspan></a>. 20 tasks have no Duration and are assumed to take one week.</text>
+<rect x="14" y="842" width="28" height="12" rx="3" fill="#8c959f"/><text x="48" y="852" fill="#24292f">Dark: has happened</text>
+<rect x="187" y="842" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><text x="221" y="852" fill="#24292f">Light: dates set</text>
+<rect x="348" y="842" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="382" y="852" fill="#24292f">Dashed: calculated or assumed</text>
+<text x="599" y="852" fill="#24292f">✓</text><text x="625" y="852" fill="#24292f">Completed</text>
+<path d="M14,876V864H42V876L36,871H20Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="14" y="864" width="10" height="7" fill="#1f6feb"/><text x="48" y="874" fill="#24292f">Bracket: the sub-issues together (red border: one is delayed)</text>
+<text x="466" y="875" fill="#57606a" font-size="15">▾ ▸</text><text x="496" y="874" fill="#24292f">Collapse and expand the sub-issues</text>
+<rect x="738" y="863" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="772" y="874" fill="#24292f">Yellow: My tasks (signed in)</text>
+<text x="14" y="900" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/5" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU rammeverk og generisk arkitektur</tspan></a>. 20 tasks have no Duration and are assumed to take one week.</text>
 </g>
 </svg>
