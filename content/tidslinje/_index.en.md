@@ -12,19 +12,22 @@ The Timeline view in GitHub Projects shows tasks along a time axis, but does not
 
 Click a title, a bar or an arrow to see the task in a window on top of the chart. Move the window by its title bar and resize it from the bottom right corner. Links to other tasks inside the window open in the same window. Click somewhere outside the window that is not a link, press Esc or click × to close it. Ctrl-click opens the task on GitHub instead. Hover to see status, dates and dependencies. The chart is shown at full size in a frame that can be scrolled sideways and up and down. The toolbar above the chart zooms out and in (− and +), back to full size (100 %) or so that the whole width fits (Fit width). Ctrl + mouse wheel over the chart zooms only the chart. The chart can also be dragged with the mouse (hand cursor) in any direction. A click without dragging opens the task as before. «Open the chart in a new window» shows the chart on its own, where it can be saved or copied.
 
+The line **Show** below the toolbar chooses which tasks are shown: **All**, **Active** (open), **Delayed** (late start, due date passed or forecast after the due date), **Completed** or **Cancelled** (closed without being done). A parent is shown when it or one of its sub-issues matches, so the context does not disappear. If you are logged in on docs, there is also the button **My tasks**. It highlights with a yellow background the tasks where you are Responsible or assignee, whatever selection is shown. The choices only last until the page is reloaded.
+
 The window fetches the task from GitHub. Without logging in, GitHub allows about 60 lookups an hour. If the limit is reached, a link to GitHub is shown instead, and logging in raises the limit.
 
 **First version, for trial** ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)). Task titles are in the language they were written in, usually Norwegian.
 
 ## Example
 
-Ten examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
+Fourteen examples on the board [«[EXAMPLE] Timeline»](https://github.com/orgs/samt-x/projects/20) show what the chart looks like with dependencies. They are not tasks, and they live in a repository of their own, [solution-task-management-examples](https://github.com/samt-x/solution-task-management-examples). The dates are moved automatically every week, so the examples always sit around today's date. The examples therefore show Start date and Due date as what has happened, not the history. See [Examples in the documentation](../konvensjoner/#examples-in-the-documentation).
 
 - **Closed:** A is completed (✓). J was closed without being done (✕).
 - **Without dates:** G (with Duration 3) and F (without a duration) are placed after the tasks they wait for.
 - **Due date passed:** B should have been finished Friday last week.
 - **Late start, and the delay propagates:** D should have started the same Friday, but is still waiting for B and C. When C is finished, D cannot make its due date, and E, which waits for D, is late too.
 - **Due date and Duration, but no start date:** I has no dependencies, but today plus the duration goes past the due date. H waits for C, and the earliest start after C plus the duration goes past the due date.
+- **Sub-issues:** K has three sub-issues: K1 is completed, K2 has not started and is past its due date, and K3 is in progress but waits for K2. K shows the progress 1/3. Click ▾ in front of K to collapse the sub-issues. K3 has Responsible set, so it is highlighted with **My tasks** for the person with that user name.
 
 {{< inline-svg "project-20-en.svg" >}}
 
@@ -64,6 +67,7 @@ The charts are all generated here, and the pages fetch them from here. See [Tech
 - **⚠ below the chart:** a task describes a dependency that is not linked in GitHub.
 - **⛔ before the title:** the task is still waiting for an open task.
 - **Red vertical line:** today's date.
+- **Sub-issues:** indented below the parent. The parent has a black bracket from the first start to the last end among the sub-issues on the board, forecast included, and the progress after the number, for example «#11 · 1/3» (completed out of all sub-issues, also those on other boards). Delays are shown on the sub-issues, not on the parent. **▾** before the title collapses the sub-issues, **▸** expands them again. Arrows to and from collapsed sub-issues are hidden.
 
 ## Where the dates come from
 
@@ -84,6 +88,8 @@ Planned and actual dates have no separate fields. What has happened is in the hi
 2. Move the card to **In progress** when work begins, and close the task when it is done.
 3. If the task waits for another task: open the issue, find **Relationships** in the right-hand margin and choose **Mark as blocked by**. Choose the task being waited for. It can be in another repository.
 4. Write why the task waits under the heading **Avhengigheter** (dependencies) in the issue, one line per task, for example «- #35: needs legal clarification of consent». The Task form has its own field for this. If the task is in another repository, write for example samt-bu-pilot-6#12. The link itself is always the one in step 3. The text only describes it. See [Conventions](../konvensjoner/).
+
+If you split a task into smaller tasks, make them sub-issues: open the parent and choose **Create sub-issue** or **Add existing issue** at the bottom of the description. The sub-issues must be on the same board to be shown under the parent in the chart.
 
 Dependencies can also be searched for on GitHub with **is:blocked**, **is:blocking** and **blocked-by:**.
 
