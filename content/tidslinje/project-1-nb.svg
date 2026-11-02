@@ -479,7 +479,7 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1695.0" y="792" width
 <text x="1618" y="852" fill="#24292f">✓</text><text x="1644" y="852" fill="#24292f">Fullført</text>
 <rect x="14" y="864" width="28" height="12" rx="3" fill="url(#tl1h)" stroke="#8c959f"/><text x="48" y="874" fill="#24292f">Skravert og ✕: lukket uten å bli gjort</text>
 <circle cx="329" cy="870" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="349" y="874" fill="#24292f">Ring: avhengigheten er beskrevet</text>
-<path d="M578,876V864H606V876L600,871H584Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="578" y="864" width="10" height="7" fill="#1f6feb"/><text x="612" y="874" fill="#24292f">Klamme: sub-issuene (mørk = ferdige, rød kant = forsinket)</text>
+<path d="M578,876V864H606V876L600,871H584Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="578" y="864" width="10" height="7" fill="#1f6feb"/><text x="612" y="874" fill="#24292f">Klamme: sub-issuene samlet (rød kant: én er forsinket)</text>
 <text x="14" y="900" fill="#57606a" font-size="11">Generert 2026-11-02 fra<a href="https://github.com/orgs/samt-x/projects/1" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 1 – Overgang ungdomsskole videregående</tspan></a>. 8 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>

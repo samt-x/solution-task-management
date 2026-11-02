@@ -96,7 +96,7 @@ In progress
 Start: 23.10. (fra sub-issuene)
 Slutt: 11.11. (fra sub-issuene)
 Sub-issues: 1 av 3 ferdige
-Minst én sub-issue er forsinket</title><path d="M439.4,103V91H666.3V103L660.3,98H445.4Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="439.4" y="91" width="75.6" height="7" fill="#1f6feb"/><path d="M439.4,103V91H666.3V103L660.3,98H445.4Z" fill="none" stroke="#cf222e" stroke-width="2"/></a>
+Minst én sub-issue er forsinket</title><path d="M439.4,103V91H666.3V103L660.3,98H445.4Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="439.4" y="91" width="124.8" height="7" fill="#1f6feb"/><path d="M439.4,103V91H666.3V103L660.3,98H445.4Z" fill="none" stroke="#cf222e" stroke-width="2"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#12" data-parent="solution-task-management-examples#11" data-y="110" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/12" target="_blank"><title>solution-task-management-examples#12 Eksempel K1: Rekruttere testpersoner
@@ -349,7 +349,7 @@ Klikk for å åpne #6</title><path d="M995.2,383.0H1003.2V396.0H985.2V409.0H994.
 <text x="548" y="484" fill="#24292f">✓</text><text x="574" y="484" fill="#24292f">Fullført</text>
 <rect x="649" y="474" width="28" height="12" rx="3" fill="url(#tl20h)" stroke="#8c959f"/><text x="683" y="484" fill="#24292f">Skravert og ✕: lukket uten å bli gjort</text>
 <circle cx="28" cy="502" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="506" fill="#24292f">Ring: avhengigheten er beskrevet</text>
-<path d="M277,508V496H305V508L299,503H283Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="277" y="496" width="10" height="7" fill="#1f6feb"/><text x="311" y="506" fill="#24292f">Klamme: sub-issuene (mørk = ferdige, rød kant = forsinket)</text>
+<path d="M277,508V496H305V508L299,503H283Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="277" y="496" width="10" height="7" fill="#1f6feb"/><text x="311" y="506" fill="#24292f">Klamme: sub-issuene samlet (rød kant: én er forsinket)</text>
 <text x="14" y="532" fill="#57606a" font-size="11">Generert 2026-11-02 fra<a href="https://github.com/orgs/samt-x/projects/20" target="_blank"><tspan dx="4" fill="#0969da">[EXAMPLE] Timeline</tspan></a>. 1 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
