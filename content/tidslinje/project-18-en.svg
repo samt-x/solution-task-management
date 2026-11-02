@@ -169,7 +169,7 @@ Sub-issues: 1 of 1 completed</title><text x="28" y="257.0"><tspan fill="#0969da"
 Proposed
 Start: Oct 26 (from the sub-issues)
 End: Nov 1 (from the sub-issues)
-Sub-issues: 1 of 1 completed</title><path d="M816.0,258V248H949.0V258L943.0,253H822.0Z" fill="#24292f"/></a>
+Sub-issues: 1 of 1 completed</title><path d="M816.0,259V247H949.0V259L943.0,254H822.0Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><rect x="816.0" y="247" width="133.0" height="7" fill="#afb8c1"/><path d="M816.0,259V247H949.0V259L943.0,254H822.0Z" fill="none" stroke="#afb8c1"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management#40" data-parent="solution-task-management#32" data-y="266" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management/issues/40" target="_blank"><title>solution-task-management#40 Eget repo for eksempel-issues i løsningsdokumentasjonen, med datoer relativt til i dag
@@ -314,7 +314,7 @@ Sub-issues: 0 of 2 completed</title><text x="28" y="569.0"><tspan fill="#0969da"
 Proposed
 Start: Nov 2 (from the sub-issues)
 End: Nov 6 (from the sub-issues)
-Sub-issues: 0 of 2 completed</title><path d="M949.0,570V560H1044.0V570L1038.0,565H955.0Z" fill="#24292f"/></a>
+Sub-issues: 0 of 2 completed</title><path d="M949.0,571V559H1044.0V571L1038.0,566H955.0Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M949.0,571V559H1044.0V571L1038.0,566H955.0Z" fill="none" stroke="#afb8c1"/></a>
 </g>
 <g class="tl-row" data-key="solution-samt-bu-docs#88" data-parent="solution-task-management#27" data-y="578" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-samt-bu-docs/issues/88" target="_blank"><title>solution-samt-bu-docs#88 Vise og redigere issuebeskrivelser på docs, skrevet tilbake til GitHub
@@ -437,7 +437,7 @@ Duration: not set, assumed 5 working days</title><rect x="949.0" y="792" width="
 <text x="618" y="874" fill="#24292f">✓</text><text x="644" y="874" fill="#24292f">Completed</text>
 <rect x="726" y="864" width="28" height="12" rx="3" fill="url(#tl18h)" stroke="#8c959f"/><text x="760" y="874" fill="#24292f">Hatched and ✕: closed without being done</text>
 <circle cx="28" cy="892" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="896" fill="#24292f">Ring: the dependency is described</text>
-<path d="M283,897V887H311V897L305,892H289Z" fill="#24292f"/><text x="317" y="896" fill="#24292f">Bracket: the sub-issues together</text>
+<path d="M283,898V886H311V898L305,893H289Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="283" y="886" width="10" height="7" fill="#1f6feb"/><text x="317" y="896" fill="#24292f">Bracket: the sub-issues (dark = completed, red border = delayed)</text>
 <text x="14" y="922" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/18" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Task management</tspan></a>. 27 tasks have no Duration and are assumed to take one week.</text>
 </g>
 </svg>

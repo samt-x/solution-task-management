@@ -81,7 +81,7 @@ Sub-issues: 2 of 4 completed</title><text x="28" y="75.0"><tspan fill="#0969da">
 Ready
 Start: Sep 17 (from the sub-issues)
 End: Nov 6 (from the sub-issues)
-Sub-issues: 2 of 4 completed</title><path d="M399.3,76V66H1067.6V76L1061.6,71H405.3Z" fill="#24292f"/></a>
+Sub-issues: 2 of 4 completed</title><path d="M399.3,77V65H1067.6V77L1061.6,72H405.3Z" fill="#54aeff" fill-opacity="0.3" stroke="#54aeff"/><rect x="399.3" y="65" width="334.1" height="7" fill="#54aeff"/><path d="M399.3,77V65H1067.6V77L1061.6,72H405.3Z" fill="none" stroke="#54aeff"/></a>
 </g>
 <g class="tl-row" data-key="information-models#22" data-parent="information-models#6" data-y="84" data-state="done" data-people="KjerstiSteien">
 <a href="https://github.com/samt-x/information-models/issues/22" target="_blank"><title>information-models#22 Bruke MCP-server mot lovdata til å få KI til å hente ut lovpålagte tjenester knyttet til opplæring.
@@ -370,7 +370,7 @@ Sub-issues: 0 of 4 completed</title><text x="28" y="699.0"><tspan fill="#0969da"
 Ready
 Start: Nov 2 (from the sub-issues)
 End: Nov 6 (from the sub-issues)
-Sub-issues: 0 of 4 completed</title><path d="M1002.1,700V690H1067.6V700L1061.6,695H1008.1Z" fill="#24292f"/></a>
+Sub-issues: 0 of 4 completed</title><path d="M1002.1,701V689H1067.6V701L1061.6,696H1008.1Z" fill="#54aeff" fill-opacity="0.3" stroke="#54aeff"/><path d="M1002.1,701V689H1067.6V701L1061.6,696H1008.1Z" fill="none" stroke="#54aeff"/></a>
 </g>
 <g class="tl-row" data-key="information-models#13" data-parent="information-models#7" data-y="708" data-state="open" data-people="">
 <a href="https://github.com/samt-x/information-models/issues/13" target="_blank"><title>information-models#13 Publisere tjenestebeskrivelser i demomiljøet til data.norge.no
@@ -445,7 +445,7 @@ Duration: not set, assumed 5 working days</title><rect x="1002.1" y="818" width=
 <text x="618" y="900" fill="#24292f">✓</text><text x="644" y="900" fill="#24292f">Completed</text>
 <rect x="726" y="890" width="28" height="12" rx="3" fill="url(#tl6h)" stroke="#8c959f"/><text x="760" y="900" fill="#24292f">Hatched and ✕: closed without being done</text>
 <circle cx="28" cy="918" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="922" fill="#24292f">Ring: the dependency is described</text>
-<path d="M283,923V913H311V923L305,918H289Z" fill="#24292f"/><text x="317" y="922" fill="#24292f">Bracket: the sub-issues together</text>
+<path d="M283,924V912H311V924L305,919H289Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="283" y="912" width="10" height="7" fill="#1f6feb"/><text x="317" y="922" fill="#24292f">Bracket: the sub-issues (dark = completed, red border = delayed)</text>
 <text x="14" y="948" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/6" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Informasjonsmodeller</tspan></a>. 28 tasks have no Duration and are assumed to take one week.</text>
 </g>
 </svg>

@@ -190,7 +190,7 @@ Sub-issues: 0 of 1 completed</title><text x="28" y="335.0"><tspan fill="#0969da"
 In progress
 Start: Oct 30 (from the sub-issues)
 End: Nov 5 (from the sub-issues)
-Sub-issues: 0 of 1 completed</title><path d="M881.6,336V326H985.9V336L979.9,331H887.6Z" fill="#24292f"/></a>
+Sub-issues: 0 of 1 completed</title><path d="M881.6,337V325H985.9V337L979.9,332H887.6Z" fill="#1f6feb" fill-opacity="0.3" stroke="#1f6feb"/><path d="M881.6,337V325H985.9V337L979.9,332H887.6Z" fill="none" stroke="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#72" data-parent="samt-bu-architecture#19" data-y="344" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/72" target="_blank"><title>samt-bu-common-tasks#72 Data.Altinn.no som mulighet til å løse utvalgte case(r). (Arbeidsmøte)
@@ -247,7 +247,7 @@ Sub-issues: 0 of 1 completed</title><text x="28" y="465.0"><tspan fill="#0969da"
 In progress
 Start: Nov 2 (from the sub-issues)
 End: Nov 6 (from the sub-issues)
-Sub-issues: 0 of 1 completed</title><path d="M926.3,466V456H1000.8V466L994.8,461H932.3Z" fill="#24292f"/></a>
+Sub-issues: 0 of 1 completed</title><path d="M926.3,467V455H1000.8V467L994.8,462H932.3Z" fill="#1f6feb" fill-opacity="0.3" stroke="#1f6feb"/><path d="M926.3,467V455H1000.8V467L994.8,462H932.3Z" fill="none" stroke="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#33" data-parent="samt-bu-architecture#18" data-y="474" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/33" target="_blank"><title>samt-bu-architecture#33 Skills dataspace rulebook
@@ -368,7 +368,7 @@ Sub-issues: 0 of 1 completed</title><text x="28" y="725.0"><tspan fill="#0969da"
 Done (closed: completed)
 Start: Nov 2 (from the sub-issues)
 End: Nov 6 (from the sub-issues)
-Sub-issues: 0 of 1 completed</title><path d="M926.3,726V716H1000.8V726L994.8,721H932.3Z" fill="#24292f"/></a>
+Sub-issues: 0 of 1 completed</title><path d="M926.3,727V715H1000.8V727L994.8,722H932.3Z" fill="#8c959f" stroke="#8c959f"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#78" data-parent="samt-bu-common-tasks#77" data-y="734" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/78" target="_blank"><title>samt-bu-common-tasks#78 skrive
@@ -417,7 +417,7 @@ End: Nov 10 (Due date)</title><rect x="941.2" y="792" width="119.2" height="14" 
 <text x="618" y="874" fill="#24292f">✓</text><text x="644" y="874" fill="#24292f">Completed</text>
 <rect x="726" y="864" width="28" height="12" rx="3" fill="url(#tl5h)" stroke="#8c959f"/><text x="760" y="874" fill="#24292f">Hatched and ✕: closed without being done</text>
 <circle cx="28" cy="892" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="48" y="896" fill="#24292f">Ring: the dependency is described</text>
-<path d="M283,897V887H311V897L305,892H289Z" fill="#24292f"/><text x="317" y="896" fill="#24292f">Bracket: the sub-issues together</text>
+<path d="M283,898V886H311V898L305,893H289Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="283" y="886" width="10" height="7" fill="#1f6feb"/><text x="317" y="896" fill="#24292f">Bracket: the sub-issues (dark = completed, red border = delayed)</text>
 <text x="14" y="922" fill="#57606a" font-size="11">Generated 2026-11-02 from<a href="https://github.com/orgs/samt-x/projects/5" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU rammeverk og generisk arkitektur</tspan></a>. 20 tasks have no Duration and are assumed to take one week.</text>
 </g>
 </svg>
