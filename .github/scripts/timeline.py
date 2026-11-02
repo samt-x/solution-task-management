@@ -80,13 +80,14 @@ TEXT = {
            'late_s': 'Sen start: skulle startet {d}', 'late_e': 'Forsinket: skulle vært ferdig {d}',
            'forecast': 'Prognose: ferdig {f}, {n} arbeidsdager etter fristen {d}',
            'made': 'Generert {d} fra', 'empty': 'Ingen oppgaver på brettet ennå.',
-           'legend_why': 'Ring: avhengigheten er beskrevet', 'legend_kids': 'Klamme: sub-issuene samlet',
+           'legend_why': 'Ring: avhengigheten er beskrevet', 'legend_kids': 'Klamme: sub-issuene (mørk = ferdige, rød kant = forsinket)',
            'start': 'Start', 'end': 'Slutt',
            'src': {'actual_s': 'startet (In progress)', 'actual_e': 'ferdig', 'set_s': 'Start date', 'set_e': 'Due date',
                    'due': 'regnet fra slutt og varighet', 'deps': 'etter oppgavene den venter på',
                    'today': 'ikke planlagt, fra i dag', 'start': 'regnet fra start og varighet',
                    'running': 'pågår, forlenget til i dag', 'kids': 'fra sub-issuene'},
            'subs': 'Sub-issues: {c} av {t} ferdige', 'fold': 'Fold sub-issuene inn eller ut',
+           'kids_late': 'Minst én sub-issue er forsinket',
            'duration': 'Varighet: {n} arbeidsdager', 'no_duration': 'Varighet: ikke satt, antatt {n} arbeidsdager',
            'waits_for': 'venter på', 'why': 'Hvorfor',
            'no_why': 'Ikke beskrevet. Skriv en linje under overskriften Avhengigheter i {o}.',
@@ -109,13 +110,14 @@ TEXT = {
            'late_s': 'Late start: should have started {d}', 'late_e': 'Overdue: should have been finished {d}',
            'forecast': 'Forecast: finished {f}, {n} working days after the due date {d}',
            'made': 'Generated {d} from', 'empty': 'No tasks on the board yet.',
-           'legend_why': 'Ring: the dependency is described', 'legend_kids': 'Bracket: the sub-issues together',
+           'legend_why': 'Ring: the dependency is described', 'legend_kids': 'Bracket: the sub-issues (dark = completed, red border = delayed)',
            'start': 'Start', 'end': 'End',
            'src': {'actual_s': 'started (In progress)', 'actual_e': 'finished', 'set_s': 'Start date', 'set_e': 'Due date',
                    'due': 'calculated from end and duration', 'deps': 'after the tasks it waits for',
                    'today': 'not planned, from today', 'start': 'calculated from start and duration',
                    'running': 'still in progress, extended to today', 'kids': 'from the sub-issues'},
            'subs': 'Sub-issues: {c} of {t} completed', 'fold': 'Collapse or expand the sub-issues',
+           'kids_late': 'At least one sub-issue is delayed',
            'duration': 'Duration: {n} working days', 'no_duration': 'Duration: not set, assumed {n} working days',
            'waits_for': 'waits for', 'why': 'Why',
            'no_why': 'Not described. Write a line under the heading Avhengigheter (Dependencies) in {o}.',
@@ -504,6 +506,8 @@ def svg(number, title, url, tasks, lang, today):
             tip.append(t['no_duration'].format(n=o['days']))
         if o.get('subs'):
             tip.append(t['subs'].format(c=o['subs'][0], t=o['subs'][1]))
+        if o['kids'] and not o['closed'] and any(is_late(k) for k in o['kids']):
+            tip.append(t['kids_late'])
         if o['late_s']:
             tip.append(t['late_s'].format(d=fmt(o['late_s'], lang)))
         if o['late_e']:
@@ -540,9 +544,24 @@ def svg(number, title, url, tasks, lang, today):
         x1, x2 = x(s), x(d) + px
         firm = o['s_src'] in ('actual_s', 'set_s') and o['e_src'] in ('actual_e', 'set_e')
         edge = AMBER if o['late_s'] else color
-        if o['kids']:   # klamme fra første start til siste slutt blant barna, prognosen medregnet
+        if o['kids']:
+            # Klamme fra første start til siste slutt blant barna, prognosen medregnet. Fargen er forelderens status
+            # (grå når lukket, skravert når avbrutt), den mørke delen er andelen ferdige sub-issues, og rød kant betyr
+            # at minst én sub-issue er forsinket – synlig også når gruppen er foldet inn (#44).
             x2 = x(o['f']) + px
-            bar = [f'<path d="M{x1:.1f},{y + 18}V{y + 8}H{x2:.1f}V{y + 18}L{x2 - 6:.1f},{y + 13}H{x1 + 6:.1f}Z" fill="#24292f"/>']
+            shape = f'M{x1:.1f},{y + 19}V{y + 7}H{x2:.1f}V{y + 19}L{x2 - 6:.1f},{y + 14}H{x1 + 6:.1f}Z'
+            late_kids = not o['closed'] and any(is_late(k) for k in o['kids'])
+            line = f'stroke="{LATE}" stroke-width="2"' if late_kids else f'stroke="{color}"'
+            c, n = o.get('subs') or [0, 0]
+            if dropped:
+                bar = [f'<path d="{shape}" fill="url(#{mh})" stroke="{CLOSED}"/>']
+            elif o['closed']:
+                bar = [f'<path d="{shape}" fill="{CLOSED}" stroke="{CLOSED}"/>']
+            else:
+                bar = [f'<path d="{shape}" fill="{color}" fill-opacity="0.3" {line}/>']
+                if n and c:
+                    bar.append(f'<rect x="{x1:.1f}" y="{y + 7}" width="{(x2 - x1) * c / n:.1f}" height="7" fill="{color}"/>')
+                bar.append(f'<path d="{shape}" fill="none" {line}/>')   # kanten over fyllingen
         elif dropped:   # skravert, uten mørk del: det som var planlagt, ble ikke gjort
             bar = [f'<rect x="{x1:.1f}" y="{y + 6}" width="{x2 - x1:.1f}" height="{ROW_H - 12}" rx="4" '
                    f'fill="url(#{mh})" stroke="{CLOSED}"/>']
@@ -637,7 +656,9 @@ def svg(number, title, url, tasks, lang, today):
                                          f'<rect x="{lx + 14}" y="{ly - 6}" width="14" height="12" fill="{LATE}" fill-opacity="0.25" '
                                          f'stroke="{LATE}" stroke-dasharray="4 3"/>'),
               'why': lambda lx, ly: f'<circle cx="{lx + 14}" cy="{ly}" r="3.2" fill="#ffffff" stroke="{ARROW}" stroke-width="1.5"/>',
-              'kids': lambda lx, ly: f'<path d="M{lx},{ly + 5}V{ly - 5}H{lx + 28}V{ly + 5}L{lx + 22},{ly}H{lx + 6}Z" fill="#24292f"/>'}
+              'kids': lambda lx, ly: (f'<path d="M{lx},{ly + 6}V{ly - 6}H{lx + 28}V{ly + 6}L{lx + 22},{ly + 1}H{lx + 6}Z" '
+                                      f'fill="#1f6feb" fill-opacity="0.3" stroke="{LATE}" stroke-width="2"/>'
+                                      f'<rect x="{lx}" y="{ly - 6}" width="10" height="7" fill="#1f6feb"/>')}
     for kind, text, lx, dy in places:
         ly = legend_y + dy
         lx = round(lx)
