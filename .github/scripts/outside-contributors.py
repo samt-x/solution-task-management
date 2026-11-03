@@ -76,6 +76,11 @@ def gh(*args, check=True):
 members = {m['login'] for m in pages('''query($after:String){organization(login:"samt-x"){membersWithRole(first:100,after:$after){
     pageInfo{hasNextPage endCursor} nodes{login}}}}''', ['organization', 'membersWithRole'], allow_errors=True)}
 print(f'{len(members)} medlemmer synlige for tokenen')
+# Uten lesetilgang til medlemmene skjuler GitHub private medlemskap også i authorAssociation,
+# så alle med privat medlemskap ville sett ut som om de var utenfor orgen. Appen trenger Members: read.
+if not members:
+    print('::warning::Tokenen ser ingen medlemmer i orgen (mangler Members: read). Issuet oppdateres ikke.')
+    sys.exit(0)
 
 # 2. Offentlige repoer
 repos = [r['name'] for r in pages('''query($after:String){organization(login:"samt-x"){repositories(first:100,after:$after){
