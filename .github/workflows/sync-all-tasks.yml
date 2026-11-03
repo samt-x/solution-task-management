@@ -1,6 +1,7 @@
 name: Sync All tasks
 
-# Fyller samlebrettet «SAMT-BU Overview – All tasks» (Project 12) fra alle offentlige repoer.
+# Fyller samlebrettet «SAMT-BU Overview – All tasks» (Project 12) fra alle offentlige repoer,
+# og holder issuet «Bidragsytere utenfor orgen (N)» oppdatert (#49).
 # Kjører bare etter tidsplan og manuelt – aldri på pull requests, så secrets ikke
 # kan nås fra forks. Token lages per kjøring fra appen SAMT-BU Task sync.
 
@@ -42,13 +43,22 @@ jobs:
           GH_TOKEN: ${{ steps.app.outputs.token }}
         run: python3 .github/scripts/sync-all-tasks.py ${{ inputs.dry_run && '--dry-run' || '' }}
 
+      # Kontoer utenfor orgen med bidrag → issuet «Bidragsytere utenfor orgen (N)» (#49).
+      # Appens token leser (ser private medlemskap), GITHUB_TOKEN skriver issuet.
+      - name: Bidragsytere utenfor orgen
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+          GH_WRITE_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/outside-contributors.py ${{ !inputs.dry_run && '--update' || '' }}
+
       # Feil meldes som issue, som lukkes ved neste vellykkede kjøring (se workflow-alert.py)
       - name: Meld feil som issue
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-        run: python3 .github/scripts/workflow-alert.py fail "Sync All tasks" "samlebrettet (Project 12)"
+        run: python3 .github/scripts/workflow-alert.py fail "Sync All tasks" "samlebrettet (Project 12) eller lista over bidragsytere utenfor orgen"
 
       - name: Lukk feilmelding
         if: success()
