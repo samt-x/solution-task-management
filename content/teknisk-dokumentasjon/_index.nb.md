@@ -43,12 +43,12 @@ Workflowen som fyller samlebrettet (Project 12), logger inn som GitHub-appen **S
 
 | | |
 |---|---|
-| Tilganger | Lese issues og metadata. Lese og skrive organisasjonsprosjekter. Ingen tilgang til kode. |
+| Tilganger | Lese issues og metadata. Lese og skrive organisasjonsprosjekter. Lese medlemmene i organisasjonen (fra november 2026, for [Bidragsytere utenfor orgen](#bidragsytere-utenfor-orgen)). Ingen tilgang til kode. |
 | Nøkkel | Privat nøkkel som repo-secret `TASK_SYNC_PRIVATE_KEY` i solution-task-management. Appens Client ID står i workflowen. En kopi av nøkkelen ligger i Bitwarden hos prosjektlederen. |
 | Token | Lages på nytt ved hver kjøring og varer i én time. |
 | Kjøring | Bare etter tidsplan og manuelt, aldri fra pull requests. Secrets sendes ikke til workflows fra forks. |
 
-**Risiko:** Lekker nøkkelen, kan den brukes til å endre eller slette brett i organisasjonen, men ikke kode eller issues. Brettene kan bygges opp igjen fra issuene, men statuser og felt kan gå tapt. Sannsynligheten er lav, fordi nøkkelen bare finnes i GitHub-secreten og i Bitwarden.
+**Risiko:** Lekker nøkkelen, kan den brukes til å endre eller slette brett i organisasjonen, men ikke kode eller issues. Den kan også vise hvem som er medlem, også dem som har valgt å skjule medlemskapet. Brettene kan bygges opp igjen fra issuene, men statuser og felt kan gå tapt. Sannsynligheten er lav, fordi nøkkelen bare finnes i GitHub-secreten og i Bitwarden.
 
 **Ved mistanke om lekkasje:** Gå til appens side under organisasjonens Settings → Developer settings → GitHub Apps → SAMT-BU Task sync → Credentials → Key pairs. Lag en ny nøkkel, legg den inn i secreten og i Bitwarden, og slett den gamle.
 
@@ -90,13 +90,23 @@ Eksemplene som brukes i dokumentasjonen, ligger i repoet [solution-task-manageme
 
 **Nytt eksempel:** lag issuet i eksempelrepoet med linjen «Eksempel, ikke en oppgave» først, legg det på brettet, gi det merkelappen for situasjonen (example/…), og legg inn nummeret med forskyvninger i example-dates.json. **Ny situasjon:** lag merkelappen example/<situasjon> i eksempelrepoet, gi eksemplene den, og legg et underkapittel med inline-svg "example-<situasjon>-nb.svg" (og -en) under Eksempler på siden Tidslinje. Figuren kommer ved neste kjøring. Bakgrunn: [solution-task-management#40](https://github.com/samt-x/solution-task-management/issues/40).
 
+## Bidragsytere utenfor orgen
+
+Skriptet .github/scripts/outside-contributors.py finner kontoer som har laget en PR, et issue, en kommentar eller en review i et offentlig repo i samt-x, uten å være medlem av orgen eller ha tilgang til repoet (authorAssociation OWNER, MEMBER eller COLLABORATOR). Boter og Eriks testkontoer (IGNORE) er ikke med. Workflowen Sync All tasks kjører det hver time med --update, og holder da issuet «Bidragsytere utenfor orgen (N)» i solution-task-management oppdatert ([solution-task-management#50](https://github.com/samt-x/solution-task-management/issues/50)). N er antallet til vurdering. Uten --update skrives bare lista ut. Det brukes ved sesjonsstart i Claude Code (outside-contributors.sh i workspace-roten).
+
+**Avkrysning er tilstanden.** Den som har vurdert en konto, krysser den av i issuet. Skriptet leser avkrysningene og flytter kontoen til Vurdert, så den ikke dukker opp igjen. Kontoer som blir medlemmer, forsvinner fra lista. Issuet endres bare når lista er endret. Ny konto til vurdering gir en kommentar, så de som følger issuet, får varsel. Issuet har bare login og lenker til bidragene, som alt er offentlige. Navn og firma hører hjemme i medlemslista, som er privat.
+
+**Lesingen bruker appen,** fordi den kan lese medlemmene. Uten den tilgangen skjuler GitHub private medlemskap også i authorAssociation, og alle med privat medlemskap ser ut som om de er utenfor orgen. Skriptet stopper derfor uten å skrive når tokenen ikke ser noen medlemmer. Issuet skrives med workflowens egen token (GITHUB_TOKEN).
+
+Arbeidsflyten for å vurdere og gi tilgang: [solution-task-management#49](https://github.com/samt-x/solution-task-management/issues/49).
+
 ## Planlagte kjøringer
 
 Tre workflows i solution-task-management kjører etter tidsplan:
 
 | Workflow | Når | Hva den oppdaterer |
 |---|---|---|
-| [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) | 17 minutter over hver time | Samlebrettet (Project 12) |
+| [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) | 17 minutter over hver time | Samlebrettet (Project 12) og issuet Bidragsytere utenfor orgen |
 | [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) | 17 minutter over hver time | Tidslinjene på docs, og datoene på eksempelbrettet |
 | [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) | 47 minutter over hver time | Statushistorikken i status/ |
 

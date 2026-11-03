@@ -43,12 +43,12 @@ The workflow that fills the aggregate board (Project 12) signs in as the GitHub 
 
 | | |
 |---|---|
-| Permissions | Read issues and metadata. Read and write organisation projects. No access to code. |
+| Permissions | Read issues and metadata. Read and write organisation projects. Read the members of the organisation (from November 2026, for [Contributors outside the organisation](#contributors-outside-the-organisation)). No access to code. |
 | Key | Private key as the repository secret `TASK_SYNC_PRIVATE_KEY` in solution-task-management. The app's Client ID is in the workflow. A copy of the key is kept in the project manager's Bitwarden. |
 | Token | Created anew on every run and valid for one hour. |
 | Runs | Only on schedule and manually, never from pull requests. Secrets are not passed to workflows from forks. |
 
-**Risk:** If the key leaks, it can be used to change or delete boards in the organisation, but not code or issues. The boards can be rebuilt from the issues, but statuses and fields may be lost. The likelihood is low, because the key only exists in the GitHub secret and in Bitwarden.
+**Risk:** If the key leaks, it can be used to change or delete boards in the organisation, but not code or issues. It can also show who is a member, including those who have chosen to hide their membership. The boards can be rebuilt from the issues, but statuses and fields may be lost. The likelihood is low, because the key only exists in the GitHub secret and in Bitwarden.
 
 **If a leak is suspected:** Go to the app's page under the organisation's Settings → Developer settings → GitHub Apps → SAMT-BU Task sync → Credentials → Key pairs. Create a new key, put it in the secret and in Bitwarden, and delete the old one.
 
@@ -90,13 +90,23 @@ The examples used in the documentation live in the repository [solution-task-man
 
 **New example:** create the issue in the example repository with the line «Eksempel, ikke en oppgave» (example, not a task) first, add it to the board, give it the label for the situation (example/…), and add its number with offsets to example-dates.json. **New situation:** create the label example/<situation> in the example repository, give it to the examples, and add a subsection with inline-svg "example-<situation>-en.svg" (and -nb) under Examples on the page Timeline. The chart appears on the next run. Background: [solution-task-management#40](https://github.com/samt-x/solution-task-management/issues/40).
 
+## Contributors outside the organisation
+
+The script .github/scripts/outside-contributors.py finds accounts that have created a PR, an issue, a comment or a review in a public samt-x repository without being a member of the organisation or having access to the repository (authorAssociation OWNER, MEMBER or COLLABORATOR). Bots and Erik's test accounts (IGNORE) are left out. The workflow Sync All tasks runs it every hour with --update, keeping the issue «Bidragsytere utenfor orgen (N)» (contributors outside the organisation) in solution-task-management up to date ([solution-task-management#50](https://github.com/samt-x/solution-task-management/issues/50)). N is the number to be assessed. Without --update it only prints the list. That is used at session start in Claude Code (outside-contributors.sh in the workspace root).
+
+**The checkboxes are the state.** Whoever has assessed an account ticks it in the issue. The script reads the ticks and moves the account to Vurdert (assessed), so it does not come back. Accounts that become members drop off the list. The issue is only changed when the list has changed. A new account to assess gives a comment, so those following the issue are notified. The issue only has the login and links to the contributions, which are already public. Name and company belong in the member list, which is private.
+
+**Reading uses the app,** because it can read the members. Without that permission GitHub also hides private memberships in authorAssociation, and everyone with a private membership looks as if they are outside the organisation. The script therefore stops without writing when the token sees no members. The issue is written with the workflow's own token (GITHUB_TOKEN).
+
+The workflow for assessing and granting access: [solution-task-management#49](https://github.com/samt-x/solution-task-management/issues/49).
+
 ## Scheduled runs
 
 Three workflows in solution-task-management run on a schedule:
 
 | Workflow | When | What it updates |
 |---|---|---|
-| [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) | 17 minutes past every hour | The aggregate board (Project 12) |
+| [Sync All tasks](https://github.com/samt-x/solution-task-management/actions/workflows/sync-all-tasks.yml) | 17 minutes past every hour | The aggregate board (Project 12) and the issue Contributors outside the organisation |
 | [Timeline](https://github.com/samt-x/solution-task-management/actions/workflows/timeline.yml) | 17 minutes past every hour | The timelines on docs, and the dates on the example board |
 | [Snapshot status](https://github.com/samt-x/solution-task-management/actions/workflows/snapshot-status.yml) | 47 minutes past every hour | The status history in status/ |
 
