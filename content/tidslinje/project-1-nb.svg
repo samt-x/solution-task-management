@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1769" height="900" viewBox="0 0 1769 900" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#84" data-tl-top="58" data-tl-rowh="26" data-tl-rows="29" data-tl-pad="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="1774" height="900" viewBox="0 0 1774 900" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#84" data-tl-top="58" data-tl-rowh="26" data-tl-rows="29" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl1r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl1h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
-<rect width="1769" height="900" fill="#ffffff"/>
-<rect class="tl-stripe" data-i="1" x="0" y="84" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="3" x="0" y="136" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="5" x="0" y="188" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="7" x="0" y="240" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="9" x="0" y="292" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="11" x="0" y="344" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="13" x="0" y="396" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="15" x="0" y="448" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="17" x="0" y="500" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="19" x="0" y="552" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="21" x="0" y="604" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="23" x="0" y="656" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="25" x="0" y="708" width="1769" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="27" x="0" y="760" width="1769" height="26" fill="#f6f8fa"/>
+<rect width="1774" height="900" fill="#ffffff"/>
+<rect class="tl-stripe" data-i="1" x="0" y="84" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="3" x="0" y="136" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="5" x="0" y="188" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="7" x="0" y="240" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="9" x="0" y="292" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="11" x="0" y="344" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="13" x="0" y="396" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="15" x="0" y="448" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="17" x="0" y="500" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="19" x="0" y="552" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="21" x="0" y="604" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="23" x="0" y="656" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="25" x="0" y="708" width="1774" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="27" x="0" y="760" width="1774" height="26" fill="#f6f8fa"/>
 <rect class="tl-vh" x="360.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">feb 2026</text>
 <line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="812" stroke="#d0d7de"/>
@@ -155,7 +155,8 @@
 <rect class="tl-vh" x="1720.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <rect class="tl-vh" x="1725.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
 <text x="1732.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
-<line x1="0" y1="57.5" x2="1769" y2="57.5" stroke="#d0d7de"/>
+<rect class="tl-vh" x="1755.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<line x1="0" y1="57.5" x2="1774" y2="57.5" stroke="#d0d7de"/>
 <line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="812" stroke="#d0d7de"/>
 <g class="tl-row" data-key="samt-bu-pilot-1#13" data-parent="" data-y="58" data-state="done" data-people="Anamarija-Carotta">
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/13" target="_blank"><title>samt-bu-pilot-1#13 Tegne opp brukerreise og painpoints for overføring av elevliste fra ungdomsskole til videregående skole
@@ -224,13 +225,13 @@ Slutt: 27.4. (ferdig)</title><rect x="375.0" y="194" width="380.0" height="14" r
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/9" target="_blank"><title>samt-bu-pilot-1#9 Definere juridiske begrensninger og handlingsrom for MVP
 In review
 Start: 18.2. (startet (In progress))
-Slutt: 3.11. (pågår, forlenget til i dag)
+Slutt: 4.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="231.0"><tspan fill="#0969da">Definere juridiske begrensninger og handlings…</tspan><tspan dx="5" fill="#57606a" font-size="11">#9</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/9" target="_blank"><title>samt-bu-pilot-1#9 Definere juridiske begrensninger og handlingsrom for MVP
 In review
 Start: 18.2. (startet (In progress))
-Slutt: 3.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="410.0" y="220" width="1295.0" height="14" rx="4" fill="#8250df" fill-opacity="0.12" stroke="#8250df" stroke-dasharray="4 3"/><rect x="410.0" y="220" width="1295.0" height="14" rx="4" fill="#8250df"/></a>
+Slutt: 4.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="410.0" y="220" width="1300.0" height="14" rx="4" fill="#8250df" fill-opacity="0.12" stroke="#8250df" stroke-dasharray="4 3"/><rect x="410.0" y="220" width="1300.0" height="14" rx="4" fill="#8250df"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-1#18" data-parent="" data-y="240" data-state="done" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/18" target="_blank"><title>samt-bu-pilot-1#18 Drømmereise
@@ -256,13 +257,13 @@ Slutt: 9.3. (ferdig)</title><rect x="435.0" y="272" width="75.0" height="14" rx=
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/10" target="_blank"><title>samt-bu-pilot-1#10 Forberede ROS-analyse
 In progress
 Start: 23.2. (startet (In progress))
-Slutt: 3.11. (pågår, forlenget til i dag)
+Slutt: 4.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="309.0"><tspan fill="#0969da">Forberede ROS-analyse</tspan><tspan dx="5" fill="#57606a" font-size="11">#10</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/10" target="_blank"><title>samt-bu-pilot-1#10 Forberede ROS-analyse
 In progress
 Start: 23.2. (startet (In progress))
-Slutt: 3.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="435.0" y="298" width="1270.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="435.0" y="298" width="1270.0" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 4.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="435.0" y="298" width="1275.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="435.0" y="298" width="1275.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-1#14" data-parent="" data-y="318" data-state="done" data-people="Anamarija-Carotta">
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/14" target="_blank"><title>samt-bu-pilot-1#14 TO-BE brukerreise
@@ -398,13 +399,13 @@ Slutt: 20.4. (ferdig)</title><rect x="700.0" y="636" width="20.0" height="14" rx
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/29" target="_blank"><title>samt-bu-pilot-1#29 Gjennomføre AS IS intervju med Bergen kommune skoleeier
 In progress
 Start: 23.10. (startet (In progress))
-Slutt: 3.11. (pågår, forlenget til i dag)
+Slutt: 4.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="673.0"><tspan fill="#0969da">Gjennomføre AS IS intervju med Bergen kommune…</tspan><tspan dx="5" fill="#57606a" font-size="11">#29</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/29" target="_blank"><title>samt-bu-pilot-1#29 Gjennomføre AS IS intervju med Bergen kommune skoleeier
 In progress
 Start: 23.10. (startet (In progress))
-Slutt: 3.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1645.0" y="662" width="60.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="1645.0" y="662" width="60.0" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 4.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1645.0" y="662" width="65.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="1645.0" y="662" width="65.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-1#30" data-parent="" data-y="682" data-state="open" data-people="hannefinnoy">
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/30" target="_blank"><title>samt-bu-pilot-1#30 Brukerreise: Gjennomføre AS IS intervju med Novari inntak
@@ -416,65 +417,65 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="699.0"><tspan 
 In progress
 Start: 2.11. (startet (In progress))
 Slutt: 6.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1695.0" y="688" width="25.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="1695.0" y="688" width="10.0" height="14" rx="4" fill="#1f6feb"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1695.0" y="688" width="25.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="1695.0" y="688" width="15.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#81" data-parent="" data-y="708" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/81" target="_blank"><title>samt-bu-common-tasks#81 Brukerreise: Gjennomføre AS IS intervju med skoleleder grunnskole
 To do
-Start: 3.11. (ikke planlagt, fra i dag)
-Slutt: 9.11. (regnet fra start og varighet)
+Start: 4.11. (ikke planlagt, fra i dag)
+Slutt: 10.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="725.0"><tspan fill="#0969da">Brukerreise: Gjennomføre AS IS intervju med s…</tspan><tspan dx="5" fill="#57606a" font-size="11">#81</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/81" target="_blank"><title>samt-bu-common-tasks#81 Brukerreise: Gjennomføre AS IS intervju med skoleleder grunnskole
 To do
-Start: 3.11. (ikke planlagt, fra i dag)
-Slutt: 9.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1700.0" y="714" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 4.11. (ikke planlagt, fra i dag)
+Slutt: 10.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1705.0" y="714" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#82" data-parent="" data-y="734" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/82" target="_blank"><title>samt-bu-common-tasks#82 Samkjøre oss mot moderniseringsprosjekt Novari
 To do
-Start: 3.11. (ikke planlagt, fra i dag)
-Slutt: 9.11. (regnet fra start og varighet)
+Start: 4.11. (ikke planlagt, fra i dag)
+Slutt: 10.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="751.0"><tspan fill="#0969da">Samkjøre oss mot moderniseringsprosjekt Novari</tspan><tspan dx="5" fill="#57606a" font-size="11">#82</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/82" target="_blank"><title>samt-bu-common-tasks#82 Samkjøre oss mot moderniseringsprosjekt Novari
 To do
-Start: 3.11. (ikke planlagt, fra i dag)
-Slutt: 9.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1700.0" y="740" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 4.11. (ikke planlagt, fra i dag)
+Slutt: 10.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1705.0" y="740" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#83" data-parent="" data-y="760" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/83" target="_blank"><title>samt-bu-common-tasks#83 Utvikle en skisse til drømmereise
 To do
-Start: 3.11. (ikke planlagt, fra i dag)
-Slutt: 9.11. (regnet fra start og varighet)
+Start: 4.11. (ikke planlagt, fra i dag)
+Slutt: 10.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="777.0"><tspan fill="#0969da">Utvikle en skisse til drømmereise</tspan><tspan dx="5" fill="#57606a" font-size="11">#83</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/83" target="_blank"><title>samt-bu-common-tasks#83 Utvikle en skisse til drømmereise
 To do
-Start: 3.11. (ikke planlagt, fra i dag)
-Slutt: 9.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1700.0" y="766" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 4.11. (ikke planlagt, fra i dag)
+Slutt: 10.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1705.0" y="766" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#84" data-parent="" data-y="786" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/84" target="_blank"><title>samt-bu-common-tasks#84 Datamodell
 Proposed
-Start: 3.11. (ikke planlagt, fra i dag)
-Slutt: 9.11. (regnet fra start og varighet)
+Start: 4.11. (ikke planlagt, fra i dag)
+Slutt: 10.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="803.0"><tspan fill="#0969da">Datamodell</tspan><tspan dx="5" fill="#57606a" font-size="11">#84</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/84" target="_blank"><title>samt-bu-common-tasks#84 Datamodell
 Proposed
-Start: 3.11. (ikke planlagt, fra i dag)
-Slutt: 9.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1700.0" y="792" width="35.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 4.11. (ikke planlagt, fra i dag)
+Slutt: 10.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1705.0" y="792" width="35.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
-<line class="tl-vy2" data-dy="4" x1="1702.5" y1="58" x2="1702.5" y2="816" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="1707.5" y1="58" x2="1707.5" y2="816" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="1702.5" y="827" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<text x="1707.5" y="827" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <rect x="14" y="842" width="28" height="12" rx="3" fill="#8c959f"/><text x="48" y="852" fill="#24292f">Mørk: har skjedd</text>
 <rect x="174" y="842" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="208" y="852" fill="#24292f">Stiplet: beregnet eller antatt</text>
 <text x="432" y="852" fill="#24292f">✓</text><text x="458" y="852" fill="#24292f">Fullført</text>
 <path d="M534,854V842H562V854L556,849H540Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="534" y="842" width="10" height="7" fill="#1f6feb"/><text x="568" y="852" fill="#24292f">Klamme: sub-issuene samlet (rød kant: én er forsinket)</text>
 <text x="941" y="853" fill="#57606a" font-size="15">▾ ▸</text><text x="971" y="852" fill="#24292f">Fold sub-issuene inn og ut</text>
 <rect x="1162" y="841" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="1196" y="852" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
-<text x="14" y="878" fill="#57606a" font-size="11">Generert 2026-11-03 fra<a href="https://github.com/orgs/samt-x/projects/1" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 1 – Overgang ungdomsskole videregående</tspan></a>. 8 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<text x="14" y="878" fill="#57606a" font-size="11">Generert 2026-11-04 fra<a href="https://github.com/orgs/samt-x/projects/1" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 1 – Overgang ungdomsskole videregående</tspan></a>. 8 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
