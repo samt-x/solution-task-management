@@ -98,7 +98,7 @@ In progress
 Start: 23.10. (fra sub-issuene)
 Slutt: 11.11. (fra sub-issuene)
 Sub-issues: 1 av 3 ferdige
-Minst én sub-issue er forsinket</title><path d="M439.4,103V91H666.3V103L660.3,98H445.4Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="439.4" y="91" width="56.7" height="7" fill="#1f6feb"/><rect x="541.5" y="91" width="45.4" height="7" fill="#1f6feb"/><path d="M439.4,103V91H666.3V103L660.3,98H445.4Z" fill="none" stroke="#cf222e" stroke-width="2"/></a>
+Minst én sub-issue er forsinket</title><path d="M439.4,103V91H666.3V103L660.3,98H445.4Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="439.4" y="91" width="56.7" height="7" fill="#1f6feb"/><rect x="541.5" y="91" width="56.7" height="7" fill="#1f6feb"/><path d="M439.4,103V91H666.3V103L660.3,98H445.4Z" fill="none" stroke="#cf222e" stroke-width="2"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#12" data-parent="solution-task-management-examples#11" data-y="110" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/12" target="_blank"><title>solution-task-management-examples#12 Eksempel K1: Rekruttere testpersoner
@@ -118,7 +118,7 @@ Slutt: 1.11. (Due date)
 Varighet: 4 arbeidsdager
 Sen start: skulle startet 27.10.
 Forsinket: skulle vært ferdig 1.11.
-Prognose: ferdig 9.11., 6 arbeidsdager etter fristen 1.11.
+Prognose: ferdig 10.11., 7 arbeidsdager etter fristen 1.11.
 Blokkerer: solution-task-management-examples#14</title><text x="42" y="153.0"><tspan fill="#0969da">Eksempel K2: Lage testmanus</tspan><tspan dx="5" fill="#57606a" font-size="11">#13</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/13" target="_blank"><title>solution-task-management-examples#13 Eksempel K2: Lage testmanus
 To do
@@ -127,8 +127,8 @@ Slutt: 1.11. (Due date)
 Varighet: 4 arbeidsdager
 Sen start: skulle startet 27.10.
 Forsinket: skulle vært ferdig 1.11.
-Prognose: ferdig 9.11., 6 arbeidsdager etter fristen 1.11.
-Blokkerer: solution-task-management-examples#14</title><rect x="484.8" y="142" width="68.1" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#bf8700"/><line x1="484.8" y1="159" x2="581.2" y2="159" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><rect x="552.8" y="142" width="34.0" height="14" fill="#cf222e"/><rect x="586.9" y="142" width="56.7" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
+Prognose: ferdig 10.11., 7 arbeidsdager etter fristen 1.11.
+Blokkerer: solution-task-management-examples#14</title><rect x="484.8" y="142" width="68.1" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#bf8700"/><line x1="484.8" y1="159" x2="592.5" y2="159" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><rect x="552.8" y="142" width="45.4" height="14" fill="#cf222e"/><rect x="598.2" y="142" width="56.7" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#14" data-parent="solution-task-management-examples#11" data-y="162" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/14" target="_blank"><title>solution-task-management-examples#14 Eksempel K3: Gjennomføre testene
@@ -140,7 +140,7 @@ Blokkert av: solution-task-management-examples#13</title><text x="42" y="179.0">
 In progress
 Start: 1.11. (startet (In progress))
 Slutt: 11.11. (Due date)
-Blokkert av: solution-task-management-examples#13</title><rect x="541.5" y="168" width="124.8" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="541.5" y="168" width="45.4" height="14" rx="4" fill="#1f6feb"/></a>
+Blokkert av: solution-task-management-examples#13</title><rect x="541.5" y="168" width="124.8" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="541.5" y="168" width="56.7" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#10" data-parent="" data-y="188" data-state="dropped" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/10" target="_blank"><title>solution-task-management-examples#10 Eksempel J: Pilotere i to kommuner
@@ -168,7 +168,7 @@ Start: 26.10. (startet (In progress))
 Slutt: 30.10. (Due date)
 Forsinket: skulle vært ferdig 30.10.
 Blokkert av: solution-task-management-examples#1
-Blokkerer: solution-task-management-examples#4, solution-task-management-examples#7</title><rect x="473.4" y="220" width="56.7" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="473.4" y="220" width="56.7" height="14" rx="4" fill="#1f6feb"/><rect x="530.1" y="220" width="56.7" height="14" fill="#cf222e"/></a>
+Blokkerer: solution-task-management-examples#4, solution-task-management-examples#7</title><rect x="473.4" y="220" width="56.7" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="473.4" y="220" width="56.7" height="14" rx="4" fill="#1f6feb"/><rect x="530.1" y="220" width="68.1" height="14" fill="#cf222e"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#9" data-parent="" data-y="240" data-state="open" data-late="1" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/9" target="_blank"><title>solution-task-management-examples#9 Eksempel I: Bestille testmiljø
@@ -177,14 +177,14 @@ Start: 28.10. (regnet fra slutt og varighet)
 Slutt: 6.11. (Due date)
 Varighet: 8 arbeidsdager
 Sen start: skulle startet 28.10.
-Prognose: ferdig 13.11., 5 arbeidsdager etter fristen 6.11.</title><text x="28" y="257.0"><tspan fill="#0969da">Eksempel I: Bestille testmiljø</tspan><tspan dx="5" fill="#57606a" font-size="11">#9</tspan></text></a>
+Prognose: ferdig 16.11., 6 arbeidsdager etter fristen 6.11.</title><text x="28" y="257.0"><tspan fill="#0969da">Eksempel I: Bestille testmiljø</tspan><tspan dx="5" fill="#57606a" font-size="11">#9</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/9" target="_blank"><title>solution-task-management-examples#9 Eksempel I: Bestille testmiljø
 To do
 Start: 28.10. (regnet fra slutt og varighet)
 Slutt: 6.11. (Due date)
 Varighet: 8 arbeidsdager
 Sen start: skulle startet 28.10.
-Prognose: ferdig 13.11., 5 arbeidsdager etter fristen 6.11.</title><rect x="496.1" y="246" width="113.4" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#bf8700" stroke-dasharray="4 3"/><line x1="496.1" y1="263" x2="581.2" y2="263" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><rect x="609.6" y="246" width="79.4" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
+Prognose: ferdig 16.11., 6 arbeidsdager etter fristen 6.11.</title><rect x="496.1" y="246" width="113.4" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#bf8700" stroke-dasharray="4 3"/><line x1="496.1" y1="263" x2="592.5" y2="263" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><rect x="609.6" y="246" width="113.4" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#3" data-parent="" data-y="266" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/3" target="_blank"><title>solution-task-management-examples#3 Eksempel C: Avklare juridiske spørsmål
@@ -198,7 +198,7 @@ In progress
 Start: 28.10. (startet (In progress))
 Slutt: 11.11. (Due date)
 Blokkert av: solution-task-management-examples#1
-Blokkerer: solution-task-management-examples#4, solution-task-management-examples#8</title><rect x="496.1" y="272" width="170.1" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="496.1" y="272" width="90.7" height="14" rx="4" fill="#1f6feb"/></a>
+Blokkerer: solution-task-management-examples#4, solution-task-management-examples#8</title><rect x="496.1" y="272" width="170.1" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="496.1" y="272" width="102.1" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#15" data-parent="" data-y="292" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/15" target="_blank"><title>solution-task-management-examples#15 Eksempel L: Intervjue fagfolk
@@ -210,7 +210,7 @@ Blokkerer: solution-task-management-examples#18, solution-task-management-exampl
 In progress
 Start: 30.10. (startet (In progress))
 Slutt: 6.11. (Due date)
-Blokkerer: solution-task-management-examples#18, solution-task-management-examples#16, solution-task-management-examples#17</title><rect x="518.8" y="298" width="90.7" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="518.8" y="298" width="68.1" height="14" rx="4" fill="#1f6feb"/></a>
+Blokkerer: solution-task-management-examples#18, solution-task-management-examples#16, solution-task-management-examples#17</title><rect x="518.8" y="298" width="90.7" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="518.8" y="298" width="79.4" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#4" data-parent="" data-y="318" data-state="open" data-late="1" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/4" target="_blank"><title>solution-task-management-examples#4 Eksempel D: Bygge prototype
@@ -228,35 +228,35 @@ Slutt: 20.11. (Due date)
 Sen start: skulle startet 30.10.
 Prognose: ferdig 3.12., 9 arbeidsdager etter fristen 20.11.
 Blokkert av: solution-task-management-examples#3, solution-task-management-examples#2
-Blokkerer: solution-task-management-examples#5</title><rect x="518.8" y="324" width="249.6" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#bf8700"/><line x1="518.8" y1="341" x2="581.2" y2="341" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><rect x="768.4" y="324" width="147.5" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
+Blokkerer: solution-task-management-examples#5</title><rect x="518.8" y="324" width="249.6" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#bf8700"/><line x1="518.8" y1="341" x2="592.5" y2="341" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><rect x="768.4" y="324" width="147.5" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
 </g>
-<g class="tl-row" data-key="solution-task-management-examples#7" data-parent="" data-y="344" data-state="open" data-people="">
-<a href="https://github.com/samt-x/solution-task-management-examples/issues/7" target="_blank"><title>solution-task-management-examples#7 Eksempel G: Dokumentere erfaringer
-To do
-Start: 5.11. (etter oppgavene den venter på)
-Slutt: 9.11. (regnet fra start og varighet)
-Varighet: 3 arbeidsdager
-Blokkert av: solution-task-management-examples#2</title><text x="28" y="361.0"><tspan fill="#0969da">⛔ Eksempel G: Dokumentere erfaringer</tspan><tspan dx="5" fill="#57606a" font-size="11">#7</tspan></text></a>
-<a href="https://github.com/samt-x/solution-task-management-examples/issues/7" target="_blank"><title>solution-task-management-examples#7 Eksempel G: Dokumentere erfaringer
-To do
-Start: 5.11. (etter oppgavene den venter på)
-Slutt: 9.11. (regnet fra start og varighet)
-Varighet: 3 arbeidsdager
-Blokkert av: solution-task-management-examples#2</title><rect x="586.9" y="350" width="56.7" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
-</g>
-<g class="tl-row" data-key="solution-task-management-examples#18" data-parent="" data-y="370" data-state="open" data-late="1" data-people="">
+<g class="tl-row" data-key="solution-task-management-examples#18" data-parent="" data-y="344" data-state="open" data-late="1" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/18" target="_blank"><title>solution-task-management-examples#18 Eksempel O: Lage presentasjon
 To do
 Start: 5.11. (Start date)
 Slutt: 11.11. (Due date)
 Prognose: ferdig 13.11., 2 arbeidsdager etter fristen 11.11.
-Blokkert av: solution-task-management-examples#15</title><text x="28" y="387.0"><tspan fill="#0969da">⛔ Eksempel O: Lage presentasjon</tspan><tspan dx="5" fill="#57606a" font-size="11">#18</tspan></text></a>
+Blokkert av: solution-task-management-examples#15</title><text x="28" y="361.0"><tspan fill="#0969da">⛔ Eksempel O: Lage presentasjon</tspan><tspan dx="5" fill="#57606a" font-size="11">#18</tspan></text></a>
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/18" target="_blank"><title>solution-task-management-examples#18 Eksempel O: Lage presentasjon
 To do
 Start: 5.11. (Start date)
 Slutt: 11.11. (Due date)
 Prognose: ferdig 13.11., 2 arbeidsdager etter fristen 11.11.
-Blokkert av: solution-task-management-examples#15</title><rect x="586.9" y="376" width="79.4" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#54aeff"/><rect x="666.3" y="376" width="22.7" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
+Blokkert av: solution-task-management-examples#15</title><rect x="586.9" y="350" width="79.4" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#54aeff"/><rect x="666.3" y="350" width="22.7" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
+</g>
+<g class="tl-row" data-key="solution-task-management-examples#7" data-parent="" data-y="370" data-state="open" data-people="">
+<a href="https://github.com/samt-x/solution-task-management-examples/issues/7" target="_blank"><title>solution-task-management-examples#7 Eksempel G: Dokumentere erfaringer
+To do
+Start: 6.11. (etter oppgavene den venter på)
+Slutt: 10.11. (regnet fra start og varighet)
+Varighet: 3 arbeidsdager
+Blokkert av: solution-task-management-examples#2</title><text x="28" y="387.0"><tspan fill="#0969da">⛔ Eksempel G: Dokumentere erfaringer</tspan><tspan dx="5" fill="#57606a" font-size="11">#7</tspan></text></a>
+<a href="https://github.com/samt-x/solution-task-management-examples/issues/7" target="_blank"><title>solution-task-management-examples#7 Eksempel G: Dokumentere erfaringer
+To do
+Start: 6.11. (etter oppgavene den venter på)
+Slutt: 10.11. (regnet fra start og varighet)
+Varighet: 3 arbeidsdager
+Blokkert av: solution-task-management-examples#2</title><rect x="598.2" y="376" width="56.7" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#16" data-parent="" data-y="396" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/16" target="_blank"><title>solution-task-management-examples#16 Eksempel M: Planlegge workshop
@@ -328,12 +328,12 @@ Slutt: 17.12. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager
 Blokkert av: solution-task-management-examples#5</title><rect x="995.2" y="506" width="79.4" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
-<a class="tl-dep" href="https://github.com/samt-x/solution-task-management-examples/issues/14" target="_blank" data-from="solution-task-management-examples#13" data-to="solution-task-management-examples#14" data-x1="643.6" data-x2="541.5"><title>solution-task-management-examples#14 Eksempel K3: Gjennomføre testene
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management-examples/issues/14" target="_blank" data-from="solution-task-management-examples#13" data-to="solution-task-management-examples#14" data-x1="654.9" data-x2="541.5"><title>solution-task-management-examples#14 Eksempel K3: Gjennomføre testene
 venter på solution-task-management-examples#13 Eksempel K2: Lage testmanus
 Hvorfor: testene trenger manuset
-Overlapp: 6 arbeidsdager (#13 slutter 9.11., #14 starter 1.11.)
+Overlapp: 7 arbeidsdager (#13 slutter 10.11., #14 starter 1.11.)
 Koblet 2.11. av erikhag1git
-Klikk for å åpne #14</title><path d="M643.6,149.0H651.6V162.0H531.5V175.0H540.5" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20r)"/><circle cx="651.6" cy="162.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M643.6,149.0H651.6V162.0H531.5V175.0H540.5" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+Klikk for å åpne #14</title><path d="M654.9,149.0H662.9V162.0H531.5V175.0H540.5" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20r)"/><circle cx="662.9" cy="162.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M654.9,149.0H662.9V162.0H531.5V175.0H540.5" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
 <a class="tl-dep" href="https://github.com/samt-x/solution-task-management-examples/issues/10" target="_blank" data-from="solution-task-management-examples#1" data-to="solution-task-management-examples#10" data-x1="450.7" data-x2="473.4"><title>solution-task-management-examples#10 Eksempel J: Pilotere i to kommuner
 venter på solution-task-management-examples#1 Eksempel A: Kartlegge behov
 Hvorfor: piloteringen skulle bygge på kartleggingen av behov
@@ -358,24 +358,24 @@ Hvorfor: prototypen kan ikke behandle personopplysninger før behandlingsgrunnla
 Overlapp: 9 arbeidsdager (#3 slutter 11.11., #4 starter 30.10.)
 Koblet 1.11. av erikhag1git
 Klikk for å åpne #4</title><path d="M666.3,279.0H674.3V318.0H508.8V331.0H517.8" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20r)"/><circle cx="674.3" cy="318.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M666.3,279.0H674.3V318.0H508.8V331.0H517.8" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a class="tl-dep" href="https://github.com/samt-x/solution-task-management-examples/issues/4" target="_blank" data-from="solution-task-management-examples#2" data-to="solution-task-management-examples#4" data-x1="586.9" data-x2="518.8"><title>solution-task-management-examples#4 Eksempel D: Bygge prototype
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management-examples/issues/4" target="_blank" data-from="solution-task-management-examples#2" data-to="solution-task-management-examples#4" data-x1="598.2" data-x2="518.8"><title>solution-task-management-examples#4 Eksempel D: Bygge prototype
 venter på solution-task-management-examples#2 Eksempel B: Skissere løsning
 Hvorfor: prototypen bygger på løsningsskissen
-Overlapp: 4 arbeidsdager (#2 slutter 4.11., #4 starter 30.10.)
+Overlapp: 5 arbeidsdager (#2 slutter 5.11., #4 starter 30.10.)
 Koblet 1.11. av erikhag1git
-Klikk for å åpne #4</title><path d="M586.9,227.0H594.9V318.0H508.8V331.0H517.8" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20r)"/><circle cx="594.9" cy="318.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M586.9,227.0H594.9V318.0H508.8V331.0H517.8" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a class="tl-dep" href="https://github.com/samt-x/solution-task-management-examples/issues/7" target="_blank" data-from="solution-task-management-examples#2" data-to="solution-task-management-examples#7" data-x1="586.9" data-x2="586.9"><title>solution-task-management-examples#7 Eksempel G: Dokumentere erfaringer
-venter på solution-task-management-examples#2 Eksempel B: Skissere løsning
-Ikke beskrevet. Skriv en linje under overskriften Avhengigheter i #7.
-Ingen slakk (#2 slutter 4.11., #7 starter 5.11.)
-Koblet 1.11. av erikhag1git
-Klikk for å åpne #7</title><path d="M586.9,227.0H594.9V344.0H576.9V357.0H585.9" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl20a)"/><path d="M586.9,227.0H594.9V344.0H576.9V357.0H585.9" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+Klikk for å åpne #4</title><path d="M598.2,227.0H606.2V318.0H508.8V331.0H517.8" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20r)"/><circle cx="606.2" cy="318.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M598.2,227.0H606.2V318.0H508.8V331.0H517.8" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
 <a class="tl-dep" href="https://github.com/samt-x/solution-task-management-examples/issues/18" target="_blank" data-from="solution-task-management-examples#15" data-to="solution-task-management-examples#18" data-x1="609.6" data-x2="586.9"><title>solution-task-management-examples#18 Eksempel O: Lage presentasjon
 venter på solution-task-management-examples#15 Eksempel L: Intervjue fagfolk
 Hvorfor: presentasjonen skal vise funnene fra intervjuene
 Overlapp: 2 arbeidsdager (#15 slutter 6.11., #18 starter 5.11.)
 Koblet 2.11. av erikhag1git
-Klikk for å åpne #18</title><path d="M609.6,305.0H617.6V370.0H576.9V383.0H585.9" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20r)"/><circle cx="617.6" cy="370.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M609.6,305.0H617.6V370.0H576.9V383.0H585.9" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+Klikk for å åpne #18</title><path d="M609.6,305.0H617.6V344.0H576.9V357.0H585.9" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20r)"/><circle cx="617.6" cy="344.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M609.6,305.0H617.6V344.0H576.9V357.0H585.9" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a class="tl-dep" href="https://github.com/samt-x/solution-task-management-examples/issues/7" target="_blank" data-from="solution-task-management-examples#2" data-to="solution-task-management-examples#7" data-x1="598.2" data-x2="598.2"><title>solution-task-management-examples#7 Eksempel G: Dokumentere erfaringer
+venter på solution-task-management-examples#2 Eksempel B: Skissere løsning
+Ikke beskrevet. Skriv en linje under overskriften Avhengigheter i #7.
+Ingen slakk (#2 slutter 5.11., #7 starter 6.11.)
+Koblet 1.11. av erikhag1git
+Klikk for å åpne #7</title><path d="M598.2,227.0H606.2V370.0H588.2V383.0H597.2" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl20a)"/><path d="M598.2,227.0H606.2V370.0H588.2V383.0H597.2" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
 <a class="tl-dep" href="https://github.com/samt-x/solution-task-management-examples/issues/16" target="_blank" data-from="solution-task-management-examples#15" data-to="solution-task-management-examples#16" data-x1="609.6" data-x2="632.2"><title>solution-task-management-examples#16 Eksempel M: Planlegge workshop
 venter på solution-task-management-examples#15 Eksempel L: Intervjue fagfolk
 Hvorfor: workshopen bygger på det som kom fram i intervjuene
@@ -406,9 +406,9 @@ Hvorfor: beslutningen bygger på resultatene fra brukertesten
 Ingen slakk (#5 slutter 10.12., #6 starter 11.12.)
 Koblet 1.11. av erikhag1git
 Klikk for å åpne #6</title><path d="M995.2,487.0H1003.2V500.0H985.2V513.0H994.2" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl20a)"/><circle cx="1003.2" cy="500.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M995.2,487.0H1003.2V500.0H985.2V513.0H994.2" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<line class="tl-vy2" data-dy="4" x1="581.2" y1="58" x2="581.2" y2="530" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="592.5" y1="58" x2="592.5" y2="530" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="581.2" y="541" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<text x="592.5" y="541" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <path d="M14,562H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl20a)"/><text x="48" y="566" fill="#24292f">Pil: venter på</text>
 <path d="M162,562H190" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20r)"/><text x="196" y="566" fill="#24292f">Rød pil: blokkerende oppgave slutter for sent</text>
 <circle cx="522" cy="562" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="542" y="566" fill="#24292f">Ring: avhengigheten er beskrevet</text>
@@ -423,6 +423,6 @@ Klikk for å åpne #6</title><path d="M995.2,487.0H1003.2V500.0H985.2V513.0H994.
 <path d="M424,612V600H452V612L446,607H430Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="424" y="600" width="10" height="7" fill="#1f6feb"/><text x="458" y="610" fill="#24292f">Klamme: sub-issuene samlet (rød kant: én er forsinket)</text>
 <text x="832" y="611" fill="#57606a" font-size="15">▾ ▸</text><text x="862" y="610" fill="#24292f">Fold sub-issuene inn og ut</text>
 <rect x="14" y="621" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="48" y="632" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
-<text x="14" y="658" fill="#57606a" font-size="11">Generert 2026-11-04 fra<a href="https://github.com/orgs/samt-x/projects/20" target="_blank"><tspan dx="4" fill="#0969da">[EXAMPLE] Timeline</tspan></a>. Én oppgave mangler Duration og er antatt å ta én uke.</text>
+<text x="14" y="658" fill="#57606a" font-size="11">Generert 2026-11-05 fra<a href="https://github.com/orgs/samt-x/projects/20" target="_blank"><tspan dx="4" fill="#0969da">[EXAMPLE] Timeline</tspan></a>. Én oppgave mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
