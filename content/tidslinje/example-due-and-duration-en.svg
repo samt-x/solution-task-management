@@ -59,7 +59,7 @@ Start: Nov 4 (calculated from end and duration)
 End: Nov 13 (Due date)
 Duration: 8 working days
 Late start: should have started Nov 4
-Forecast: finished Nov 18, 3 working days after the due date Nov 13</title><rect x="426.0" y="64" width="220.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#bf8700" stroke-dasharray="4 3"/><line x1="426.0" y1="81" x2="525.0" y2="81" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><rect x="646.0" y="64" width="110.0" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
+Forecast: finished Nov 18, 3 working days after the due date Nov 13</title><rect x="426.0" y="64" width="220.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#bf8700" stroke-dasharray="4 3"/><line x1="426.0" y1="81" x2="547.0" y2="81" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><rect x="646.0" y="64" width="110.0" height="14" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#3" data-parent="" data-y="84" data-state="open" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/3" target="_blank"><title>solution-task-management-examples#3 Eksempel C: Avklare juridiske spørsmål
@@ -73,7 +73,7 @@ In progress
 Start: Nov 4 (started (In progress))
 End: Nov 18 (Due date)
 Blocked by: solution-task-management-examples#1 (not in the chart)
-Blocking: solution-task-management-examples#8</title><rect x="426.0" y="90" width="330.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="426.0" y="90" width="110.0" height="14" rx="4" fill="#1f6feb"/></a>
+Blocking: solution-task-management-examples#8</title><rect x="426.0" y="90" width="330.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="426.0" y="90" width="132.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="solution-task-management-examples#8" data-parent="" data-y="110" data-state="open" data-late="1" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/8" target="_blank"><title>solution-task-management-examples#8 Eksempel H: Vurdere personvernkonsekvenser
@@ -97,9 +97,9 @@ Why: vurderingen bygger på de juridiske avklaringene
 Overlap: 2 working days (#3 ends Nov 18, #8 starts Nov 17)
 Linked Nov 1 by erikhag1git
 Click to open #8</title><path d="M756.0,97.0H764.0V110.0H702.0V123.0H711.0" fill="none" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20-due-and-durationr)"/><circle cx="764.0" cy="110.0" r="3.2" fill="#ffffff" stroke="#cf222e" stroke-width="1.5"/><path d="M756.0,97.0H764.0V110.0H702.0V123.0H711.0" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<line class="tl-vy2" data-dy="4" x1="525.0" y1="58" x2="525.0" y2="140" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="547.0" y1="58" x2="547.0" y2="140" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="525.0" y="151" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
+<text x="547.0" y="151" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
 <path d="M14,172H42" stroke="#cf222e" stroke-width="1.5" marker-end="url(#tl20-due-and-durationr)"/><text x="48" y="176" fill="#24292f">Red arrow: blocking task ends too late</text>
 <circle cx="329" cy="172" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="349" y="176" fill="#24292f">Ring: the dependency is described</text>
 <text x="590" y="176">⛔</text><text x="618" y="176" fill="#24292f">Waits for an open task</text>
@@ -108,6 +108,6 @@ Click to open #8</title><path d="M756.0,97.0H764.0V110.0H702.0V123.0H711.0" fill
 <rect x="174" y="188" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="208" y="198" fill="#24292f">Dashed: calculated or assumed</text>
 <rect x="418" y="188" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#bf8700"/><line x1="418" y1="203" x2="446" y2="203" stroke="#bf8700" stroke-width="2" stroke-dasharray="4 2"/><text x="452" y="198" fill="#24292f">Yellow border and line: late start</text>
 <rect x="14" y="210" width="14" height="12" fill="#cf222e"/><rect x="28" y="210" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="48" y="220" fill="#24292f">Red: after the due date (light: forecast)</text>
-<text x="14" y="246" fill="#57606a" font-size="11">Generated 2026-11-08 from<a href="https://github.com/orgs/samt-x/projects/20" target="_blank"><tspan dx="4" fill="#0969da">[EXAMPLE] Timeline</tspan></a>.</text>
+<text x="14" y="246" fill="#57606a" font-size="11">Generated 2026-11-09 from<a href="https://github.com/orgs/samt-x/projects/20" target="_blank"><tspan dx="4" fill="#0969da">[EXAMPLE] Timeline</tspan></a>.</text>
 </g>
 </svg>
