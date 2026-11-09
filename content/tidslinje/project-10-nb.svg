@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="510" viewBox="0 0 1134 510" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#5" data-tl-top="58" data-tl-rowh="26" data-tl-rows="14" data-tl-pad="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="532" viewBox="0 0 1134 532" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#5" data-tl-top="58" data-tl-rowh="26" data-tl-rows="14" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl10a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl10r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl10h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
-<rect width="1134" height="510" fill="#ffffff"/>
+<rect width="1134" height="532" fill="#ffffff"/>
 <rect class="tl-stripe" data-i="1" x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="3" x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="5" x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
@@ -108,7 +108,7 @@ Start: 28.10. (startet (In progress))
 Slutt: 9.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="436.0" y="116" width="82.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="436.0" y="116" width="82.3" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
-<g class="tl-row" data-key="samt-bu-pilot-6#3" data-parent="" data-y="136" data-state="open" data-late="1" data-people="">
+<g class="tl-row" data-key="samt-bu-pilot-6#3" data-parent="" data-y="136" data-state="open" data-late="1" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/3" target="_blank"><title>samt-bu-pilot-6#3 AS-IS-beskrivelse: aktører, systemlandskap og data
 In progress
 Start: 2.11. (startet (In progress))
@@ -290,6 +290,7 @@ Klikk for å åpne #5</title><path d="M1050.3,383.0H1058.3V396.0H1040.3V409.0H10
 <rect x="380" y="452" width="28" height="12" rx="3" fill="#8c959f"/><text x="414" y="462" fill="#24292f">Mørk: har skjedd</text>
 <rect x="540" y="452" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="574" y="462" fill="#24292f">Stiplet: beregnet eller antatt</text>
 <rect x="790" y="452" width="14" height="12" fill="#cf222e"/><rect x="804" y="452" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="824" y="462" fill="#24292f">Rødt: etter fristen (lyst: prognose)</text>
-<text x="14" y="488" fill="#57606a" font-size="11">Generert 2026-11-09 fra<a href="https://github.com/orgs/samt-x/projects/10" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 6 – Foreldres tilgang til data</tspan></a>. 10 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<rect x="14" y="473" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="48" y="484" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
+<text x="14" y="510" fill="#57606a" font-size="11">Generert 2026-11-09 fra<a href="https://github.com/orgs/samt-x/projects/10" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 6 – Foreldres tilgang til data</tspan></a>. 10 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
