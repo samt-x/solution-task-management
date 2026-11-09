@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1789" height="900" viewBox="0 0 1789 900" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#84" data-tl-top="58" data-tl-rowh="26" data-tl-rows="29" data-tl-pad="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="1789" height="926" viewBox="0 0 1789 926" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#87" data-tl-top="58" data-tl-rowh="26" data-tl-rows="30" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl1a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl1r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl1h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
-<rect width="1789" height="900" fill="#ffffff"/>
+<rect width="1789" height="926" fill="#ffffff"/>
 <rect class="tl-stripe" data-i="1" x="0" y="84" width="1789" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="3" x="0" y="136" width="1789" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="5" x="0" y="188" width="1789" height="26" fill="#f6f8fa"/>
@@ -16,150 +16,151 @@
 <rect class="tl-stripe" data-i="23" x="0" y="656" width="1789" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="25" x="0" y="708" width="1789" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="27" x="0" y="760" width="1789" height="26" fill="#f6f8fa"/>
-<rect class="tl-vh" x="360.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-stripe" data-i="29" x="0" y="812" width="1789" height="26" fill="#f6f8fa"/>
+<rect class="tl-vh" x="360.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">feb 2026</text>
-<line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="812" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="838" stroke="#d0d7de"/>
 <text x="367.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
-<rect class="tl-vh" x="390.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="395.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="390.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="395.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="402.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<rect class="tl-vh" x="425.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="430.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="425.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="430.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="437.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<rect class="tl-vh" x="460.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="465.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="460.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="465.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="467.0" y="20" fill="#24292f" font-weight="600">mar 2026</text>
-<line class="tl-vy2" x1="465.0" y1="8" x2="465.0" y2="812" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="465.0" y1="8" x2="465.0" y2="838" stroke="#d0d7de"/>
 <text x="472.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<rect class="tl-vh" x="495.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="500.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="495.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="500.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="507.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
-<rect class="tl-vh" x="530.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="535.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="530.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="535.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="542.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<rect class="tl-vh" x="565.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="570.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="565.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="570.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="577.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<rect class="tl-vh" x="600.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="605.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="600.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="605.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="612.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
 <text x="622.0" y="20" fill="#24292f" font-weight="600">apr 2026</text>
-<line class="tl-vy2" x1="620.0" y1="8" x2="620.0" y2="812" stroke="#d0d7de"/>
-<rect class="tl-vh" x="635.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="640.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="620.0" y1="8" x2="620.0" y2="838" stroke="#d0d7de"/>
+<rect class="tl-vh" x="635.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="640.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="647.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
-<rect class="tl-vh" x="670.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="675.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="670.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="675.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="682.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
-<rect class="tl-vh" x="705.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="710.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="705.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="710.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="717.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
-<rect class="tl-vh" x="740.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="745.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="740.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="745.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="752.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
 <text x="772.0" y="20" fill="#24292f" font-weight="600">mai 2026</text>
-<line class="tl-vy2" x1="770.0" y1="8" x2="770.0" y2="812" stroke="#d0d7de"/>
-<rect class="tl-vh" x="775.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="780.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="770.0" y1="8" x2="770.0" y2="838" stroke="#d0d7de"/>
+<rect class="tl-vh" x="775.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="780.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="787.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
-<rect class="tl-vh" x="810.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="815.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="810.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="815.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="822.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
-<rect class="tl-vh" x="845.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="850.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="845.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="850.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="857.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
-<rect class="tl-vh" x="880.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="885.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="880.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="885.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="892.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<rect class="tl-vh" x="915.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="920.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="915.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="920.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="927.0" y="20" fill="#24292f" font-weight="600">jun 2026</text>
-<line class="tl-vy2" x1="925.0" y1="8" x2="925.0" y2="812" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="925.0" y1="8" x2="925.0" y2="838" stroke="#d0d7de"/>
 <text x="927.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
-<rect class="tl-vh" x="950.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="955.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="950.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="955.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="962.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
-<rect class="tl-vh" x="985.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="990.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="985.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="990.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="997.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
-<rect class="tl-vh" x="1020.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1025.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1020.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1025.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1032.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
-<rect class="tl-vh" x="1055.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1060.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1055.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1060.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1067.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
 <text x="1077.0" y="20" fill="#24292f" font-weight="600">jul 2026</text>
-<line class="tl-vy2" x1="1075.0" y1="8" x2="1075.0" y2="812" stroke="#d0d7de"/>
-<rect class="tl-vh" x="1090.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1095.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="1075.0" y1="8" x2="1075.0" y2="838" stroke="#d0d7de"/>
+<rect class="tl-vh" x="1090.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1095.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1102.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
-<rect class="tl-vh" x="1125.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1130.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1125.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1130.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1137.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
-<rect class="tl-vh" x="1160.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1165.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1160.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1165.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1172.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
-<rect class="tl-vh" x="1195.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1200.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1195.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1200.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1207.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
-<rect class="tl-vh" x="1230.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1230.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1232.0" y="20" fill="#24292f" font-weight="600">aug 2026</text>
-<line class="tl-vy2" x1="1230.0" y1="8" x2="1230.0" y2="812" stroke="#d0d7de"/>
-<rect class="tl-vh" x="1235.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="1230.0" y1="8" x2="1230.0" y2="838" stroke="#d0d7de"/>
+<rect class="tl-vh" x="1235.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1242.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
-<rect class="tl-vh" x="1265.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1270.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1265.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1270.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1277.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
-<rect class="tl-vh" x="1300.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1305.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1300.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1305.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1312.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
-<rect class="tl-vh" x="1335.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1340.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1335.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1340.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1347.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<rect class="tl-vh" x="1370.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1375.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1370.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1375.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1382.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
 <text x="1387.0" y="20" fill="#24292f" font-weight="600">sep 2026</text>
-<line class="tl-vy2" x1="1385.0" y1="8" x2="1385.0" y2="812" stroke="#d0d7de"/>
-<rect class="tl-vh" x="1405.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1410.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="1385.0" y1="8" x2="1385.0" y2="838" stroke="#d0d7de"/>
+<rect class="tl-vh" x="1405.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1410.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1417.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
-<rect class="tl-vh" x="1440.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1445.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1440.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1445.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1452.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
-<rect class="tl-vh" x="1475.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1480.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1475.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1480.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1487.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
-<rect class="tl-vh" x="1510.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1515.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1510.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1515.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1522.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
 <text x="1537.0" y="20" fill="#24292f" font-weight="600">okt 2026</text>
-<line class="tl-vy2" x1="1535.0" y1="8" x2="1535.0" y2="812" stroke="#d0d7de"/>
-<rect class="tl-vh" x="1545.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1550.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<line class="tl-vy2" x1="1535.0" y1="8" x2="1535.0" y2="838" stroke="#d0d7de"/>
+<rect class="tl-vh" x="1545.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1550.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1557.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
-<rect class="tl-vh" x="1580.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1585.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1580.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1585.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1592.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
-<rect class="tl-vh" x="1615.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1620.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1615.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1620.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1627.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
-<rect class="tl-vh" x="1650.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1655.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1650.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1655.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1662.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
-<rect class="tl-vh" x="1685.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1690.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1685.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1690.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1692.0" y="20" fill="#24292f" font-weight="600">nov 2026</text>
-<line class="tl-vy2" x1="1690.0" y1="8" x2="1690.0" y2="812" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="1690.0" y1="8" x2="1690.0" y2="838" stroke="#d0d7de"/>
 <text x="1697.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<rect class="tl-vh" x="1720.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1725.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1720.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1725.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1732.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
-<rect class="tl-vh" x="1755.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1760.0" y="58" width="5.0" height="754" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1755.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1760.0" y="58" width="5.0" height="780" fill="#eaeef2" opacity="0.6"/>
 <text x="1767.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
 <line x1="0" y1="57.5" x2="1789" y2="57.5" stroke="#d0d7de"/>
-<line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="812" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="838" stroke="#d0d7de"/>
 <g class="tl-row" data-key="samt-bu-pilot-1#13" data-parent="" data-y="58" data-state="done" data-people="Anamarija-Carotta">
 <a href="https://github.com/samt-x/samt-bu-pilot-1/issues/13" target="_blank"><title>samt-bu-pilot-1#13 Tegne opp brukerreise og painpoints for overføring av elevliste fra ungdomsskole til videregående skole
 Done (lukket: fullført)
@@ -421,7 +422,7 @@ Start: 2.11. (startet (In progress))
 Slutt: 9.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1695.0" y="688" width="40.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="1695.0" y="688" width="40.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
-<g class="tl-row" data-key="samt-bu-common-tasks#81" data-parent="" data-y="708" data-state="open" data-people="">
+<g class="tl-row" data-key="samt-bu-common-tasks#81" data-parent="" data-y="708" data-state="open" data-people="hannefinnoy">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/81" target="_blank"><title>samt-bu-common-tasks#81 Brukerreise: Gjennomføre AS IS intervju med skoleleder grunnskole
 To do
 Start: 9.11. (ikke planlagt, fra i dag)
@@ -433,7 +434,7 @@ Start: 9.11. (ikke planlagt, fra i dag)
 Slutt: 13.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1730.0" y="714" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
-<g class="tl-row" data-key="samt-bu-common-tasks#82" data-parent="" data-y="734" data-state="open" data-people="">
+<g class="tl-row" data-key="samt-bu-common-tasks#82" data-parent="" data-y="734" data-state="open" data-people="ingestrommen1-max">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/82" target="_blank"><title>samt-bu-common-tasks#82 Samkjøre oss mot moderniseringsprosjekt Novari
 To do
 Start: 9.11. (ikke planlagt, fra i dag)
@@ -445,7 +446,7 @@ Start: 9.11. (ikke planlagt, fra i dag)
 Slutt: 13.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1730.0" y="740" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
-<g class="tl-row" data-key="samt-bu-common-tasks#83" data-parent="" data-y="760" data-state="open" data-people="">
+<g class="tl-row" data-key="samt-bu-common-tasks#83" data-parent="" data-y="760" data-state="open" data-people="hannefinnoy">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/83" target="_blank"><title>samt-bu-common-tasks#83 Utvikle en skisse til drømmereise
 To do
 Start: 9.11. (ikke planlagt, fra i dag)
@@ -457,7 +458,7 @@ Start: 9.11. (ikke planlagt, fra i dag)
 Slutt: 13.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1730.0" y="766" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
-<g class="tl-row" data-key="samt-bu-common-tasks#84" data-parent="" data-y="786" data-state="open" data-people="">
+<g class="tl-row" data-key="samt-bu-common-tasks#84" data-parent="" data-y="786" data-state="open" data-people="alstad">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/84" target="_blank"><title>samt-bu-common-tasks#84 Datamodell
 Proposed
 Start: 9.11. (ikke planlagt, fra i dag)
@@ -469,15 +470,27 @@ Start: 9.11. (ikke planlagt, fra i dag)
 Slutt: 13.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1730.0" y="792" width="25.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
-<line class="tl-vy2" data-dy="4" x1="1732.5" y1="58" x2="1732.5" y2="816" stroke="#cf222e" stroke-width="1.5"/>
+<g class="tl-row" data-key="samt-bu-common-tasks#87" data-parent="" data-y="812" data-state="open" data-people="ingestrommen1-max">
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/87" target="_blank"><title>samt-bu-common-tasks#87 Gjennomføre møte med Udir
+To do
+Start: 9.11. (ikke planlagt, fra i dag)
+Slutt: 13.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="829.0"><tspan fill="#0969da">Gjennomføre møte med Udir</tspan><tspan dx="5" fill="#57606a" font-size="11">#87</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/87" target="_blank"><title>samt-bu-common-tasks#87 Gjennomføre møte med Udir
+To do
+Start: 9.11. (ikke planlagt, fra i dag)
+Slutt: 13.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1730.0" y="818" width="25.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+</g>
+<line class="tl-vy2" data-dy="4" x1="1732.5" y1="58" x2="1732.5" y2="842" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="1732.5" y="827" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
-<rect x="14" y="842" width="28" height="12" rx="3" fill="#8c959f"/><text x="48" y="852" fill="#24292f">Mørk: har skjedd</text>
-<rect x="174" y="842" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="208" y="852" fill="#24292f">Stiplet: beregnet eller antatt</text>
-<text x="432" y="852" fill="#24292f">✓</text><text x="458" y="852" fill="#24292f">Fullført</text>
-<path d="M534,854V842H562V854L556,849H540Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="534" y="842" width="10" height="7" fill="#1f6feb"/><text x="568" y="852" fill="#24292f">Klamme: sub-issuene samlet (rød kant: én er forsinket)</text>
-<text x="941" y="853" fill="#57606a" font-size="15">▾ ▸</text><text x="971" y="852" fill="#24292f">Fold sub-issuene inn og ut</text>
-<rect x="1162" y="841" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="1196" y="852" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
-<text x="14" y="878" fill="#57606a" font-size="11">Generert 2026-11-09 fra<a href="https://github.com/orgs/samt-x/projects/1" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 1 – Overgang ungdomsskole videregående</tspan></a>. 8 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<text x="1732.5" y="853" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<rect x="14" y="868" width="28" height="12" rx="3" fill="#8c959f"/><text x="48" y="878" fill="#24292f">Mørk: har skjedd</text>
+<rect x="174" y="868" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="208" y="878" fill="#24292f">Stiplet: beregnet eller antatt</text>
+<text x="432" y="878" fill="#24292f">✓</text><text x="458" y="878" fill="#24292f">Fullført</text>
+<path d="M534,880V868H562V880L556,875H540Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="534" y="868" width="10" height="7" fill="#1f6feb"/><text x="568" y="878" fill="#24292f">Klamme: sub-issuene samlet (rød kant: én er forsinket)</text>
+<text x="941" y="879" fill="#57606a" font-size="15">▾ ▸</text><text x="971" y="878" fill="#24292f">Fold sub-issuene inn og ut</text>
+<rect x="1162" y="867" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="1196" y="878" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
+<text x="14" y="904" fill="#57606a" font-size="11">Generert 2026-11-09 fra<a href="https://github.com/orgs/samt-x/projects/1" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 1 – Overgang ungdomsskole videregående</tspan></a>. 9 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
