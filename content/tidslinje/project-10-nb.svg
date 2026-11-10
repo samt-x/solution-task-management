@@ -12,101 +12,102 @@
 <text x="362.0" y="20" fill="#24292f" font-weight="600">okt 2026</text>
 <line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="422" stroke="#d0d7de"/>
 <rect class="tl-vh" x="366.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="372.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="382.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
-<rect class="tl-vh" x="410.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="417.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="426.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
-<rect class="tl-vh" x="455.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="461.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="463.3" y="20" fill="#24292f" font-weight="600">nov 2026</text>
-<line class="tl-vy2" x1="461.3" y1="8" x2="461.3" y2="422" stroke="#d0d7de"/>
-<text x="470.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<rect class="tl-vh" x="499.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="505.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="515.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
-<rect class="tl-vh" x="543.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="550.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="559.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<rect class="tl-vh" x="588.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="594.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="603.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<rect class="tl-vh" x="632.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="638.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="648.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
-<text x="653.3" y="20" fill="#24292f" font-weight="600">des 2026</text>
-<line class="tl-vy2" x1="651.3" y1="8" x2="651.3" y2="422" stroke="#d0d7de"/>
-<rect class="tl-vh" x="676.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="683.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="692.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
-<rect class="tl-vh" x="721.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="727.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="736.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
-<rect class="tl-vh" x="765.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="771.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="781.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
-<rect class="tl-vh" x="809.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="816.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="825.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
-<text x="849.7" y="20" fill="#24292f" font-weight="600">jan 2027</text>
-<line class="tl-vy2" x1="847.7" y1="8" x2="847.7" y2="422" stroke="#d0d7de"/>
-<rect class="tl-vh" x="854.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="860.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="869.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
-<rect class="tl-vh" x="898.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="904.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="914.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
-<rect class="tl-vh" x="942.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="949.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="958.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
-<rect class="tl-vh" x="987.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="993.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="1002.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<rect class="tl-vh" x="1031.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1037.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="1046.0" y="20" fill="#24292f" font-weight="600">feb 2027</text>
-<line class="tl-vy2" x1="1044.0" y1="8" x2="1044.0" y2="422" stroke="#d0d7de"/>
-<text x="1047.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
-<rect class="tl-vh" x="1075.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1082.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
-<text x="1091.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
+<rect class="tl-vh" x="372.6" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="382.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
+<rect class="tl-vh" x="410.2" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="416.5" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="426.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
+<rect class="tl-vh" x="454.2" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="460.5" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="462.5" y="20" fill="#24292f" font-weight="600">nov 2026</text>
+<line class="tl-vy2" x1="460.5" y1="8" x2="460.5" y2="422" stroke="#d0d7de"/>
+<text x="469.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
+<rect class="tl-vh" x="498.2" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="504.5" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="513.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
+<rect class="tl-vh" x="542.1" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="548.4" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="557.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
+<rect class="tl-vh" x="586.1" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="592.4" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="601.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
+<rect class="tl-vh" x="630.1" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="636.4" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="645.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
+<text x="650.9" y="20" fill="#24292f" font-weight="600">des 2026</text>
+<line class="tl-vy2" x1="648.9" y1="8" x2="648.9" y2="422" stroke="#d0d7de"/>
+<rect class="tl-vh" x="674.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="680.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="689.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
+<rect class="tl-vh" x="718.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="724.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="733.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
+<rect class="tl-vh" x="762.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="768.3" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="777.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
+<rect class="tl-vh" x="806.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="812.2" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="821.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
+<text x="845.6" y="20" fill="#24292f" font-weight="600">jan 2027</text>
+<line class="tl-vy2" x1="843.6" y1="8" x2="843.6" y2="422" stroke="#d0d7de"/>
+<rect class="tl-vh" x="849.9" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="856.2" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="865.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
+<rect class="tl-vh" x="893.9" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="900.2" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="909.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
+<rect class="tl-vh" x="937.9" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="944.1" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="953.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
+<rect class="tl-vh" x="981.8" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="988.1" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="997.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<rect class="tl-vh" x="1025.8" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1032.1" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="1040.3" y="20" fill="#24292f" font-weight="600">feb 2027</text>
+<line class="tl-vy2" x1="1038.3" y1="8" x2="1038.3" y2="422" stroke="#d0d7de"/>
+<text x="1041.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
+<rect class="tl-vh" x="1069.8" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1076.0" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
+<text x="1085.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
+<rect class="tl-vh" x="1113.7" y="58" width="6.3" height="364" fill="#eaeef2" opacity="0.6"/>
 <line x1="0" y1="57.5" x2="1134" y2="57.5" stroke="#d0d7de"/>
 <line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="422" stroke="#d0d7de"/>
 <g class="tl-row" data-key="samt-bu-pilot-6#1" data-parent="" data-y="58" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/1" target="_blank"><title>samt-bu-pilot-6#1 Bemanning og oppstart
 In progress
 Start: 19.10. (startet (In progress))
-Slutt: 9.11. (pågår, forlenget til i dag)
+Slutt: 10.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="75.0"><tspan fill="#0969da">Bemanning og oppstart</tspan><tspan dx="5" fill="#57606a" font-size="11">#1</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/1" target="_blank"><title>samt-bu-pilot-6#1 Bemanning og oppstart
 In progress
 Start: 19.10. (startet (In progress))
-Slutt: 9.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="379.0" y="64" width="139.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="379.0" y="64" width="139.3" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 10.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="378.8" y="64" width="144.5" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="378.8" y="64" width="144.5" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#4" data-parent="" data-y="84" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/4" target="_blank"><title>samt-bu-pilot-6#4 Arkitekturmålbilde med regelbok og informasjonsmodeller
 In progress
 Start: 19.10. (startet (In progress))
-Slutt: 9.11. (pågår, forlenget til i dag)
+Slutt: 10.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="101.0"><tspan fill="#0969da">Arkitekturmålbilde med regelbok og informasjons…</tspan><tspan dx="5" fill="#57606a" font-size="11">#4</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/4" target="_blank"><title>samt-bu-pilot-6#4 Arkitekturmålbilde med regelbok og informasjonsmodeller
 In progress
 Start: 19.10. (startet (In progress))
-Slutt: 9.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="379.0" y="90" width="139.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="379.0" y="90" width="139.3" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 10.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="378.8" y="90" width="144.5" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="378.8" y="90" width="144.5" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#9" data-parent="" data-y="110" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/9" target="_blank"><title>samt-bu-pilot-6#9 Løsningsarkitektur basert på data.altinn.no
 In progress
 Start: 28.10. (startet (In progress))
-Slutt: 9.11. (pågår, forlenget til i dag)
+Slutt: 10.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="127.0"><tspan fill="#0969da">Løsningsarkitektur basert på data.altinn.no</tspan><tspan dx="5" fill="#57606a" font-size="11">#9</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/9" target="_blank"><title>samt-bu-pilot-6#9 Løsningsarkitektur basert på data.altinn.no
 In progress
 Start: 28.10. (startet (In progress))
-Slutt: 9.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="436.0" y="116" width="82.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="436.0" y="116" width="82.3" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 10.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="435.4" y="116" width="87.9" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="435.4" y="116" width="87.9" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#3" data-parent="" data-y="136" data-state="open" data-late="1" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/3" target="_blank"><title>samt-bu-pilot-6#3 AS-IS-beskrivelse: aktører, systemlandskap og data
@@ -122,175 +123,175 @@ Start: 2.11. (startet (In progress))
 Slutt: 3.11. (regnet fra start og varighet)
 Varighet: 2 arbeidsdager
 Forsinket: skulle vært ferdig 3.11.
-Blokkerer: samt-bu-pilot-6#12</title><rect x="467.7" y="142" width="12.7" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="467.7" y="142" width="12.7" height="14" rx="4" fill="#1f6feb"/><rect x="480.3" y="142" width="38.0" height="14" fill="#cf222e"/></a>
+Blokkerer: samt-bu-pilot-6#12</title><rect x="466.8" y="142" width="12.6" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="466.8" y="142" width="12.6" height="14" rx="4" fill="#1f6feb"/><rect x="479.3" y="142" width="44.0" height="14" fill="#cf222e"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#13" data-parent="" data-y="162" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/13" target="_blank"><title>samt-bu-pilot-6#13 Brukergrensesnitt Altinn Studio
 Proposed
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="179.0"><tspan fill="#0969da">Brukergrensesnitt Altinn Studio</tspan><tspan dx="5" fill="#57606a" font-size="11">#13</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/13" target="_blank"><title>samt-bu-pilot-6#13 Brukergrensesnitt Altinn Studio
 Proposed
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="512.0" y="168" width="31.7" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="517.0" y="168" width="44.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#14" data-parent="" data-y="188" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/14" target="_blank"><title>samt-bu-pilot-6#14 Kontakte Foreldreutvalgenes organisasjon
 Proposed
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="205.0"><tspan fill="#0969da">Kontakte Foreldreutvalgenes organisasjon</tspan><tspan dx="5" fill="#57606a" font-size="11">#14</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/14" target="_blank"><title>samt-bu-pilot-6#14 Kontakte Foreldreutvalgenes organisasjon
 Proposed
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="512.0" y="194" width="31.7" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="517.0" y="194" width="44.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#2" data-parent="" data-y="214" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/2" target="_blank"><title>samt-bu-pilot-6#2 Drømmereise for foreldrenes tilgang til data
 To do
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="231.0"><tspan fill="#0969da">Drømmereise for foreldrenes tilgang til data</tspan><tspan dx="5" fill="#57606a" font-size="11">#2</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/2" target="_blank"><title>samt-bu-pilot-6#2 Drømmereise for foreldrenes tilgang til data
 To do
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="512.0" y="220" width="31.7" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="517.0" y="220" width="44.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#6" data-parent="" data-y="240" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/6" target="_blank"><title>samt-bu-pilot-6#6 Avklare juridiske knuter
 To do
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="257.0"><tspan fill="#0969da">Avklare juridiske knuter</tspan><tspan dx="5" fill="#57606a" font-size="11">#6</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/6" target="_blank"><title>samt-bu-pilot-6#6 Avklare juridiske knuter
 To do
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="512.0" y="246" width="31.7" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="517.0" y="246" width="44.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#7" data-parent="" data-y="266" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/7" target="_blank"><title>samt-bu-pilot-6#7 Vurdere frivilligheten og Idrettsforbundets dataplattform
 To do
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="283.0"><tspan fill="#0969da">Vurdere frivilligheten og Idrettsforbundets dat…</tspan><tspan dx="5" fill="#57606a" font-size="11">#7</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/7" target="_blank"><title>samt-bu-pilot-6#7 Vurdere frivilligheten og Idrettsforbundets dataplattform
 To do
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="512.0" y="272" width="31.7" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="517.0" y="272" width="44.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#8" data-parent="" data-y="292" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/8" target="_blank"><title>samt-bu-pilot-6#8 Vurdere leverandørmarkedet: hackaton eller anskaffelse
 Ready
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="309.0"><tspan fill="#0969da">Vurdere leverandørmarkedet: hackaton eller ansk…</tspan><tspan dx="5" fill="#57606a" font-size="11">#8</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/8" target="_blank"><title>samt-bu-pilot-6#8 Vurdere leverandørmarkedet: hackaton eller anskaffelse
 Ready
-Start: 9.11. (ikke planlagt, fra i dag)
-Slutt: 13.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="512.0" y="298" width="31.7" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 10.11. (ikke planlagt, fra i dag)
+Slutt: 16.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="517.0" y="298" width="44.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#12" data-parent="" data-y="318" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/12" target="_blank"><title>samt-bu-pilot-6#12 Startoff-konkurranse for brukergresnsesnitt/app
 Proposed
-Start: 10.11. (etter oppgavene den venter på)
-Slutt: 7.12. (regnet fra start og varighet)
+Start: 11.11. (etter oppgavene den venter på)
+Slutt: 8.12. (regnet fra start og varighet)
 Varighet: 20 arbeidsdager
 Blokkert av: samt-bu-pilot-6#3
 Blokkerer: samt-bu-pilot-6#10</title><text x="14" y="335.0"><tspan fill="#0969da">⛔ Startoff-konkurranse for brukergresnsesnitt/a…</tspan><tspan dx="5" fill="#57606a" font-size="11">#12</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/12" target="_blank"><title>samt-bu-pilot-6#12 Startoff-konkurranse for brukergresnsesnitt/app
 Proposed
-Start: 10.11. (etter oppgavene den venter på)
-Slutt: 7.12. (regnet fra start og varighet)
+Start: 11.11. (etter oppgavene den venter på)
+Slutt: 8.12. (regnet fra start og varighet)
 Varighet: 20 arbeidsdager
 Blokkert av: samt-bu-pilot-6#3
-Blokkerer: samt-bu-pilot-6#10</title><rect x="518.3" y="324" width="177.3" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Blokkerer: samt-bu-pilot-6#10</title><rect x="523.3" y="324" width="175.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#10" data-parent="" data-y="344" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/10" target="_blank"><title>samt-bu-pilot-6#10 Utprøving i Digdir-lab
 Proposed
-Start: 8.12. (etter oppgavene den venter på)
-Slutt: 4.1. (regnet fra start og varighet)
+Start: 9.12. (etter oppgavene den venter på)
+Slutt: 5.1. (regnet fra start og varighet)
 Varighet: 20 arbeidsdager
 Blokkert av: samt-bu-pilot-6#12
 Blokkerer: samt-bu-pilot-6#11</title><text x="14" y="361.0"><tspan fill="#0969da">⛔ Utprøving i Digdir-lab</tspan><tspan dx="5" fill="#57606a" font-size="11">#10</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/10" target="_blank"><title>samt-bu-pilot-6#10 Utprøving i Digdir-lab
 Proposed
-Start: 8.12. (etter oppgavene den venter på)
-Slutt: 4.1. (regnet fra start og varighet)
+Start: 9.12. (etter oppgavene den venter på)
+Slutt: 5.1. (regnet fra start og varighet)
 Varighet: 20 arbeidsdager
 Blokkert av: samt-bu-pilot-6#12
-Blokkerer: samt-bu-pilot-6#11</title><rect x="695.7" y="350" width="177.3" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Blokkerer: samt-bu-pilot-6#11</title><rect x="699.2" y="350" width="175.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#11" data-parent="" data-y="370" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/11" target="_blank"><title>samt-bu-pilot-6#11 Pilotering i reelt case
 Proposed
-Start: 5.1. (etter oppgavene den venter på)
-Slutt: 1.2. (regnet fra start og varighet)
+Start: 6.1. (etter oppgavene den venter på)
+Slutt: 2.2. (regnet fra start og varighet)
 Varighet: 20 arbeidsdager
 Blokkert av: samt-bu-pilot-6#10
 Blokkerer: samt-bu-pilot-6#5</title><text x="14" y="387.0"><tspan fill="#0969da">⛔ Pilotering i reelt case</tspan><tspan dx="5" fill="#57606a" font-size="11">#11</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/11" target="_blank"><title>samt-bu-pilot-6#11 Pilotering i reelt case
 Proposed
-Start: 5.1. (etter oppgavene den venter på)
-Slutt: 1.2. (regnet fra start og varighet)
+Start: 6.1. (etter oppgavene den venter på)
+Slutt: 2.2. (regnet fra start og varighet)
 Varighet: 20 arbeidsdager
 Blokkert av: samt-bu-pilot-6#10
-Blokkerer: samt-bu-pilot-6#5</title><rect x="873.0" y="376" width="177.3" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Blokkerer: samt-bu-pilot-6#5</title><rect x="875.0" y="376" width="175.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-6#5" data-parent="" data-y="396" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/5" target="_blank"><title>samt-bu-pilot-6#5 Forslag til neste fase
 To do
-Start: 2.2. (etter oppgavene den venter på)
-Slutt: 8.2. (regnet fra start og varighet)
+Start: 3.2. (etter oppgavene den venter på)
+Slutt: 9.2. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager
 Blokkert av: samt-bu-pilot-6#11</title><text x="14" y="413.0"><tspan fill="#0969da">⛔ Forslag til neste fase</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-6/issues/5" target="_blank"><title>samt-bu-pilot-6#5 Forslag til neste fase
 To do
-Start: 2.2. (etter oppgavene den venter på)
-Slutt: 8.2. (regnet fra start og varighet)
+Start: 3.2. (etter oppgavene den venter på)
+Slutt: 9.2. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager
-Blokkert av: samt-bu-pilot-6#11</title><rect x="1050.3" y="402" width="44.3" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Blokkert av: samt-bu-pilot-6#11</title><rect x="1050.9" y="402" width="44.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
-<a class="tl-dep" href="https://github.com/samt-x/samt-bu-pilot-6/issues/12" target="_blank" data-from="samt-bu-pilot-6#3" data-to="samt-bu-pilot-6#12" data-x1="518.3" data-x2="518.3"><title>samt-bu-pilot-6#12 Startoff-konkurranse for brukergresnsesnitt/app
+<a class="tl-dep" href="https://github.com/samt-x/samt-bu-pilot-6/issues/12" target="_blank" data-from="samt-bu-pilot-6#3" data-to="samt-bu-pilot-6#12" data-x1="523.3" data-x2="523.3"><title>samt-bu-pilot-6#12 Startoff-konkurranse for brukergresnsesnitt/app
 venter på samt-bu-pilot-6#3 AS-IS-beskrivelse: aktører, systemlandskap og data
 Ikke beskrevet. Skriv en linje under overskriften Avhengigheter i #12.
-Ingen slakk (#3 slutter 9.11., #12 starter 10.11.)
+Ingen slakk (#3 slutter 10.11., #12 starter 11.11.)
 Koblet 2.11. av erikhag1git
-Klikk for å åpne #12</title><path d="M518.3,149.0H526.3V318.0H508.3V331.0H517.3" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl10a)"/><path d="M518.3,149.0H526.3V318.0H508.3V331.0H517.3" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a class="tl-dep" href="https://github.com/samt-x/samt-bu-pilot-6/issues/10" target="_blank" data-from="samt-bu-pilot-6#12" data-to="samt-bu-pilot-6#10" data-x1="695.7" data-x2="695.7"><title>samt-bu-pilot-6#10 Utprøving i Digdir-lab
+Klikk for å åpne #12</title><path d="M523.3,149.0H531.3V318.0H513.3V331.0H522.3" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl10a)"/><path d="M523.3,149.0H531.3V318.0H513.3V331.0H522.3" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a class="tl-dep" href="https://github.com/samt-x/samt-bu-pilot-6/issues/10" target="_blank" data-from="samt-bu-pilot-6#12" data-to="samt-bu-pilot-6#10" data-x1="699.2" data-x2="699.2"><title>samt-bu-pilot-6#10 Utprøving i Digdir-lab
 venter på samt-bu-pilot-6#12 Startoff-konkurranse for brukergresnsesnitt/app
 Ikke beskrevet. Skriv en linje under overskriften Avhengigheter i #10.
-Ingen slakk (#12 slutter 7.12., #10 starter 8.12.)
+Ingen slakk (#12 slutter 8.12., #10 starter 9.12.)
 Koblet 2.11. av erikhag1git
-Klikk for å åpne #10</title><path d="M695.7,331.0H703.7V344.0H685.7V357.0H694.7" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl10a)"/><path d="M695.7,331.0H703.7V344.0H685.7V357.0H694.7" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a class="tl-dep" href="https://github.com/samt-x/samt-bu-pilot-6/issues/11" target="_blank" data-from="samt-bu-pilot-6#10" data-to="samt-bu-pilot-6#11" data-x1="873.0" data-x2="873.0"><title>samt-bu-pilot-6#11 Pilotering i reelt case
+Klikk for å åpne #10</title><path d="M699.2,331.0H707.2V344.0H689.2V357.0H698.2" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl10a)"/><path d="M699.2,331.0H707.2V344.0H689.2V357.0H698.2" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a class="tl-dep" href="https://github.com/samt-x/samt-bu-pilot-6/issues/11" target="_blank" data-from="samt-bu-pilot-6#10" data-to="samt-bu-pilot-6#11" data-x1="875.0" data-x2="875.0"><title>samt-bu-pilot-6#11 Pilotering i reelt case
 venter på samt-bu-pilot-6#10 Utprøving i Digdir-lab
 Ikke beskrevet. Skriv en linje under overskriften Avhengigheter i #11.
-Ingen slakk (#10 slutter 4.1., #11 starter 5.1.)
+Ingen slakk (#10 slutter 5.1., #11 starter 6.1.)
 Koblet 2.11. av erikhag1git
-Klikk for å åpne #11</title><path d="M873.0,357.0H881.0V370.0H863.0V383.0H872.0" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl10a)"/><path d="M873.0,357.0H881.0V370.0H863.0V383.0H872.0" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<a class="tl-dep" href="https://github.com/samt-x/samt-bu-pilot-6/issues/5" target="_blank" data-from="samt-bu-pilot-6#11" data-to="samt-bu-pilot-6#5" data-x1="1050.3" data-x2="1050.3"><title>samt-bu-pilot-6#5 Forslag til neste fase
+Klikk for å åpne #11</title><path d="M875.0,357.0H883.0V370.0H865.0V383.0H874.0" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl10a)"/><path d="M875.0,357.0H883.0V370.0H865.0V383.0H874.0" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<a class="tl-dep" href="https://github.com/samt-x/samt-bu-pilot-6/issues/5" target="_blank" data-from="samt-bu-pilot-6#11" data-to="samt-bu-pilot-6#5" data-x1="1050.9" data-x2="1050.9"><title>samt-bu-pilot-6#5 Forslag til neste fase
 venter på samt-bu-pilot-6#11 Pilotering i reelt case
 Ikke beskrevet. Skriv en linje under overskriften Avhengigheter i #5.
-Ingen slakk (#11 slutter 1.2., #5 starter 2.2.)
+Ingen slakk (#11 slutter 2.2., #5 starter 3.2.)
 Koblet 2.11. av erikhag1git
-Klikk for å åpne #5</title><path d="M1050.3,383.0H1058.3V396.0H1040.3V409.0H1049.3" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl10a)"/><path d="M1050.3,383.0H1058.3V396.0H1040.3V409.0H1049.3" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<line class="tl-vy2" data-dy="4" x1="515.2" y1="58" x2="515.2" y2="426" stroke="#cf222e" stroke-width="1.5"/>
+Klikk for å åpne #5</title><path d="M1050.9,383.0H1058.9V396.0H1040.9V409.0H1049.9" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl10a)"/><path d="M1050.9,383.0H1058.9V396.0H1040.9V409.0H1049.9" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
+<line class="tl-vy2" data-dy="4" x1="520.2" y1="58" x2="520.2" y2="426" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="515.2" y="437" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<text x="520.2" y="437" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <path d="M14,458H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl10a)"/><text x="48" y="462" fill="#24292f">Pil: venter på</text>
 <text x="168" y="462">⛔</text><text x="196" y="462" fill="#24292f">Venter på en åpen oppgave</text>
 <rect x="380" y="452" width="28" height="12" rx="3" fill="#8c959f"/><text x="414" y="462" fill="#24292f">Mørk: har skjedd</text>
 <rect x="540" y="452" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="574" y="462" fill="#24292f">Stiplet: beregnet eller antatt</text>
 <rect x="790" y="452" width="14" height="12" fill="#cf222e"/><rect x="804" y="452" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="824" y="462" fill="#24292f">Rødt: etter fristen (lyst: prognose)</text>
 <rect x="14" y="473" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="48" y="484" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
-<text x="14" y="510" fill="#57606a" font-size="11">Generert 2026-11-09 fra<a href="https://github.com/orgs/samt-x/projects/10" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 6 – Foreldres tilgang til data</tspan></a>. 10 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<text x="14" y="510" fill="#57606a" font-size="11">Generert 2026-11-10 fra<a href="https://github.com/orgs/samt-x/projects/10" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 6 – Foreldres tilgang til data</tspan></a>. 10 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
