@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1384" height="510" viewBox="0 0 1384 510" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#18" data-tl-top="58" data-tl-rowh="26" data-tl-rows="14" data-tl-pad="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="1389" height="510" viewBox="0 0 1389 510" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#18" data-tl-top="58" data-tl-rowh="26" data-tl-rows="14" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl2a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl2r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl2h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
-<rect width="1384" height="510" fill="#ffffff"/>
-<rect class="tl-stripe" data-i="1" x="0" y="84" width="1384" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="3" x="0" y="136" width="1384" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="5" x="0" y="188" width="1384" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="7" x="0" y="240" width="1384" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="9" x="0" y="292" width="1384" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="11" x="0" y="344" width="1384" height="26" fill="#f6f8fa"/>
-<rect class="tl-stripe" data-i="13" x="0" y="396" width="1384" height="26" fill="#f6f8fa"/>
+<rect width="1389" height="510" fill="#ffffff"/>
+<rect class="tl-stripe" data-i="1" x="0" y="84" width="1389" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="3" x="0" y="136" width="1389" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="5" x="0" y="188" width="1389" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="7" x="0" y="240" width="1389" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="9" x="0" y="292" width="1389" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="11" x="0" y="344" width="1389" height="26" fill="#f6f8fa"/>
+<rect class="tl-stripe" data-i="13" x="0" y="396" width="1389" height="26" fill="#f6f8fa"/>
 <rect class="tl-vh" x="360.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">mai 2026</text>
 <line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="422" stroke="#d0d7de"/>
@@ -109,7 +109,8 @@
 <rect class="tl-vh" x="1335.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <rect class="tl-vh" x="1340.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
 <text x="1347.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<line x1="0" y1="57.5" x2="1384" y2="57.5" stroke="#d0d7de"/>
+<rect class="tl-vh" x="1370.0" y="58" width="5.0" height="364" fill="#eaeef2" opacity="0.6"/>
+<line x1="0" y1="57.5" x2="1389" y2="57.5" stroke="#d0d7de"/>
 <line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="422" stroke="#d0d7de"/>
 <g class="tl-row" data-key="samt-bu-pilot-2#5" data-parent="" data-y="58" data-state="open" data-late="1" data-people="jenslauritsnielsen-novari">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/5" target="_blank"><title>samt-bu-pilot-2#5 Forventningsavklaring (mål, scope, leveranser)
@@ -121,7 +122,7 @@ Forsinket: skulle vært ferdig 6.5.</title><text x="14" y="75.0"><tspan fill="#0
 In progress
 Start: 6.5. (startet (In progress))
 Slutt: 6.5. (Due date)
-Forsinket: skulle vært ferdig 6.5.</title><rect x="375.0" y="64" width="5.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="375.0" y="64" width="5.0" height="14" rx="4" fill="#1f6feb"/><rect x="380.0" y="64" width="940.0" height="14" fill="#cf222e"/></a>
+Forsinket: skulle vært ferdig 6.5.</title><rect x="375.0" y="64" width="5.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="375.0" y="64" width="5.0" height="14" rx="4" fill="#1f6feb"/><rect x="380.0" y="64" width="945.0" height="14" fill="#cf222e"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#8" data-parent="" data-y="84" data-state="open" data-late="1" data-people="alstad nataliakgundersen-novari">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/8" target="_blank"><title>samt-bu-pilot-2#8 Novari: Kartlegge eksisterende Nå-situasjon av dokumentasjon vi har for vilbli.no
@@ -133,7 +134,7 @@ Forsinket: skulle vært ferdig 29.5.</title><text x="14" y="101.0"><tspan fill="
 In progress
 Start: 6.5. (startet (In progress))
 Slutt: 29.5. (Due date)
-Forsinket: skulle vært ferdig 29.5.</title><rect x="375.0" y="90" width="120.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="375.0" y="90" width="120.0" height="14" rx="4" fill="#1f6feb"/><rect x="495.0" y="90" width="825.0" height="14" fill="#cf222e"/></a>
+Forsinket: skulle vært ferdig 29.5.</title><rect x="375.0" y="90" width="120.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="375.0" y="90" width="120.0" height="14" rx="4" fill="#1f6feb"/><rect x="495.0" y="90" width="830.0" height="14" fill="#cf222e"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#7" data-parent="" data-y="110" data-state="open" data-late="1" data-people="jenslauritsnielsen-novari">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/7" target="_blank"><title>samt-bu-pilot-2#7 Lage rammer for en nå-situasjon workshop
@@ -145,7 +146,7 @@ Forsinket: skulle vært ferdig 12.6.</title><text x="14" y="127.0"><tspan fill="
 To do
 Start: 6.5. (startet (In progress))
 Slutt: 12.6. (Due date)
-Forsinket: skulle vært ferdig 12.6.</title><rect x="375.0" y="116" width="190.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#54aeff"/><rect x="375.0" y="116" width="190.0" height="14" rx="4" fill="#54aeff"/><rect x="565.0" y="116" width="755.0" height="14" fill="#cf222e"/></a>
+Forsinket: skulle vært ferdig 12.6.</title><rect x="375.0" y="116" width="190.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.35" stroke="#54aeff"/><rect x="375.0" y="116" width="190.0" height="14" rx="4" fill="#54aeff"/><rect x="565.0" y="116" width="760.0" height="14" fill="#cf222e"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#6" data-parent="" data-y="136" data-state="done" data-people="jenslauritsnielsen-novari">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/6" target="_blank"><title>samt-bu-pilot-2#6 Etablere metodikk og arbeidsform
@@ -167,7 +168,7 @@ Forsinket: skulle vært ferdig 29.5.</title><text x="14" y="179.0"><tspan fill="
 In review
 Start: 8.5. (startet (In progress))
 Slutt: 29.5. (Due date)
-Forsinket: skulle vært ferdig 29.5.</title><rect x="385.0" y="168" width="110.0" height="14" rx="4" fill="#8250df" fill-opacity="0.35" stroke="#8250df"/><rect x="385.0" y="168" width="110.0" height="14" rx="4" fill="#8250df"/><rect x="495.0" y="168" width="825.0" height="14" fill="#cf222e"/></a>
+Forsinket: skulle vært ferdig 29.5.</title><rect x="385.0" y="168" width="110.0" height="14" rx="4" fill="#8250df" fill-opacity="0.35" stroke="#8250df"/><rect x="385.0" y="168" width="110.0" height="14" rx="4" fill="#8250df"/><rect x="495.0" y="168" width="830.0" height="14" fill="#cf222e"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#10" data-parent="" data-y="188" data-state="open" data-late="1" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/10" target="_blank"><title>samt-bu-pilot-2#10 Starte arbeidet med en interessent / aktør oversikt
@@ -179,7 +180,7 @@ Forsinket: skulle vært ferdig 29.5.</title><text x="14" y="205.0"><tspan fill="
 In progress
 Start: 5.6. (startet (In progress))
 Slutt: 5.6. (Due date)
-Forsinket: skulle vært ferdig 29.5.</title><rect x="525.0" y="194" width="5.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="525.0" y="194" width="5.0" height="14" rx="4" fill="#1f6feb"/><rect x="495.0" y="194" width="825.0" height="14" fill="#cf222e"/></a>
+Forsinket: skulle vært ferdig 29.5.</title><rect x="525.0" y="194" width="5.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="525.0" y="194" width="5.0" height="14" rx="4" fill="#1f6feb"/><rect x="495.0" y="194" width="830.0" height="14" fill="#cf222e"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#11" data-parent="" data-y="214" data-state="open" data-late="1" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/11" target="_blank"><title>samt-bu-pilot-2#11 Utarbeide et forslag for fremtids løsning (med eksempler/scenarier)
@@ -191,100 +192,100 @@ Forsinket: skulle vært ferdig 14.8.</title><text x="14" y="231.0"><tspan fill="
 In progress
 Start: 7.8. (startet (In progress))
 Slutt: 14.8. (Due date)
-Forsinket: skulle vært ferdig 14.8.</title><rect x="840.0" y="220" width="40.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="840.0" y="220" width="40.0" height="14" rx="4" fill="#1f6feb"/><rect x="880.0" y="220" width="440.0" height="14" fill="#cf222e"/></a>
+Forsinket: skulle vært ferdig 14.8.</title><rect x="840.0" y="220" width="40.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="840.0" y="220" width="40.0" height="14" rx="4" fill="#1f6feb"/><rect x="880.0" y="220" width="445.0" height="14" fill="#cf222e"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#17" data-parent="" data-y="240" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/17" target="_blank"><title>samt-bu-pilot-2#17 Forslag til fremtidig eierskap og forvaltning ​
 In progress
 Start: 7.8. (startet (In progress))
-Slutt: 10.11. (pågår, forlenget til i dag)
+Slutt: 11.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="257.0"><tspan fill="#0969da">Forslag til fremtidig eierskap og forvaltning ​</tspan><tspan dx="5" fill="#57606a" font-size="11">#17</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/17" target="_blank"><title>samt-bu-pilot-2#17 Forslag til fremtidig eierskap og forvaltning ​
 In progress
 Start: 7.8. (startet (In progress))
-Slutt: 10.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="840.0" y="246" width="480.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="840.0" y="246" width="480.0" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 11.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="840.0" y="246" width="485.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="840.0" y="246" width="485.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#12" data-parent="" data-y="266" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/12" target="_blank"><title>samt-bu-pilot-2#12 Erfaringsrapport fra Pilot 2: Valg av utdanningsløp
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="283.0"><tspan fill="#0969da">Erfaringsrapport fra Pilot 2: Valg av utdanning…</tspan><tspan dx="5" fill="#57606a" font-size="11">#12</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/12" target="_blank"><title>samt-bu-pilot-2#12 Erfaringsrapport fra Pilot 2: Valg av utdanningsløp
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1315.0" y="272" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1320.0" y="272" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#13" data-parent="" data-y="292" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/13" target="_blank"><title>samt-bu-pilot-2#13 Forslag til gevinster for Pilot 2: Valg av utdanningsløp
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="309.0"><tspan fill="#0969da">Forslag til gevinster for Pilot 2: Valg av utda…</tspan><tspan dx="5" fill="#57606a" font-size="11">#13</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/13" target="_blank"><title>samt-bu-pilot-2#13 Forslag til gevinster for Pilot 2: Valg av utdanningsløp
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1315.0" y="298" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1320.0" y="298" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#14" data-parent="" data-y="318" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/14" target="_blank"><title>samt-bu-pilot-2#14 Forslag til arbeid rundt juridiske avklaringer
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="335.0"><tspan fill="#0969da">Forslag til arbeid rundt juridiske avklaringer</tspan><tspan dx="5" fill="#57606a" font-size="11">#14</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/14" target="_blank"><title>samt-bu-pilot-2#14 Forslag til arbeid rundt juridiske avklaringer
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1315.0" y="324" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1320.0" y="324" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#15" data-parent="" data-y="344" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/15" target="_blank"><title>samt-bu-pilot-2#15 Forslag til informasjonsmodel
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="361.0"><tspan fill="#0969da">Forslag til informasjonsmodel</tspan><tspan dx="5" fill="#57606a" font-size="11">#15</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/15" target="_blank"><title>samt-bu-pilot-2#15 Forslag til informasjonsmodel
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1315.0" y="350" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1320.0" y="350" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#16" data-parent="" data-y="370" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/16" target="_blank"><title>samt-bu-pilot-2#16 Forslag til arkitektur
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="387.0"><tspan fill="#0969da">Forslag til arkitektur</tspan><tspan dx="5" fill="#57606a" font-size="11">#16</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/16" target="_blank"><title>samt-bu-pilot-2#16 Forslag til arkitektur
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1315.0" y="376" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1320.0" y="376" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-2#18" data-parent="" data-y="396" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/18" target="_blank"><title>samt-bu-pilot-2#18 Forslag til samarbeidsavtale ​
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="413.0"><tspan fill="#0969da">Forslag til samarbeidsavtale ​</tspan><tspan dx="5" fill="#57606a" font-size="11">#18</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-2/issues/18" target="_blank"><title>samt-bu-pilot-2#18 Forslag til samarbeidsavtale ​
 To do
-Start: 10.11. (ikke planlagt, fra i dag)
-Slutt: 16.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1315.0" y="402" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 11.11. (ikke planlagt, fra i dag)
+Slutt: 17.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="1320.0" y="402" width="35.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
-<line class="tl-vy2" data-dy="4" x1="1317.5" y1="58" x2="1317.5" y2="426" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="1322.5" y1="58" x2="1322.5" y2="426" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="1317.5" y="437" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<text x="1322.5" y="437" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <rect x="14" y="452" width="28" height="12" rx="3" fill="#8c959f"/><text x="48" y="462" fill="#24292f">Mørk: har skjedd</text>
 <rect x="174" y="452" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="208" y="462" fill="#24292f">Stiplet: beregnet eller antatt</text>
 <rect x="424" y="452" width="14" height="12" fill="#cf222e"/><rect x="438" y="452" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="458" y="462" fill="#24292f">Rødt: etter fristen (lyst: prognose)</text>
 <text x="721" y="462" fill="#24292f">✓</text><text x="747" y="462" fill="#24292f">Fullført</text>
 <rect x="822" y="451" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="856" y="462" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
-<text x="14" y="488" fill="#57606a" font-size="11">Generert 2026-11-10 fra<a href="https://github.com/orgs/samt-x/projects/2" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 2 – Valg av utdanningsløp</tspan></a>. 7 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<text x="14" y="488" fill="#57606a" font-size="11">Generert 2026-11-11 fra<a href="https://github.com/orgs/samt-x/projects/2" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 2 – Valg av utdanningsløp</tspan></a>. 7 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
