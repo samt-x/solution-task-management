@@ -8,6 +8,7 @@
 | [samt-bu-common-tasks#75](https://github.com/samt-x/samt-bu-common-tasks/issues/75) En arkitekturreise? | Proposed |  |  |  |
 | [samt-bu-common-tasks#76](https://github.com/samt-x/samt-bu-common-tasks/issues/76) Historiefortelling om paradigmeskifte (kommunikajson) | Proposed |  |  |  |
 | [samt-bu-common-tasks#85](https://github.com/samt-x/samt-bu-common-tasks/issues/85) FINT for alle? | Proposed |  |  |  |
+| [samt-bu-common-tasks#88](https://github.com/samt-x/samt-bu-common-tasks/issues/88) Vurder fortsatt relevans av HKDirs  referansearkitektur for deling av data | Proposed |  |  |  |
 | [samt-bu-architecture#22](https://github.com/samt-x/samt-bu-architecture/issues/22) Case 11 | To do | ChristianeFrhlich |  | 09.10: ??? |
 | [samt-bu-common-tasks#74](https://github.com/samt-x/samt-bu-common-tasks/issues/74) Sandkasse utforsking | Ready |  |  |  |
 | [samt-bu-common-tasks#79](https://github.com/samt-x/samt-bu-common-tasks/issues/79) Koble relevante oppgaver herfra til riktig pilot. | Ready |  |  |  |
