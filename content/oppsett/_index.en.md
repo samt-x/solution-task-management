@@ -23,6 +23,7 @@ This page describes how task management is set up in the GitHub organisation sam
 | Pilot 7 – Digital dialogue between kindergarten/school and home | samt-bu-pilot-7 | Project 19 | Standard |
 | Framework and generic architecture | samt-bu-architecture | Project 5 | Standard |
 | Information models | information-models | Project 6 | Standard |
+| Legal work across the pilots | samt-bu-legal | [Project 21](https://github.com/orgs/samt-x/projects/21) | Standard |
 | Shared tasks across pilots | samt-bu-common-tasks | – | – |
 | The website docs.samt-bu.no | solution-samt-bu-docs | [Project 17](https://github.com/orgs/samt-x/projects/17) | Standard |
 | Task management | solution-task-management | [Project 18](https://github.com/orgs/samt-x/projects/18) | Standard |

@@ -23,6 +23,7 @@ Denne siden beskriver hvordan oppgavestyringen er satt opp i GitHub-organisasjon
 | Pilot 7 – Digital dialog mellom barnehage/skole og hjemmet | samt-bu-pilot-7 | Project 19 | Standard |
 | Rammeverk og generisk arkitektur | samt-bu-architecture | Project 5 | Standard |
 | Informasjonsmodeller | information-models | Project 6 | Standard |
+| Juss på tvers av pilotene | samt-bu-legal | [Project 21](https://github.com/orgs/samt-x/projects/21) | Standard |
 | Felles oppgaver på tvers av pilotene | samt-bu-common-tasks | – | – |
 | Nettstedet docs.samt-bu.no | solution-samt-bu-docs | [Project 17](https://github.com/orgs/samt-x/projects/17) | Standard |
 | Oppgavestyring | solution-task-management | [Project 18](https://github.com/orgs/samt-x/projects/18) | Standard |

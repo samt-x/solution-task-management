@@ -144,7 +144,7 @@ Endringer i repoer, brett, merkelapper og rutiner får en chore-oppgave som besk
 
 ## Navn og topics på repoer
 
-**Navn.** Repoer for prosjektspesifikk oppgavestyring eller klart prosjektspesifikt innhold får prosjektprefikset, her `samt-bu-`. Andre repoer navngis etter hva de er, for eksempel `solution-` for løsninger. Eksisterende navn endres bare når de sier noe feil, og da etter avtale med dem som bruker repoet.
+**Navn.** Repoer for prosjektspesifikk oppgavestyring eller klart prosjektspesifikt innhold får prosjektprefikset, her `samt-bu-`. Repoer som skal leve videre etter prosjektet (`scope-shared`), får typen som prefiks, det samme ordet som i topicene under: `solution-` for løsninger og `content-` for innhold, for eksempel `content-legal`. Pilotene, utkastene og markedsdialogen er også innhold, men de tilhører prosjektet og har derfor `samt-bu-`. Eksisterende navn endres bare når de sier noe feil, og da etter avtale med dem som bruker repoet. `team-architecture` og `team-semantics` er eldre navn fra før regelen og blir stående inntil videre. Se [solution-task-management#51](https://github.com/samt-x/solution-task-management/issues/51).
 
 **Topics.** Hva et repo er, vises med topics, som kan endres når som helst. De står på repoets forside og kan søkes fram i orgen (f.eks. `topic:pilot`). Topics er offentlige for offentlige repoer.
 

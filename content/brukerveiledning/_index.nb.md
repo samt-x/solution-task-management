@@ -17,6 +17,7 @@ Oppgaven opprettes i repoet der **ansvaret** ligger. Still spørsmålene i denne
 | Spørsmål | Hvis ja, legg oppgaven i |
 |---|---|
 | Gjelder den én bestemt pilot? | Pilotens repo, samt-bu-pilot-1 til samt-bu-pilot-7 |
+| Er det juridisk arbeid for flere piloter, eller for pilotene som helhet? | samt-bu-legal |
 | Gjelder den flere piloter, eller pilotene som helhet? | samt-bu-common-tasks |
 | Gjelder den generisk arkitektur eller sluttleveransen (rammeverket)? | samt-bu-architecture |
 | Gjelder den selve nettstedet docs.samt-bu.no (feil, ny funksjon)? | solution-samt-bu-docs |

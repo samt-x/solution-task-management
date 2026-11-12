@@ -144,7 +144,7 @@ Changes to repositories, boards, labels and routines get a chore task describing
 
 ## Repository names and topics
 
-**Names.** Repositories for project-specific task management or clearly project-specific content get the project prefix, here `samt-bu-`. Other repositories are named after what they are, for example `solution-` for solutions. Existing names are changed only when they say something wrong, and then by agreement with those who use the repository.
+**Names.** Repositories for project-specific task management or clearly project-specific content get the project prefix, here `samt-bu-`. Repositories meant to live on after the project (`scope-shared`) get the type as prefix, the same word as in the topics below: `solution-` for solutions and `content-` for content, for example `content-legal`. The pilots, the drafts and the market dialogue are content too, but they belong to the project and therefore have `samt-bu-`. Existing names are changed only when they say something wrong, and then by agreement with those who use the repository. `team-architecture` and `team-semantics` are older names from before the rule and stay as they are for now. See [solution-task-management#51](https://github.com/samt-x/solution-task-management/issues/51).
 
 **Topics.** What a repository is, is shown with topics, which can be changed at any time. They appear on the repository's front page and can be searched across the organisation (e.g. `topic:pilot`). Topics are public for public repositories.
 
