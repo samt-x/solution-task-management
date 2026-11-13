@@ -10,6 +10,7 @@
 | [samt-bu-common-tasks#85](https://github.com/samt-x/samt-bu-common-tasks/issues/85) FINT for alle? | Proposed |  |  |  |
 | [samt-bu-common-tasks#88](https://github.com/samt-x/samt-bu-common-tasks/issues/88) Vurder fortsatt relevans av HKDirs  referansearkitektur for deling av data | Proposed |  |  |  |
 | [samt-bu-architecture#22](https://github.com/samt-x/samt-bu-architecture/issues/22) Case 11 | To do | ChristianeFrhlich |  | 09.10: ??? |
+| [samt-bu-common-tasks#89](https://github.com/samt-x/samt-bu-common-tasks/issues/89) Forberede arkitekturdelen av samling i januar | To do |  | 2026-12-15 |  |
 | [samt-bu-common-tasks#74](https://github.com/samt-x/samt-bu-common-tasks/issues/74) Sandkasse utforsking | Ready |  |  |  |
 | [samt-bu-common-tasks#79](https://github.com/samt-x/samt-bu-common-tasks/issues/79) Koble relevante oppgaver herfra til riktig pilot. | Ready |  |  |  |
 | [samt-bu-common-tasks#86](https://github.com/samt-x/samt-bu-common-tasks/issues/86) Sprintplanlegging | Ready |  |  |  |
@@ -22,7 +23,6 @@
 | [samt-bu-architecture#26](https://github.com/samt-x/samt-bu-architecture/issues/26) Kommunikasjon om arkitektur | In progress | hhimn | 2026-11-10 | 09.10: Fram til 10. nov. (IT-direktører i fylkeskommunene). Hva slags budskap trenger vi? |
 | [samt-bu-architecture#27](https://github.com/samt-x/samt-bu-architecture/issues/27) Spørsmål fra samlingen | In progress | erikhag1git | 2026-11-12 | 09.10: Samle «spørsmålene» vi ville jobbe videre med |
 | [samt-bu-architecture#33](https://github.com/samt-x/samt-bu-architecture/issues/33) Skills dataspace rulebook | In progress | erikhag1git |  |  |
-| [samt-bu-architecture#35](https://github.com/samt-x/samt-bu-architecture/issues/35) Klassifisering ved lenker til virkelige elementer, ikke egne taksonomier | In progress |  |  |  |
 | [samt-bu-common-tasks#72](https://github.com/samt-x/samt-bu-common-tasks/issues/72) Data.Altinn.no som mulighet til å løse utvalgte case(r). (Arbeidsmøte) | In progress |  |  |  |
 | [samt-bu-common-tasks#73](https://github.com/samt-x/samt-bu-common-tasks/issues/73) Oppfølging av Asker Kommune (Ragnar Husum) | In progress |  |  |  |
 | [samt-bu-architecture#13](https://github.com/samt-x/samt-bu-architecture/issues/13) Rulebook mot Nasjonal arkitektur | Done | gnetrom |  | 09.10: Ferdig |
@@ -32,6 +32,7 @@
 | [samt-bu-architecture#23](https://github.com/samt-x/samt-bu-architecture/issues/23) GitHub Tasks for arkitektur | Done | erikhag1git |  | 09.10: På gang, straks klart |
 | [samt-bu-architecture#24](https://github.com/samt-x/samt-bu-architecture/issues/24) Møteserie og standup | Done | CatHolt1 |  | 09.10: OK |
 | [samt-bu-architecture#31](https://github.com/samt-x/samt-bu-architecture/issues/31) Opprydding: fjerne første oppsett for arkitekturgruppa | Done | erikhag1git |  |  |
+| [samt-bu-architecture#35](https://github.com/samt-x/samt-bu-architecture/issues/35) Klassifisering ved lenker til virkelige elementer, ikke egne taksonomier | Done |  |  |  |
 | [samt-bu-architecture#36](https://github.com/samt-x/samt-bu-architecture/issues/36) Write access for the architecture team on samt-bu-architecture | Done |  |  |  |
 | [samt-bu-common-tasks#77](https://github.com/samt-x/samt-bu-common-tasks/issues/77) testtask | Done |  | 2026-10-31 |  |
 | [samt-bu-common-tasks#80](https://github.com/samt-x/samt-bu-common-tasks/issues/80) Forberede eventuell demo for fredag 6.november. | Done |  | 2026-11-06 |  |
