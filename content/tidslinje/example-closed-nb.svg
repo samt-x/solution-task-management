@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="924" height="220" viewBox="0 0 924 220" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#10" data-tl-top="58" data-tl-rowh="26" data-tl-rows="2" data-tl-pad="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="946" height="220" viewBox="0 0 946 220" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#10" data-tl-top="58" data-tl-rowh="26" data-tl-rows="2" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl20-closeda" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl20-closedr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl20-closedh" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
-<rect width="924" height="220" fill="#ffffff"/>
-<rect class="tl-stripe" data-i="1" x="0" y="84" width="924" height="26" fill="#f6f8fa"/>
+<rect width="946" height="220" fill="#ffffff"/>
+<rect class="tl-stripe" data-i="1" x="0" y="84" width="946" height="26" fill="#f6f8fa"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">okt 2026</text>
 <line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="110" stroke="#d0d7de"/>
 <text x="371.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
@@ -40,7 +40,8 @@
 <rect class="tl-vh" x="866.0" y="58" width="22.0" height="52" fill="#eaeef2" opacity="0.6"/>
 <text x="877.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
 <text x="899.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<line x1="0" y1="57.5" x2="924" y2="57.5" stroke="#d0d7de"/>
+<text x="921.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
+<line x1="0" y1="57.5" x2="946" y2="57.5" stroke="#d0d7de"/>
 <line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="110" stroke="#d0d7de"/>
 <g class="tl-row" data-key="solution-task-management-examples#1" data-parent="" data-y="58" data-state="done" data-people="">
 <a href="https://github.com/samt-x/solution-task-management-examples/issues/1" target="_blank"><title>solution-task-management-examples#1 Eksempel A: Kartlegge behov
@@ -72,14 +73,14 @@ Hvorfor: piloteringen skulle bygge på kartleggingen av behov
 #1 er lukket, så det ventes ikke lenger.
 Koblet 1.11. av erikhag1git
 Klikk for å åpne #10</title><path d="M536.0,71.0H544.0V97.0H579.0" fill="none" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl20-closeda)"/><circle cx="544.0" cy="97.0" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><path d="M536.0,71.0H544.0V97.0H579.0" fill="none" stroke="#000000" stroke-opacity="0" stroke-width="10" pointer-events="stroke"/></a>
-<line class="tl-vy2" data-dy="4" x1="811.0" y1="58" x2="811.0" y2="114" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="833.0" y1="58" x2="833.0" y2="114" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="811.0" y="125" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<text x="833.0" y="125" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <path d="M14,146H42" stroke="#57606a" stroke-width="1.5" marker-end="url(#tl20-closeda)"/><text x="48" y="150" fill="#24292f">Pil: venter på</text>
 <circle cx="176" cy="146" r="3.2" fill="#ffffff" stroke="#57606a" stroke-width="1.5"/><text x="196" y="150" fill="#24292f">Ring: avhengigheten er beskrevet</text>
 <rect x="424" y="140" width="28" height="12" rx="3" fill="#8c959f"/><text x="458" y="150" fill="#24292f">Mørk: har skjedd</text>
 <text x="593" y="150" fill="#24292f">✓</text><text x="619" y="150" fill="#24292f">Fullført</text>
 <rect x="14" y="162" width="28" height="12" rx="3" fill="url(#tl20-closedh)" stroke="#8c959f"/><text x="48" y="172" fill="#24292f">Skravert og ✕: lukket uten å bli gjort</text>
-<text x="14" y="198" fill="#57606a" font-size="11">Generert 2026-11-12 fra<a href="https://github.com/orgs/samt-x/projects/20" target="_blank"><tspan dx="4" fill="#0969da">[EXAMPLE] Timeline</tspan></a>.</text>
+<text x="14" y="198" fill="#57606a" font-size="11">Generert 2026-11-13 fra<a href="https://github.com/orgs/samt-x/projects/20" target="_blank"><tspan dx="4" fill="#0969da">[EXAMPLE] Timeline</tspan></a>.</text>
 </g>
 </svg>

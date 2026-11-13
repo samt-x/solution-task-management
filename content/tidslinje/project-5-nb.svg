@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="948" viewBox="0 0 1134 948" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#86" data-tl-top="58" data-tl-rowh="26" data-tl-rows="30" data-tl-pad="14">
+<svg xmlns="http://www.w3.org/2000/svg" width="1134" height="974" viewBox="0 0 1134 974" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" data-tl="#88" data-tl-top="58" data-tl-rowh="26" data-tl-rows="31" data-tl-pad="14">
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl5r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl5h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
-<rect width="1134" height="948" fill="#ffffff"/>
+<rect width="1134" height="974" fill="#ffffff"/>
 <rect class="tl-stripe" data-i="1" x="0" y="84" width="1134" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="3" x="0" y="136" width="1134" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="5" x="0" y="188" width="1134" height="26" fill="#f6f8fa"/>
@@ -18,61 +18,61 @@
 <rect class="tl-stripe" data-i="27" x="0" y="760" width="1134" height="26" fill="#f6f8fa"/>
 <rect class="tl-stripe" data-i="29" x="0" y="812" width="1134" height="26" fill="#f6f8fa"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">sep 2026</text>
-<line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="838" stroke="#d0d7de"/>
-<text x="366.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<rect class="tl-vh" x="372.9" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="385.8" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="392.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
-<text x="418.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
-<text x="439.3" y="20" fill="#24292f" font-weight="600">okt 2026</text>
-<line class="tl-vy2" x1="437.3" y1="8" x2="437.3" y2="838" stroke="#d0d7de"/>
-<text x="443.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
-<rect class="tl-vh" x="463.1" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="469.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
-<rect class="tl-vh" x="475.9" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="495.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
-<text x="521.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
-<text x="546.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
-<rect class="tl-vh" x="553.2" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="566.1" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="572.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
-<text x="598.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
-<text x="624.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
-<rect class="tl-vh" x="643.4" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="649.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
-<rect class="tl-vh" x="656.3" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="675.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
-<text x="701.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
-<text x="727.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<rect class="tl-vh" x="733.6" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="746.4" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="752.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<text x="778.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
-<text x="804.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
-<rect class="tl-vh" x="823.7" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="830.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
-<rect class="tl-vh" x="836.6" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="838.6" y="20" fill="#24292f" font-weight="600">nov 2026</text>
-<line class="tl-vy2" x1="836.6" y1="8" x2="836.6" y2="838" stroke="#d0d7de"/>
-<text x="855.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<text x="881.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
-<text x="907.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
-<rect class="tl-vh" x="913.9" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="926.8" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="933.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
-<text x="959.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
-<text x="984.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
-<rect class="tl-vh" x="1004.1" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="1010.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
-<rect class="tl-vh" x="1016.9" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="1036.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<text x="1062.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
-<text x="1087.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
-<rect class="tl-vh" x="1094.2" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="1107.1" y="58" width="12.9" height="780" fill="#eaeef2" opacity="0.6"/>
-<text x="1113.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
+<line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="864" stroke="#d0d7de"/>
+<text x="366.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<rect class="tl-vh" x="372.7" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="385.3" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="391.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
+<text x="417.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
+<text x="438.0" y="20" fill="#24292f" font-weight="600">okt 2026</text>
+<line class="tl-vy2" x1="436.0" y1="8" x2="436.0" y2="864" stroke="#d0d7de"/>
+<text x="442.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
+<rect class="tl-vh" x="461.3" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="467.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
+<rect class="tl-vh" x="474.0" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="493.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
+<text x="518.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
+<text x="543.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
+<rect class="tl-vh" x="550.0" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="562.7" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="569.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
+<text x="594.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
+<text x="619.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
+<rect class="tl-vh" x="638.7" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="645.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
+<rect class="tl-vh" x="651.3" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="670.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
+<text x="695.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
+<text x="721.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
+<rect class="tl-vh" x="727.3" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="740.0" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="746.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<text x="771.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
+<text x="797.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
+<rect class="tl-vh" x="816.0" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="822.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
+<rect class="tl-vh" x="828.7" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="830.7" y="20" fill="#24292f" font-weight="600">nov 2026</text>
+<line class="tl-vy2" x1="828.7" y1="8" x2="828.7" y2="864" stroke="#d0d7de"/>
+<text x="847.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
+<text x="873.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
+<text x="898.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
+<rect class="tl-vh" x="904.7" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="917.3" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="923.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
+<text x="949.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
+<text x="974.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
+<rect class="tl-vh" x="993.3" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="999.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
+<rect class="tl-vh" x="1006.0" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="1025.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
+<text x="1050.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
+<text x="1075.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
+<rect class="tl-vh" x="1082.0" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1094.7" y="58" width="12.7" height="806" fill="#eaeef2" opacity="0.6"/>
+<text x="1101.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
 <line x1="0" y1="57.5" x2="1134" y2="57.5" stroke="#d0d7de"/>
-<line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="838" stroke="#d0d7de"/>
+<line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="864" stroke="#d0d7de"/>
 <g class="tl-row" data-key="samt-bu-architecture#13" data-parent="" data-y="58" data-state="done" data-people="gnetrom">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/13" target="_blank"><title>samt-bu-architecture#13 Rulebook mot Nasjonal arkitektur
 Done (lukket: fullført)
@@ -83,7 +83,7 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="75.0"><tspan f
 Done (lukket: fullført)
 Start: 28.9. (regnet fra slutt og varighet)
 Slutt: 3.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="398.6" y="64" width="77.3" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="398.0" y="64" width="76.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#14" data-parent="" data-y="84" data-state="done" data-people="Mette Kvarme">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/14" target="_blank"><title>samt-bu-architecture#14 Arkitekturvurderingen – neste versjon
@@ -95,7 +95,7 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="101.0"><tspan 
 Done (lukket: fullført)
 Start: 28.9. (regnet fra slutt og varighet)
 Slutt: 3.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="398.6" y="90" width="77.3" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="398.0" y="90" width="76.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#24" data-parent="" data-y="110" data-state="done" data-people="CatHolt1">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/24" target="_blank"><title>samt-bu-architecture#24 Møteserie og standup
@@ -107,7 +107,7 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="127.0"><tspan 
 Done (lukket: fullført)
 Start: 28.9. (regnet fra slutt og varighet)
 Slutt: 3.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="398.6" y="116" width="77.3" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="398.0" y="116" width="76.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#23" data-parent="" data-y="136" data-state="done" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/23" target="_blank"><title>samt-bu-architecture#23 GitHub Tasks for arkitektur
@@ -117,41 +117,43 @@ Slutt: 30.10. (ferdig)</title><text x="28" y="153.0"><tspan fill="#0969da">GitHu
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/23" target="_blank"><title>samt-bu-architecture#23 GitHub Tasks for arkitektur
 Done
 Start: 3.10. (startet (In progress))
-Slutt: 30.10. (ferdig)</title><rect x="463.1" y="142" width="360.7" height="14" rx="4" fill="#2da44e" fill-opacity="0.35" stroke="#2da44e"/><rect x="463.1" y="142" width="360.7" height="14" rx="4" fill="#2da44e"/></a>
+Slutt: 30.10. (ferdig)</title><rect x="461.3" y="142" width="354.7" height="14" rx="4" fill="#2da44e" fill-opacity="0.35" stroke="#2da44e"/><rect x="461.3" y="142" width="354.7" height="14" rx="4" fill="#2da44e"/></a>
 </g>
-<g class="tl-row" data-key="samt-bu-architecture#15" data-parent="" data-y="162" data-state="open" data-people="CatHolt1">
-<a href="https://github.com/samt-x/samt-bu-architecture/issues/15" target="_blank"><title>samt-bu-architecture#15 Utforsking av samtykke/fullmakt
-In progress
-Start: 3.10. (startet (In progress))
-Slutt: 12.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="179.0"><tspan fill="#0969da">Utforsking av samtykke/fullmakt</tspan><tspan dx="5" fill="#57606a" font-size="11">#15</tspan></text></a>
-<a href="https://github.com/samt-x/samt-bu-architecture/issues/15" target="_blank"><title>samt-bu-architecture#15 Utforsking av samtykke/fullmakt
-In progress
-Start: 3.10. (startet (In progress))
-Slutt: 12.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="463.1" y="168" width="528.1" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="463.1" y="168" width="528.1" height="14" rx="4" fill="#1f6feb"/></a>
-</g>
-<g class="tl-row" data-key="samt-bu-architecture#17" data-parent="" data-y="188" data-state="open" data-people="gnetrom">
+<g class="tl-row" data-key="samt-bu-architecture#17" data-parent="" data-y="162" data-state="open" data-late="1" data-people="gnetrom">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/17" target="_blank"><title>samt-bu-architecture#17 Rulebook – struktur
 In progress
 Start: 3.10. (startet (In progress))
-Slutt: 12.11. (Due date)</title><text x="28" y="205.0"><tspan fill="#0969da">Rulebook – struktur</tspan><tspan dx="5" fill="#57606a" font-size="11">#17</tspan></text></a>
+Slutt: 12.11. (Due date)
+Forsinket: skulle vært ferdig 12.11.</title><text x="28" y="179.0"><tspan fill="#0969da">Rulebook – struktur</tspan><tspan dx="5" fill="#57606a" font-size="11">#17</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/17" target="_blank"><title>samt-bu-architecture#17 Rulebook – struktur
 In progress
 Start: 3.10. (startet (In progress))
-Slutt: 12.11. (Due date)</title><rect x="463.1" y="194" width="528.1" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="463.1" y="194" width="528.1" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 12.11. (Due date)
+Forsinket: skulle vært ferdig 12.11.</title><rect x="461.3" y="168" width="519.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="461.3" y="168" width="519.3" height="14" rx="4" fill="#1f6feb"/><rect x="980.7" y="168" width="12.7" height="14" fill="#cf222e"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-architecture#15" data-parent="" data-y="188" data-state="open" data-people="CatHolt1">
+<a href="https://github.com/samt-x/samt-bu-architecture/issues/15" target="_blank"><title>samt-bu-architecture#15 Utforsking av samtykke/fullmakt
+In progress
+Start: 3.10. (startet (In progress))
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="205.0"><tspan fill="#0969da">Utforsking av samtykke/fullmakt</tspan><tspan dx="5" fill="#57606a" font-size="11">#15</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-architecture/issues/15" target="_blank"><title>samt-bu-architecture#15 Utforsking av samtykke/fullmakt
+In progress
+Start: 3.10. (startet (In progress))
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="461.3" y="194" width="532.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="461.3" y="194" width="532.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#20" data-parent="" data-y="214" data-state="open" data-people="ChristianeFrhlich KjerstiSteien alstad">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/20" target="_blank"><title>samt-bu-architecture#20 Case 2(1)
 In progress
 Start: 3.10. (startet (In progress))
-Slutt: 12.11. (pågår, forlenget til i dag)
+Slutt: 13.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="231.0"><tspan fill="#0969da">Case 2(1)</tspan><tspan dx="5" fill="#57606a" font-size="11">#20</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/20" target="_blank"><title>samt-bu-architecture#20 Case 2(1)
 In progress
 Start: 3.10. (startet (In progress))
-Slutt: 12.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="463.1" y="220" width="528.1" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="463.1" y="220" width="528.1" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="461.3" y="220" width="532.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="461.3" y="220" width="532.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#31" data-parent="" data-y="240" data-state="done" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/31" target="_blank"><title>samt-bu-architecture#31 Opprydding: fjerne første oppsett for arkitekturgruppa
@@ -161,7 +163,7 @@ Slutt: 5.10. (ferdig)</title><text x="28" y="257.0"><tspan fill="#0969da" text-d
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/31" target="_blank"><title>samt-bu-architecture#31 Opprydding: fjerne første oppsett for arkitekturgruppa
 Done (lukket: fullført)
 Start: 5.10. (startet (In progress))
-Slutt: 5.10. (ferdig)</title><rect x="488.8" y="246" width="12.9" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="488.8" y="246" width="12.9" height="14" rx="4" fill="#8c959f"/></a>
+Slutt: 5.10. (ferdig)</title><rect x="486.7" y="246" width="12.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="486.7" y="246" width="12.7" height="14" rx="4" fill="#8c959f"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#16" data-parent="" data-y="266" data-state="done" data-people="KjerstiSteien">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/16" target="_blank"><title>samt-bu-architecture#16 Kjernemodell – mål og organisering
@@ -171,7 +173,7 @@ Slutt: 31.10. (ferdig)</title><text x="28" y="283.0"><tspan fill="#0969da" text-
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/16" target="_blank"><title>samt-bu-architecture#16 Kjernemodell – mål og organisering
 Done (lukket: fullført)
 Start: 23.10. (startet (In progress))
-Slutt: 31.10. (ferdig)</title><rect x="720.7" y="272" width="115.9" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="720.7" y="272" width="115.9" height="14" rx="4" fill="#8c959f"/></a>
+Slutt: 31.10. (ferdig)</title><rect x="714.7" y="272" width="114.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="714.7" y="272" width="114.0" height="14" rx="4" fill="#8c959f"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#36" data-parent="" data-y="292" data-state="done" data-people="">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/36" target="_blank"><title>samt-bu-architecture#36 Write access for the architecture team on samt-bu-architecture
@@ -183,7 +185,7 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="309.0"><tspan 
 Done (lukket: fullført)
 Start: 26.10. (regnet fra slutt og varighet)
 Slutt: 30.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="759.3" y="298" width="64.4" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="752.7" y="298" width="63.3" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#80" data-parent="" data-y="318" data-state="done" data-people="CatHolt1">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/80" target="_blank"><title>samt-bu-common-tasks#80 Forberede eventuell demo for fredag 6.november.
@@ -193,7 +195,7 @@ Slutt: 6.11. (ferdig)</title><text x="28" y="335.0"><tspan fill="#0969da" text-d
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/80" target="_blank"><title>samt-bu-common-tasks#80 Forberede eventuell demo for fredag 6.november.
 Done (lukket: fullført)
 Start: 30.10. (startet (In progress))
-Slutt: 6.11. (ferdig)</title><rect x="810.8" y="324" width="103.1" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="810.8" y="324" width="103.1" height="14" rx="4" fill="#8c959f"/></a>
+Slutt: 6.11. (ferdig)</title><rect x="803.3" y="324" width="101.3" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><rect x="803.3" y="324" width="101.3" height="14" rx="4" fill="#8c959f"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#26" data-parent="" data-y="344" data-state="open" data-late="1" data-people="hhimn">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/26" target="_blank"><title>samt-bu-architecture#26 Kommunikasjon om arkitektur
@@ -205,44 +207,44 @@ Forsinket: skulle vært ferdig 10.11.</title><text x="28" y="361.0"><tspan fill=
 In progress
 Start: 30.10. (startet (In progress))
 Slutt: 10.11. (Due date)
-Forsinket: skulle vært ferdig 10.11.</title><rect x="810.8" y="350" width="154.6" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="810.8" y="350" width="154.6" height="14" rx="4" fill="#1f6feb"/><rect x="965.4" y="350" width="25.8" height="14" fill="#cf222e"/></a>
+Forsinket: skulle vært ferdig 10.11.</title><rect x="803.3" y="350" width="152.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="803.3" y="350" width="152.0" height="14" rx="4" fill="#1f6feb"/><rect x="955.3" y="350" width="38.0" height="14" fill="#cf222e"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#19" data-parent="" data-y="370" data-state="open" data-people="alstad erikhag1git">
 <g class="tl-fold" role="button" display="none" cursor="pointer"><title>Fold sub-issuene inn eller ut</title><rect x="12" y="370" width="16" height="26" fill="transparent"/><text x="14" y="388.0" fill="#57606a" font-size="15">▾</text></g>
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/19" target="_blank"><title>samt-bu-architecture#19 Case 6
 In progress
 Start: 30.10. (fra sub-issuene)
-Slutt: 12.11. (fra sub-issuene)
+Slutt: 13.11. (fra sub-issuene)
 Sub-issues: 0 av 1 ferdige</title><text x="28" y="387.0"><tspan fill="#0969da">Case 6</tspan><tspan dx="5" fill="#57606a" font-size="11">#19 · 0/1</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/19" target="_blank"><title>samt-bu-architecture#19 Case 6
 In progress
 Start: 30.10. (fra sub-issuene)
-Slutt: 12.11. (fra sub-issuene)
-Sub-issues: 0 av 1 ferdige</title><path d="M810.8,389V377H991.2V389L985.2,384H816.8Z" fill="#1f6feb" fill-opacity="0.3" stroke="#1f6feb"/><rect x="810.8" y="377" width="180.3" height="7" fill="#1f6feb"/><path d="M810.8,389V377H991.2V389L985.2,384H816.8Z" fill="none" stroke="#1f6feb"/></a>
+Slutt: 13.11. (fra sub-issuene)
+Sub-issues: 0 av 1 ferdige</title><path d="M803.3,389V377H993.3V389L987.3,384H809.3Z" fill="#1f6feb" fill-opacity="0.3" stroke="#1f6feb"/><rect x="803.3" y="377" width="190.0" height="7" fill="#1f6feb"/><path d="M803.3,389V377H993.3V389L987.3,384H809.3Z" fill="none" stroke="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#72" data-parent="samt-bu-architecture#19" data-y="396" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/72" target="_blank"><title>samt-bu-common-tasks#72 Data.Altinn.no som mulighet til å løse utvalgte case(r). (Arbeidsmøte)
 In progress
 Start: 30.10. (startet (In progress))
-Slutt: 12.11. (pågår, forlenget til i dag)
+Slutt: 13.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="413.0"><tspan fill="#0969da">Data.Altinn.no som mulighet til å løse utva…</tspan><tspan dx="5" fill="#57606a" font-size="11">#72</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/72" target="_blank"><title>samt-bu-common-tasks#72 Data.Altinn.no som mulighet til å løse utvalgte case(r). (Arbeidsmøte)
 In progress
 Start: 30.10. (startet (In progress))
-Slutt: 12.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="810.8" y="402" width="180.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="810.8" y="402" width="180.3" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="803.3" y="402" width="190.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="803.3" y="402" width="190.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#25" data-parent="" data-y="422" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/25" target="_blank"><title>samt-bu-architecture#25 Skjelett til målbilde
 In progress
 Start: 30.10. (startet (In progress))
-Slutt: 12.11. (pågår, forlenget til i dag)
+Slutt: 13.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="439.0"><tspan fill="#0969da">Skjelett til målbilde</tspan><tspan dx="5" fill="#57606a" font-size="11">#25</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/25" target="_blank"><title>samt-bu-architecture#25 Skjelett til målbilde
 In progress
 Start: 30.10. (startet (In progress))
-Slutt: 12.11. (pågår, forlenget til i dag)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="810.8" y="428" width="180.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="810.8" y="428" width="180.3" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="803.3" y="428" width="190.0" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="803.3" y="428" width="190.0" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#77" data-parent="" data-y="448" data-state="done" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/77" target="_blank"><title>samt-bu-common-tasks#77 testtask
@@ -254,7 +256,7 @@ Sub-issues: 0 av 1 ferdige</title><text x="28" y="465.0"><tspan fill="#0969da" t
 Done (lukket: fullført)
 Start: 31.10. (Start date)
 Slutt: 31.10. (ferdig)
-Sub-issues: 0 av 1 ferdige</title><rect x="823.7" y="454" width="12.9" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/></a>
+Sub-issues: 0 av 1 ferdige</title><rect x="816.0" y="454" width="12.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#21" data-parent="" data-y="474" data-state="done" data-people="CatHolt1">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/21" target="_blank"><title>samt-bu-architecture#21 Case 3
@@ -264,174 +266,188 @@ Slutt: 6.11. (ferdig)</title><text x="28" y="491.0"><tspan fill="#0969da" text-d
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/21" target="_blank"><title>samt-bu-architecture#21 Case 3
 Done (lukket: fullført)
 Start: 3.11. (Start date)
-Slutt: 6.11. (ferdig)</title><rect x="862.4" y="480" width="51.5" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/></a>
+Slutt: 6.11. (ferdig)</title><rect x="854.0" y="480" width="50.7" height="14" rx="4" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/></a>
 </g>
-<g class="tl-row" data-key="samt-bu-architecture#18" data-parent="" data-y="500" data-state="open" data-people="alstad erikhag1git gnetrom">
-<g class="tl-fold" role="button" display="none" cursor="pointer"><title>Fold sub-issuene inn eller ut</title><rect x="12" y="500" width="16" height="26" fill="transparent"/><text x="14" y="518.0" fill="#57606a" font-size="15">▾</text></g>
-<a href="https://github.com/samt-x/samt-bu-architecture/issues/18" target="_blank"><title>samt-bu-architecture#18 Sjekk mot relevante dataspaces
-In progress
-Start: 6.11. (fra sub-issuene)
-Slutt: 12.11. (fra sub-issuene)
-Sub-issues: 0 av 1 ferdige</title><text x="28" y="517.0"><tspan fill="#0969da">Sjekk mot relevante dataspaces</tspan><tspan dx="5" fill="#57606a" font-size="11">#18 · 0/1</tspan></text></a>
-<a href="https://github.com/samt-x/samt-bu-architecture/issues/18" target="_blank"><title>samt-bu-architecture#18 Sjekk mot relevante dataspaces
-In progress
-Start: 6.11. (fra sub-issuene)
-Slutt: 12.11. (fra sub-issuene)
-Sub-issues: 0 av 1 ferdige</title><path d="M901.0,519V507H991.2V519L985.2,514H907.0Z" fill="#1f6feb" fill-opacity="0.3" stroke="#1f6feb"/><rect x="901.0" y="507" width="90.2" height="7" fill="#1f6feb"/><path d="M901.0,519V507H991.2V519L985.2,514H907.0Z" fill="none" stroke="#1f6feb"/></a>
-</g>
-<g class="tl-row" data-key="samt-bu-architecture#33" data-parent="samt-bu-architecture#18" data-y="526" data-state="open" data-people="erikhag1git">
-<a href="https://github.com/samt-x/samt-bu-architecture/issues/33" target="_blank"><title>samt-bu-architecture#33 Skills dataspace rulebook
-In progress
-Start: 6.11. (startet (In progress))
-Slutt: 12.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="543.0"><tspan fill="#0969da">Skills dataspace rulebook</tspan><tspan dx="5" fill="#57606a" font-size="11">#33</tspan></text></a>
-<a href="https://github.com/samt-x/samt-bu-architecture/issues/33" target="_blank"><title>samt-bu-architecture#33 Skills dataspace rulebook
-In progress
-Start: 6.11. (startet (In progress))
-Slutt: 12.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="901.0" y="532" width="90.2" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="901.0" y="532" width="90.2" height="14" rx="4" fill="#1f6feb"/></a>
-</g>
-<g class="tl-row" data-key="samt-bu-architecture#27" data-parent="" data-y="552" data-state="open" data-people="erikhag1git">
+<g class="tl-row" data-key="samt-bu-architecture#27" data-parent="" data-y="500" data-state="open" data-late="1" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/27" target="_blank"><title>samt-bu-architecture#27 Spørsmål fra samlingen
 In progress
 Start: 6.11. (startet (In progress))
-Slutt: 12.11. (Due date)</title><text x="28" y="569.0"><tspan fill="#0969da">Spørsmål fra samlingen</tspan><tspan dx="5" fill="#57606a" font-size="11">#27</tspan></text></a>
+Slutt: 12.11. (Due date)
+Forsinket: skulle vært ferdig 12.11.</title><text x="28" y="517.0"><tspan fill="#0969da">Spørsmål fra samlingen</tspan><tspan dx="5" fill="#57606a" font-size="11">#27</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/27" target="_blank"><title>samt-bu-architecture#27 Spørsmål fra samlingen
 In progress
 Start: 6.11. (startet (In progress))
-Slutt: 12.11. (Due date)</title><rect x="901.0" y="558" width="90.2" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="901.0" y="558" width="90.2" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 12.11. (Due date)
+Forsinket: skulle vært ferdig 12.11.</title><rect x="892.0" y="506" width="88.7" height="14" rx="4" fill="#1f6feb" fill-opacity="0.35" stroke="#1f6feb"/><rect x="892.0" y="506" width="88.7" height="14" rx="4" fill="#1f6feb"/><rect x="980.7" y="506" width="12.7" height="14" fill="#cf222e"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-architecture#18" data-parent="" data-y="526" data-state="open" data-people="alstad erikhag1git gnetrom">
+<g class="tl-fold" role="button" display="none" cursor="pointer"><title>Fold sub-issuene inn eller ut</title><rect x="12" y="526" width="16" height="26" fill="transparent"/><text x="14" y="544.0" fill="#57606a" font-size="15">▾</text></g>
+<a href="https://github.com/samt-x/samt-bu-architecture/issues/18" target="_blank"><title>samt-bu-architecture#18 Sjekk mot relevante dataspaces
+In progress
+Start: 6.11. (fra sub-issuene)
+Slutt: 13.11. (fra sub-issuene)
+Sub-issues: 0 av 1 ferdige</title><text x="28" y="543.0"><tspan fill="#0969da">Sjekk mot relevante dataspaces</tspan><tspan dx="5" fill="#57606a" font-size="11">#18 · 0/1</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-architecture/issues/18" target="_blank"><title>samt-bu-architecture#18 Sjekk mot relevante dataspaces
+In progress
+Start: 6.11. (fra sub-issuene)
+Slutt: 13.11. (fra sub-issuene)
+Sub-issues: 0 av 1 ferdige</title><path d="M892.0,545V533H993.3V545L987.3,540H898.0Z" fill="#1f6feb" fill-opacity="0.3" stroke="#1f6feb"/><rect x="892.0" y="533" width="101.3" height="7" fill="#1f6feb"/><path d="M892.0,545V533H993.3V545L987.3,540H898.0Z" fill="none" stroke="#1f6feb"/></a>
+</g>
+<g class="tl-row" data-key="samt-bu-architecture#33" data-parent="samt-bu-architecture#18" data-y="552" data-state="open" data-people="erikhag1git">
+<a href="https://github.com/samt-x/samt-bu-architecture/issues/33" target="_blank"><title>samt-bu-architecture#33 Skills dataspace rulebook
+In progress
+Start: 6.11. (startet (In progress))
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="42" y="569.0"><tspan fill="#0969da">Skills dataspace rulebook</tspan><tspan dx="5" fill="#57606a" font-size="11">#33</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-architecture/issues/33" target="_blank"><title>samt-bu-architecture#33 Skills dataspace rulebook
+In progress
+Start: 6.11. (startet (In progress))
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="892.0" y="558" width="101.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="892.0" y="558" width="101.3" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#35" data-parent="" data-y="578" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/35" target="_blank"><title>samt-bu-architecture#35 Klassifisering ved lenker til virkelige elementer, ikke egne taksonomier
 In progress
 Start: 6.11. (startet (In progress))
-Slutt: 12.11. (regnet fra start og varighet)
+Slutt: 13.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="595.0"><tspan fill="#0969da">Klassifisering ved lenker til virkelige eleme…</tspan><tspan dx="5" fill="#57606a" font-size="11">#35</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/35" target="_blank"><title>samt-bu-architecture#35 Klassifisering ved lenker til virkelige elementer, ikke egne taksonomier
 In progress
 Start: 6.11. (startet (In progress))
-Slutt: 12.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="901.0" y="584" width="90.2" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="901.0" y="584" width="90.2" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="892.0" y="584" width="101.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="892.0" y="584" width="101.3" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#73" data-parent="" data-y="604" data-state="open" data-people="erikhag1git">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/73" target="_blank"><title>samt-bu-common-tasks#73 Oppfølging av Asker Kommune (Ragnar Husum)
 In progress
 Start: 6.11. (startet (In progress))
-Slutt: 12.11. (regnet fra start og varighet)
+Slutt: 13.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="621.0"><tspan fill="#0969da">Oppfølging av Asker Kommune (Ragnar Husum)</tspan><tspan dx="5" fill="#57606a" font-size="11">#73</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/73" target="_blank"><title>samt-bu-common-tasks#73 Oppfølging av Asker Kommune (Ragnar Husum)
 In progress
 Start: 6.11. (startet (In progress))
-Slutt: 12.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="901.0" y="610" width="90.2" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="901.0" y="610" width="90.2" height="14" rx="4" fill="#1f6feb"/></a>
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="892.0" y="610" width="101.3" height="14" rx="4" fill="#1f6feb" fill-opacity="0.12" stroke="#1f6feb" stroke-dasharray="4 3"/><rect x="892.0" y="610" width="101.3" height="14" rx="4" fill="#1f6feb"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#74" data-parent="" data-y="630" data-state="open" data-people="alstad erikhag1git gnetrom">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/74" target="_blank"><title>samt-bu-common-tasks#74 Sandkasse utforsking
 Ready
 Start: 6.11. (startet (In progress))
-Slutt: 12.11. (regnet fra start og varighet)
+Slutt: 13.11. (pågår, forlenget til i dag)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="647.0"><tspan fill="#0969da">Sandkasse utforsking</tspan><tspan dx="5" fill="#57606a" font-size="11">#74</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/74" target="_blank"><title>samt-bu-common-tasks#74 Sandkasse utforsking
 Ready
 Start: 6.11. (startet (In progress))
-Slutt: 12.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="901.0" y="636" width="90.2" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/><rect x="901.0" y="636" width="90.2" height="14" rx="4" fill="#54aeff"/></a>
+Slutt: 13.11. (pågår, forlenget til i dag)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="892.0" y="636" width="101.3" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/><rect x="892.0" y="636" width="101.3" height="14" rx="4" fill="#54aeff"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#22" data-parent="" data-y="656" data-state="open" data-people="ChristianeFrhlich">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/22" target="_blank"><title>samt-bu-architecture#22 Case 11
 To do
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="673.0"><tspan fill="#0969da">Case 11</tspan><tspan dx="5" fill="#57606a" font-size="11">#22</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/22" target="_blank"><title>samt-bu-architecture#22 Case 11
 To do
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="978.3" y="662" width="90.2" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="980.7" y="662" width="88.7" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-architecture#34" data-parent="" data-y="682" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/34" target="_blank"><title>samt-bu-architecture#34 Roller og tjenester for styring og administrasjon av et økosystem
 Proposed
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="699.0"><tspan fill="#0969da">Roller og tjenester for styring og administra…</tspan><tspan dx="5" fill="#57606a" font-size="11">#34</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-architecture/issues/34" target="_blank"><title>samt-bu-architecture#34 Roller og tjenester for styring og administrasjon av et økosystem
 Proposed
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="978.3" y="688" width="90.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="980.7" y="688" width="88.7" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#75" data-parent="" data-y="708" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/75" target="_blank"><title>samt-bu-common-tasks#75 En arkitekturreise?
 Proposed
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="725.0"><tspan fill="#0969da">En arkitekturreise?</tspan><tspan dx="5" fill="#57606a" font-size="11">#75</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/75" target="_blank"><title>samt-bu-common-tasks#75 En arkitekturreise?
 Proposed
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="978.3" y="714" width="90.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="980.7" y="714" width="88.7" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#76" data-parent="" data-y="734" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/76" target="_blank"><title>samt-bu-common-tasks#76 Historiefortelling om paradigmeskifte (kommunikajson)
 Proposed
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="751.0"><tspan fill="#0969da">Historiefortelling om paradigmeskifte (kommun…</tspan><tspan dx="5" fill="#57606a" font-size="11">#76</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/76" target="_blank"><title>samt-bu-common-tasks#76 Historiefortelling om paradigmeskifte (kommunikajson)
 Proposed
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="978.3" y="740" width="90.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="980.7" y="740" width="88.7" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#79" data-parent="" data-y="760" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/79" target="_blank"><title>samt-bu-common-tasks#79 Koble relevante oppgaver herfra til riktig pilot.
 Ready
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="777.0"><tspan fill="#0969da">Koble relevante oppgaver herfra til riktig pi…</tspan><tspan dx="5" fill="#57606a" font-size="11">#79</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/79" target="_blank"><title>samt-bu-common-tasks#79 Koble relevante oppgaver herfra til riktig pilot.
 Ready
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="978.3" y="766" width="90.2" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="980.7" y="766" width="88.7" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#85" data-parent="" data-y="786" data-state="open" data-people="2benMoen">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/85" target="_blank"><title>samt-bu-common-tasks#85 FINT for alle?
 Proposed
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="803.0"><tspan fill="#0969da">FINT for alle?</tspan><tspan dx="5" fill="#57606a" font-size="11">#85</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/85" target="_blank"><title>samt-bu-common-tasks#85 FINT for alle?
 Proposed
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="978.3" y="792" width="90.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="980.7" y="792" width="88.7" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-common-tasks#86" data-parent="" data-y="812" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/86" target="_blank"><title>samt-bu-common-tasks#86 Sprintplanlegging
 Ready
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="829.0"><tspan fill="#0969da">Sprintplanlegging</tspan><tspan dx="5" fill="#57606a" font-size="11">#86</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-common-tasks/issues/86" target="_blank"><title>samt-bu-common-tasks#86 Sprintplanlegging
 Ready
-Start: 12.11. (ikke planlagt, fra i dag)
-Slutt: 18.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="978.3" y="818" width="90.2" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="980.7" y="818" width="88.7" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
-<line class="tl-vy2" data-dy="4" x1="984.7" y1="58" x2="984.7" y2="842" stroke="#cf222e" stroke-width="1.5"/>
+<g class="tl-row" data-key="samt-bu-common-tasks#88" data-parent="" data-y="838" data-state="open" data-people="">
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/88" target="_blank"><title>samt-bu-common-tasks#88 Vurder fortsatt relevans av HKDirs  referansearkitektur for deling av data
+Proposed
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="28" y="855.0"><tspan fill="#0969da">Vurder fortsatt relevans av HKDirs  referanse…</tspan><tspan dx="5" fill="#57606a" font-size="11">#88</tspan></text></a>
+<a href="https://github.com/samt-x/samt-bu-common-tasks/issues/88" target="_blank"><title>samt-bu-common-tasks#88 Vurder fortsatt relevans av HKDirs  referansearkitektur for deling av data
+Proposed
+Start: 13.11. (ikke planlagt, fra i dag)
+Slutt: 19.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="980.7" y="844" width="88.7" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+</g>
+<line class="tl-vy2" data-dy="4" x1="987.0" y1="58" x2="987.0" y2="868" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="984.7" y="853" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
-<rect x="14" y="868" width="28" height="12" rx="3" fill="#8c959f"/><text x="48" y="878" fill="#24292f">Mørk: har skjedd</text>
-<rect x="174" y="868" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><text x="208" y="878" fill="#24292f">Lys: satte datoer</text>
-<rect x="341" y="868" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="375" y="878" fill="#24292f">Stiplet: beregnet eller antatt</text>
-<rect x="591" y="868" width="14" height="12" fill="#cf222e"/><rect x="605" y="868" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="625" y="878" fill="#24292f">Rødt: etter fristen (lyst: prognose)</text>
-<text x="888" y="878" fill="#24292f">✓</text><text x="914" y="878" fill="#24292f">Fullført</text>
-<path d="M14,902V890H42V902L36,897H20Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="14" y="890" width="10" height="7" fill="#1f6feb"/><text x="48" y="900" fill="#24292f">Klamme: sub-issuene samlet (rød kant: én er forsinket)</text>
-<text x="422" y="901" fill="#57606a" font-size="15">▾ ▸</text><text x="452" y="900" fill="#24292f">Fold sub-issuene inn og ut</text>
-<rect x="642" y="889" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="676" y="900" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
-<text x="14" y="926" fill="#57606a" font-size="11">Generert 2026-11-12 fra<a href="https://github.com/orgs/samt-x/projects/5" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU rammeverk og generisk arkitektur</tspan></a>. 19 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<text x="987.0" y="879" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<rect x="14" y="894" width="28" height="12" rx="3" fill="#8c959f"/><text x="48" y="904" fill="#24292f">Mørk: har skjedd</text>
+<rect x="174" y="894" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.35" stroke="#8c959f"/><text x="208" y="904" fill="#24292f">Lys: satte datoer</text>
+<rect x="341" y="894" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="375" y="904" fill="#24292f">Stiplet: beregnet eller antatt</text>
+<rect x="591" y="894" width="14" height="12" fill="#cf222e"/><rect x="605" y="894" width="14" height="12" fill="#cf222e" fill-opacity="0.25" stroke="#cf222e" stroke-dasharray="4 3"/><text x="625" y="904" fill="#24292f">Rødt: etter fristen (lyst: prognose)</text>
+<text x="888" y="904" fill="#24292f">✓</text><text x="914" y="904" fill="#24292f">Fullført</text>
+<path d="M14,928V916H42V928L36,923H20Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="14" y="916" width="10" height="7" fill="#1f6feb"/><text x="48" y="926" fill="#24292f">Klamme: sub-issuene samlet (rød kant: én er forsinket)</text>
+<text x="422" y="927" fill="#57606a" font-size="15">▾ ▸</text><text x="452" y="926" fill="#24292f">Fold sub-issuene inn og ut</text>
+<rect x="642" y="915" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="676" y="926" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
+<text x="14" y="952" fill="#57606a" font-size="11">Generert 2026-11-13 fra<a href="https://github.com/orgs/samt-x/projects/5" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU rammeverk og generisk arkitektur</tspan></a>. 20 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
