@@ -12,7 +12,7 @@ Portfolio management answers what SAMT-BU is working on, how it is going, and wh
 
 ## The tool here, the governance under Project governance
 
-This track covers the **tool**: how the portfolio board, issue types and links are set up in GitHub. The **governance** itself, meaning what is in the portfolio, who owns what and how often the portfolio is reviewed, is a decision for the project management and belongs under [Project governance → Tasks and follow-up](https://docs.samt-bu.no/en/prosjektstyring/oppgaver-og-oppfolging/).
+This track covers the **tool**: how the portfolio board, issue types and links are set up in GitHub. The **governance** itself, meaning what is in the portfolio, who owns what and how often the portfolio is reviewed, is a decision for the project management and belongs under [Governance → Tasks and follow-up](https://docs.samt-bu.no/en/styring/oppgaver-og-oppfolging/).
 
 The portfolio covers SAMT-BU. If the samt-x organisation gets more projects, a level can be added above, with SAMT-BU as one card.
 

@@ -31,6 +31,6 @@ Hovedprinsippet er **ett repo til ett prosjektbrett**: hver pilot har sitt eget 
 
 Status: løsningen er i bruk. Oppsettet ble lagt om høsten 2026, se [Bakgrunn](bakgrunn/). Konvensjonene er gjeldende praksis, med ett åpent spørsmål til arkitekturgruppa.
 
-**Dine oppgaver og brettene** finner du under [Styring → Oppgaver og oppfølging](https://docs.samt-bu.no/prosjektstyring/oppgaver-og-oppfolging/). Denne seksjonen beskriver løsningen bak.
+**Dine oppgaver og brettene** finner du under [Styring → Oppgaver og oppfølging](https://docs.samt-bu.no/styring/oppgaver-og-oppfolging/). Denne seksjonen beskriver løsningen bak.
 
 Se underkapitlene for veiledning, oppsett, konvensjoner og [veikart](veikart/).

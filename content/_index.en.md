@@ -31,6 +31,6 @@ The main principle is **one repository per project board**: each pilot has its o
 
 Status: the solution is in use. The setup was reorganised in autumn 2026, see [Background](bakgrunn/). The conventions are current practice, with one open question for the architecture group.
 
-**Your tasks and the boards** are under [Project governance → Tasks and follow-up](https://docs.samt-bu.no/en/prosjektstyring/oppgaver-og-oppfolging/). This section describes the solution behind them.
+**Your tasks and the boards** are under [Governance → Tasks and follow-up](https://docs.samt-bu.no/en/styring/oppgaver-og-oppfolging/). This section describes the solution behind them.
 
 See the subsections for guidance, setup, conventions and the [roadmap](veikart/).

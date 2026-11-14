@@ -48,7 +48,7 @@ The project boards are under **Projects** in the samt-x organisation, or via the
 
 The search **[My open tasks in samt-x](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20assignee%3A%40me%20org%3Asamt-x)** lists all open tasks assigned to you, in every repository in the organisation. You must be signed in to GitHub. Consider bookmarking the link.
 
-This search and several others, together with links to all the boards, are collected under [Project governance → Tasks and follow-up](https://docs.samt-bu.no/en/prosjektstyring/oppgaver-og-oppfolging/).
+This search and several others, together with links to all the boards, are collected under [Governance → Tasks and follow-up](https://docs.samt-bu.no/en/styring/oppgaver-og-oppfolging/).
 
 - The search only lists tasks where you are an **Assignee**. That is why assigning tasks matters, see [Conventions](../konvensjoner/).
 - The architecture group's project board also has the view **[My tasks (this project)](https://github.com/orgs/samt-x/projects/5/views/7)**, which lists your tasks on that board, with the board's own fields.
@@ -110,7 +110,7 @@ What makes everyday work easiest, collected in one place. The details are in the
 ### Finding your way
 
 - **Your tasks:** bookmark the search [My open tasks in samt-x](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20assignee%3A%40me%20org%3Asamt-x). It is the quickest way to what you need to do.
-- **All the boards and the standard searches** are collected under [Project governance → Tasks and follow-up](https://docs.samt-bu.no/en/prosjektstyring/oppgaver-og-oppfolging/).
+- **All the boards and the standard searches** are collected under [Governance → Tasks and follow-up](https://docs.samt-bu.no/en/styring/oppgaver-og-oppfolging/).
 - **The overview board** [SAMT-BU Overview – All tasks](https://github.com/orgs/samt-x/projects/12) shows the tasks from all the repositories.
 - **The timeline** for each board is on the page «Tasks and progress» for the pilot or solution, see [Timeline](../tidslinje/). If you are signed in on docs, your tasks are highlighted in yellow.
 

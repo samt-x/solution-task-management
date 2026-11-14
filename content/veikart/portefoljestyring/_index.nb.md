@@ -12,7 +12,7 @@ Porteføljestyring svarer på hva SAMT-BU holder på med, hvordan det går, og h
 
 ## Verktøy her, styring under Styring
 
-Dette sporet gjelder **verktøyet**: hvordan porteføljebrettet, issue-typene og koblingene settes opp i GitHub. Selve **styringen**, med hva som er i porteføljen, hvem som eier hva og hvor ofte porteføljen gjennomgås, er en beslutning for prosjektledelsen og hører hjemme under [Styring → Oppgaver og oppfølging](https://docs.samt-bu.no/prosjektstyring/oppgaver-og-oppfolging/).
+Dette sporet gjelder **verktøyet**: hvordan porteføljebrettet, issue-typene og koblingene settes opp i GitHub. Selve **styringen**, med hva som er i porteføljen, hvem som eier hva og hvor ofte porteføljen gjennomgås, er en beslutning for prosjektledelsen og hører hjemme under [Styring → Oppgaver og oppfølging](https://docs.samt-bu.no/styring/oppgaver-og-oppfolging/).
 
 Porteføljen gjelder SAMT-BU. Får organisasjonen samt-x flere prosjekter, kan et nivå legges over, med SAMT-BU som ett kort.
 
