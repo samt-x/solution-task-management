@@ -516,15 +516,15 @@ Start: 16.11. (ikke planlagt, fra i dag)
 Slutt: 20.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="993.3" y="1000" width="70.4" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
-<line class="tl-vy2" data-dy="4" x1="972.2" y1="58" x2="972.2" y2="1024" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="986.3" y1="58" x2="986.3" y2="1024" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="972.2" y="1035" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<text x="986.3" y="1035" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <rect x="14" y="1050" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="48" y="1060" fill="#24292f">Stiplet: beregnet eller antatt</text>
 <text x="272" y="1060" fill="#24292f">✓</text><text x="298" y="1060" fill="#24292f">Fullført</text>
 <path d="M373,1062V1050H401V1062L395,1057H379Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="373" y="1050" width="10" height="7" fill="#1f6feb"/><text x="407" y="1060" fill="#24292f">Klamme: sub-issuene samlet (rød kant: én er forsinket)</text>
 <text x="781" y="1061" fill="#57606a" font-size="15">▾ ▸</text><text x="811" y="1060" fill="#24292f">Fold sub-issuene inn og ut</text>
 <rect x="14" y="1071" width="28" height="14" fill="#fff8c5" stroke="#d4a72c"/><text x="48" y="1082" fill="#24292f">Gul: Mine oppgaver (innlogget)</text>
-<text x="14" y="1108" fill="#57606a" font-size="11">Generert 2026-11-14 fra<a href="https://github.com/orgs/samt-x/projects/18" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Task management</tspan></a>. 34 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<text x="14" y="1108" fill="#57606a" font-size="11">Generert 2026-11-15 fra<a href="https://github.com/orgs/samt-x/projects/18" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Task management</tspan></a>. 34 oppgaver mangler Duration og er antatt å ta én uke.</text>
 <text x="14" y="1126" fill="#cf222e" font-size="11">⚠ solution-task-management#49 beskriver en avhengighet til solution-task-management#46 under Avhengigheter, men koblingen «Blocked by» finnes ikke i GitHub.</text>
 <text x="14" y="1142" fill="#cf222e" font-size="11">⚠ solution-task-management#49 beskriver en avhengighet til solution-task-management#48 under Avhengigheter, men koblingen «Blocked by» finnes ikke i GitHub.</text>
 </g>
