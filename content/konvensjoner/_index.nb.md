@@ -160,7 +160,7 @@ Et nytt repo får topics når det opprettes. Mangler `scope-*`, er levetiden ikk
 
 Hvert delprosjekt med eget brett skal ha en side som heter **Oppgaver og framdrift** (engelsk Tasks and progress) i sitt innholdsrepo, siste side i delprosjektets meny. Siden har samme innhold overalt: lenke til brettet og de faste visningene, og [tidslinjen](../tidslinje/) for brettet. Da finner leserne oppgavene på samme måte i alle delprosjekter, og den som eier innholdet, eier også siden. Retningen står fortsatt på delprosjektets egne sider (for eksempel Veikart), statusen på GitHub.
 
-Navnet er ikke «Oppgavestyring», fordi det er navnet på løsningen. Oversikten over alle brettene står under Prosjektstyring → Oppgaver og oppfølging.
+Navnet er ikke «Oppgavestyring», fordi det er navnet på løsningen. Oversikten over alle brettene står under Styring → Oppgaver og oppfølging.
 
 Prøvd først for Project 5 og Project 18, og tatt i bruk for alle brettene 2. november 2026 ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)). Listen over sidene står på [Tidslinje](../tidslinje/#hvor-figuren-brukes). Nytt brett: se [Teknisk dokumentasjon](../teknisk-dokumentasjon/#tidslinje-med-avhengigheter).
 

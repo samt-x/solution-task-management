@@ -10,7 +10,7 @@ last_editor: Erik Hagen
 
 Portfolio management answers what SAMT-BU is working on, how it is going, and what we prioritise. That is different from managing a single solution or pilot. The distinction comes from the SAFe and IT4IT frameworks, but we borrow only the simplest parts: a board with phases, a hypothesis per pilot and a link to the goals.
 
-## The tool here, the governance under Project governance
+## The tool here, the governance under Governance
 
 This track covers the **tool**: how the portfolio board, issue types and links are set up in GitHub. The **governance** itself, meaning what is in the portfolio, who owns what and how often the portfolio is reviewed, is a decision for the project management and belongs under [Governance → Tasks and follow-up](https://docs.samt-bu.no/en/styring/oppgaver-og-oppfolging/).
 

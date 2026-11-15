@@ -160,7 +160,7 @@ A new repository gets topics when it is created. If `scope-*` is missing, the li
 
 Each sub-project with a board of its own shall have a page called **Oppgaver og framdrift** (English Tasks and progress) in its content repository, as the last page in the sub-project's menu. The page has the same content everywhere: a link to the board and the standard views, and the [timeline](../tidslinje/) for the board. Readers then find the tasks the same way in every sub-project, and whoever owns the content also owns the page. The direction is still described on the sub-project's own pages (for example Roadmap), the status on GitHub.
 
-The name is not «Oppgavestyring» (task management), because that is the name of the solution. The overview of all the boards is under Project governance → Tasks and follow-up.
+The name is not «Oppgavestyring» (task management), because that is the name of the solution. The overview of all the boards is under Governance → Tasks and follow-up.
 
 Tried first for Project 5 and Project 18, and put into use for all boards on 2 November 2026 ([solution-task-management#32](https://github.com/samt-x/solution-task-management/issues/32)). The list of pages is on [Timeline](../tidslinje/#where-the-chart-is-used). New board: see [Technical documentation](../teknisk-dokumentasjon/#timeline-with-dependencies).
 
