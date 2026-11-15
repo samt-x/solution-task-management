@@ -138,6 +138,39 @@ Søk på tvers av repoene: **label:blocked** finner det som venter på noe utenf
 - **Assignees**: alle som jobber med oppgaven, både den ansvarlige og bidragsyterne. Da får de varsler ved endringer, og oppgaven vises under «Assigned to me». Eierskapet står i Responsible, ikke i Assignees.
 - Saker i Proposed tildeles ikke, se [Innspill og løsningsforslag](#innspill-og-løsningsforslag).
 
+## Hvem behandler pull requests
+
+Hvert repo har én eier for pull requests (PR), oftest et team. Når en PR åpnes, ber GitHub selv eieren om review, og alle i teamet får e-post, også de som ikke følger repoet. Det står i fila `.github/CODEOWNERS` i hvert repo.
+
+- **PR-en går til dem som kan vurdere endringen.** Fagrepoer går til fagteamet, tekniske og plattformnære repoer til løsningsteamet, og bare prosjektstyring og administrasjon til kjerneteamet. Kjerneteamet skal ikke samle opp alt som mangler eier.
+- **Fellesinnhold** som alle deltakere kan redigere, går til redaksjonen (`samt-bu-editorial`), som behandler innspill og sender dem videre.
+- **Eierteamet må ha Write på repoet.** Ellers ignorerer GitHub linja uten å si fra.
+- Repoer for orgen som helhet står foreløpig på én person.
+
+Tabellen under er **kilden**: CODEOWNERS-filene skrives fra den av et skript, se [Teknisk dokumentasjon](../teknisk-dokumentasjon/#codeowners). Endre tabellen, ikke filene. Nytt repo → ny rad.
+
+| Repo | Eier |
+|---|---|
+| `samt-bu-docs`, `samt-bu-drafts`, `samt-bu-files`, `samt-bu-needs`, `content-insight` | `samt-bu-editorial` |
+| `samt-bu-governance`, `samt-bu-portfolio`, `samt-bu-intern-admin`, `samt-bu-common-tasks` | `samt-bu-core-team` |
+| `samt-bu-pilot-1` | `samt-bu-pilot-1` |
+| `samt-bu-pilot-2` | `samt-bu-pilot-2` |
+| `samt-bu-pilot-3` | `samt-bu-pilot-3` |
+| `samt-bu-pilot-4` | `samt-bu-pilot-4` |
+| `samt-bu-pilot-5` | `samt-bu-pilot-5` |
+| `samt-bu-pilot-6` | `samt-bu-pilot-6` |
+| `samt-bu-pilot-7` | `samt-bu-pilot-7` |
+| `team-architecture`, `samt-bu-architecture` | `samt-bu-architecture` |
+| `team-semantics`, `information-models` | `samt-bu-information-models` |
+| `content-legal`, `samt-bu-legal` | `samt-bu-legal` |
+| `samt-bu-market-engagement` | `samt-bu-market` |
+| `samt-bu-archi-models`, `kode-archiscripts` | `samt-bu-archimate` |
+| `solution-samt-bu-docs`, `hugo-theme-samt-bu` | `solution-samt-bu-docs` |
+| `solution-task-management`, `solution-task-management-examples`, `.github` | `solution-task-management` |
+| `samt-x-workspace`, `samt-x.github.io` | `@erikhag1git` |
+
+Se [solution-task-management#46](https://github.com/samt-x/solution-task-management/issues/46).
+
 ## Spor for administrative endringer
 
 Endringer i repoer, brett, merkelapper og rutiner får en chore-oppgave som beskriver hva, hvorfor og resultatet. Den legges i repoet endringen gjelder. Sletting skal alltid ha et slikt spor før den gjøres.

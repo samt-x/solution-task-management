@@ -100,6 +100,17 @@ The script .github/scripts/outside-contributors.py finds accounts that have crea
 
 The workflow for assessing and granting access: [solution-task-management#49](https://github.com/samt-x/solution-task-management/issues/49).
 
+## CODEOWNERS
+
+The script .github/scripts/codeowners.py writes .github/CODEOWNERS in all repositories in the organisation. The source is the table under «Hvem behandler pull requests» on [Conventions](../konvensjoner/#who-handles-pull-requests) (the script reads the Norwegian page). Each file has one line, `*` and the owner, and a note that the file is generated.
+
+- Without arguments the script shows what would change, and writes nothing. With --apply it writes the files that differ, through the API, with [skip ci] in the commit message, so the module repositories do not start a new docs build.
+- It reports deviations: repositories in the organisation missing from the table, repositories in the table that do not exist, and owners without Write on the repository. GitHub ignores an owner without Write without saying so, so the script skips that line.
+- Afterwards GitHub's own check can be read per repository: `gh api repos/samt-x/<repo>/codeowners/errors`. It should return an empty list.
+- Write that a team has inherited from its parent team (`samt-bu-alle`) counts. This applies for example to the editorial team on `samt-bu-needs` and `content-insight`.
+
+For now the script is run by hand (from Claude Code) when the table changes. It needs Contents write on all repositories, which the app used by the workflows does not have. Taken into use on 15 November 2026 ([solution-task-management#46](https://github.com/samt-x/solution-task-management/issues/46)).
+
 ## Scheduled runs
 
 Three workflows in solution-task-management run on a schedule:

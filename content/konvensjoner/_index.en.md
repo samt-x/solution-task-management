@@ -138,6 +138,33 @@ Searching across the repositories: **label:blocked** finds what waits for someth
 - **Assignees**: everyone working on the task, both the owner and contributors. They then get notifications of changes, and the task appears under «Assigned to me». Ownership is in Responsible, not in Assignees.
 - Issues in Proposed are not assigned, see [Input and solution proposals](#input-and-solution-proposals).
 
+## Who handles pull requests
+
+Each repository has one owner for pull requests (PRs), usually a team. When a PR is opened, GitHub itself requests a review from the owner, and everyone in the team gets an email, also those who do not watch the repository. This is set in the file `.github/CODEOWNERS` in each repository.
+
+- **The PR goes to those who can assess the change.** Subject repositories go to the subject team, technical and platform repositories to the solution team, and only project governance and administration to the core team. The core team should not collect everything that lacks an owner.
+- **Shared content** that all participants can edit goes to the editorial team (`samt-bu-editorial`), which handles input and passes it on.
+- **The owning team must have Write on the repository.** Otherwise GitHub ignores the line without saying so.
+- Repositories for the organisation as a whole are assigned to one person for now.
+
+The table below is the **source**: the CODEOWNERS files are written from it by a script, see [Technical documentation](../teknisk-dokumentasjon/#codeowners). Change the table, not the files. New repository → new row. The script reads the Norwegian version of this page.
+
+| Repository | Owner |
+|---|---|
+| `samt-bu-docs`, `samt-bu-drafts`, `samt-bu-files`, `samt-bu-needs`, `content-insight` | `samt-bu-editorial` |
+| `samt-bu-governance`, `samt-bu-portfolio`, `samt-bu-intern-admin`, `samt-bu-common-tasks` | `samt-bu-core-team` |
+| `samt-bu-pilot-1` … `samt-bu-pilot-7` | `samt-bu-pilot-1` … `samt-bu-pilot-7` (one team per pilot) |
+| `team-architecture`, `samt-bu-architecture` | `samt-bu-architecture` |
+| `team-semantics`, `information-models` | `samt-bu-information-models` |
+| `content-legal`, `samt-bu-legal` | `samt-bu-legal` |
+| `samt-bu-market-engagement` | `samt-bu-market` |
+| `samt-bu-archi-models`, `kode-archiscripts` | `samt-bu-archimate` |
+| `solution-samt-bu-docs`, `hugo-theme-samt-bu` | `solution-samt-bu-docs` |
+| `solution-task-management`, `solution-task-management-examples`, `.github` | `solution-task-management` |
+| `samt-x-workspace`, `samt-x.github.io` | `@erikhag1git` |
+
+See [solution-task-management#46](https://github.com/samt-x/solution-task-management/issues/46).
+
 ## Trace for administrative changes
 
 Changes to repositories, boards, labels and routines get a chore task describing what, why and the outcome. It goes in the repository the change concerns. Deletion must always have such a trace before it is carried out.

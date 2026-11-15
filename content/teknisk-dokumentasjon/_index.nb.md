@@ -100,6 +100,17 @@ Skriptet .github/scripts/outside-contributors.py finner kontoer som har laget en
 
 Arbeidsflyten for å vurdere og gi tilgang: [solution-task-management#49](https://github.com/samt-x/solution-task-management/issues/49).
 
+## CODEOWNERS
+
+Skriptet .github/scripts/codeowners.py skriver .github/CODEOWNERS i alle repoene i orgen. Kilden er tabellen under «Hvem behandler pull requests» på [Konvensjoner](../konvensjoner/#hvem-behandler-pull-requests) (den norske sida). Hver fil har én linje, `*` og eieren, og en merknad om at fila er generert.
+
+- Uten argument viser skriptet hva som ville blitt endret, og skriver ingenting. Med --apply skriver det filene som er ulike, gjennom API-et, med [skip ci] i commit-meldingen, så modulrepoene ikke starter et nytt docs-bygg.
+- Det melder avvik: repoer i orgen som mangler i tabellen, repoer i tabellen som ikke finnes, og eiere uten Write på repoet. GitHub ignorerer en eier uten Write uten å si fra, så skriptet hopper over den linja.
+- Etterpå kan GitHubs egen kontroll leses per repo: `gh api repos/samt-x/<repo>/codeowners/errors`. Den skal gi en tom liste.
+- Write som et team har arvet fra foreldreteamet (`samt-bu-alle`), teller. Det gjelder blant annet redaksjonen på `samt-bu-needs` og `content-insight`.
+
+Skriptet kjøres foreløpig for hånd (fra Claude Code) når tabellen endres. Det trenger Contents write på alle repoene, og det har ikke appen som workflowene bruker. Tatt i bruk 15. november 2026 ([solution-task-management#46](https://github.com/samt-x/solution-task-management/issues/46)).
+
 ## Planlagte kjøringer
 
 Tre workflows i solution-task-management kjører etter tidsplan:
