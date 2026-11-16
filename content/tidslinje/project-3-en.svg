@@ -87,12 +87,12 @@ Start: Nov 16 (not planned, from today)
 End: Nov 20 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><rect x="866.0" y="116" width="110.0" height="14" rx="4" fill="#54aeff" fill-opacity="0.12" stroke="#54aeff" stroke-dasharray="4 3"/></a>
 </g>
-<line class="tl-vy2" data-dy="4" x1="855.0" y1="58" x2="855.0" y2="140" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="877.0" y1="58" x2="877.0" y2="140" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="855.0" y="151" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
+<text x="877.0" y="151" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
 <rect x="14" y="166" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="48" y="176" fill="#24292f">Dashed: calculated or assumed</text>
 <text x="266" y="176" fill="#24292f">✓</text><text x="292" y="176" fill="#24292f">Completed</text>
 <rect x="373" y="166" width="28" height="12" rx="3" fill="url(#tl3h)" stroke="#8c959f"/><text x="407" y="176" fill="#24292f">Hatched and ✕: closed without being done</text>
-<text x="14" y="202" fill="#57606a" font-size="11">Generated 2026-11-15 from<a href="https://github.com/orgs/samt-x/projects/3" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 4 – Vitnemål</tspan></a>. 3 tasks have no Duration and are assumed to take one week.</text>
+<text x="14" y="202" fill="#57606a" font-size="11">Generated 2026-11-16 from<a href="https://github.com/orgs/samt-x/projects/3" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 4 – Vitnemål</tspan></a>. 3 tasks have no Duration and are assumed to take one week.</text>
 </g>
 </svg>
