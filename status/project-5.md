@@ -5,6 +5,7 @@
 | Oppgave | Status | Responsible | Due date | Comment |
 |---|---|---|---|---|
 | [samt-bu-architecture#34](https://github.com/samt-x/samt-bu-architecture/issues/34) Roller og tjenester for styring og administrasjon av et økosystem | Proposed |  |  |  |
+| [samt-bu-architecture#37](https://github.com/samt-x/samt-bu-architecture/issues/37) Norske fellesløsninger og europeiske krav: samsvar og utviklingsbehov | Proposed |  |  |  |
 | [samt-bu-common-tasks#75](https://github.com/samt-x/samt-bu-common-tasks/issues/75) En arkitekturreise? | Proposed |  |  |  |
 | [samt-bu-common-tasks#76](https://github.com/samt-x/samt-bu-common-tasks/issues/76) Historiefortelling om paradigmeskifte (kommunikajson) | Proposed |  |  |  |
 | [samt-bu-common-tasks#85](https://github.com/samt-x/samt-bu-common-tasks/issues/85) FINT for alle? | Proposed |  |  |  |
