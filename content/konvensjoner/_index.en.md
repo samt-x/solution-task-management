@@ -88,7 +88,7 @@ For decisions also: **Alternatives** and **Recommendation**. The decision itself
 
 ## Status and fields on the boards
 
-Every board is based on the Standard template. The names in GitHub are in English, so the boards work for all readers.
+Every board is based on the Standard template. The names in GitHub are in English, so the boards work for all readers. The table explains them.
 
 | Status | Meaning | Shared level |
 |---|---|---|
@@ -107,7 +107,7 @@ Every board is based on the Standard template. The names in GitHub are in Englis
 
 | Field | Content | |
 |---|---|---|
-| Responsible | The person who owns the task. GitHub username, otherwise full name. Never an e-mail address, since the boards are public. | Should be filled in |
+| Responsible | The person who owns the task. GitHub username, otherwise full name. Never an email address, since the boards are public. | Should be filled in |
 | Priority | High, Medium or Low | Optional |
 | Effort | Small (less than one person-day), Medium (1–5 person-days) or Large (more than 5 person-days, consider splitting the task) | Optional |
 | Estimate (person-days) | Estimate in person-days. Summed automatically in grouped views, for example per responsible person. | Optional |

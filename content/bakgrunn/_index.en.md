@@ -28,7 +28,7 @@ GitHub requires no new software or licences. Participants already have accounts,
 
 > **Note:** The way of working is not tied to GitHub. The same can be done in other git-based solutions such as GitLab, Forgejo or Codeberg, several of which can be self-hosted. GitHub has been chosen for now because the project's content and partners are already there. GitHub is not open source, so the choice is debatable from a digital sovereignty perspective. The rationale and trade-offs are described under [Collaboration platform → Introduction](/en/prosjektleveranser/loesninger/samhandlingsplattform/introduksjon/#choice-of-git-and-git-platform). The alternatives are also discussed under [Co-creation → Task management](/en/utkast/temaer/samskaping/oppgavestyring/).
 
-## How it was, and how it became
+## Before and after
 
 **Until autumn 2026**, all pilot tasks were in one shared repository, «Oppgaver» (Tasks), and each task was labelled with the pilot it belonged to. Each pilot had its own project board, which pulled tasks from the shared repository. Cross-cutting tasks had no natural home, and were either labelled with an arbitrary pilot, put in Planner, or not written down at all.
 
@@ -47,7 +47,7 @@ The benefit is that it is unambiguous where a task belongs, and that access can 
 
 The core team still uses Planner for internal allocation. This solution does not change that.
 
-Should Planner's role be reconsidered later – for reasons of licensing, accessibility or digital sovereignty – there are project tools that integrate with GitHub. A nearby example is [OpenProject](https://interoperable-europe.ec.europa.eu/eu-oss-catalogue/solutions/openproject), which is open source and listed in the EU catalogue of open source solutions for the public sector. That is a separate question and should be handled separately.
+Should Planner's role be reconsidered later – for reasons of licensing, accessibility or digital sovereignty – there are project tools that integrate with GitHub. An obvious example is [OpenProject](https://interoperable-europe.ec.europa.eu/eu-oss-catalogue/solutions/openproject), which is open source and listed in the EU catalogue of open source solutions for the public sector. That is a separate question and should be handled separately.
 
 ## Discussion of principles
 
