@@ -3,7 +3,7 @@ id: 1d9f85e6-8f58-41b1-8eea-45815cfc56cc
 title: "Teknisk dokumentasjon"
 linkTitle: "Teknisk dokumentasjon"
 weight: 40
-lastmod: 2026-11-03T23:30:32+01:00
+lastmod: 2026-11-15T19:14:11+01:00
 last_editor: Erik Hagen
 
 ---

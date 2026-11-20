@@ -3,7 +3,7 @@ id: 71a9801d-c1a0-4795-8c69-e935427a0b03
 title: "Conventions"
 linkTitle: "Conventions"
 weight: 30
-lastmod: 2026-11-15T02:09:12+01:00
+lastmod: 2026-11-15T19:14:11+01:00
 last_editor: Erik Hagen
 
 ---
