@@ -8,59 +8,62 @@
 <rect class="tl-stripe" data-i="7" x="0" y="240" width="1134" height="26" fill="#f6f8fa"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">okt 2026</text>
 <line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="266" stroke="#d0d7de"/>
-<text x="369.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<rect class="tl-vh" x="379.5" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="389.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<rect class="tl-vh" x="399.0" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="408.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<text x="428.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
-<text x="447.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
-<text x="467.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
-<text x="486.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
-<text x="506.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
-<rect class="tl-vh" x="515.9" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="525.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
-<rect class="tl-vh" x="535.4" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="537.4" y="20" fill="#24292f" font-weight="600">nov 2026</text>
-<line class="tl-vy2" x1="535.4" y1="8" x2="535.4" y2="266" stroke="#d0d7de"/>
-<text x="545.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
-<text x="564.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<text x="584.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
-<text x="603.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
-<text x="623.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
-<text x="642.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
-<rect class="tl-vh" x="652.3" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="662.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
-<rect class="tl-vh" x="671.8" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="681.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
-<text x="701.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
-<text x="720.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
-<text x="740.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
-<text x="759.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
-<text x="779.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
-<rect class="tl-vh" x="788.7" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="798.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
-<rect class="tl-vh" x="808.2" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="817.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
-<text x="837.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<text x="856.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
-<text x="876.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
-<text x="895.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
-<text x="915.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
-<rect class="tl-vh" x="925.1" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="934.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
-<rect class="tl-vh" x="944.6" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="954.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
-<text x="973.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<text x="993.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<text x="1012.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<text x="1032.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
-<text x="1051.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
-<rect class="tl-vh" x="1061.5" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="1071.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
-<rect class="tl-vh" x="1081.0" y="58" width="19.5" height="208" fill="#eaeef2" opacity="0.6"/>
-<text x="1090.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
-<text x="1110.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
+<text x="369.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
+<rect class="tl-vh" x="379.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="388.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
+<rect class="tl-vh" x="398.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="407.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<text x="426.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
+<text x="445.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
+<text x="464.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
+<text x="483.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
+<text x="502.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
+<rect class="tl-vh" x="512.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="521.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
+<rect class="tl-vh" x="531.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="533.0" y="20" fill="#24292f" font-weight="600">nov 2026</text>
+<line class="tl-vy2" x1="531.0" y1="8" x2="531.0" y2="266" stroke="#d0d7de"/>
+<text x="540.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
+<text x="559.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
+<text x="578.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
+<text x="597.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
+<text x="616.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
+<text x="635.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
+<rect class="tl-vh" x="645.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="654.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
+<rect class="tl-vh" x="664.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="673.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
+<text x="692.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
+<text x="711.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
+<text x="730.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
+<text x="749.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
+<text x="768.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
+<rect class="tl-vh" x="778.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="787.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
+<rect class="tl-vh" x="797.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="806.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
+<text x="825.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
+<text x="844.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
+<text x="863.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
+<text x="882.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
+<text x="901.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
+<rect class="tl-vh" x="911.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="920.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
+<rect class="tl-vh" x="930.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="939.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
+<text x="958.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
+<text x="977.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
+<text x="996.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<text x="1015.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
+<text x="1034.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
+<rect class="tl-vh" x="1044.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="1053.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
+<rect class="tl-vh" x="1063.0" y="58" width="19.0" height="208" fill="#eaeef2" opacity="0.6"/>
+<text x="1072.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
+<text x="1091.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
+<text x="1103.0" y="20" fill="#24292f" font-weight="600">des 2026</text>
+<line class="tl-vy2" x1="1101.0" y1="8" x2="1101.0" y2="266" stroke="#d0d7de"/>
+<text x="1110.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
 <line x1="0" y1="57.5" x2="1134" y2="57.5" stroke="#d0d7de"/>
 <line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="266" stroke="#d0d7de"/>
 <g class="tl-row" data-key="samt-bu-pilot-7#8" data-parent="" data-y="58" data-state="done" data-people="">
@@ -73,97 +76,97 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="75.0"><tspan f
 Done (lukket: fullført)
 Start: 26.10. (regnet fra slutt og varighet)
 Slutt: 30.10. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="418.5" y="64" width="97.4" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="417.0" y="64" width="95.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#1" data-parent="" data-y="84" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/1" target="_blank"><title>samt-bu-pilot-7#1 AP1: Piloteier og team
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="101.0"><tspan fill="#0969da">AP1: Piloteier og team</tspan><tspan dx="5" fill="#57606a" font-size="11">#1</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/1" target="_blank"><title>samt-bu-pilot-7#1 AP1: Piloteier og team
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="905.6" y="90" width="136.4" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="949.0" y="90" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#2" data-parent="" data-y="110" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/2" target="_blank"><title>samt-bu-pilot-7#2 AP2: Kartlegging og brukerbehov
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="127.0"><tspan fill="#0969da">AP2: Kartlegging og brukerbehov</tspan><tspan dx="5" fill="#57606a" font-size="11">#2</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/2" target="_blank"><title>samt-bu-pilot-7#2 AP2: Kartlegging og brukerbehov
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="905.6" y="116" width="136.4" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="949.0" y="116" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#3" data-parent="" data-y="136" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/3" target="_blank"><title>samt-bu-pilot-7#3 AP3: Arkitektur og standardisering
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="153.0"><tspan fill="#0969da">AP3: Arkitektur og standardisering</tspan><tspan dx="5" fill="#57606a" font-size="11">#3</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/3" target="_blank"><title>samt-bu-pilot-7#3 AP3: Arkitektur og standardisering
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="905.6" y="142" width="136.4" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="949.0" y="142" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#4" data-parent="" data-y="162" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/4" target="_blank"><title>samt-bu-pilot-7#4 AP4: Juridiske avklaringer
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="179.0"><tspan fill="#0969da">AP4: Juridiske avklaringer</tspan><tspan dx="5" fill="#57606a" font-size="11">#4</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/4" target="_blank"><title>samt-bu-pilot-7#4 AP4: Juridiske avklaringer
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="905.6" y="168" width="136.4" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="949.0" y="168" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#5" data-parent="" data-y="188" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/5" target="_blank"><title>samt-bu-pilot-7#5 AP5: Teknisk prototype og hackathon
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="205.0"><tspan fill="#0969da">AP5: Teknisk prototype og hackathon</tspan><tspan dx="5" fill="#57606a" font-size="11">#5</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/5" target="_blank"><title>samt-bu-pilot-7#5 AP5: Teknisk prototype og hackathon
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="905.6" y="194" width="136.4" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="949.0" y="194" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#6" data-parent="" data-y="214" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/6" target="_blank"><title>samt-bu-pilot-7#6 AP6: Felles leverandørkrav
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="231.0"><tspan fill="#0969da">AP6: Felles leverandørkrav</tspan><tspan dx="5" fill="#57606a" font-size="11">#6</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/6" target="_blank"><title>samt-bu-pilot-7#6 AP6: Felles leverandørkrav
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="905.6" y="220" width="136.4" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="949.0" y="220" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#7" data-parent="" data-y="240" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/7" target="_blank"><title>samt-bu-pilot-7#7 Arbeidspakkene står både på «Om pilot 7» og i issuene – én master
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
 Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="257.0"><tspan fill="#0969da">Arbeidspakkene står både på «Om pilot 7» og i i…</tspan><tspan dx="5" fill="#57606a" font-size="11">#7</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/7" target="_blank"><title>samt-bu-pilot-7#7 Arbeidspakkene står både på «Om pilot 7» og i issuene – én master
 Proposed
-Start: 20.11. (ikke planlagt, fra i dag)
-Slutt: 26.11. (regnet fra start og varighet)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="905.6" y="246" width="136.4" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: 23.11. (ikke planlagt, fra i dag)
+Slutt: 27.11. (regnet fra start og varighet)
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="949.0" y="246" width="95.0" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
-<line class="tl-vy2" data-dy="4" x1="915.4" y1="58" x2="915.4" y2="270" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="920.5" y1="58" x2="920.5" y2="270" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="915.4" y="281" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<text x="920.5" y="281" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <rect x="14" y="296" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="48" y="306" fill="#24292f">Stiplet: beregnet eller antatt</text>
 <text x="272" y="306" fill="#24292f">✓</text><text x="298" y="306" fill="#24292f">Fullført</text>
-<text x="14" y="332" fill="#57606a" font-size="11">Generert 2026-11-20 fra<a href="https://github.com/orgs/samt-x/projects/19" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 7 – Digital dialog</tspan></a>. 8 oppgaver mangler Duration og er antatt å ta én uke.</text>
+<text x="14" y="332" fill="#57606a" font-size="11">Generert 2026-11-21 fra<a href="https://github.com/orgs/samt-x/projects/19" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 7 – Digital dialog</tspan></a>. 8 oppgaver mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
