@@ -80,7 +80,7 @@ The timeline for a board is shown on the page **Tasks and progress** of the sub-
 | [Pilot 2](/en/pilotering/pilot-2/oppgaver-og-framdrift/) | Project 2 |
 | [Pilot 3](/en/pilotering/pilot-3/oppgaver-og-framdrift/) | Project 4 |
 | [Pilot 4](/en/pilotering/pilot-4/oppgaver-og-framdrift/) | Project 3 |
-| [Pilot 5](/en/pilotering/pilot-5/oppgaver-og-framdrift/) | Project 9 |
+| Pilot 5 (the figure is not shown on docs, Sikt documents in its own Teams area) | [Project 9](https://github.com/orgs/samt-x/projects/9) |
 | [Pilot 6](/en/pilotering/pilot-6/oppgaver-og-framdrift/) | Project 10 |
 | [Pilot 7](/en/pilotering/pilot-7/oppgaver-og-framdrift/) | Project 19 |
 | [High-level architecture](/en/arkitektur/overordnet-arkitektur/oppgaver-og-framdrift/) | Project 5 |

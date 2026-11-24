@@ -80,7 +80,7 @@ Tidslinjen for et brett vises på siden **Oppgaver og framdrift** i delprosjekte
 | [Pilot 2](/pilotering/pilot-2/oppgaver-og-framdrift/) | Project 2 |
 | [Pilot 3](/pilotering/pilot-3/oppgaver-og-framdrift/) | Project 4 |
 | [Pilot 4](/pilotering/pilot-4/oppgaver-og-framdrift/) | Project 3 |
-| [Pilot 5](/pilotering/pilot-5/oppgaver-og-framdrift/) | Project 9 |
+| Pilot 5 (figuren vises ikke på docs, Sikt dokumenterer i eget Teams-område) | [Project 9](https://github.com/orgs/samt-x/projects/9) |
 | [Pilot 6](/pilotering/pilot-6/oppgaver-og-framdrift/) | Project 10 |
 | [Pilot 7](/pilotering/pilot-7/oppgaver-og-framdrift/) | Project 19 |
 | [Overordnet arkitektur](/arkitektur/overordnet-arkitektur/oppgaver-og-framdrift/) | Project 5 |
