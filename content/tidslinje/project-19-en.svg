@@ -21,45 +21,47 @@
 <rect class="tl-stripe" data-i="33" x="0" y="916" width="1134" height="26" fill="#f6f8fa"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">Oct 2026</text>
 <line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="942" stroke="#d0d7de"/>
-<text x="368.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<rect class="tl-vh" x="377.3" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="394.5" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<text x="403.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<text x="437.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
-<text x="472.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
-<rect class="tl-vh" x="498.2" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<text x="506.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
-<rect class="tl-vh" x="515.5" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<text x="517.5" y="20" fill="#24292f" font-weight="600">Nov 2026</text>
-<line class="tl-vy2" x1="515.5" y1="8" x2="515.5" y2="942" stroke="#d0d7de"/>
-<text x="541.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<text x="575.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
-<text x="610.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
-<rect class="tl-vh" x="619.1" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="636.4" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<text x="645.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
-<text x="679.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
-<text x="714.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
-<rect class="tl-vh" x="740.0" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<text x="748.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
-<rect class="tl-vh" x="757.3" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<text x="783.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<text x="817.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
-<text x="852.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
-<rect class="tl-vh" x="860.9" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<rect class="tl-vh" x="878.2" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<text x="886.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
-<text x="921.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<text x="955.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
-<rect class="tl-vh" x="981.8" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<text x="990.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
-<rect class="tl-vh" x="999.1" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
-<text x="1025.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
-<text x="1035.6" y="20" fill="#24292f" font-weight="600">Dec 2026</text>
-<line class="tl-vy2" x1="1033.6" y1="8" x2="1033.6" y2="942" stroke="#d0d7de"/>
-<text x="1059.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<text x="1094.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
-<rect class="tl-vh" x="1102.7" y="58" width="17.3" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="368.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
+<rect class="tl-vh" x="376.9" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="393.8" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="402.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<text x="436.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
+<text x="469.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
+<rect class="tl-vh" x="495.1" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="503.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
+<rect class="tl-vh" x="512.0" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="514.0" y="20" fill="#24292f" font-weight="600">Nov 2026</text>
+<line class="tl-vy2" x1="512.0" y1="8" x2="512.0" y2="942" stroke="#d0d7de"/>
+<text x="537.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
+<text x="571.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
+<text x="604.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
+<rect class="tl-vh" x="613.3" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="630.2" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="638.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
+<text x="672.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
+<text x="706.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
+<rect class="tl-vh" x="731.6" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="740.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
+<rect class="tl-vh" x="748.4" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="773.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
+<text x="807.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
+<text x="841.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
+<rect class="tl-vh" x="849.8" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="866.7" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="875.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
+<text x="908.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
+<text x="942.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
+<rect class="tl-vh" x="968.0" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="976.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
+<rect class="tl-vh" x="984.9" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="1010.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
+<text x="1020.7" y="20" fill="#24292f" font-weight="600">Dec 2026</text>
+<line class="tl-vy2" x1="1018.7" y1="8" x2="1018.7" y2="942" stroke="#d0d7de"/>
+<text x="1044.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
+<text x="1077.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
+<rect class="tl-vh" x="1086.2" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="1103.1" y="58" width="16.9" height="884" fill="#eaeef2" opacity="0.6"/>
+<text x="1111.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
 <line x1="0" y1="57.5" x2="1134" y2="57.5" stroke="#d0d7de"/>
 <line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="942" stroke="#d0d7de"/>
 <g class="tl-row" data-key="samt-bu-pilot-7#8" data-parent="" data-y="58" data-state="done" data-people="">
@@ -72,417 +74,417 @@ Duration: not set, assumed 5 working days</title><text x="28" y="75.0"><tspan fi
 Done (closed: completed)
 Start: Oct 26 (calculated from end and duration)
 End: Oct 30 (finished)
-Duration: not set, assumed 5 working days</title><rect x="411.8" y="64" width="86.4" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Duration: not set, assumed 5 working days</title><rect x="410.7" y="64" width="84.4" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#1" data-parent="" data-y="84" data-state="open" data-people="">
 <g class="tl-fold" role="button" display="none" cursor="pointer"><title>Collapse or expand the sub-issues</title><rect x="12" y="84" width="16" height="26" fill="transparent"/><text x="14" y="102.0" fill="#57606a" font-size="15">▾</text></g>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/1" target="_blank"><title>samt-bu-pilot-7#1 AP1: Piloteier og team
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
 Sub-issues: 0 of 4 completed</title><text x="28" y="101.0"><tspan fill="#0969da">AP1: Piloteier og team</tspan><tspan dx="5" fill="#57606a" font-size="11">#1 · 0/4</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/1" target="_blank"><title>samt-bu-pilot-7#1 AP1: Piloteier og team
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
-Sub-issues: 0 of 4 completed</title><path d="M930.0,103V91H1050.9V103L1044.9,98H936.0Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M930.0,103V91H1050.9V103L1044.9,98H936.0Z" fill="none" stroke="#afb8c1"/></a>
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
+Sub-issues: 0 of 4 completed</title><path d="M934.2,103V91H1052.4V103L1046.4,98H940.2Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M934.2,103V91H1052.4V103L1046.4,98H940.2Z" fill="none" stroke="#afb8c1"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#10" data-parent="samt-bu-pilot-7#1" data-y="110" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/10" target="_blank"><title>samt-bu-pilot-7#10 Utpeke piloteier
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="127.0"><tspan fill="#0969da">Utpeke piloteier</tspan><tspan dx="5" fill="#57606a" font-size="11">#10</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/10" target="_blank"><title>samt-bu-pilot-7#10 Utpeke piloteier
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="116" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="116" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#11" data-parent="samt-bu-pilot-7#1" data-y="136" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/11" target="_blank"><title>samt-bu-pilot-7#11 Etablere et autonomt, tverrfaglig team
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="153.0"><tspan fill="#0969da">Etablere et autonomt, tverrfaglig team</tspan><tspan dx="5" fill="#57606a" font-size="11">#11</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/11" target="_blank"><title>samt-bu-pilot-7#11 Etablere et autonomt, tverrfaglig team
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="142" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="142" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#12" data-parent="samt-bu-pilot-7#1" data-y="162" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/12" target="_blank"><title>samt-bu-pilot-7#12 Avklare ressursbehov
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="179.0"><tspan fill="#0969da">Avklare ressursbehov</tspan><tspan dx="5" fill="#57606a" font-size="11">#12</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/12" target="_blank"><title>samt-bu-pilot-7#12 Avklare ressursbehov
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="168" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="168" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#13" data-parent="samt-bu-pilot-7#1" data-y="188" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/13" target="_blank"><title>samt-bu-pilot-7#13 Etablere mål
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="205.0"><tspan fill="#0969da">Etablere mål</tspan><tspan dx="5" fill="#57606a" font-size="11">#13</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/13" target="_blank"><title>samt-bu-pilot-7#13 Etablere mål
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="194" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="194" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#2" data-parent="" data-y="214" data-state="open" data-people="">
 <g class="tl-fold" role="button" display="none" cursor="pointer"><title>Collapse or expand the sub-issues</title><rect x="12" y="214" width="16" height="26" fill="transparent"/><text x="14" y="232.0" fill="#57606a" font-size="15">▾</text></g>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/2" target="_blank"><title>samt-bu-pilot-7#2 AP2: Kartlegging og brukerbehov
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
 Sub-issues: 0 of 5 completed</title><text x="28" y="231.0"><tspan fill="#0969da">AP2: Kartlegging og brukerbehov</tspan><tspan dx="5" fill="#57606a" font-size="11">#2 · 0/5</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/2" target="_blank"><title>samt-bu-pilot-7#2 AP2: Kartlegging og brukerbehov
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
-Sub-issues: 0 of 5 completed</title><path d="M930.0,233V221H1050.9V233L1044.9,228H936.0Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M930.0,233V221H1050.9V233L1044.9,228H936.0Z" fill="none" stroke="#afb8c1"/></a>
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
+Sub-issues: 0 of 5 completed</title><path d="M934.2,233V221H1052.4V233L1046.4,228H940.2Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M934.2,233V221H1052.4V233L1046.4,228H940.2Z" fill="none" stroke="#afb8c1"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#14" data-parent="samt-bu-pilot-7#2" data-y="240" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/14" target="_blank"><title>samt-bu-pilot-7#14 Kartlegge dagens kommunikasjon mellom hjem, barnehage, SFO og skole
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="257.0"><tspan fill="#0969da">Kartlegge dagens kommunikasjon mellom hjem,…</tspan><tspan dx="5" fill="#57606a" font-size="11">#14</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/14" target="_blank"><title>samt-bu-pilot-7#14 Kartlegge dagens kommunikasjon mellom hjem, barnehage, SFO og skole
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="246" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="246" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#15" data-parent="samt-bu-pilot-7#2" data-y="266" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/15" target="_blank"><title>samt-bu-pilot-7#15 Samle innsikt fra foresatte, ansatte og kommuner
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="283.0"><tspan fill="#0969da">Samle innsikt fra foresatte, ansatte og kom…</tspan><tspan dx="5" fill="#57606a" font-size="11">#15</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/15" target="_blank"><title>samt-bu-pilot-7#15 Samle innsikt fra foresatte, ansatte og kommuner
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="272" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="272" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#16" data-parent="samt-bu-pilot-7#2" data-y="292" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/16" target="_blank"><title>samt-bu-pilot-7#16 Kartlegge eksisterende systemer, apper, API-er, standarder og felleskomponenter
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="309.0"><tspan fill="#0969da">Kartlegge eksisterende systemer, apper, API…</tspan><tspan dx="5" fill="#57606a" font-size="11">#16</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/16" target="_blank"><title>samt-bu-pilot-7#16 Kartlegge eksisterende systemer, apper, API-er, standarder og felleskomponenter
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="298" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="298" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#17" data-parent="samt-bu-pilot-7#2" data-y="318" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/17" target="_blank"><title>samt-bu-pilot-7#17 Identifisere aktuelle leverandører og tekniske begrensninger
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="335.0"><tspan fill="#0969da">Identifisere aktuelle leverandører og tekni…</tspan><tspan dx="5" fill="#57606a" font-size="11">#17</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/17" target="_blank"><title>samt-bu-pilot-7#17 Identifisere aktuelle leverandører og tekniske begrensninger
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="324" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="324" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#18" data-parent="samt-bu-pilot-7#2" data-y="344" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/18" target="_blank"><title>samt-bu-pilot-7#18 Avgrense hva som skal testes
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="361.0"><tspan fill="#0969da">Avgrense hva som skal testes</tspan><tspan dx="5" fill="#57606a" font-size="11">#18</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/18" target="_blank"><title>samt-bu-pilot-7#18 Avgrense hva som skal testes
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="350" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="350" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#3" data-parent="" data-y="370" data-state="open" data-people="">
 <g class="tl-fold" role="button" display="none" cursor="pointer"><title>Collapse or expand the sub-issues</title><rect x="12" y="370" width="16" height="26" fill="transparent"/><text x="14" y="388.0" fill="#57606a" font-size="15">▾</text></g>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/3" target="_blank"><title>samt-bu-pilot-7#3 AP3: Arkitektur og standardisering
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
 Sub-issues: 0 of 5 completed</title><text x="28" y="387.0"><tspan fill="#0969da">AP3: Arkitektur og standardisering</tspan><tspan dx="5" fill="#57606a" font-size="11">#3 · 0/5</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/3" target="_blank"><title>samt-bu-pilot-7#3 AP3: Arkitektur og standardisering
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
-Sub-issues: 0 of 5 completed</title><path d="M930.0,389V377H1050.9V389L1044.9,384H936.0Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M930.0,389V377H1050.9V389L1044.9,384H936.0Z" fill="none" stroke="#afb8c1"/></a>
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
+Sub-issues: 0 of 5 completed</title><path d="M934.2,389V377H1052.4V389L1046.4,384H940.2Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M934.2,389V377H1052.4V389L1046.4,384H940.2Z" fill="none" stroke="#afb8c1"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#19" data-parent="samt-bu-pilot-7#3" data-y="396" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/19" target="_blank"><title>samt-bu-pilot-7#19 Foreslå målarkitektur og informasjonsflyt
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="413.0"><tspan fill="#0969da">Foreslå målarkitektur og informasjonsflyt</tspan><tspan dx="5" fill="#57606a" font-size="11">#19</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/19" target="_blank"><title>samt-bu-pilot-7#19 Foreslå målarkitektur og informasjonsflyt
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="402" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="402" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#20" data-parent="samt-bu-pilot-7#3" data-y="422" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/20" target="_blank"><title>samt-bu-pilot-7#20 Definere hvordan meldinger, kalenderinformasjon og historikk kan utveksles og representeres
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="439.0"><tspan fill="#0969da">Definere hvordan meldinger, kalenderinforma…</tspan><tspan dx="5" fill="#57606a" font-size="11">#20</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/20" target="_blank"><title>samt-bu-pilot-7#20 Definere hvordan meldinger, kalenderinformasjon og historikk kan utveksles og representeres
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="428" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="428" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#21" data-parent="samt-bu-pilot-7#3" data-y="448" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/21" target="_blank"><title>samt-bu-pilot-7#21 Kartlegge relevante standarder og integrasjoner
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="465.0"><tspan fill="#0969da">Kartlegge relevante standarder og integrasj…</tspan><tspan dx="5" fill="#57606a" font-size="11">#21</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/21" target="_blank"><title>samt-bu-pilot-7#21 Kartlegge relevante standarder og integrasjoner
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="454" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="454" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#22" data-parent="samt-bu-pilot-7#3" data-y="474" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/22" target="_blank"><title>samt-bu-pilot-7#22 Beskrive hvordan foresatte kan få informasjonen samlet
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="491.0"><tspan fill="#0969da">Beskrive hvordan foresatte kan få informasj…</tspan><tspan dx="5" fill="#57606a" font-size="11">#22</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/22" target="_blank"><title>samt-bu-pilot-7#22 Beskrive hvordan foresatte kan få informasjonen samlet
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="480" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="480" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#23" data-parent="samt-bu-pilot-7#3" data-y="500" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/23" target="_blank"><title>samt-bu-pilot-7#23 Avklare behov for autentisering, tilgangsstyring, sporbarhet og lignende
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="517.0"><tspan fill="#0969da">Avklare behov for autentisering, tilgangsst…</tspan><tspan dx="5" fill="#57606a" font-size="11">#23</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/23" target="_blank"><title>samt-bu-pilot-7#23 Avklare behov for autentisering, tilgangsstyring, sporbarhet og lignende
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="506" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="506" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#4" data-parent="" data-y="526" data-state="open" data-people="">
 <g class="tl-fold" role="button" display="none" cursor="pointer"><title>Collapse or expand the sub-issues</title><rect x="12" y="526" width="16" height="26" fill="transparent"/><text x="14" y="544.0" fill="#57606a" font-size="15">▾</text></g>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/4" target="_blank"><title>samt-bu-pilot-7#4 AP4: Juridiske avklaringer
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
 Sub-issues: 0 of 5 completed</title><text x="28" y="543.0"><tspan fill="#0969da">AP4: Juridiske avklaringer</tspan><tspan dx="5" fill="#57606a" font-size="11">#4 · 0/5</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/4" target="_blank"><title>samt-bu-pilot-7#4 AP4: Juridiske avklaringer
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
-Sub-issues: 0 of 5 completed</title><path d="M930.0,545V533H1050.9V545L1044.9,540H936.0Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M930.0,545V533H1050.9V545L1044.9,540H936.0Z" fill="none" stroke="#afb8c1"/></a>
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
+Sub-issues: 0 of 5 completed</title><path d="M934.2,545V533H1052.4V545L1046.4,540H940.2Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M934.2,545V533H1052.4V545L1046.4,540H940.2Z" fill="none" stroke="#afb8c1"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#24" data-parent="samt-bu-pilot-7#4" data-y="552" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/24" target="_blank"><title>samt-bu-pilot-7#24 Avklare behandlingsgrunnlag, formål og behandlingsansvar
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="569.0"><tspan fill="#0969da">Avklare behandlingsgrunnlag, formål og beha…</tspan><tspan dx="5" fill="#57606a" font-size="11">#24</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/24" target="_blank"><title>samt-bu-pilot-7#24 Avklare behandlingsgrunnlag, formål og behandlingsansvar
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="558" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="558" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#25" data-parent="samt-bu-pilot-7#4" data-y="578" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/25" target="_blank"><title>samt-bu-pilot-7#25 Avklare personvernprinsipper opp mot løsningen
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="595.0"><tspan fill="#0969da">Avklare personvernprinsipper opp mot løsnin…</tspan><tspan dx="5" fill="#57606a" font-size="11">#25</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/25" target="_blank"><title>samt-bu-pilot-7#25 Avklare personvernprinsipper opp mot løsningen
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="584" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="584" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#26" data-parent="samt-bu-pilot-7#4" data-y="604" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/26" target="_blank"><title>samt-bu-pilot-7#26 Avklare tilgangsrettigheter, både for foresatte og elev
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="621.0"><tspan fill="#0969da">Avklare tilgangsrettigheter, både for fores…</tspan><tspan dx="5" fill="#57606a" font-size="11">#26</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/26" target="_blank"><title>samt-bu-pilot-7#26 Avklare tilgangsrettigheter, både for foresatte og elev
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="610" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="610" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#27" data-parent="samt-bu-pilot-7#4" data-y="630" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/27" target="_blank"><title>samt-bu-pilot-7#27 Vurdere krav til arkivering
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="647.0"><tspan fill="#0969da">Vurdere krav til arkivering</tspan><tspan dx="5" fill="#57606a" font-size="11">#27</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/27" target="_blank"><title>samt-bu-pilot-7#27 Vurdere krav til arkivering
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="636" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="636" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#28" data-parent="samt-bu-pilot-7#4" data-y="656" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/28" target="_blank"><title>samt-bu-pilot-7#28 Identifisere ansvar ved mulige feil, for eksempel manglende synkronisering
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="673.0"><tspan fill="#0969da">Identifisere ansvar ved mulige feil, for ek…</tspan><tspan dx="5" fill="#57606a" font-size="11">#28</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/28" target="_blank"><title>samt-bu-pilot-7#28 Identifisere ansvar ved mulige feil, for eksempel manglende synkronisering
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="662" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="662" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#5" data-parent="" data-y="682" data-state="open" data-people="">
 <g class="tl-fold" role="button" display="none" cursor="pointer"><title>Collapse or expand the sub-issues</title><rect x="12" y="682" width="16" height="26" fill="transparent"/><text x="14" y="700.0" fill="#57606a" font-size="15">▾</text></g>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/5" target="_blank"><title>samt-bu-pilot-7#5 AP5: Teknisk prototype og hackathon
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
 Sub-issues: 0 of 4 completed</title><text x="28" y="699.0"><tspan fill="#0969da">AP5: Teknisk prototype og hackathon</tspan><tspan dx="5" fill="#57606a" font-size="11">#5 · 0/4</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/5" target="_blank"><title>samt-bu-pilot-7#5 AP5: Teknisk prototype og hackathon
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
-Sub-issues: 0 of 4 completed</title><path d="M930.0,701V689H1050.9V701L1044.9,696H936.0Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M930.0,701V689H1050.9V701L1044.9,696H936.0Z" fill="none" stroke="#afb8c1"/></a>
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
+Sub-issues: 0 of 4 completed</title><path d="M934.2,701V689H1052.4V701L1046.4,696H940.2Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M934.2,701V689H1052.4V701L1046.4,696H940.2Z" fill="none" stroke="#afb8c1"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#29" data-parent="samt-bu-pilot-7#5" data-y="708" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/29" target="_blank"><title>samt-bu-pilot-7#29 Utvikle en enkel prototype som samler informasjon
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="725.0"><tspan fill="#0969da">Utvikle en enkel prototype som samler infor…</tspan><tspan dx="5" fill="#57606a" font-size="11">#29</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/29" target="_blank"><title>samt-bu-pilot-7#29 Utvikle en enkel prototype som samler informasjon
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="714" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="714" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#30" data-parent="samt-bu-pilot-7#5" data-y="734" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/30" target="_blank"><title>samt-bu-pilot-7#30 Demonstrere samlet visning av meldinger og kalenderinformasjon
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="751.0"><tspan fill="#0969da">Demonstrere samlet visning av meldinger og…</tspan><tspan dx="5" fill="#57606a" font-size="11">#30</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/30" target="_blank"><title>samt-bu-pilot-7#30 Demonstrere samlet visning av meldinger og kalenderinformasjon
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="740" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="740" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#31" data-parent="samt-bu-pilot-7#5" data-y="760" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/31" target="_blank"><title>samt-bu-pilot-7#31 Teste mulige integrasjonsmønstre
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="777.0"><tspan fill="#0969da">Teste mulige integrasjonsmønstre</tspan><tspan dx="5" fill="#57606a" font-size="11">#31</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/31" target="_blank"><title>samt-bu-pilot-7#31 Teste mulige integrasjonsmønstre
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="766" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="766" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#32" data-parent="samt-bu-pilot-7#5" data-y="786" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/32" target="_blank"><title>samt-bu-pilot-7#32 Gjennomføre hackathon med utviklere, leverandører og innovasjonsmiljøer
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="803.0"><tspan fill="#0969da">Gjennomføre hackathon med utviklere, levera…</tspan><tspan dx="5" fill="#57606a" font-size="11">#32</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/32" target="_blank"><title>samt-bu-pilot-7#32 Gjennomføre hackathon med utviklere, leverandører og innovasjonsmiljøer
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="792" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="792" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#6" data-parent="" data-y="812" data-state="open" data-people="">
 <g class="tl-fold" role="button" display="none" cursor="pointer"><title>Collapse or expand the sub-issues</title><rect x="12" y="812" width="16" height="26" fill="transparent"/><text x="14" y="830.0" fill="#57606a" font-size="15">▾</text></g>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/6" target="_blank"><title>samt-bu-pilot-7#6 AP6: Felles leverandørkrav
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
 Sub-issues: 0 of 3 completed</title><text x="28" y="829.0"><tspan fill="#0969da">AP6: Felles leverandørkrav</tspan><tspan dx="5" fill="#57606a" font-size="11">#6 · 0/3</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/6" target="_blank"><title>samt-bu-pilot-7#6 AP6: Felles leverandørkrav
 Proposed
-Start: Nov 25 (from the sub-issues)
-End: Dec 1 (from the sub-issues)
-Sub-issues: 0 of 3 completed</title><path d="M930.0,831V819H1050.9V831L1044.9,826H936.0Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M930.0,831V819H1050.9V831L1044.9,826H936.0Z" fill="none" stroke="#afb8c1"/></a>
+Start: Nov 26 (from the sub-issues)
+End: Dec 2 (from the sub-issues)
+Sub-issues: 0 of 3 completed</title><path d="M934.2,831V819H1052.4V831L1046.4,826H940.2Z" fill="#afb8c1" fill-opacity="0.3" stroke="#afb8c1"/><path d="M934.2,831V819H1052.4V831L1046.4,826H940.2Z" fill="none" stroke="#afb8c1"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#33" data-parent="samt-bu-pilot-7#6" data-y="838" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/33" target="_blank"><title>samt-bu-pilot-7#33 Utarbeide forslag til leverandørkrav
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="855.0"><tspan fill="#0969da">Utarbeide forslag til leverandørkrav</tspan><tspan dx="5" fill="#57606a" font-size="11">#33</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/33" target="_blank"><title>samt-bu-pilot-7#33 Utarbeide forslag til leverandørkrav
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="844" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="844" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#34" data-parent="samt-bu-pilot-7#6" data-y="864" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/34" target="_blank"><title>samt-bu-pilot-7#34 Innhente innspill fra kommuner og relevante leverandører
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="881.0"><tspan fill="#0969da">Innhente innspill fra kommuner og relevante…</tspan><tspan dx="5" fill="#57606a" font-size="11">#34</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/34" target="_blank"><title>samt-bu-pilot-7#34 Innhente innspill fra kommuner og relevante leverandører
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="870" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="870" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#35" data-parent="samt-bu-pilot-7#6" data-y="890" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/35" target="_blank"><title>samt-bu-pilot-7#35 Dokumentere anbefalinger
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="42" y="907.0"><tspan fill="#0969da">Dokumentere anbefalinger</tspan><tspan dx="5" fill="#57606a" font-size="11">#35</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/35" target="_blank"><title>samt-bu-pilot-7#35 Dokumentere anbefalinger
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="896" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="896" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
 <g class="tl-row" data-key="samt-bu-pilot-7#7" data-parent="" data-y="916" data-state="open" data-people="">
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/7" target="_blank"><title>samt-bu-pilot-7#7 Arbeidspakkene står både på «Om pilot 7» og i issuene – én master
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
 Duration: not set, assumed 5 working days</title><text x="28" y="933.0"><tspan fill="#0969da">Arbeidspakkene står både på «Om pilot 7» og i…</tspan><tspan dx="5" fill="#57606a" font-size="11">#7</tspan></text></a>
 <a href="https://github.com/samt-x/samt-bu-pilot-7/issues/7" target="_blank"><title>samt-bu-pilot-7#7 Arbeidspakkene står både på «Om pilot 7» og i issuene – én master
 Proposed
-Start: Nov 25 (not planned, from today)
-End: Dec 1 (calculated from start and duration)
-Duration: not set, assumed 5 working days</title><rect x="930.0" y="922" width="120.9" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
+Start: Nov 26 (not planned, from today)
+End: Dec 2 (calculated from start and duration)
+Duration: not set, assumed 5 working days</title><rect x="934.2" y="922" width="118.2" height="14" rx="4" fill="#afb8c1" fill-opacity="0.12" stroke="#afb8c1" stroke-dasharray="4 3"/></a>
 </g>
-<line class="tl-vy2" data-dy="4" x1="938.6" y1="58" x2="938.6" y2="946" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="942.7" y1="58" x2="942.7" y2="946" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="938.6" y="957" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
+<text x="942.7" y="957" fill="#cf222e" font-size="10" text-anchor="middle">Today</text>
 <rect x="14" y="972" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="48" y="982" fill="#24292f">Dashed: calculated or assumed</text>
 <text x="266" y="982" fill="#24292f">✓</text><text x="292" y="982" fill="#24292f">Completed</text>
 <path d="M373,984V972H401V984L395,979H379Z" fill="#1f6feb" fill-opacity="0.3" stroke="#cf222e" stroke-width="2"/><rect x="373" y="972" width="10" height="7" fill="#1f6feb"/><text x="407" y="982" fill="#24292f">Bracket: the sub-issues together (red border: one is delayed)</text>
 <text x="826" y="983" fill="#57606a" font-size="15">▾ ▸</text><text x="856" y="982" fill="#24292f">Collapse and expand the sub-issues</text>
-<text x="14" y="1008" fill="#57606a" font-size="11">Generated 2026-11-25 from<a href="https://github.com/orgs/samt-x/projects/19" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 7 – Digital dialog</tspan></a>. 28 tasks have no Duration and are assumed to take one week.</text>
+<text x="14" y="1008" fill="#57606a" font-size="11">Generated 2026-11-26 from<a href="https://github.com/orgs/samt-x/projects/19" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 7 – Digital dialog</tspan></a>. 28 tasks have no Duration and are assumed to take one week.</text>
 </g>
 </svg>
