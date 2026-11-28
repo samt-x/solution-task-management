@@ -2,63 +2,64 @@
 <!-- Generert av .github/scripts/timeline.py (solution-task-management#32). Ikke rediger – endre brettet. -->
 <defs><marker id="tl3a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#57606a"/></marker><marker id="tl3r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="#cf222e"/></marker><pattern id="tl3h" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="6" stroke="#8c959f" stroke-width="2"/></pattern></defs>
 <rect width="1134" height="172" fill="#ffffff"/>
-<rect class="tl-vh" x="360.0" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
+<rect class="tl-vh" x="360.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
 <text x="362.0" y="20" fill="#24292f" font-weight="600">okt 2026</text>
 <line class="tl-vy2" x1="360.0" y1="8" x2="360.0" y2="84" stroke="#d0d7de"/>
-<text x="369.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<rect class="tl-vh" x="379.5" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="389.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<text x="408.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
-<text x="428.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
-<text x="447.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
-<text x="467.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
-<text x="486.7" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
-<rect class="tl-vh" x="496.4" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="506.2" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
-<rect class="tl-vh" x="515.9" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="517.9" y="20" fill="#24292f" font-weight="600">nov 2026</text>
-<line class="tl-vy2" x1="515.9" y1="8" x2="515.9" y2="84" stroke="#d0d7de"/>
-<text x="525.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
-<text x="545.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
-<text x="564.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
-<text x="584.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
-<text x="603.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
-<text x="623.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
-<rect class="tl-vh" x="632.8" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="642.6" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
-<rect class="tl-vh" x="652.3" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="662.1" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
-<text x="681.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
-<text x="701.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
-<text x="720.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
-<text x="740.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
-<text x="759.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
-<rect class="tl-vh" x="769.2" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="779.0" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
-<rect class="tl-vh" x="788.7" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="798.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
-<text x="817.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
-<text x="837.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
-<text x="856.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
-<text x="876.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
-<text x="895.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
-<rect class="tl-vh" x="905.6" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="915.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
-<rect class="tl-vh" x="925.1" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="934.9" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
-<text x="954.4" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
-<text x="973.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
-<text x="993.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
-<text x="1012.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
-<text x="1032.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
-<rect class="tl-vh" x="1042.1" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="1051.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
-<rect class="tl-vh" x="1061.5" y="58" width="19.5" height="26" fill="#eaeef2" opacity="0.6"/>
-<text x="1071.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
-<text x="1090.8" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
-<text x="1102.5" y="20" fill="#24292f" font-weight="600">des 2026</text>
-<line class="tl-vy2" x1="1100.5" y1="8" x2="1100.5" y2="84" stroke="#d0d7de"/>
-<text x="1110.3" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
+<text x="369.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
+<rect class="tl-vh" x="379.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="388.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<text x="407.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
+<text x="426.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
+<text x="445.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
+<text x="464.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
+<text x="483.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
+<rect class="tl-vh" x="493.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="502.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">31</text>
+<rect class="tl-vh" x="512.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="514.0" y="20" fill="#24292f" font-weight="600">nov 2026</text>
+<line class="tl-vy2" x1="512.0" y1="8" x2="512.0" y2="84" stroke="#d0d7de"/>
+<text x="521.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
+<text x="540.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
+<text x="559.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">3</text>
+<text x="578.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">4</text>
+<text x="597.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">5</text>
+<text x="616.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">6</text>
+<rect class="tl-vh" x="626.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="635.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">7</text>
+<rect class="tl-vh" x="645.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="654.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">8</text>
+<text x="673.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">9</text>
+<text x="692.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">10</text>
+<text x="711.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">11</text>
+<text x="730.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">12</text>
+<text x="749.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">13</text>
+<rect class="tl-vh" x="759.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="768.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">14</text>
+<rect class="tl-vh" x="778.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="787.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">15</text>
+<text x="806.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">16</text>
+<text x="825.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">17</text>
+<text x="844.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">18</text>
+<text x="863.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">19</text>
+<text x="882.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">20</text>
+<rect class="tl-vh" x="892.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="901.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">21</text>
+<rect class="tl-vh" x="911.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="920.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">22</text>
+<text x="939.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">23</text>
+<text x="958.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">24</text>
+<text x="977.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">25</text>
+<text x="996.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">26</text>
+<text x="1015.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">27</text>
+<rect class="tl-vh" x="1025.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="1034.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">28</text>
+<rect class="tl-vh" x="1044.0" y="58" width="19.0" height="26" fill="#eaeef2" opacity="0.6"/>
+<text x="1053.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">29</text>
+<text x="1072.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">30</text>
+<text x="1084.0" y="20" fill="#24292f" font-weight="600">des 2026</text>
+<line class="tl-vy2" x1="1082.0" y1="8" x2="1082.0" y2="84" stroke="#d0d7de"/>
+<text x="1091.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">1</text>
+<text x="1110.5" y="44" fill="#57606a" font-size="10" text-anchor="middle">2</text>
 <line x1="0" y1="57.5" x2="1134" y2="57.5" stroke="#d0d7de"/>
 <line class="tl-vy2" x1="359.5" y1="0" x2="359.5" y2="84" stroke="#d0d7de"/>
 <g class="tl-row" data-key="samt-bu-pilot-4#4" data-parent="" data-y="58" data-state="done" data-people="">
@@ -71,13 +72,13 @@ Varighet: ikke satt, antatt 5 arbeidsdager</title><text x="14" y="75.0"><tspan f
 Done (lukket: fullført)
 Start: 27.10. (regnet fra slutt og varighet)
 Slutt: 2.11. (ferdig)
-Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="418.5" y="64" width="136.4" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
+Varighet: ikke satt, antatt 5 arbeidsdager</title><rect x="417.0" y="64" width="133.0" height="14" rx="4" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/></a>
 </g>
-<line class="tl-vy2" data-dy="4" x1="1032.3" y1="58" x2="1032.3" y2="88" stroke="#cf222e" stroke-width="1.5"/>
+<line class="tl-vy2" data-dy="4" x1="1034.5" y1="58" x2="1034.5" y2="88" stroke="#cf222e" stroke-width="1.5"/>
 <g class="tl-foot">
-<text x="1032.3" y="99" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
+<text x="1034.5" y="99" fill="#cf222e" font-size="10" text-anchor="middle">I dag</text>
 <rect x="14" y="114" width="28" height="12" rx="3" fill="#8c959f" fill-opacity="0.12" stroke="#8c959f" stroke-dasharray="4 3"/><text x="48" y="124" fill="#24292f">Stiplet: beregnet eller antatt</text>
 <text x="272" y="124" fill="#24292f">✓</text><text x="298" y="124" fill="#24292f">Fullført</text>
-<text x="14" y="150" fill="#57606a" font-size="11">Generert 2026-11-27 fra<a href="https://github.com/orgs/samt-x/projects/3" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 4 – Vitnemål</tspan></a>. Én oppgave mangler Duration og er antatt å ta én uke.</text>
+<text x="14" y="150" fill="#57606a" font-size="11">Generert 2026-11-28 fra<a href="https://github.com/orgs/samt-x/projects/3" target="_blank"><tspan dx="4" fill="#0969da">SAMT-BU Pilot 4 – Vitnemål</tspan></a>. Én oppgave mangler Duration og er antatt å ta én uke.</text>
 </g>
 </svg>
